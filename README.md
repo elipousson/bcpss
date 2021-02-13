@@ -82,7 +82,7 @@ bcps_es_zones_SY2021 %>%
   theme_minimal()
 ```
 
-<img src="man/figures/README-bcps_es_zones-1.png" width="100%" />
+<img src="man/figures/README-bcps_es_zones-1.png" width="60%" />
 
 These two sources can be used in combinations by joining the
 `program_number` in the spatial data with the equivalent `school_number`
@@ -104,4 +104,4 @@ top_5_es_map <- bcps_programs_SY2021 %>%
 top_5_es_map
 ```
 
-<img src="man/figures/README-top_5_es_map-1.png" width="100%" />
+<img src="man/figures/README-top_5_es_map-1.png" width="60%" />
