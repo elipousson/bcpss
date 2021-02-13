@@ -1,0 +1,132 @@
+---
+title: "Enrollment and demographic data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Enrollment and demographic data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Baltimore City Public Schools provides data on total enrollment and selected demographic characteristics by grade and grade range for all schools. The data included in this package is imported from the original Excel file. You can see the import process by looking at the [`bcps_data.R`](https://github.com/elipousson/bcps/blob/master/data-raw/bcps_data.R) on the bcps GitHub repo.
+
+For this article, I am using the dplyr and ggplot2 packages from the tidyverse family and the sf package which required for the mapbaltimore package I use in the mapping section.
+
+```{r setup}
+library(bcps)
+library(dplyr)
+library(ggplot2)
+library(sf)
+
+# Set a theme for the example plots
+theme_set(theme_light(base_size = 13))
+```
+
+The enrollment and demographic data is available in both a wide and long format. Both data sets are not 100% 'tidy' because they include data for individual grades (`grade`) and grade ranges (`grade_range`). Both of these columns are factors ordered from lowest grade to highest (or lowest to highest starting grade for grade ranges).
+
+The grades in the original data from BCPS included one value ("93") where I am not sure what the corresponding category is. Grade ranges are overlapping, for example, including "PK to K" and "PK to 5". The `total_enrollment` column always indicates the total number of students at the school in the grade or grade range.
+
+The data includes demographic characteristics including non-Hispanic racial categories, Hispanic identity, English learners (`percent_el`), students with disabilities (`percent_swd`), and Direct Certification (`percent_direct_certification`). Direct certification is a relatively new category that is used in the same way that data on student participation in free and reduced-price meal (FRM) programs have been used as a proxy for student economic disadvantage.
+
+### Options for wide and long format data
+
+The wide format (`enrollment_demographics_SY1920`) is most useful for comparing demographic characteristics to one another. For example, see this scatter plot showing positive association between the share of English language learners and share of Hispanic students. 
+
+```{r}
+enrollment_demographics_SY1920 %>% 
+  filter(grade_range == "All Grades") %>% 
+  ggplot(aes(x = percent_hispanic, y = percent_el)) +
+  geom_point() +
+  geom_smooth() +
+  scale_x_continuous(labels = scales::percent) +
+  scale_y_continuous(labels = scales::percent)
+```
+
+In the long format, the value of these 12 characteristics are found in the `share` column which shows the percent share of students in the grade or grade range belonging to the group indicated by `variable` and `label` columns.
+
+```{r}
+# Look at enrollment and demographic data in a long format
+glimpse(enrollment_demographics_SY1920_long)
+```
+
+### Summary rows for all city schools
+
+Both data sets include summary rows that aggregate data across all Baltimore City Schools by grade and grade range. These summary rows use "0" as the `school_number` and "All Baltimore City Schools" as the `school_name`. The following plot shows how to filter the data to make a simple Cleveland dot plot. The data on percent non-Hispanic Pacific Islander, Multi-racial, and Asian are all excluded from the citywide summary data.
+
+```{r}
+enrollment_demographics_allschools <- enrollment_demographics_SY1920_long %>%
+  filter(grade_range == "All Grades",
+         school_name == "All Baltimore City Schools") 
+
+enrollment_demographics_allschools %>% 
+  ggplot() +
+  geom_point(aes(y = label, x = share), size = 3, color = "darkblue") +
+  scale_x_continuous(labels = scales::percent)
+```
+
+### Plotting data for a single school
+
+You can find a list of city school names and school numbers by taking a look at the corresponding columns in the data.
+
+```{r}
+# Show first five school names
+unique(enrollment_demographics_SY1920$school_name)[1:5]
+
+# Show first five school numbers
+unique(enrollment_demographics_SY1920$school_number)[1:5]
+```
+To look at enrollment or demographic characteristics for a school by grade and not grade range, you can simply filter out all missing values in the `grade` column. For example, see this bar chart showing enrollment by grade at James McHenry Elementary/Middle School in southwest Baltimore.
+
+```{r}
+enrollment_demographics_SY1920_long %>% 
+  filter(school_name == "James McHenry Elementary/Middle School",
+         !is.na(grade)) %>% 
+  ggplot() +
+  geom_col(aes(x = grade, y = total_enrollment),
+           fill = "darkred")
+```
+
+You can also use the summary data we looked at earlier to compare an individual school to city schools as a whole. This example reuses the `enrollment_demographics_allschools` object created in the prior section. 
+
+```{r}
+enrollment_demographics_SY1920_long %>% 
+  filter(school_name == "James McHenry Elementary/Middle School",
+         grade_range == "All Grades") %>% 
+  bind_rows(enrollment_demographics_allschools) %>% 
+  ggplot(aes(y = label, x = share, color = school_name), size = 3, alpha = 0.8) +
+  geom_point() +
+  scale_x_continuous(labels = scales::percent) +
+  scale_color_viridis_d() +
+  theme(legend.position = "bottom")
+```
+
+### Mapping enrollment and demographic data
+
+If you are interested in connecting the enrollment and demographic data to the spatial data included with this package, you should be aware that the spatial data refers to schools and school numbers as programs and program numbers. Here is an example of how to join the school or program locations (`bcps_programs_SY2021`) to the enrollment data using the dplyr `left_join` function and then mapping schools by total enrollment. This example uses the Baltimore City boundary data from my [mapbaltimore package](https://elipousson.github.io/mapbaltimore/) so you must have that package installed in order to reproduce this map.
+
+```{r}
+enrollment_demographics_SY1920_allgrades <- enrollment_demographics_SY1920 %>% 
+  # Filter to rows with data on all grades
+  filter(grade_range == "All Grades") %>%
+  # Select school_number and total_enrollment variables
+  select(school_number, total_enrollment)
+
+bcps_programs_SY2021 %>% 
+  # Filter to elementary, elementary/middle, middle, and high schools
+  filter(category %in% c("E", "EM", "M", "H")) %>% 
+  # Join enrollment data to program location data
+  left_join(enrollment_demographics_SY1920_allgrades,
+            by = c("program_number" = "school_number")) %>% 
+  ggplot() +
+  geom_sf(aes(size = total_enrollment, color = category), alpha = 0.6) +
+  # Add outline of city boundaries using mapbaltimore package
+  geom_sf(data = mapbaltimore::baltimore_city, fill = NA, color = "gray80") +
+  scale_color_viridis_d()
+```
+
