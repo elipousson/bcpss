@@ -5,10 +5,22 @@
 \alias{enrollment_demographics_SY1920_long}
 \title{Enrollment and demographic data by Baltimore City Public School (SY 2019-2020) - long format}
 \format{
-
+A data frame with 26,916 rows and 10 variables:
+\describe{
+  \item{school_number}{School number}
+  \item{school_name}{School name}
+  \item{management_type}{School management type}
+  \item{grade_band}{Grade band}
+  \item{grade}{Grade}
+  \item{grade_range}{Grade range}
+  \item{total_enrollment}{Total Enrollment}
+  \item{variable}{Variable}
+  \item{share}{Percent of Total Enrollment}
+  \item{label}{Variable label}
+}
 }
 \source{
-\url{https://www.baltimorecityschools.org/sites/default/files/inline-files/SY19-20-Enrollment-11.10.2020.xlsx}
+\url{https://www.baltimorecityschools.org/data}
 }
 \usage{
 enrollment_demographics_SY1920_long

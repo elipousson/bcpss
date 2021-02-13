@@ -5,10 +5,31 @@
 \alias{enrollment_demographics_SY1920}
 \title{Enrollment and demographic data by Baltimore City Public School (SY 2019-2020)}
 \format{
-
+A data frame with 2,243 rows and 19 variables:
+\describe{
+  \item{school_number}{School number}
+  \item{school_name}{School name}
+  \item{management_type}{School management type}
+  \item{grade_band}{Grade band}
+  \item{grade}{Grade}
+  \item{grade_range}{Grade range}
+  \item{total_enrollment}{Total Enrollment}
+  \item{percent_males}{Percent Males}
+  \item{percent_females}{Percent Females}
+  \item{percent_direct_certification}{Percent Direct Certification}
+  \item{percent_swd}{Percent Students with Disabilities (SWD)}
+  \item{percent_el}{Percent English Learner (EL)}
+  \item{percent_non_hispanic_black}{Percent Non-Hispanic Black}
+  \item{percent_non_hispanic_white}{Percent Non-Hispanic White}
+  \item{percent_hispanic}{Percent Hispanic}
+  \item{percent_non_hispanic_asian}{Percent Non-Hispanic Asian}
+  \item{percent_non_hispanic_american_indian}{Percent Non-Hispanic American Indian}
+  \item{percent_non_hispanic_pacific_islander}{Percent Non-Hispanic Pacific Islander}
+  \item{percent_non_hispanic_multiracial}{Percent Non-Hispanic Multiracial}
+}
 }
 \source{
-\url{https://www.baltimorecityschools.org/sites/default/files/inline-files/SY19-20-Enrollment-11.10.2020.xlsx}
+\url{https://www.baltimorecityschools.org/data}
 }
 \usage{
 enrollment_demographics_SY1920
