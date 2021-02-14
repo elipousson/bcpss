@@ -29,7 +29,7 @@ parent_survey_SY1819_long
 Results from the Baltimore City Public School Parent Survey administered
 during the for the 2018-2029 school year. Data includes composite scores
 and responses to selected questions school. Long format version is
-based on the `parent_school_survey_SY1819` data with an additional `label`
+based on the `parent_survey_SY1819` data with an additional `label`
 column based on the original Excel sheet column names.
 }
 \keyword{datasets}

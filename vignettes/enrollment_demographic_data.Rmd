@@ -14,12 +14,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-Baltimore City Public Schools provides data on total enrollment and selected demographic characteristics by grade and grade range for all schools. The data included in this package is imported from the original Excel file. You can see the import process by looking at the [`bcps_data.R`](https://github.com/elipousson/bcps/blob/master/data-raw/bcps_data.R) on the bcps GitHub repo.
+The Baltimore City Public School System provides data on total enrollment and selected demographic characteristics by grade and grade range for all schools. The data included in this package is imported from the original Excel file. You can see the import process by looking at the [`bcpss_data.R`](https://github.com/elipousson/bcps/blob/master/data-raw/bcpss_data.R) on the bcpss GitHub repo.
 
 For this article, I am using the dplyr and ggplot2 packages from the tidyverse family and the sf package which required for the mapbaltimore package I use in the mapping section.
 
 ```{r setup}
-library(bcps)
+library(bcpss)
 library(dplyr)
 library(ggplot2)
 library(sf)

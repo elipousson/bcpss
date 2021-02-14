@@ -1,10 +1,10 @@
-Package: bcps
+Package: bcpss
 Type: Package
 Title: Baltimore City Public Schools
 Version: 0.1.0
 Author: Eli Pousson
 Maintainer: Eli Pousson <eli.pousson@gmail.com>
-Description: Provides access to demographic, enrollment, and survey data on Baltimore City Public Schools.
+Description: Provides access to demographic, enrollment, and survey data on Baltimore City Public School System (BCPSS).
 License: CC0
 Encoding: UTF-8
 LazyData: true
