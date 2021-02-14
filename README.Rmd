@@ -13,12 +13,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# bcps
+# bcpss
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of bcps is to make data from Baltimore City Public Schools more consistent and accessible to R users. This package may pair well with the [mapbaltimore package](https://github.com/elipousson/mapbaltimore) that offers a broader range of Baltimore-specific datasets and functions for working with that data.
+The goal of bcpss is to make data from the Baltimore City Public School system more consistent and accessible to R users. This package may pair well with the [mapbaltimore package](https://github.com/elipousson/mapbaltimore) that offers a broader range of Baltimore-specific datasets and functions for working with that data.
 
 ## Installation
 
@@ -26,14 +26,14 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("elipousson/bcps")
+remotes::install_github("elipousson/bcpss")
 ```
 ## Example
 
 Currently, this package includes datasets that include school and grade-level enrollment and demographic data, the published results from a parent survey, and the published results from a combined student and educator survey completed in 2019. This data can be used to answer questions, such as, what are the elementary schools with the greatest total student enrollment?
 
 ```{r enrollment_demographics}
-library(bcps)
+library(bcpss)
 library(dplyr)
 
 top_5_es <- enrollment_demographics_SY1920 %>% 
@@ -44,7 +44,7 @@ top_5_es <- enrollment_demographics_SY1920 %>%
   arrange(desc(total_enrollment))
 
 top_5_es %>% 
-  knitr::kable(caption = "Five largest BCPS elementary schools by total enrollment")
+  knitr::kable(caption = "Five largest BCPSS elementary schools by total enrollment")
 ```
 
 Both the enrollment/demographic data and the parent survey are available in both a wide and long format.
@@ -59,7 +59,7 @@ bcps_es_zones_SY2021 %>%
   geom_sf(aes(fill = zone_name)) +
   scale_fill_viridis_d() +
   guides(fill = "none") +
-  labs(title = "BCPS Elementary School Attendance Zones") +
+  labs(title = "BCPSS Elementary School Attendance Zones") +
   theme_minimal()
 ```
 
@@ -75,7 +75,7 @@ top_5_es_map <- bcps_programs_SY2021 %>%
   geom_sf_label(aes(label = program_name_short, fill = school_name), color = "white") +
   scale_fill_viridis_d(end = 0.7) +
   guides(fill = "none", color = "none") +
-  labs(title = "Five largest BCPS elementary schools by total enrollment") +
+  labs(title = "Five largest BCPSS elementary schools by total enrollment") +
   theme_minimal()
 
 top_5_es_map
