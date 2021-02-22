@@ -3,14 +3,15 @@
 \docType{data}
 \name{parent_survey_SY1819_long}
 \alias{parent_survey_SY1819_long}
-\title{Baltimore City Public School Parent Survey Results (2018-2019 school year) - long format}
+\title{Baltimore City Public School Parent Survey Results (SY 2018-2019) -
+long format}
 \format{
 A data frame with 7,224 rows and 10 variables:
 \describe{
   \item{school_number}{School number}
   \item{school_name}{School name}
   \item{management_type}{School management type}
-  \item{grade_band}{Grade band}
+  \item{grade_band}{School grade band}
   \item{parent_response_count}{Number of parent survey responses}
   \item{est_num_parents}{Estimated number of eligible parents}
   \item{est_response_rate}{Estimated parent response rate}
@@ -27,9 +28,9 @@ parent_survey_SY1819_long
 }
 \description{
 Results from the Baltimore City Public School Parent Survey administered
-during the for the 2018-2029 school year. Data includes composite scores
-and responses to selected questions school. Long format version is
-based on the `parent_survey_SY1819` data with an additional `label`
-column based on the original Excel sheet column names.
+during the for the 2018-2029 school year. Data includes composite scores and
+responses to selected questions school. Long format version is based on the
+\code{parent_survey_SY1819} data with an additional \code{label} column based on the
+original Excel sheet column names.
 }
 \keyword{datasets}

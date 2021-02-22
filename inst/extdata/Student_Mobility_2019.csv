@@ -1,0 +1,1823 @@
+Academic Year,LSS Number,LSS Name,School Number,School Name,School Type,Mobility Rate,Mobility Count,Entrants Rate,Entrants Count,Withdrawals Rate,Withdrawals Count,Avg Daily Member Count,Create Date
+2019,1,Allegany,301,Flintstone Elementary,Elementary,7.9,17,<= 5.0,*,<= 5.0,*,214.4,20200117
+2019,1,Allegany,401,South Penn Elementary,Elementary,17.8,89,11.4,57,6.4,32,500.4,20200117
+2019,1,Allegany,402,John Humbird Elementary,Elementary,22.9,56,11.4,28,11.4,28,244.6,20200117
+2019,1,Allegany,405,Fort Hill High,High,22.4,157,8.7,61,13.7,96,701.6,20200117
+2019,1,Allegany,406,Washington Middle,Middle,19.6,115,8.2,48,11.4,67,586.7,20200117
+2019,1,Allegany,502,Northeast Elementary,Elementary,13,37,6.3,18,6.7,19,283.8,20200117
+2019,1,Allegany,504,Braddock Middle,Middle,14.9,89,6,36,8.9,53,596.7,20200117
+2019,1,Allegany,601,Center for Career & Technical Education,High,8.4,18,<= 5.0,*,7,15,213.5,20200117
+2019,1,Allegany,603,West Side Elementary,Elementary,15.2,56,7.1,26,8.2,30,367.6,20200117
+2019,1,Allegany,606,Allegany High,High,10.9,78,<= 5.0,*,6.3,45,715.3,20200117
+2019,1,Allegany,701,Cresaptown Elementary,Elementary,13.1,39,7.7,23,5.4,16,296.8,20200117
+2019,1,Allegany,702,Bel Air Elementary,Elementary,9.1,19,<= 5.0,*,5.8,12,207.9,20200117
+2019,1,Allegany,801,Westernport Elementary,Elementary,24.4,57,12,28,12.4,29,233.9,20200117
+2019,1,Allegany,802,Westmar Middle,Middle,10.2,28,5.1,14,5.1,14,273.2,20200117
+2019,1,Allegany,1001,George's Creek Elementary,Elementary,11.3,30,6.4,17,<= 5.0,*,266.3,20200117
+2019,1,Allegany,1101,Frost Elementary,Elementary,6.4,13,<= 5.0,*,<= 5.0,*,202.1,20200117
+2019,1,Allegany,1301,Mount Savage Middle,Middle,6.7,26,<= 5.0,*,<= 5.0,*,390.8,20200117
+2019,1,Allegany,1302,Mt. Savage Elementary,Elementary,5.3,9,<= 5.0,*,<= 5.0,*,168.5,20200117
+2019,1,Allegany,2404,Mountain Ridge High School,High,11.9,93,<= 5.0,*,8.2,64,783.8,20200117
+2019,1,Allegany,2801,Beall Elementary,Elementary,7.6,29,<= 5.0,*,<= 5.0,*,384,20200117
+2019,1,Allegany,2901,Cash Valley Elementary,Elementary,18.6,40,7.9,17,10.7,23,214.7,20200117
+2019,1,Allegany,2902,Parkside Elementary,Elementary,22.8,43,14.3,27,8.5,16,188.7,20200117
+2019,1,Allegany,A,All Allegany Schools,Elementary,14.2,534,7.5,283,6.7,251,3773.7,20200117
+2019,1,Allegany,A,All Allegany Schools,Middle,14,258,6,111,8,147,1847.4,20200117
+2019,1,Allegany,A,All Allegany Schools,All,14.2,1138,6.5,520,7.7,618,8035.2,20200117
+2019,1,Allegany,A,All Allegany Schools,High,14.3,346,5.2,126,9.1,220,2414.1,20200117
+2019,2,Anne Arundel,1023,Brooklyn Park Middle,Middle,17.2,138,11,88,6.2,50,801.1,20200117
+2019,2,Anne Arundel,1033,Glen Burnie High,High,18,363,8.8,177,9.2,186,2015.4,20200117
+2019,2,Anne Arundel,1043,Corkran Middle School,Middle,19.9,127,10.8,69,9.1,58,637.5,20200117
+2019,2,Anne Arundel,1053,Lindale Middle,Middle,19.1,213,9.3,104,9.8,109,1114,20200117
+2019,2,Anne Arundel,1063,Marley Middle,Middle,19.3,164,11.7,100,7.5,64,851.5,20200117
+2019,2,Anne Arundel,1082,Belle Grove Elementary,Elementary,27,70,18.5,48,8.5,22,259.4,20200117
+2019,2,Anne Arundel,1092,Brooklyn Park Elementary,Elementary,19.9,78,13,51,6.9,27,392,20200117
+2019,2,Anne Arundel,1112,George T. Cromwell Elementary,Elementary,11.6,38,8.9,29,<= 5.0,*,327,20200117
+2019,2,Anne Arundel,1122,Freetown Elementary,Elementary,20.6,92,11.4,51,9.2,41,447.2,20200117
+2019,2,Anne Arundel,1132,Glendale Elementary,Elementary,19.4,76,11.2,44,8.2,32,392.1,20200117
+2019,2,Anne Arundel,1142,Hilltop Elementary,Elementary,22,152,12.6,87,9.4,65,691.9,20200117
+2019,2,Anne Arundel,1152,Linthicum Elementary,Elementary,9.1,44,<= 5.0,*,<= 5.0,*,481.2,20200117
+2019,2,Anne Arundel,1162,Marley Elementary,Elementary,19.4,159,10.6,87,8.8,72,820.8,20200117
+2019,2,Anne Arundel,1172,North Glen Elementary,Elementary,31.5,77,16,39,15.6,38,244.4,20200117
+2019,2,Anne Arundel,1182,Oakwood Elementary,Elementary,16.2,42,7.3,19,8.9,23,259.7,20200117
+2019,2,Anne Arundel,1192,Overlook Elementary,Elementary,19.8,69,10,35,9.8,34,348.5,20200117
+2019,2,Anne Arundel,1202,Park Elementary,Elementary,26.4,123,15.9,74,10.5,49,465.1,20200117
+2019,2,Anne Arundel,1212,Point Pleasant Elementary,Elementary,15.8,78,8.7,43,7.1,35,494.6,20200117
+2019,2,Anne Arundel,1232,Quarterfield Elementary,Elementary,15.7,65,8.7,36,7,29,414.1,20200117
+2019,2,Anne Arundel,1242,Richard Henry Lee Elementary,Elementary,22,104,11.7,55,10.4,49,471.7,20200117
+2019,2,Anne Arundel,1262,Woodside Elementary,Elementary,25.9,87,16.4,55,9.5,32,335.4,20200117
+2019,2,Anne Arundel,1274,Marley Glen School,Elementary,25.5,9,17,6,8.5,3,35.3,20200117
+2019,2,Anne Arundel,1274,Marley Glen School,Middle,8.8,1,<= 5.0,*,8.8,1,11.3,20200117
+2019,2,Anne Arundel,1274,Marley Glen School,High,13.2,2,<= 5.0,*,13.2,2,15.2,20200117
+2019,2,Anne Arundel,1274,Marley Glen School,All,19.4,12,9.7,6,9.7,6,61.8,20200117
+2019,2,Anne Arundel,1323,North County High,High,18,403,9.5,212,8.5,191,2243.1,20200117
+2019,2,Anne Arundel,2013,Severna Park High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2023,Northeast High,High,9.3,127,<= 5.0,*,<= 5.0,*,1366.3,20200117
+2019,2,Anne Arundel,2033,George Fox Middle,Middle,12.8,111,6.8,59,6,52,866.3,20200117
+2019,2,Anne Arundel,2043,Severna Park Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2052,Arnold Elementary,Elementary,6.6,29,<= 5.0,*,<= 5.0,*,437.2,20200117
+2019,2,Anne Arundel,2062,Belvedere Elementary,Elementary,6.2,31,<= 5.0,*,<= 5.0,*,500.1,20200117
+2019,2,Anne Arundel,2072,Benfield Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2082,Bodkin Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2092,Cape St. Claire Elementary,Elementary,6.5,40,<= 5.0,*,<= 5.0,*,612.2,20200117
+2019,2,Anne Arundel,2102,Folger Mckinsey Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2112,Fort Smallwood Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2132,High Point Elementary,Elementary,8.8,56,5.3,34,<= 5.0,*,639.2,20200117
+2019,2,Anne Arundel,2142,Jacobsville Elementary,Elementary,7.8,45,5.3,31,<= 5.0,*,579.5,20200117
+2019,2,Anne Arundel,2152,Jones Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2162,Lake Shore Elementary,Elementary,8.8,28,<= 5.0,*,<= 5.0,*,316.8,20200117
+2019,2,Anne Arundel,2172,Oak Hill Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2182,Pasadena Elementary,Elementary,7,26,<= 5.0,*,<= 5.0,*,369.4,20200117
+2019,2,Anne Arundel,2192,Riviera Beach Elementary,Elementary,9.4,26,7.2,20,<= 5.0,*,277.6,20200117
+2019,2,Anne Arundel,2202,Severna Park Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2212,Solley Elementary,Elementary,10.3,78,5.1,39,5.1,39,759.7,20200117
+2019,2,Anne Arundel,2222,Sunset Elementary,Elementary,7.9,35,<= 5.0,*,<= 5.0,*,441,20200117
+2019,2,Anne Arundel,2233,Anne Arundel Evening High,High,>= 95.0,*,>= 95.0,*,42,115,273.6,20200117
+2019,2,Anne Arundel,2243,Magothy River Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2273,Chesapeake High,High,8.3,113,<= 5.0,*,5.1,69,1360.7,20200117
+2019,2,Anne Arundel,2322,Broadneck Elementary,Elementary,5.9,46,<= 5.0,*,<= 5.0,*,784.8,20200117
+2019,2,Anne Arundel,2363,Broadneck High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,2372,Windsor Farm Elementary,Elementary,7.3,41,<= 5.0,*,<= 5.0,*,565.1,20200117
+2019,2,Anne Arundel,2413,Severn River Middle,Middle,8,60,<= 5.0,*,<= 5.0,*,754.2,20200117
+2019,2,Anne Arundel,2423,Chesapeake Bay Middle,Middle,7.4,75,<= 5.0,*,<= 5.0,*,1017.1,20200117
+2019,2,Anne Arundel,2432,Shipley's Choice Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,3013,Arundel High,High,9.9,208,<= 5.0,*,5.2,109,2104.6,20200117
+2019,2,Anne Arundel,3023,Arundel Middle,Middle,8.5,89,5.2,54,<= 5.0,*,1047.2,20200117
+2019,2,Anne Arundel,3033,MacArthur Middle,Middle,22.9,216,11.4,108,11.4,108,943.6,20200117
+2019,2,Anne Arundel,3062,Brock Bridge Elementary,Elementary,25.6,154,15.8,95,9.8,59,600.8,20200117
+2019,2,Anne Arundel,3072,Crofton Elementary,Elementary,8.2,60,<= 5.0,*,<= 5.0,*,732.1,20200117
+2019,2,Anne Arundel,3082,Crofton Woods Elementary,Elementary,5.1,38,<= 5.0,*,<= 5.0,*,750.5,20200117
+2019,2,Anne Arundel,3092,Seven Oaks Elementary,Elementary,26.1,150,14.1,81,12,69,575.5,20200117
+2019,2,Anne Arundel,3102,Hebron - Harman Elementary,Elementary,18.8,139,11,81,7.9,58,738.6,20200117
+2019,2,Anne Arundel,3112,Jessup Elementary,Elementary,14.5,72,8.7,43,5.8,29,496.7,20200117
+2019,2,Anne Arundel,3122,Manor View Elementary,Elementary,28.7,84,14.7,43,14,41,292.8,20200117
+2019,2,Anne Arundel,3132,Maryland City Elementary,Elementary,30.6,114,16.4,61,14.2,53,372.7,20200117
+2019,2,Anne Arundel,3142,Meade Heights Elementary,Elementary,37,122,20.3,67,16.7,55,330.1,20200117
+2019,2,Anne Arundel,3152,Van Bokkelen Elementary,Elementary,50.4,216,32.9,141,17.5,75,429,20200117
+2019,2,Anne Arundel,3162,Millersville Elementary,Elementary,8.6,29,<= 5.0,*,<= 5.0,*,336.5,20200117
+2019,2,Anne Arundel,3172,Odenton Elementary,Elementary,19.5,88,11.5,52,8,36,451.8,20200117
+2019,2,Anne Arundel,3182,Pershing Hill Elementary,Elementary,31,182,15.7,92,15.3,90,587.3,20200117
+2019,2,Anne Arundel,3192,Ridgeway Elementary,Elementary,8.6,55,5.1,33,<= 5.0,*,640.9,20200117
+2019,2,Anne Arundel,3202,Severn Elementary,Elementary,15.7,76,10.1,49,5.6,27,483.3,20200117
+2019,2,Anne Arundel,3212,South Shore Elementary,Elementary,10.3,35,6.5,22,<= 5.0,*,338.6,20200117
+2019,2,Anne Arundel,3222,Waugh Chapel Elementary,Elementary,8.4,49,<= 5.0,*,<= 5.0,*,582.8,20200117
+2019,2,Anne Arundel,3242,Piney Orchard Elementary,Elementary,10,63,5.3,33,<= 5.0,*,628,20200117
+2019,2,Anne Arundel,3263,Crofton Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,3272,Four Seasons Elementary,Elementary,6.8,42,<= 5.0,*,<= 5.0,*,614.6,20200117
+2019,2,Anne Arundel,3282,Nantucket Elementary,Elementary,9.7,76,5.5,43,<= 5.0,*,785.7,20200117
+2019,2,Anne Arundel,3323,Meade High,High,26.2,523,12.4,247,13.8,276,1993.9,20200117
+2019,2,Anne Arundel,3333,Old Mill Middle North,Middle,15.4,165,9.4,101,6,64,1070.9,20200117
+2019,2,Anne Arundel,3343,Old Mill Middle South,Middle,13.6,122,7.7,69,5.9,53,898.5,20200117
+2019,2,Anne Arundel,3353,Old Mill High,High,13.3,294,7.7,171,5.6,123,2209.8,20200117
+2019,2,Anne Arundel,3362,Crofton Meadows Elementary,Elementary,8.5,46,<= 5.0,*,<= 5.0,*,541.3,20200117
+2019,2,Anne Arundel,3372,Glen Burnie Park Elementary,Elementary,21.7,110,10.8,55,10.8,55,508,20200117
+2019,2,Anne Arundel,3382,Southgate Elementary,Elementary,17.2,135,9.9,78,7.3,57,784.1,20200117
+2019,2,Anne Arundel,3392,Rippling Woods Elementary,Elementary,21.6,128,13.5,80,8.1,48,593.8,20200117
+2019,2,Anne Arundel,3414,Ruth Parker Eason School,Elementary,22.9,11,12.5,6,10.4,5,48.1,20200117
+2019,2,Anne Arundel,3414,Ruth Parker Eason School,Middle,70,8,17.5,2,52.5,6,11.4,20200117
+2019,2,Anne Arundel,3414,Ruth Parker Eason School,High,14.2,4,7.1,2,7.1,2,28.2,20200117
+2019,2,Anne Arundel,3414,Ruth Parker Eason School,All,26.2,23,11.4,10,14.8,13,87.7,20200117
+2019,2,Anne Arundel,3423,Meade Middle,Middle,26.8,196,16.3,119,10.5,77,731.2,20200117
+2019,2,Anne Arundel,4013,Annapolis High,High,16.4,321,7.9,155,8.5,166,1956,20200117
+2019,2,Anne Arundel,4023,Southern High,High,11.4,113,<= 5.0,*,7.1,70,988,20200117
+2019,2,Anne Arundel,4033,Annapolis Middle,Middle,13.3,136,7.8,80,5.5,56,1019.3,20200117
+2019,2,Anne Arundel,4043,Wiley H. Bates Middle,Middle,14.2,88,8.1,50,6.1,38,620.3,20200117
+2019,2,Anne Arundel,4053,Southern Middle,Middle,9.2,70,5.2,40,<= 5.0,*,764.4,20200117
+2019,2,Anne Arundel,4064,Mary Moss at Adams Academy,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,2,Anne Arundel,4074,Phoenix Academy,Elementary,68,75,39,43,29,32,110.2,20200117
+2019,2,Anne Arundel,4074,Phoenix Academy,Middle,62.5,55,35.2,31,27.3,24,88,20200117
+2019,2,Anne Arundel,4074,Phoenix Academy,All,75.3,282,42.5,159,32.9,123,374.3,20200117
+2019,2,Anne Arundel,4074,Phoenix Academy,High,86.3,152,48.3,85,38,67,176.1,20200117
+2019,2,Anne Arundel,4092,Annapolis Elementary,Elementary,14.2,30,9,19,5.2,11,210.6,20200117
+2019,2,Anne Arundel,4112,Central Elementary,Elementary,9,54,<= 5.0,*,<= 5.0,*,601.8,20200117
+2019,2,Anne Arundel,4122,Davidsonville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,4132,Deale Elementary,Elementary,6.4,14,<= 5.0,*,<= 5.0,*,219.4,20200117
+2019,2,Anne Arundel,4142,Eastport Elementary,Elementary,29,60,18.8,39,10.1,21,207.2,20200117
+2019,2,Anne Arundel,4152,Edgewater Elementary,Elementary,8.4,48,<= 5.0,*,<= 5.0,*,574.4,20200117
+2019,2,Anne Arundel,4162,Georgetown East Elementary,Elementary,33.2,77,18.5,43,14.7,34,232.1,20200117
+2019,2,Anne Arundel,4182,Germantown Elementary,Elementary,10.9,53,6,29,<= 5.0,*,485.1,20200117
+2019,2,Anne Arundel,4192,Hillsmere Elementary,Elementary,8.6,32,<= 5.0,*,<= 5.0,*,371.4,20200117
+2019,2,Anne Arundel,4202,Lothian Elementary,Elementary,11.9,55,6.5,30,5.4,25,461.4,20200117
+2019,2,Anne Arundel,4212,Mayo Elementary,Elementary,8.3,27,6.5,21,<= 5.0,*,325.4,20200117
+2019,2,Anne Arundel,4222,Walter S. Mills - Parole Elementary,Elementary,27.6,148,15.8,85,11.7,63,536.6,20200117
+2019,2,Anne Arundel,4232,Rolling Knolls Elementary,Elementary,17.2,68,9.9,39,7.3,29,394.9,20200117
+2019,2,Anne Arundel,4242,Shady Side Elementary,Elementary,9.1,39,<= 5.0,*,5.8,25,428.6,20200117
+2019,2,Anne Arundel,4252,Tracey's Elementary,Elementary,11.8,52,8,35,<= 5.0,*,439.8,20200117
+2019,2,Anne Arundel,4262,Tyler Heights Elementary,Elementary,24.6,99,16.4,66,8.2,33,401.8,20200117
+2019,2,Anne Arundel,4272,West Annapolis Elementary,Elementary,12.5,29,5.6,13,6.9,16,232.3,20200117
+2019,2,Anne Arundel,4283,Central Middle,Middle,5.4,69,<= 5.0,*,<= 5.0,*,1272.6,20200117
+2019,2,Anne Arundel,4293,South River High,High,5.8,126,<= 5.0,*,<= 5.0,*,2164.8,20200117
+2019,2,Anne Arundel,4304,Central Special School,Elementary,19.3,6,9.7,3,9.7,3,31.1,20200117
+2019,2,Anne Arundel,4304,Central Special School,Middle,26,3,8.7,1,17.4,2,11.5,20200117
+2019,2,Anne Arundel,4304,Central Special School,All,17.7,13,6.8,5,10.9,8,73.3,20200117
+2019,2,Anne Arundel,4304,Central Special School,High,13,4,<= 5.0,*,9.8,3,30.7,20200117
+2019,2,Anne Arundel,6113,Monarch Global Academy PCS Laurel Campus,Elementary,6.7,37,<= 5.0,*,<= 5.0,*,552.1,20200117
+2019,2,Anne Arundel,6113,Monarch Global Academy PCS Laurel Campus,Middle,6.6,17,<= 5.0,*,<= 5.0,*,257.9,20200117
+2019,2,Anne Arundel,6113,Monarch Global Academy PCS Laurel Campus,All,6.7,54,<= 5.0,*,<= 5.0,*,810,20200117
+2019,2,Anne Arundel,6123,Monarch Academy Annapolis ES,Elementary,11.8,76,<= 5.0,*,6.8,44,643.3,20200117
+2019,2,Anne Arundel,6223,Chesapeake Science Point,Middle,9.5,22,5.2,12,<= 5.0,*,231.6,20200117
+2019,2,Anne Arundel,6223,Chesapeake Science Point,All,6.6,30,<= 5.0,*,<= 5.0,*,454.2,20200117
+2019,2,Anne Arundel,6223,Chesapeake Science Point,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,2,Anne Arundel,6233,Monarch Academy,Elementary,5.9,26,<= 5.0,*,<= 5.0,*,443.4,20200117
+2019,2,Anne Arundel,6233,Monarch Academy,Middle,6.3,14,<= 5.0,*,5.4,12,223.1,20200117
+2019,2,Anne Arundel,6233,Monarch Academy,All,6,40,<= 5.0,*,<= 5.0,*,666.6,20200117
+2019,2,Anne Arundel,A,All Anne Arundel Schools,Elementary,14,5464,7.9,3096,6.1,2368,38993.8,20200117
+2019,2,Anne Arundel,A,All Anne Arundel Schools,Middle,13.1,2448,7.2,1351,5.8,1097,18758.3,20200117
+2019,2,Anne Arundel,A,All Anne Arundel Schools,All,14.1,11387,7.7,6270,6.3,5117,80931.9,20200117
+2019,2,Anne Arundel,A,All Anne Arundel Schools,High,15,3475,7.9,1823,7.1,1652,23179.8,20200117
+2019,3,Baltimore County,54,Extended Day Learning Program,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,57,Home Assignments-Elementary,Elementary,*,*,*,*,*,*,*,20200117
+2019,3,Baltimore County,58,Home Assignments-Secondary,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,58,Home Assignments-Secondary,All,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,58,Home Assignments-Secondary,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,69,Catonsville Center for Alternative Studies,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,70,Meadowood Education Center,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,72,Rosedale Center,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,72,Rosedale Center,All,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,72,Rosedale Center,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,75,Crossroads Center,Middle,12.9,11,<= 5.0,*,9.4,8,85,20200117
+2019,3,Baltimore County,75,Crossroads Center,All,17.8,31,<= 5.0,*,13.2,23,174.5,20200117
+2019,3,Baltimore County,75,Crossroads Center,High,22.4,20,5.6,5,16.8,15,89.4,20200117
+2019,3,Baltimore County,77,BCDC Educational Center,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,3,Baltimore County,101,Catonsville Elementary,Elementary,9.4,58,6.2,38,<= 5.0,*,617.7,20200117
+2019,3,Baltimore County,102,Westchester Elementary,Elementary,10.7,70,6.3,41,<= 5.0,*,652.4,20200117
+2019,3,Baltimore County,103,Westowne Elementary,Elementary,18.9,113,9.7,58,9.2,55,599.2,20200117
+2019,3,Baltimore County,104,Edmondson Heights Elementary,Elementary,26,123,15,71,11,52,472.6,20200117
+2019,3,Baltimore County,105,Johnnycake Elementary,Elementary,25.1,166,16.8,111,8.3,55,661.9,20200117
+2019,3,Baltimore County,111,Maiden Choice School,Elementary,21.5,11,9.8,5,11.7,6,51.1,20200117
+2019,3,Baltimore County,111,Maiden Choice School,Middle,59.8,10,35.9,6,23.9,4,16.7,20200117
+2019,3,Baltimore County,111,Maiden Choice School,All,24.1,24,13.1,13,11.1,11,99.4,20200117
+2019,3,Baltimore County,111,Maiden Choice School,High,9.5,3,6.3,2,<= 5.0,*,31.6,20200117
+2019,3,Baltimore County,112,Dogwood Elementary,Elementary,27.4,186,16.2,110,11.2,76,678.3,20200117
+2019,3,Baltimore County,113,Chadwick Elementary,Elementary,38.7,231,19.8,118,18.9,113,596.6,20200117
+2019,3,Baltimore County,115,Hillcrest Elementary,Elementary,11.7,79,6.1,41,5.6,38,673.7,20200117
+2019,3,Baltimore County,116,Woodbridge Elementary,Elementary,25.2,107,16,68,9.2,39,425.2,20200117
+2019,3,Baltimore County,151,Catonsville Middle,Middle,10.2,87,<= 5.0,*,5.3,45,850.8,20200117
+2019,3,Baltimore County,155,Southwest Academy,Middle,25.3,207,14.5,119,10.8,88,818,20200117
+2019,3,Baltimore County,172,Woodlawn High Center for Pre-Eng. Res.,High,36.4,564,18.7,290,17.7,274,1551.4,20200117
+2019,3,Baltimore County,174,Catonsville High,High,16.1,291,7.9,142,8.3,149,1805.5,20200117
+2019,3,Baltimore County,175,Western School of Technology & Env. Science,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,202,Randallstown Elementary,Elementary,20.4,76,14.2,53,6.2,23,372,20200117
+2019,3,Baltimore County,204,Featherbed Lane Elementary,Elementary,33.5,195,20.2,118,13.2,77,582.7,20200117
+2019,3,Baltimore County,205,Woodmoor Elementary,Elementary,27.2,146,16,86,11.2,60,537,20200117
+2019,3,Baltimore County,206,Scotts Branch Elementary,Elementary,34.4,203,19,112,15.4,91,589.7,20200117
+2019,3,Baltimore County,207,Church Lane Elementary Technology,Elementary,11.1,40,7.8,28,<= 5.0,*,359.1,20200117
+2019,3,Baltimore County,209,Hebbville Elementary,Elementary,26.7,115,17.6,76,9,39,431,20200117
+2019,3,Baltimore County,210,Powhatan Elementary,Elementary,24.4,63,13.5,35,10.8,28,258.6,20200117
+2019,3,Baltimore County,211,Winfield Elementary,Elementary,37,176,24.6,117,12.4,59,476,20200117
+2019,3,Baltimore County,213,Winand Elementary,Elementary,19.8,87,12.1,53,7.7,34,439.1,20200117
+2019,3,Baltimore County,214,Hernwood Elementary,Elementary,25.1,94,14.9,56,10.1,38,374.8,20200117
+2019,3,Baltimore County,216,Deer Park Elementary,Elementary,18.5,67,11.3,41,7.2,26,361.6,20200117
+2019,3,Baltimore County,217,New Town Elementary,Elementary,17.6,141,11.3,91,6.2,50,802.6,20200117
+2019,3,Baltimore County,252,Northwest Academy of Health Sciences,Middle,23.6,195,12.9,107,10.6,88,827.5,20200117
+2019,3,Baltimore County,253,Woodlawn Middle,Middle,34.4,197,21,120,13.5,77,572,20200117
+2019,3,Baltimore County,254,Deer Park Middle Magnet School,Middle,23.4,301,11.7,151,11.7,150,1285.8,20200117
+2019,3,Baltimore County,256,Windsor Mill Middle,Middle,23.6,141,14.4,86,9.2,55,597.3,20200117
+2019,3,Baltimore County,271,Milford Mill Academy,High,19.8,242,10.5,129,9.2,113,1222.8,20200117
+2019,3,Baltimore County,272,Randallstown High,High,19.2,187,12.2,119,7,68,972.7,20200117
+2019,3,Baltimore County,303,Bedford Elementary,Elementary,16.9,54,12.5,40,<= 5.0,*,319.9,20200117
+2019,3,Baltimore County,304,Wellwood International Elementary,Elementary,20.8,102,10.2,50,10.6,52,489.6,20200117
+2019,3,Baltimore County,307,Milbrook Elementary,Elementary,32.6,133,18.1,74,14.4,59,408.3,20200117
+2019,3,Baltimore County,308,Fort Garrison Elementary,Elementary,10.1,28,5.4,15,<= 5.0,*,276.3,20200117
+2019,3,Baltimore County,310,Summit Park Elementary,Elementary,6.3,30,<= 5.0,*,<= 5.0,*,479,20200117
+2019,3,Baltimore County,311,Woodholme Elementary,Elementary,22.8,180,13.4,106,9.4,74,788.7,20200117
+2019,3,Baltimore County,352,Pikesville Middle,Middle,23.3,228,14.2,139,9.1,89,978.1,20200117
+2019,3,Baltimore County,353,Sudbrook Magnet Middle,Middle,11.8,124,7.7,81,<= 5.0,*,1054.9,20200117
+2019,3,Baltimore County,371,Pikesville High,High,14.4,131,8.8,80,5.6,51,910.5,20200117
+2019,3,Baltimore County,402,Owings Mills Elementary,Elementary,34.5,245,20.8,148,13.7,97,710.2,20200117
+2019,3,Baltimore County,403,Franklin Elementary,Elementary,9.7,40,6.3,26,<= 5.0,*,411.5,20200117
+2019,3,Baltimore County,404,Chatsworth School,Elementary,8.8,32,<= 5.0,*,<= 5.0,*,363.6,20200117
+2019,3,Baltimore County,405,Timber Grove Elementary,Elementary,25.2,136,15,81,10.2,55,540.7,20200117
+2019,3,Baltimore County,406,Reisterstown Elementary,Elementary,27.1,152,16.9,95,10.1,57,561.8,20200117
+2019,3,Baltimore County,407,Glyndon Elementary,Elementary,23.8,119,15.2,76,8.6,43,500.1,20200117
+2019,3,Baltimore County,408,Cedarmere Elementary,Elementary,25.3,130,13.6,70,11.7,60,514.8,20200117
+2019,3,Baltimore County,410,Lyons Mill Elementary,Elementary,29.4,227,15.2,117,14.3,110,771.7,20200117
+2019,3,Baltimore County,451,Franklin Middle,Middle,20.5,256,11.6,145,8.9,111,1246.1,20200117
+2019,3,Baltimore County,452,Owings Mills High,High,37.3,435,24.2,282,13.1,153,1167.3,20200117
+2019,3,Baltimore County,472,Franklin High,High,14.6,211,7.7,112,6.8,99,1446.2,20200117
+2019,3,Baltimore County,473,New Town High,High,19.2,211,10,110,9.2,101,1098.8,20200117
+2019,3,Baltimore County,501,Fifth District Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,601,Prettyboy Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,701,Seventh District Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,772,Hereford High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,801,Sparks Elementary,Elementary,5.5,27,<= 5.0,*,<= 5.0,*,492.8,20200117
+2019,3,Baltimore County,803,Lutherville Laboratory,Elementary,15.2,54,7.6,27,7.6,27,354.2,20200117
+2019,3,Baltimore County,805,Timonium Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,808,Pot Spring Elementary,Elementary,20.6,90,9.4,41,11.2,49,437.7,20200117
+2019,3,Baltimore County,809,Riderwood Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,810,Padonia International Elementary,Elementary,34.1,155,23.3,106,10.8,49,454.8,20200117
+2019,3,Baltimore County,811,Pinewood Elementary,Elementary,8.4,44,<= 5.0,*,<= 5.0,*,525.4,20200117
+2019,3,Baltimore County,813,Warren Elementary,Elementary,22.3,83,11.6,43,10.8,40,371.9,20200117
+2019,3,Baltimore County,814,Mays Chapel Elementary,Elementary,21,148,10.9,77,10.1,71,705.7,20200117
+2019,3,Baltimore County,852,Ridgely Middle,Middle,7.8,91,<= 5.0,*,<= 5.0,*,1162.2,20200117
+2019,3,Baltimore County,853,Cockeysville Middle,Middle,11.2,105,6,56,5.2,49,940,20200117
+2019,3,Baltimore County,855,Hereford Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,872,Dulaney High,High,8.3,156,<= 5.0,*,<= 5.0,*,1872.4,20200117
+2019,3,Baltimore County,905,Stoneleigh Elementary,Elementary,6.4,51,<= 5.0,*,<= 5.0,*,797.7,20200117
+2019,3,Baltimore County,907,Rodgers Forge Elementary,Elementary,10.6,48,5.5,25,5.1,23,450.9,20200117
+2019,3,Baltimore County,908,Villa Cresta Elementary,Elementary,13.9,88,7.9,50,6,38,635.2,20200117
+2019,3,Baltimore County,909,Pleasant Plains Elementary,Elementary,24,156,14,91,10,65,651.1,20200117
+2019,3,Baltimore County,910,Oakleigh Elementary,Elementary,27.6,148,19.7,106,7.8,42,537.1,20200117
+2019,3,Baltimore County,911,Hampton Elementary,Elementary,10.8,58,5.8,31,<= 5.0,*,535.6,20200117
+2019,3,Baltimore County,912,Halstead Academy,Elementary,29.4,125,20.7,88,8.7,37,425.7,20200117
+2019,3,Baltimore County,915,Harford Hills Elementary,Elementary,22.6,87,10.1,39,12.5,48,384.3,20200117
+2019,3,Baltimore County,916,Cromwell Valley Elementary Technology,Elementary,11.5,41,<= 5.0,*,7,25,356.9,20200117
+2019,3,Baltimore County,921,Pine Grove Elementary,Elementary,11.4,65,7.7,44,<= 5.0,*,571.9,20200117
+2019,3,Baltimore County,922,Ridge Ruxton,Elementary,31,15,16.6,8,14.5,7,48.3,20200117
+2019,3,Baltimore County,922,Ridge Ruxton,Middle,12.6,3,<= 5.0,*,8.4,2,23.7,20200117
+2019,3,Baltimore County,922,Ridge Ruxton,All,20.1,23,10.5,12,9.6,11,114.2,20200117
+2019,3,Baltimore County,922,Ridge Ruxton,High,11.9,5,7.1,3,<= 5.0,*,42.1,20200117
+2019,3,Baltimore County,923,White Oak School,Elementary,52.2,51,27.7,27,24.6,24,97.6,20200117
+2019,3,Baltimore County,925,West Towson Elementary,Elementary,11,53,6.7,32,<= 5.0,*,481.2,20200117
+2019,3,Baltimore County,953,Dumbarton Middle,Middle,15.8,189,11.1,133,<= 5.0,*,1199.3,20200117
+2019,3,Baltimore County,954,Loch Raven Technical Academy,Middle,22,170,13.8,107,8.1,63,773.9,20200117
+2019,3,Baltimore County,957,Pine Grove Middle,Middle,16.4,153,9.9,92,6.6,61,931,20200117
+2019,3,Baltimore County,971,Towson High Law & Public Policy,High,8.4,136,<= 5.0,*,<= 5.0,*,1621.6,20200117
+2019,3,Baltimore County,972,Parkville High & Center for Math/Science,High,29,551,18.4,350,10.6,201,1901.2,20200117
+2019,3,Baltimore County,973,Loch Raven High,High,16.8,145,8.8,76,8,69,863.8,20200117
+2019,3,Baltimore County,975,George W. Carver Center for Arts & Technology,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,1001,Carroll Manor Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,1002,Jacksonville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,1104,Kingsville Elementary,Elementary,5.1,16,<= 5.0,*,<= 5.0,*,314.1,20200117
+2019,3,Baltimore County,1105,Perry Hall Elementary,Elementary,16.9,104,9.2,57,7.6,47,617,20200117
+2019,3,Baltimore County,1106,Carney Elementary,Elementary,21.4,127,10.6,63,10.8,64,593.3,20200117
+2019,3,Baltimore County,1107,Chapel Hill Elementary,Elementary,5.3,36,<= 5.0,*,<= 5.0,*,677.4,20200117
+2019,3,Baltimore County,1109,Joppa View Elementary,Elementary,16,125,9.1,71,6.9,54,780.7,20200117
+2019,3,Baltimore County,1110,Seven Oaks Elementary,Elementary,9.9,43,5.3,23,<= 5.0,*,435.4,20200117
+2019,3,Baltimore County,1111,Gunpowder Elementary,Elementary,10.1,53,5.5,29,<= 5.0,*,526.8,20200117
+2019,3,Baltimore County,1113,Honeygo Elementary,Elementary,8.4,49,<= 5.0,*,<= 5.0,*,581.8,20200117
+2019,3,Baltimore County,1151,Perry Hall Middle,Middle,13,245,6.2,116,6.9,129,1880.7,20200117
+2019,3,Baltimore County,1171,Perry Hall High,High,11.1,218,5.7,111,5.5,107,1963.3,20200117
+2019,3,Baltimore County,1202,Dundalk Elementary,Elementary,35.3,235,21.6,144,13.7,91,666.2,20200117
+2019,3,Baltimore County,1205,Berkshire Elementary,Elementary,25.7,110,16.1,69,9.6,41,427.9,20200117
+2019,3,Baltimore County,1206,Bear Creek Elementary,Elementary,19.9,92,12.8,59,7.1,33,461.6,20200117
+2019,3,Baltimore County,1207,Norwood Elementary,Elementary,24.9,112,16,72,8.9,40,449.9,20200117
+2019,3,Baltimore County,1210,Grange Elementary,Elementary,25.6,115,14.9,67,10.7,48,449.2,20200117
+2019,3,Baltimore County,1212,Charlesmont Elementary,Elementary,18.9,75,9.6,38,9.3,37,397.4,20200117
+2019,3,Baltimore County,1215,Battle Monument School,Elementary,33.2,7,18.9,4,14.2,3,21.1,20200117
+2019,3,Baltimore County,1215,Battle Monument School,Middle,19.9,4,<= 5.0,*,14.9,3,20.1,20200117
+2019,3,Baltimore County,1215,Battle Monument School,All,20.6,14,8.8,6,11.8,8,68.1,20200117
+2019,3,Baltimore County,1215,Battle Monument School,High,11.2,3,<= 5.0,*,7.4,2,26.9,20200117
+2019,3,Baltimore County,1216,Sandy Plains Elementary,Elementary,27.9,151,17.8,96,10.2,55,540.3,20200117
+2019,3,Baltimore County,1217,Logan Elementary,Elementary,25.7,139,15.9,86,9.8,53,540.6,20200117
+2019,3,Baltimore County,1251,Dundalk Middle,Middle,40.3,294,25.3,185,14.9,109,730.4,20200117
+2019,3,Baltimore County,1253,Holabird Middle,Elementary,20.9,47,13.3,30,7.5,17,225.2,20200117
+2019,3,Baltimore County,1253,Holabird Middle,Middle,28.4,208,15.7,115,12.7,93,732.6,20200117
+2019,3,Baltimore County,1253,Holabird Middle,All,26.6,255,15.1,145,11.5,110,957.8,20200117
+2019,3,Baltimore County,1255,General John Stricker Middle,Middle,26,190,14.4,105,11.6,85,729.8,20200117
+2019,3,Baltimore County,1272,Patapsco High & Center for Arts,High,18.2,254,6.9,97,11.2,157,1396.8,20200117
+2019,3,Baltimore County,1273,Dundalk High,High,32.5,524,16.9,273,15.6,251,1611,20200117
+2019,3,Baltimore County,1302,Arbutus Elementary,Elementary,16.9,65,11.2,43,5.7,22,385.1,20200117
+2019,3,Baltimore County,1307,Baltimore Highlands Elementary,Elementary,37,186,22.3,112,14.7,74,502.3,20200117
+2019,3,Baltimore County,1308,Riverview Elementary,Elementary,21.9,113,15.9,82,6,31,516.4,20200117
+2019,3,Baltimore County,1310,Relay Elementary,Elementary,13.9,91,7.2,47,6.7,44,654.2,20200117
+2019,3,Baltimore County,1311,Lansdowne Elementary,Elementary,21.6,117,13.7,74,7.9,43,541.1,20200117
+2019,3,Baltimore County,1313,Halethorpe Elementary,Elementary,24.4,85,12.3,43,12,42,348.6,20200117
+2019,3,Baltimore County,1351,Lansdowne Middle,Middle,32.4,258,20.4,162,12.1,96,795.4,20200117
+2019,3,Baltimore County,1356,Arbutus Middle,Middle,17.2,165,9.5,91,7.7,74,957.6,20200117
+2019,3,Baltimore County,1371,Lansdowne High & Academy of Finance,High,24.7,322,13.9,181,10.8,141,1301,20200117
+2019,3,Baltimore County,1403,McCormick Elementary,Elementary,27,83,16.3,50,10.8,33,306.9,20200117
+2019,3,Baltimore County,1404,Fullerton Elementary,Elementary,16.8,97,9,52,7.8,45,578.9,20200117
+2019,3,Baltimore County,1405,Elmwood Elementary,Elementary,20,111,12.6,70,7.4,41,554.1,20200117
+2019,3,Baltimore County,1406,Red House Run Elementary,Elementary,18.6,98,12.7,67,5.9,31,525.9,20200117
+2019,3,Baltimore County,1409,Shady Spring Elementary,Elementary,37,216,22.1,129,14.9,87,584.6,20200117
+2019,3,Baltimore County,1451,Golden Ring Middle,Middle,29.2,219,14.8,111,14.4,108,749.5,20200117
+2019,3,Baltimore County,1452,Parkville Middle & Center of Technology,Middle,13.2,155,7.3,86,5.9,69,1177.4,20200117
+2019,3,Baltimore County,1473,Overlea High & Academy of Finance,High,26.5,257,13.9,135,12.6,122,969.9,20200117
+2019,3,Baltimore County,1502,Edgemere Elementary,Elementary,11.2,50,8.1,36,<= 5.0,*,446,20200117
+2019,3,Baltimore County,1503,Colgate Elementary,Elementary,21.8,95,15.2,66,6.7,29,435,20200117
+2019,3,Baltimore County,1505,Victory Villa Elementary,Elementary,30.8,201,23.6,154,7.2,47,651.7,20200117
+2019,3,Baltimore County,1506,Martin Boulevard Elementary,Elementary,19,52,11,30,8.1,22,273.1,20200117
+2019,3,Baltimore County,1507,Chase Elementary,Elementary,21.7,76,10.3,36,11.4,40,349.8,20200117
+2019,3,Baltimore County,1508,Essex Elementary,Elementary,15.3,68,7.9,35,7.4,33,444.2,20200117
+2019,3,Baltimore County,1511,Chesapeake Terrace Elementary,Elementary,11.2,32,<= 5.0,*,6.3,18,286.5,20200117
+2019,3,Baltimore County,1512,Mars Estates Elementary,Elementary,32.4,113,21.5,75,10.9,38,348.9,20200117
+2019,3,Baltimore County,1513,Sussex Elementary,Elementary,27.6,121,15.5,68,12.1,53,438.8,20200117
+2019,3,Baltimore County,1514,Middlesex Elementary,Elementary,32.6,120,16.8,62,15.8,58,368.3,20200117
+2019,3,Baltimore County,1515,Hawthorne Elementary,Elementary,30.1,119,17,67,13.2,52,394.8,20200117
+2019,3,Baltimore County,1517,Battle Grove Elementary,Elementary,23.6,66,11.4,32,12.1,34,279.9,20200117
+2019,3,Baltimore County,1518,Glenmar Elementary,Elementary,19.9,58,9.6,28,10.3,30,291.3,20200117
+2019,3,Baltimore County,1519,Orems Elementary,Elementary,18.5,65,14.5,51,<= 5.0,*,352,20200117
+2019,3,Baltimore County,1520,Middleborough Elementary,Elementary,8.4,27,<= 5.0,*,<= 5.0,*,321.9,20200117
+2019,3,Baltimore County,1525,Deep Creek Elementary,Elementary,59.2,277,30.8,144,28.4,133,468.2,20200117
+2019,3,Baltimore County,1527,Sandalwood Elementary,Elementary,34,173,23,117,11,56,508.9,20200117
+2019,3,Baltimore County,1531,Seneca Elementary,Elementary,20.7,88,10.4,44,10.4,44,425,20200117
+2019,3,Baltimore County,1533,Vincent Farm Elementary,Elementary,15.5,113,10.7,78,<= 5.0,*,729.4,20200117
+2019,3,Baltimore County,1534,Oliver Beach Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,1554,Stemmers Run Middle,Middle,18.1,137,9.9,75,8.2,62,756.5,20200117
+2019,3,Baltimore County,1556,Middle River Middle,Middle,27,253,15.9,149,11.1,104,937.6,20200117
+2019,3,Baltimore County,1557,Deep Creek Middle,Middle,28.2,229,15.9,129,12.3,100,811.2,20200117
+2019,3,Baltimore County,1559,Sparrows Point Middle,Middle,12.2,76,7,44,5.1,32,624.5,20200117
+2019,3,Baltimore County,1572,Kenwood High IB and Sports Science,High,27.3,434,14.5,230,12.8,204,1589.9,20200117
+2019,3,Baltimore County,1573,Sparrows Point High,High,11.1,109,5.5,54,5.6,55,985.2,20200117
+2019,3,Baltimore County,1574,Chesapeake High,High,30.7,293,15,143,15.7,150,954.2,20200117
+2019,3,Baltimore County,1575,Eastern Technical High School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,3,Baltimore County,A,All Baltimore County Schools,Elementary,20.4,10758,12.1,6384,8.3,4374,52755.4,20200117
+2019,3,Baltimore County,A,All Baltimore County Schools,Middle,23.2,5900,13.4,3421,9.7,2479,25441.3,20200117
+2019,3,Baltimore County,A,All Baltimore County Schools,High,23.9,7673,13.1,4195,10.8,3478,32100.6,20200117
+2019,3,Baltimore County,A,All Baltimore County Schools,All,22.1,24331,12.7,14000,9.4,10331,110297.3,20200117
+2019,4,Calvert,101,Patuxent Appeal Elementary Campus,Elementary,13,96,7.4,55,5.6,41,738.3,20200117
+2019,4,Calvert,110,Mutual Elementary,Elementary,10.3,40,6.7,26,<= 5.0,*,387.9,20200117
+2019,4,Calvert,111,Southern Middle,Middle,13.3,68,7.2,37,6.1,31,510.5,20200117
+2019,4,Calvert,113,Patuxent High,High,14.9,153,6.8,70,8.1,83,1028.4,20200117
+2019,4,Calvert,114,St Leonard Elementary,Elementary,12.9,64,6.6,33,6.2,31,497.2,20200117
+2019,4,Calvert,115,Dowell Elementary,Elementary,9.9,54,6.6,36,<= 5.0,*,545.1,20200117
+2019,4,Calvert,116,Mill Creek Middle,Middle,16.4,85,9.3,48,7.1,37,518.2,20200117
+2019,4,Calvert,201,Calvert Middle,Middle,8.3,50,<= 5.0,*,<= 5.0,*,601.8,20200117
+2019,4,Calvert,206,Calvert Country School,Elementary,*,*,*,*,*,*,*,20200117
+2019,4,Calvert,206,Calvert Country School,Middle,41.2,5,32.9,4,8.2,1,12.2,20200117
+2019,4,Calvert,206,Calvert Country School,All,39.3,13,30.2,10,9.1,3,33.1,20200117
+2019,4,Calvert,206,Calvert Country School,High,28.5,4,21.4,3,7.1,1,14,20200117
+2019,4,Calvert,207,Calvert Elementary,Elementary,13.7,71,7.5,39,6.2,32,517.9,20200117
+2019,4,Calvert,208,Barstow Elementary,Elementary,16.1,91,9.7,55,6.4,36,564.7,20200117
+2019,4,Calvert,209,Huntingtown Elementary,Elementary,8.3,40,5.8,28,<= 5.0,*,483.4,20200117
+2019,4,Calvert,213,Calvert High,High,10.3,117,5.4,61,<= 5.0,*,1139.8,20200117
+2019,4,Calvert,215,Plum Point Elementary,Elementary,6.1,35,<= 5.0,*,<= 5.0,*,576.4,20200117
+2019,4,Calvert,216,Plum Point Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,4,Calvert,217,Huntingtown High School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,4,Calvert,302,Beach Elementary,Elementary,10.8,55,5.1,26,5.7,29,508.7,20200117
+2019,4,Calvert,312,Mount Harmony Elementary,Elementary,7,43,<= 5.0,*,<= 5.0,*,611.1,20200117
+2019,4,Calvert,314,Northern High,High,6.2,91,<= 5.0,*,<= 5.0,*,1459,20200117
+2019,4,Calvert,315,Northern Middle,Middle,6,41,<= 5.0,*,<= 5.0,*,679.8,20200117
+2019,4,Calvert,316,Sunderland Elementary,Elementary,6.5,41,<= 5.0,*,<= 5.0,*,627,20200117
+2019,4,Calvert,317,Windy Hill Elementary,Elementary,7.1,45,<= 5.0,*,<= 5.0,*,632.8,20200117
+2019,4,Calvert,318,Windy Hill Middle,Middle,7.3,56,<= 5.0,*,<= 5.0,*,762.9,20200117
+2019,4,Calvert,500,Calvert County Alternative School,High,*,*,*,*,*,*,*,20200117
+2019,4,Calvert,A,All Calvert Schools,Elementary,10.1,679,6.1,408,<= 5.0,*,6697.4,20200117
+2019,4,Calvert,A,All Calvert Schools,Middle,9.5,352,5.2,192,<= 5.0,*,3723.7,20200117
+2019,4,Calvert,A,All Calvert Schools,High,9.5,482,<= 5.0,*,<= 5.0,*,5094.1,20200117
+2019,4,Calvert,A,All Calvert Schools,All,9.8,1513,5.4,839,<= 5.0,*,15515.2,20200117
+2019,5,Caroline,201,Greensboro Elementary School,Elementary,11.4,84,6.6,49,<= 5.0,*,738,20200117
+2019,5,Caroline,301,Denton Elementary School,Elementary,15.4,97,7.4,47,7.9,50,631,20200117
+2019,5,Caroline,302,Lockerman Middle School,Middle,9.5,85,5.8,52,<= 5.0,*,896.2,20200117
+2019,5,Caroline,401,Preston Elementary School,Elementary,9.1,33,<= 5.0,*,5.5,20,364.2,20200117
+2019,5,Caroline,501,Federalsburg Elementary School,Elementary,22.6,88,12.6,49,10,39,388.6,20200117
+2019,5,Caroline,701,Ridgely Elementary School,Elementary,13.9,59,7.8,33,6.1,26,423.8,20200117
+2019,5,Caroline,703,North Caroline High School,High,15.8,177,7.8,87,8.1,90,1117.4,20200117
+2019,5,Caroline,801,Colonel Richardson High School,High,12.5,64,5.5,28,7,36,513.2,20200117
+2019,5,Caroline,802,Colonel Richardson Middle School,Middle,11.8,49,5.3,22,6.5,27,415.7,20200117
+2019,5,Caroline,A,All Caroline Schools,Elementary,14.2,361,7.5,191,6.7,170,2545.5,20200117
+2019,5,Caroline,A,All Caroline Schools,Middle,10.2,134,5.6,74,<= 5.0,*,1311.9,20200117
+2019,5,Caroline,A,All Caroline Schools,All,13.4,736,6.9,380,6.5,356,5488,20200117
+2019,5,Caroline,A,All Caroline Schools,High,14.8,241,7.1,115,7.7,126,1630.6,20200117
+2019,6,Carroll,103,Taneytown Elementary,Elementary,13.6,51,9.1,34,<= 5.0,*,374,20200117
+2019,6,Carroll,105,Northwest Middle,Middle,9.9,67,<= 5.0,*,6.7,45,675.3,20200117
+2019,6,Carroll,202,Francis Scott Key High,High,7.3,67,<= 5.0,*,<= 5.0,*,917.1,20200117
+2019,6,Carroll,204,Runnymede Elementary,Elementary,5.3,32,<= 5.0,*,<= 5.0,*,599.1,20200117
+2019,6,Carroll,404,Sandymount Elementary,Elementary,8.9,40,5.8,26,<= 5.0,*,447.7,20200117
+2019,6,Carroll,406,Mechanicsville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,501,Eldersburg Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,503,Linton Springs Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,504,Sykesville Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,505,Freedom District Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,506,Carrolltowne Elementary,Elementary,6.3,33,<= 5.0,*,<= 5.0,*,525.8,20200117
+2019,6,Carroll,507,Liberty High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,508,Oklahoma Road Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,509,Piney Ridge Elementary,Elementary,5.4,28,<= 5.0,*,<= 5.0,*,515.5,20200117
+2019,6,Carroll,510,Century High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,601,Manchester Elementary,Elementary,7.4,47,5.3,34,<= 5.0,*,636,20200117
+2019,6,Carroll,602,Manchester Valley High,High,5.8,74,<= 5.0,*,<= 5.0,*,1282.5,20200117
+2019,6,Carroll,603,Ebb Valley Elementary,Elementary,8.1,42,5.4,28,<= 5.0,*,520.4,20200117
+2019,6,Carroll,701,Westminster East Middle,Middle,11.1,79,5.7,41,5.3,38,714.5,20200117
+2019,6,Carroll,703,Westminster West Middle,Middle,7.8,72,<= 5.0,*,<= 5.0,*,924.7,20200117
+2019,6,Carroll,704,Winters Mill High,High,8.2,90,<= 5.0,*,<= 5.0,*,1102.5,20200117
+2019,6,Carroll,705,William Winchester Elementary,Elementary,13.5,71,6.9,36,6.7,35,525.5,20200117
+2019,6,Carroll,707,Westminster High,High,7.1,108,<= 5.0,*,<= 5.0,*,1524.3,20200117
+2019,6,Carroll,710,Westminster Elementary,Elementary,6.7,35,<= 5.0,*,<= 5.0,*,519.7,20200117
+2019,6,Carroll,711,Robert Moton Elementary,Elementary,18.7,70,12.8,48,5.9,22,374.2,20200117
+2019,6,Carroll,712,Carroll Springs School,Elementary,*,*,*,*,*,*,*,20200117
+2019,6,Carroll,712,Carroll Springs School,Middle,*,*,*,*,*,*,*,20200117
+2019,6,Carroll,712,Carroll Springs School,All,13.6,3,<= 5.0,*,9,2,22.1,20200117
+2019,6,Carroll,712,Carroll Springs School,High,*,*,*,*,*,*,*,20200117
+2019,6,Carroll,714,Friendship Valley Elementary,Elementary,9.3,46,5.9,29,<= 5.0,*,493.3,20200117
+2019,6,Carroll,715,Cranberry Station Elementary,Elementary,13.5,68,7.9,40,5.5,28,504.9,20200117
+2019,6,Carroll,716,Gateway School,High,>= 95.0,*,80.1,64,48.8,39,79.9,20200117
+2019,6,Carroll,717,Post Secondary Program,High,5.3,2,<= 5.0,*,<= 5.0,*,37.5,20200117
+2019,6,Carroll,718,PRIDE School,Elementary,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,6,Carroll,726,Crossroads Middle School,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,6,Carroll,801,North Carroll Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,804,Hampstead Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,806,Spring Garden Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,807,Shiloh Middle,Middle,6.6,43,<= 5.0,*,<= 5.0,*,655.5,20200117
+2019,6,Carroll,903,Flexible Student Support,High,>= 95.0,*,>= 95.0,*,70.7,27,38.2,20200117
+2019,6,Carroll,906,Winfield Elementary,Elementary,5.5,31,<= 5.0,*,<= 5.0,*,568.4,20200117
+2019,6,Carroll,1201,Elmer A. Wolfe Elementary,Elementary,9.3,37,<= 5.0,*,<= 5.0,*,397.7,20200117
+2019,6,Carroll,1304,Parr's Ridge Elementary,Elementary,6.1,28,<= 5.0,*,<= 5.0,*,458.7,20200117
+2019,6,Carroll,1305,Mount Airy Elementary,Elementary,5.8,27,<= 5.0,*,<= 5.0,*,463.5,20200117
+2019,6,Carroll,1306,Mount Airy Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,6,Carroll,1401,South Carroll High,High,6.3,64,<= 5.0,*,<= 5.0,*,1019.2,20200117
+2019,6,Carroll,A,All Carroll Schools,Elementary,7.8,841,<= 5.0,*,<= 5.0,*,10776.5,20200117
+2019,6,Carroll,A,All Carroll Schools,Middle,7.3,427,<= 5.0,*,<= 5.0,*,5839.9,20200117
+2019,6,Carroll,A,All Carroll Schools,High,8.3,680,<= 5.0,*,<= 5.0,*,8181.3,20200117
+2019,6,Carroll,A,All Carroll Schools,All,7.9,1948,<= 5.0,*,<= 5.0,*,24797.7,20200117
+2019,7,Cecil,104,Cecilton Elementary,Elementary,16.9,45,9,24,7.9,21,266.7,20200117
+2019,7,Cecil,204,Bohemia Manor High,High,10.6,70,<= 5.0,*,6.5,43,661,20200117
+2019,7,Cecil,205,Chesapeake City Elementary,Elementary,10.7,35,5.8,19,<= 5.0,*,327.5,20200117
+2019,7,Cecil,206,Bohemia Manor Middle,Middle,9.8,48,<= 5.0,*,6.3,31,488.5,20200117
+2019,7,Cecil,302,Elkton High,High,18.3,178,8.8,86,9.5,92,973.4,20200117
+2019,7,Cecil,303,Elkton Middle,Middle,24.1,134,12.4,69,11.7,65,555.5,20200117
+2019,7,Cecil,310,Gilpin Manor Elementary,Elementary,34.3,121,19,67,15.3,54,352.5,20200117
+2019,7,Cecil,311,Holly Hall Elementary,Elementary,28.9,116,14.4,58,14.4,58,401.8,20200117
+2019,7,Cecil,313,Cherry Hill Middle,Middle,14.4,64,6.3,28,8.1,36,444.6,20200117
+2019,7,Cecil,315,Leeds Elementary,Elementary,8.9,31,5.2,18,<= 5.0,*,347.7,20200117
+2019,7,Cecil,316,Thomson Estates Elementary,Elementary,31,139,15.4,69,15.6,70,448,20200117
+2019,7,Cecil,317,Kenmore Elementary,Elementary,10.9,32,<= 5.0,*,6.8,20,293,20200117
+2019,7,Cecil,401,Cecil Manor Elementary,Elementary,39.2,155,17.7,70,21.5,85,395.1,20200117
+2019,7,Cecil,504,North East Middle,Middle,12,93,6.3,49,5.7,44,771.8,20200117
+2019,7,Cecil,506,North East Elementary,Elementary,14.9,75,8.6,43,6.4,32,502.7,20200117
+2019,7,Cecil,510,Bay View Elementary,Elementary,20,93,10.3,48,9.7,45,464.3,20200117
+2019,7,Cecil,513,Charlestown Elementary,Elementary,19.3,42,11,24,8.3,18,218.1,20200117
+2019,7,Cecil,514,North East High,High,13.2,134,5.8,59,7.4,75,1016,20200117
+2019,7,Cecil,515,Elk Neck Elementary,Elementary,12.9,53,7.1,29,5.8,24,410.3,20200117
+2019,7,Cecil,606,Rising Sun Middle School,Middle,6.6,45,<= 5.0,*,<= 5.0,*,677.4,20200117
+2019,7,Cecil,607,Rising Sun Elementary,Elementary,7.4,48,<= 5.0,*,<= 5.0,*,649.2,20200117
+2019,7,Cecil,701,Perryville Middle,Middle,13.8,80,5.5,32,8.3,48,580.2,20200117
+2019,7,Cecil,703,Perryville Elementary,Elementary,11.8,41,<= 5.0,*,7.8,27,347.3,20200117
+2019,7,Cecil,704,Bainbridge Elementary,Elementary,16,43,8.9,24,7.1,19,269.4,20200117
+2019,7,Cecil,705,Perryville High,High,14.9,113,7,53,7.9,60,760.6,20200117
+2019,7,Cecil,801,Conowingo Elementary,Elementary,10.8,46,5.6,24,5.2,22,425.4,20200117
+2019,7,Cecil,904,Calvert Elementary,Elementary,7.4,31,<= 5.0,*,<= 5.0,*,419.4,20200117
+2019,7,Cecil,905,Rising Sun High,High,7.3,81,<= 5.0,*,<= 5.0,*,1108.7,20200117
+2019,7,Cecil,A,All Cecil Schools,Elementary,17.5,1146,9,586,8.6,560,6538.4,20200117
+2019,7,Cecil,A,All Cecil Schools,Middle,13.2,464,6,211,7.2,253,3518.1,20200117
+2019,7,Cecil,A,All Cecil Schools,High,12.7,576,5.7,256,7.1,320,4519.8,20200117
+2019,7,Cecil,A,All Cecil Schools,All,15,2186,7.2,1053,7.8,1133,14576.2,20200117
+2019,8,Charles,104,Milton M. Somers Middle School,Middle,11.6,120,6.4,66,5.2,54,1032.8,20200117
+2019,8,Charles,105,Walter J. Mitchell Elementary,Elementary,11.1,74,6.9,46,<= 5.0,*,668.5,20200117
+2019,8,Charles,106,La Plata High School,High,12.6,145,6.6,76,6,69,1146.9,20200117
+2019,8,Charles,108,Maurice J. McDonough High School,High,22.2,193,12.2,106,10,87,869.6,20200117
+2019,8,Charles,109,Mary H. Matula Elementary School,Elementary,19,149,12,94,7,55,784.7,20200117
+2019,8,Charles,302,Mt Hope/Nanjemoy Elementary School,Elementary,14.9,37,<= 5.0,*,11.3,28,248.7,20200117
+2019,8,Charles,501,Dr. Thomas L. Higdon Elementary School,Elementary,10,39,5.9,23,<= 5.0,*,388.4,20200117
+2019,8,Charles,503,Piccowaxen Middle School,Middle,8.6,37,5.1,22,<= 5.0,*,430.5,20200117
+2019,8,Charles,604,Dr. Samuel A. Mudd Elementary School,Elementary,25,95,12.4,47,12.6,48,380.1,20200117
+2019,8,Charles,605,Thomas Stone High School,High,28.3,326,13.4,154,15,172,1150,20200117
+2019,8,Charles,606,J. P. Ryon Elementary School,Elementary,24.9,164,13.8,91,11.1,73,659.1,20200117
+2019,8,Charles,608,John Hanson Middle School,Middle,16.2,134,10.1,84,6,50,829.3,20200117
+2019,8,Charles,609,Dr. James Craik Elementary School,Elementary,8.7,43,<= 5.0,*,<= 5.0,*,494.8,20200117
+2019,8,Charles,611,Dr. Gustavus Brown Elementary,Elementary,27.6,113,17.6,72,10,41,409.4,20200117
+2019,8,Charles,612,Arthur Middleton Elementary School,Elementary,31.3,141,18.9,85,12.4,56,450.3,20200117
+2019,8,Charles,613,Benjamin Stoddert Middle School,Middle,17.2,139,11.4,92,5.8,47,805.8,20200117
+2019,8,Charles,616,Eva Turner Elementary School,Elementary,22.3,82,14.4,53,7.9,29,367.9,20200117
+2019,8,Charles,617,Daniel of St. Thomas Jenifer Elementary School,Elementary,21.2,121,12.6,72,8.6,49,571.8,20200117
+2019,8,Charles,618,William B. Wade Elementary School,Elementary,18.5,119,12.3,79,6.2,40,644.5,20200117
+2019,8,Charles,619,Westlake High School,High,19.2,227,10.2,121,9,106,1183.9,20200117
+2019,8,Charles,620,C. Paul Barnhart Elementary School,Elementary,27.6,185,16.6,111,11.1,74,669.7,20200117
+2019,8,Charles,621,Mattawoman Middle School,Middle,16.5,165,9.8,98,6.7,67,1000,20200117
+2019,8,Charles,622,Berry Elementary School,Elementary,16.4,156,10,95,6.4,61,953,20200117
+2019,8,Charles,623,North Point High School,High,8.3,143,<= 5.0,*,<= 5.0,*,1717,20200117
+2019,8,Charles,624,William A. Diggs Elementary,Elementary,14.2,118,9.4,78,<= 5.0,*,832.6,20200117
+2019,8,Charles,625,Theodore G. Davis Middle School,Middle,18.2,159,11,96,7.2,63,873.4,20200117
+2019,8,Charles,626,Mary B. Neal Elementary School,Elementary,17.6,118,9.7,65,7.9,53,671.2,20200117
+2019,8,Charles,701,Matthew Henson Middle School,Middle,11.2,88,6.7,53,<= 5.0,*,785.7,20200117
+2019,8,Charles,703,J. C. Parks Elementary School,Elementary,15,102,8.4,57,6.6,45,677.9,20200117
+2019,8,Charles,705,General Smallwood Middle School,Middle,18.9,99,8.2,43,10.7,56,522.5,20200117
+2019,8,Charles,708,Robert D. Stethem Educational Center,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,8,Charles,708,Robert D. Stethem Educational Center,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,8,Charles,708,Robert D. Stethem Educational Center,All,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,8,Charles,710,Indian Head Elementary School,Elementary,28.5,122,14.3,61,14.3,61,427.4,20200117
+2019,8,Charles,801,T. C. Martin Elementary School,Elementary,18.2,89,11.8,58,6.3,31,490,20200117
+2019,8,Charles,802,St. Charles High School,High,20.2,269,11.8,158,8.3,111,1334.9,20200117
+2019,8,Charles,902,Malcolm Elementary School,Elementary,11.9,50,8.1,34,<= 5.0,*,418.8,20200117
+2019,8,Charles,1001,Gale-Bailey Elementary School,Elementary,18.1,65,10,36,8.1,29,359,20200117
+2019,8,Charles,1002,Henry E. Lackey High School,High,22.9,229,10.6,106,12.3,123,999.2,20200117
+2019,8,Charles,A,All Charles Schools,Elementary,18.9,2183,11.1,1286,7.8,897,11568.2,20200117
+2019,8,Charles,A,All Charles Schools,Middle,15.8,996,9.4,591,6.4,405,6297.1,20200117
+2019,8,Charles,A,All Charles Schools,All,19.4,5126,11,2897,8.4,2229,26386.6,20200117
+2019,8,Charles,A,All Charles Schools,High,22.8,1947,12,1020,10.9,927,8521.3,20200117
+2019,9,Dorchester,205,Warwick Elementary School,Elementary,16.5,54,9.5,31,7,23,326.3,20200117
+2019,9,Dorchester,207,North Dorchester High School,High,13,65,7.2,36,5.8,29,498.3,20200117
+2019,9,Dorchester,208,North Dorchester Middle School,Middle,19.7,95,9.6,46,10.2,49,481.1,20200117
+2019,9,Dorchester,302,Vienna Elementary School,Elementary,14.8,24,9.2,15,5.5,9,162.7,20200117
+2019,9,Dorchester,508,South Dorchester School,Elementary,13.8,19,8,11,5.8,8,137.8,20200117
+2019,9,Dorchester,508,South Dorchester School,Middle,7.9,5,6.3,4,<= 5.0,*,63.2,20200117
+2019,9,Dorchester,508,South Dorchester School,All,11.9,24,7.5,15,<= 5.0,*,201,20200117
+2019,9,Dorchester,707,Mace's Lane Middle School,Middle,23.4,129,11.8,65,11.6,64,552.2,20200117
+2019,9,Dorchester,710,Sandy Hill Elementary School,Elementary,31.2,118,17.4,66,13.7,52,378.8,20200117
+2019,9,Dorchester,711,Maple Elementary School,Elementary,23.9,99,10.6,44,13.3,55,414.3,20200117
+2019,9,Dorchester,713,Cambridge-South Dorchester High School,High,20.3,162,8.9,71,11.4,91,798.5,20200117
+2019,9,Dorchester,716,Choptank Elementary School,Elementary,24,83,12.4,43,11.6,40,345.9,20200117
+2019,9,Dorchester,1503,Hurlock Elementary School,Elementary,25.8,95,14.4,53,11.4,42,368.9,20200117
+2019,9,Dorchester,A,All Dorchester Schools,Elementary,23,492,12.3,263,10.7,229,2134.7,20200117
+2019,9,Dorchester,A,All Dorchester Schools,Middle,20.9,229,10.5,115,10.4,114,1096.4,20200117
+2019,9,Dorchester,A,All Dorchester Schools,High,17.5,227,8.3,107,9.3,120,1296.8,20200117
+2019,9,Dorchester,A,All Dorchester Schools,All,20.9,948,10.7,485,10.2,463,4527.9,20200117
+2019,10,Frederick,108,Carroll Manor Elementary,Elementary,7,37,<= 5.0,*,<= 5.0,*,528.2,20200117
+2019,10,Frederick,109,Tuscarora Elementary,Elementary,18.2,122,10.9,73,7.3,49,671.6,20200117
+2019,10,Frederick,201,Parkway Elementary,Elementary,22.4,49,10.5,23,11.9,26,218.9,20200117
+2019,10,Frederick,204,Lincoln Elementary,Elementary,21.4,113,12.5,66,8.9,47,528.2,20200117
+2019,10,Frederick,206,Heather Ridge Middle School,Middle,>= 95.0,*,>= 95.0,*,43.2,8,18.5,20200117
+2019,10,Frederick,208,Heather Ridge High School,High,>= 95.0,*,>= 95.0,*,93.7,43,45.9,20200117
+2019,10,Frederick,209,Frederick High,High,18.7,265,10.4,147,8.3,118,1416.6,20200117
+2019,10,Frederick,210,North Frederick Elementary,Elementary,17,104,9,55,8,49,611.1,20200117
+2019,10,Frederick,211,West Frederick Middle,Middle,17.6,151,10,86,7.6,65,857.3,20200117
+2019,10,Frederick,213,Gov. Thomas Johnson High,High,16.7,278,6.6,110,10.1,168,1668.6,20200117
+2019,10,Frederick,219,Monocacy Middle,Middle,15.5,139,8.1,73,7.4,66,897.7,20200117
+2019,10,Frederick,222,Monocacy Elementary,Elementary,14.3,81,6.9,39,7.4,42,565.7,20200117
+2019,10,Frederick,223,Ballenger Creek Elementary,Elementary,16,99,9.6,59,6.5,40,617,20200117
+2019,10,Frederick,225,Gov. Thomas Johnson Middle,Middle,8.7,45,5.4,28,<= 5.0,*,515.9,20200117
+2019,10,Frederick,226,Monocacy Valley Montessori School,Elementary,8.1,15,<= 5.0,*,6,11,184.1,20200117
+2019,10,Frederick,226,Monocacy Valley Montessori School,Middle,7.6,6,<= 5.0,*,5.1,4,78.8,20200117
+2019,10,Frederick,226,Monocacy Valley Montessori School,All,8,21,<= 5.0,*,5.7,15,262.9,20200117
+2019,10,Frederick,227,Crestwood Middle,Middle,17.1,112,9.3,61,7.8,51,655.5,20200117
+2019,10,Frederick,228,Carroll Creek Montessori Public Charter School,Elementary,6.2,11,<= 5.0,*,<= 5.0,*,178.8,20200117
+2019,10,Frederick,228,Carroll Creek Montessori Public Charter School,Middle,12.8,11,<= 5.0,*,8.1,7,86.1,20200117
+2019,10,Frederick,228,Carroll Creek Montessori Public Charter School,All,8.3,22,<= 5.0,*,<= 5.0,*,264.9,20200117
+2019,10,Frederick,303,Middletown Elementary,Elementary,5.3,25,<= 5.0,*,<= 5.0,*,467.6,20200117
+2019,10,Frederick,311,Middletown Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,313,Middletown High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,314,Middletown Primary,Elementary,6.1,27,<= 5.0,*,<= 5.0,*,443,20200117
+2019,10,Frederick,503,Emmitsburg Elementary,Elementary,15.3,35,8.3,19,7,16,229.5,20200117
+2019,10,Frederick,603,Wolfsville Elementary,Elementary,7.1,10,5.7,8,<= 5.0,*,140.2,20200117
+2019,10,Frederick,702,Urbana Elementary,Elementary,7.1,52,<= 5.0,*,<= 5.0,*,737.1,20200117
+2019,10,Frederick,713,Urbana High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,714,Windsor Knolls Middle,Middle,5.1,38,<= 5.0,*,<= 5.0,*,749.8,20200117
+2019,10,Frederick,715,Centerville Elementary,Elementary,5.6,52,<= 5.0,*,<= 5.0,*,933.4,20200117
+2019,10,Frederick,716,Urbana Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,801,Liberty Elementary,Elementary,6,16,<= 5.0,*,<= 5.0,*,266.7,20200117
+2019,10,Frederick,903,New Market Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,912,Linganore High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,913,Green Valley Elementary,Elementary,11.6,61,8.9,47,<= 5.0,*,527.6,20200117
+2019,10,Frederick,914,New Market Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,915,Kemptown Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,916,Spring Ridge Elementary,Elementary,12.7,53,7.2,30,5.5,23,418.8,20200117
+2019,10,Frederick,917,Deer Crossing Elementary,Elementary,7.9,63,<= 5.0,*,<= 5.0,*,800.8,20200117
+2019,10,Frederick,918,Oakdale Middle,Middle,6,47,<= 5.0,*,<= 5.0,*,782.7,20200117
+2019,10,Frederick,919,Oakdale Elementary,Elementary,11.7,82,8.7,61,<= 5.0,*,700.5,20200117
+2019,10,Frederick,920,Oakdale High,High,5.1,64,<= 5.0,*,<= 5.0,*,1253.5,20200117
+2019,10,Frederick,1001,Sabillasville Elementary,Elementary,12.2,12,5.1,5,7.1,7,98.2,20200117
+2019,10,Frederick,1105,New Midway/Woodsboro Elementary,Elementary,10.5,29,<= 5.0,*,6.9,19,276.1,20200117
+2019,10,Frederick,1301,Frederick Classical Charter School,Elementary,13.8,34,5.3,13,8.5,21,245.7,20200117
+2019,10,Frederick,1301,Frederick Classical Charter School,Middle,18,22,7.4,9,10.7,13,122,20200117
+2019,10,Frederick,1301,Frederick Classical Charter School,All,15.2,56,6,22,9.2,34,367.7,20200117
+2019,10,Frederick,1406,Valley Elementary,Elementary,5.8,28,<= 5.0,*,<= 5.0,*,478.8,20200117
+2019,10,Frederick,1503,Thurmont Elementary,Elementary,6,18,<= 5.0,*,<= 5.0,*,300.5,20200117
+2019,10,Frederick,1509,Catoctin High,High,7.4,55,<= 5.0,*,5.2,39,747.2,20200117
+2019,10,Frederick,1510,Thurmont Middle,Middle,9.3,52,<= 5.0,*,5.7,32,558.3,20200117
+2019,10,Frederick,1511,Thurmont Primary,Elementary,10.9,33,<= 5.0,*,7,21,301.5,20200117
+2019,10,Frederick,1604,Myersville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,1801,Twin Ridge Elementary,Elementary,7,32,<= 5.0,*,<= 5.0,*,455.2,20200117
+2019,10,Frederick,2001,Lewistown Elementary,Elementary,14.2,24,7.7,13,6.5,11,168.7,20200117
+2019,10,Frederick,2103,Yellow Springs Elementary,Elementary,9.5,44,6,28,<= 5.0,*,463.4,20200117
+2019,10,Frederick,2107,Whittier Elementary,Elementary,10.6,65,5.2,32,5.4,33,610.4,20200117
+2019,10,Frederick,2302,Hillcrest Elementary,Elementary,23.5,138,16,94,7.5,44,586.9,20200117
+2019,10,Frederick,2305,Ballenger Creek Middle,Middle,12.9,108,5.7,48,7.2,60,835.7,20200117
+2019,10,Frederick,2306,Orchard Grove Elementary,Elementary,17.5,95,8.8,48,8.6,47,543.5,20200117
+2019,10,Frederick,2307,Tuscarora High,High,11.3,178,<= 5.0,*,6.5,102,1570.1,20200117
+2019,10,Frederick,2308,Butterfly Ridge Elementary,Elementary,22.9,130,13.4,76,9.5,54,568,20200117
+2019,10,Frederick,2403,Waverley Elementary,Elementary,30.2,136,18.9,85,11.3,51,449.8,20200117
+2019,10,Frederick,2404,Rock Creek School,Elementary,13.3,2,6.6,1,6.6,1,15.1,20200117
+2019,10,Frederick,2404,Rock Creek School,Middle,14.1,3,<= 5.0,*,9.4,2,21.3,20200117
+2019,10,Frederick,2404,Rock Creek School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,10,Frederick,2404,Rock Creek School,All,8.7,6,<= 5.0,*,5.8,4,69.3,20200117
+2019,10,Frederick,2503,Brunswick High,High,9.4,70,<= 5.0,*,<= 5.0,*,741.3,20200117
+2019,10,Frederick,2504,Brunswick Elementary,Elementary,11.7,77,6.2,41,5.5,36,660.3,20200117
+2019,10,Frederick,2525,Brunswick Middle,Middle,7.4,45,<= 5.0,*,<= 5.0,*,605.9,20200117
+2019,10,Frederick,2606,Walkersville Middle,Middle,7.1,63,<= 5.0,*,<= 5.0,*,892.6,20200117
+2019,10,Frederick,2607,Walkersville Elementary,Elementary,14.4,95,6.6,44,7.7,51,661.7,20200117
+2019,10,Frederick,2610,Walkersville High,High,6,69,<= 5.0,*,<= 5.0,*,1145.4,20200117
+2019,10,Frederick,2611,Glade Elementary,Elementary,5.3,31,<= 5.0,*,<= 5.0,*,580.8,20200117
+2019,10,Frederick,A,All Frederick Schools,Elementary,11.7,2183,6.7,1256,<= 5.0,*,18698.1,20200117
+2019,10,Frederick,A,All Frederick Schools,Middle,9.8,983,5.3,533,<= 5.0,*,10022.5,20200117
+2019,10,Frederick,A,All Frederick Schools,All,10.6,4396,5.7,2360,<= 5.0,*,41582.7,20200117
+2019,10,Frederick,A,All Frederick Schools,High,9.6,1230,<= 5.0,*,5.1,659,12862.1,20200117
+2019,11,Garrett,202,Friendsville Elementary,Elementary,8.8,11,<= 5.0,*,<= 5.0,*,125.5,20200117
+2019,11,Garrett,301,Grantsville Elementary,Elementary,11.1,19,5.9,10,5.3,9,170.5,20200117
+2019,11,Garrett,501,Accident Elementary,Elementary,9.7,23,5.9,14,<= 5.0,*,238.3,20200117
+2019,11,Garrett,511,Northern Middle School,Middle,7.4,26,<= 5.0,*,<= 5.0,*,350.1,20200117
+2019,11,Garrett,512,Northern Garrett High School,High,11.9,52,5.3,23,6.7,29,435.3,20200117
+2019,11,Garrett,707,Broad Ford Elementary,Elementary,9.4,48,5.1,26,<= 5.0,*,509.7,20200117
+2019,11,Garrett,708,Southern Middle School,Middle,6.6,35,<= 5.0,*,<= 5.0,*,531.2,20200117
+2019,11,Garrett,709,Southern Garrett High School,High,9.4,66,<= 5.0,*,6.1,43,705.2,20200117
+2019,11,Garrett,710,Yough Glades Elementary,Elementary,8.5,24,<= 5.0,*,<= 5.0,*,282.4,20200117
+2019,11,Garrett,812,Swan Meadow School,Elementary,19.3,7,16.5,6,<= 5.0,*,36.3,20200117
+2019,11,Garrett,812,Swan Meadow School,Middle,6.6,1,6.6,1,<= 5.0,*,15.1,20200117
+2019,11,Garrett,812,Swan Meadow School,All,15.6,8,13.6,7,<= 5.0,*,51.4,20200117
+2019,11,Garrett,904,Route 40 Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,11,Garrett,1408,Crellin Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,11,Garrett,A,All Garrett Schools,Elementary,8.8,142,<= 5.0,*,<= 5.0,*,1620.3,20200117
+2019,11,Garrett,A,All Garrett Schools,Middle,6.9,62,<= 5.0,*,<= 5.0,*,896.4,20200117
+2019,11,Garrett,A,All Garrett Schools,All,8.8,322,<= 5.0,*,<= 5.0,*,3657.2,20200117
+2019,11,Garrett,A,All Garrett Schools,High,10.3,118,<= 5.0,*,6.3,72,1140.6,20200117
+2019,12,Harford,113,William S. James Elementary,Elementary,7.1,32,5.5,25,<= 5.0,*,452.7,20200117
+2019,12,Harford,115,Edgewood Elementary,Elementary,35,101,17.3,50,17.7,51,288.4,20200117
+2019,12,Harford,120,Deerfield Elementary,Elementary,21.2,149,11.3,79,10,70,701.5,20200117
+2019,12,Harford,121,Emmorton Elementary,Elementary,10.3,64,6.6,41,<= 5.0,*,622.6,20200117
+2019,12,Harford,123,Abingdon Elementary,Elementary,15.2,111,8.2,60,7,51,730.7,20200117
+2019,12,Harford,125,Church Creek Elementary,Elementary,16.4,114,8.6,60,7.8,54,695.9,20200117
+2019,12,Harford,131,Magnolia Elementary,Elementary,21.2,109,12.1,62,9.1,47,513.9,20200117
+2019,12,Harford,137,Joppatowne Elementary,Elementary,15.1,84,7.4,41,7.8,43,554.5,20200117
+2019,12,Harford,140,William Paca/Old Post Road Elementary,Elementary,33,240,21.7,158,11.3,82,727.5,20200117
+2019,12,Harford,143,Riverside Elementary,Elementary,18.1,81,9.2,41,8.9,40,447.5,20200117
+2019,12,Harford,176,Edgewood High,High,19.4,265,8.3,113,11.1,152,1364.2,20200117
+2019,12,Harford,177,Edgewood Middle,Middle,18.7,208,10.2,114,8.4,94,1114.4,20200117
+2019,12,Harford,181,Joppatowne High,High,26.1,193,12.3,91,13.8,102,739,20200117
+2019,12,Harford,184,Magnolia Middle,Middle,21.1,162,12.5,96,8.6,66,769.5,20200117
+2019,12,Harford,187,Patterson Mill High School,High,7.7,63,<= 5.0,*,<= 5.0,*,815.1,20200117
+2019,12,Harford,188,Patterson Mill Middle School,Middle,6.2,46,<= 5.0,*,<= 5.0,*,738.4,20200117
+2019,12,Harford,211,G. Lisby Elementary at Hillsdale,Elementary,27.3,99,12.7,46,14.6,53,363.3,20200117
+2019,12,Harford,212,Bakerfield Elementary,Elementary,23.3,91,14.1,55,9.2,36,389.8,20200117
+2019,12,Harford,230,Halls Cross Roads Elementary,Elementary,25.1,105,12.5,52,12.7,53,417.6,20200117
+2019,12,Harford,265,Aberdeen Middle,Middle,20.3,232,10.7,123,9.5,109,1145,20200117
+2019,12,Harford,270,Aberdeen High,High,25.5,361,10.6,150,14.9,211,1418.5,20200117
+2019,12,Harford,292,Center for Educational Opportunity,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,12,Harford,292,Center for Educational Opportunity,High,>= 95.0,*,>= 95.0,*,72.6,62,85.4,20200117
+2019,12,Harford,292,Center for Educational Opportunity,All,>= 95.0,*,>= 95.0,*,82,85,103.6,20200117
+2019,12,Harford,304,Harford Technical High,High,6.8,68,<= 5.0,*,<= 5.0,*,1004.3,20200117
+2019,12,Harford,314,Bel Air Elementary,Elementary,17.6,84,10,48,7.5,36,478.3,20200117
+2019,12,Harford,316,Churchville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,12,Harford,326,Forest Hill Elementary,Elementary,5.5,28,<= 5.0,*,<= 5.0,*,506.2,20200117
+2019,12,Harford,327,Fountain Green Elementary,Elementary,6.2,31,<= 5.0,*,<= 5.0,*,499.7,20200117
+2019,12,Harford,328,Forest Lakes Elementary,Elementary,6.3,27,<= 5.0,*,<= 5.0,*,429.6,20200117
+2019,12,Harford,329,Prospect Mill Elementary,Elementary,14,76,8.5,46,5.5,30,541.3,20200117
+2019,12,Harford,333,Hickory Elementary,Elementary,7.6,51,5.4,36,<= 5.0,*,672.7,20200117
+2019,12,Harford,335,Homestead/Wakefield Elementary,Elementary,7.8,74,<= 5.0,*,<= 5.0,*,944.5,20200117
+2019,12,Harford,345,Ring Factory Elementary,Elementary,6.1,32,<= 5.0,*,<= 5.0,*,521.7,20200117
+2019,12,Harford,348,Youths Benefit Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,12,Harford,349,Red Pump Elementary School,Elementary,5.7,43,<= 5.0,*,<= 5.0,*,755.7,20200117
+2019,12,Harford,372,Bel Air Middle,Middle,7.2,100,<= 5.0,*,<= 5.0,*,1380.7,20200117
+2019,12,Harford,373,Bel Air High,High,7,107,<= 5.0,*,<= 5.0,*,1533.1,20200117
+2019,12,Harford,374,Southampton Middle,Middle,5.3,65,<= 5.0,*,<= 5.0,*,1226.1,20200117
+2019,12,Harford,382,Fallston High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,12,Harford,385,C. Milton Wright High,High,7.3,103,<= 5.0,*,<= 5.0,*,1403.7,20200117
+2019,12,Harford,386,Fallston Middle School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,12,Harford,391,John Archer School,Elementary,5.8,2,5.8,2,<= 5.0,*,34.3,20200117
+2019,12,Harford,391,John Archer School,Middle,30.3,5,18.2,3,12.1,2,16.5,20200117
+2019,12,Harford,391,John Archer School,All,17.2,20,8.6,10,8.6,10,116.5,20200117
+2019,12,Harford,391,John Archer School,High,19.8,13,7.6,5,12.2,8,65.7,20200117
+2019,12,Harford,436,Jarrettsville Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,12,Harford,441,Norrisville Elementary,Elementary,7.1,15,<= 5.0,*,<= 5.0,*,212.4,20200117
+2019,12,Harford,447,North Bend Elementary,Elementary,7.9,25,<= 5.0,*,<= 5.0,*,316.8,20200117
+2019,12,Harford,518,Darlington Elementary,Elementary,13.1,14,8.4,9,<= 5.0,*,106.6,20200117
+2019,12,Harford,522,Dublin Elementary,Elementary,15.2,32,7.6,16,7.6,16,210,20200117
+2019,12,Harford,544,North Harford Elementary,Elementary,8.6,30,6,21,<= 5.0,*,348.5,20200117
+2019,12,Harford,580,North Harford High,High,7.3,88,<= 5.0,*,<= 5.0,*,1202.8,20200117
+2019,12,Harford,583,North Harford Middle,Middle,6.6,60,<= 5.0,*,<= 5.0,*,906.7,20200117
+2019,12,Harford,632,Havre de Grace Elementary,Elementary,20,97,11.2,54,8.9,43,484.2,20200117
+2019,12,Harford,638,Meadowvale Elementary,Elementary,10.5,52,6.3,31,<= 5.0,*,495.1,20200117
+2019,12,Harford,639,Roye-Williams Elementary,Elementary,21.5,103,12.9,62,8.6,41,479.2,20200117
+2019,12,Harford,678,Havre de Grace High,High,21.4,136,11,70,10.4,66,636.3,20200117
+2019,12,Harford,679,Havre de Grace Middle,Middle,16.9,95,8.4,47,8.5,48,562,20200117
+2019,12,Harford,A,All Harford Schools,Elementary,13.5,2271,7.7,1300,5.8,971,16796.7,20200117
+2019,12,Harford,A,All Harford Schools,Middle,12.2,1080,6.9,610,5.3,470,8825.5,20200117
+2019,12,Harford,A,All Harford Schools,High,14.5,1626,6.6,741,7.9,885,11248.6,20200117
+2019,12,Harford,A,All Harford Schools,All,13.5,4977,7.2,2651,6.3,2326,36870.8,20200117
+2019,13,Howard,80,Homewood School,Middle,>= 95.0,*,70.6,16,26.5,6,22.7,20200117
+2019,13,Howard,80,Homewood School,All,>= 95.0,*,55.8,76,46.3,63,136.1,20200117
+2019,13,Howard,80,Homewood School,High,>= 95.0,*,52.9,60,50.3,57,113.4,20200117
+2019,13,Howard,101,Elkridge Elementary,Elementary,9.8,86,5.8,51,<= 5.0,*,874.4,20200117
+2019,13,Howard,103,Deep Run Elementary,Elementary,21.1,143,12,81,9.2,62,677.3,20200117
+2019,13,Howard,104,Mayfield Woods Middle,Middle,14.2,103,8,58,6.2,45,726.9,20200117
+2019,13,Howard,105,Rockburn Elementary,Elementary,6.9,40,<= 5.0,*,<= 5.0,*,580.1,20200117
+2019,13,Howard,106,Elkridge Landing Middle,Middle,7.1,53,<= 5.0,*,<= 5.0,*,748.4,20200117
+2019,13,Howard,107,Ilchester Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,108,Bonnie Branch Middle,Middle,10.1,75,<= 5.0,*,5.8,43,741.5,20200117
+2019,13,Howard,109,Ducketts Lane Elementary,Elementary,17.6,99,9.4,53,8.2,46,564.1,20200117
+2019,13,Howard,110,Thomas Viaduct Middle,Middle,21.3,139,10.9,71,10.4,68,652.2,20200117
+2019,13,Howard,111,Hanover Hills Elementary,Elementary,26.8,176,14.6,96,12.2,80,655.5,20200117
+2019,13,Howard,202,Ellicott Mills Middle,Middle,6.4,56,<= 5.0,*,<= 5.0,*,871.2,20200117
+2019,13,Howard,203,Howard High,High,5.7,108,<= 5.0,*,<= 5.0,*,1890,20200117
+2019,13,Howard,204,St. Johns Lane Elementary,Elementary,14.2,102,6.1,44,8.1,58,718.8,20200117
+2019,13,Howard,207,Mount Hebron High,High,7.3,119,<= 5.0,*,<= 5.0,*,1628.8,20200117
+2019,13,Howard,208,Northfield Elementary,Elementary,8.5,63,<= 5.0,*,<= 5.0,*,744.9,20200117
+2019,13,Howard,209,Patapsco Middle,Middle,8.8,63,<= 5.0,*,<= 5.0,*,712.5,20200117
+2019,13,Howard,210,Centennial Lane Elementary,Elementary,13.3,98,6.7,49,6.7,49,736.4,20200117
+2019,13,Howard,211,Dunloggin Middle,Middle,12.3,81,6.2,41,6.1,40,660.2,20200117
+2019,13,Howard,213,Worthington Elementary,Elementary,8.2,39,<= 5.0,*,<= 5.0,*,476.8,20200117
+2019,13,Howard,214,Centennial High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,215,Waverly Elementary,Elementary,7.1,60,<= 5.0,*,<= 5.0,*,844.8,20200117
+2019,13,Howard,216,Burleigh Manor Middle School,Middle,6.3,51,<= 5.0,*,<= 5.0,*,812.9,20200117
+2019,13,Howard,217,Hollifield Station Elementary,Elementary,26.4,233,13.9,123,12.5,110,882,20200117
+2019,13,Howard,218,Bellows Spring Elementary,Elementary,15.5,113,8.5,62,7,51,729.4,20200117
+2019,13,Howard,219,Veterans Elementary,Elementary,21.8,190,12.4,108,9.4,82,870.7,20200117
+2019,13,Howard,302,West Friendship Elementary,Elementary,6,24,<= 5.0,*,<= 5.0,*,401.1,20200117
+2019,13,Howard,304,Mount View Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,305,Manor Woods Elementary,Elementary,16.1,106,9.9,65,6.2,41,658.8,20200117
+2019,13,Howard,306,Triadelphia Ridge Elementary,Elementary,7.9,45,<= 5.0,*,<= 5.0,*,567.6,20200117
+2019,13,Howard,307,Folly Quarter Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,308,Marriotts Ridge High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,404,Glenelg High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,405,Glenwood Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,406,Bushy Park Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,407,Lisbon Elementary,Elementary,5.3,24,<= 5.0,*,<= 5.0,*,452.1,20200117
+2019,13,Howard,505,Clarksville Elementary,Elementary,7,30,5.6,24,<= 5.0,*,426.9,20200117
+2019,13,Howard,509,Atholton High,High,5.2,78,<= 5.0,*,<= 5.0,*,1499.7,20200117
+2019,13,Howard,510,Bryant Woods Elementary,Elementary,16.8,70,8.6,36,8.2,34,416.9,20200117
+2019,13,Howard,512,Wilde Lake Middle,Middle,16.1,101,8.6,54,7.5,47,625.6,20200117
+2019,13,Howard,514,Longfellow Elementary,Elementary,16.8,70,8.9,37,7.9,33,417.3,20200117
+2019,13,Howard,515,Running Brook Elementary,Elementary,24.9,112,14,63,10.9,49,449.7,20200117
+2019,13,Howard,516,Wilde Lake High,High,15.9,203,8.2,104,7.8,99,1274.3,20200117
+2019,13,Howard,517,Swansfield Elementary,Elementary,18.4,106,9.9,57,8.5,49,576.5,20200117
+2019,13,Howard,518,Harpers Choice Middle,Middle,13.5,68,7.5,38,5.9,30,505.4,20200117
+2019,13,Howard,520,Clemens Crossing Elementary,Elementary,8,39,<= 5.0,*,<= 5.0,*,490,20200117
+2019,13,Howard,521,Clarksville Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,522,Cedar Lane Special Center,Elementary,20.6,7,14.7,5,5.9,2,34.1,20200117
+2019,13,Howard,522,Cedar Lane Special Center,Middle,25.1,6,20.9,5,<= 5.0,*,23.9,20200117
+2019,13,Howard,522,Cedar Lane Special Center,All,21,22,15.3,16,5.7,6,104.7,20200117
+2019,13,Howard,522,Cedar Lane Special Center,High,19.3,9,12.8,6,6.4,3,46.7,20200117
+2019,13,Howard,523,Pointers Run Elementary,Elementary,8.8,77,5.1,45,<= 5.0,*,875,20200117
+2019,13,Howard,524,River Hill High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,525,Fulton Elementary,Elementary,8.9,84,6.4,60,<= 5.0,*,938.8,20200117
+2019,13,Howard,526,Lime Kiln Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,527,Reservoir High,High,8.8,139,<= 5.0,*,<= 5.0,*,1578,20200117
+2019,13,Howard,528,Dayton Oaks Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,13,Howard,602,Guilford Elementary,Elementary,20.4,84,13.8,57,6.6,27,411.8,20200117
+2019,13,Howard,603,Atholton Elementary,Elementary,7.9,35,<= 5.0,*,<= 5.0,*,444,20200117
+2019,13,Howard,604,Waterloo Elementary,Elementary,12.5,71,6.7,38,5.8,33,566.5,20200117
+2019,13,Howard,605,Thunder Hill Elementary,Elementary,17.4,89,7.6,39,9.8,50,511.8,20200117
+2019,13,Howard,606,Hammond Elementary,Elementary,8.5,53,<= 5.0,*,<= 5.0,*,623.4,20200117
+2019,13,Howard,607,Hammond Middle School,Middle,8,46,<= 5.0,*,<= 5.0,*,574.4,20200117
+2019,13,Howard,608,Stevens Forest Elementary,Elementary,24.6,95,14.8,57,9.8,38,385.8,20200117
+2019,13,Howard,609,Talbott Springs Elementary,Elementary,14.8,69,7.1,33,7.7,36,467.6,20200117
+2019,13,Howard,610,Oakland Mills Middle,Middle,13.8,71,6.8,35,7,36,512.6,20200117
+2019,13,Howard,611,Oakland Mills High,High,18.8,226,8.8,106,10,120,1200.8,20200117
+2019,13,Howard,612,Phelps Luck Elementary,Elementary,19.9,107,11.1,60,8.7,47,538.6,20200117
+2019,13,Howard,613,Jeffers Hill Elementary,Elementary,13.3,55,9.5,39,<= 5.0,*,412.4,20200117
+2019,13,Howard,616,Cradlerock Elementary,Elementary,24.1,116,15,72,9.1,44,481.2,20200117
+2019,13,Howard,617,Lake Elkhorn Middle,Middle,19.1,112,11.1,65,8,47,585.5,20200117
+2019,13,Howard,618,Laurel Woods Elementary,Elementary,23.2,134,13.7,79,9.5,55,576.7,20200117
+2019,13,Howard,619,Hammond High,High,15.5,209,7.8,105,7.7,104,1352.4,20200117
+2019,13,Howard,620,Bollman Bridge Elementary,Elementary,23.4,157,13.7,92,9.7,65,670.2,20200117
+2019,13,Howard,621,Patuxent Valley Middle,Middle,11.2,77,5.9,41,5.2,36,689.7,20200117
+2019,13,Howard,622,Forest Ridge Elementary,Elementary,12,82,7,48,<= 5.0,*,682.4,20200117
+2019,13,Howard,623,Long Reach High,High,19.6,303,9.9,153,9.7,150,1543.2,20200117
+2019,13,Howard,624,Murray Hill Middle,Middle,13.9,100,8,58,5.8,42,720.5,20200117
+2019,13,Howard,625,Gorman Crossing Elementary,Elementary,12.2,99,6.4,52,5.8,47,811.4,20200117
+2019,13,Howard,A,All Howard Schools,Elementary,13.9,3557,7.9,2016,6,1541,25506.9,20200117
+2019,13,Howard,A,All Howard Schools,Middle,10.1,1357,5.5,748,<= 5.0,*,13490.1,20200117
+2019,13,Howard,A,All Howard Schools,High,9.6,1693,<= 5.0,*,<= 5.0,*,17699.5,20200117
+2019,13,Howard,A,All Howard Schools,All,11.7,6607,6.4,3615,5.3,2992,56696.5,20200117
+2019,14,Kent,105,Galena Elementary School,Elementary,8.1,25,<= 5.0,*,5.5,17,308,20200117
+2019,14,Kent,301,Kent County High,High,11.2,63,5.2,29,6.1,34,560.3,20200117
+2019,14,Kent,402,Kent County Middle School,Middle,10.5,44,6,25,<= 5.0,*,419.6,20200117
+2019,14,Kent,403,H. H. Garnett Elementary,Elementary,18.1,57,10.2,32,7.9,25,314.6,20200117
+2019,14,Kent,504,Rock Hall Elementary,Elementary,14.3,29,7.4,15,6.9,14,202.7,20200117
+2019,14,Kent,A,All Kent Schools,Elementary,13.4,111,6.7,55,6.8,56,825.3,20200117
+2019,14,Kent,A,All Kent Schools,Middle,10.5,44,6,25,<= 5.0,*,419.6,20200117
+2019,14,Kent,A,All Kent Schools,High,11.2,63,5.2,29,6.1,34,560.3,20200117
+2019,14,Kent,A,All Kent Schools,All,12.1,218,6,109,6,109,1805.3,20200117
+2019,15,Montgomery,51,Laytonsville Elementary,Elementary,8.3,32,<= 5.0,*,<= 5.0,*,386.9,20200117
+2019,15,Montgomery,100,Clopper Mill Elementary,Elementary,23.9,114,11.5,55,12.4,59,477.4,20200117
+2019,15,Montgomery,101,Clarksburg Elementary,Elementary,17.9,99,12.1,67,5.8,32,551.6,20200117
+2019,15,Montgomery,102,Germantown Elementary,Elementary,10.4,31,6.4,19,<= 5.0,*,296.9,20200117
+2019,15,Montgomery,104,Seneca Valley High,High,17.9,210,8.9,105,8.9,105,1174.4,20200117
+2019,15,Montgomery,105,Ridgeview Middle,Middle,11.8,89,7.4,56,<= 5.0,*,752.2,20200117
+2019,15,Montgomery,106,Fox Chapel Elementary,Elementary,21.9,122,10.6,59,11.3,63,556.8,20200117
+2019,15,Montgomery,107,Martin Luther King Jr. Middle,Middle,15.8,104,8.7,57,7.1,47,658.6,20200117
+2019,15,Montgomery,108,Lake Seneca Elementary,Elementary,27.4,117,14.3,61,13.1,56,426.3,20200117
+2019,15,Montgomery,109,Waters Landing Elementary,Elementary,19.7,133,10.5,71,9.2,62,676,20200117
+2019,15,Montgomery,110,S. Christa McAuliffe Elementary,Elementary,15.4,84,7.5,41,7.9,43,544.9,20200117
+2019,15,Montgomery,111,Captain James E. Daly Elementary,Elementary,21.2,117,14.1,78,7.1,39,551.5,20200117
+2019,15,Montgomery,115,Neelsville Middle,Middle,17.9,169,9.1,86,8.8,83,945.4,20200117
+2019,15,Montgomery,125,Quince Orchard High,High,10,209,5.3,112,<= 5.0,*,2099.6,20200117
+2019,15,Montgomery,152,Poolesville High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,153,Poolesville Elementary,Elementary,9.1,44,6.2,30,<= 5.0,*,482.1,20200117
+2019,15,Montgomery,155,Rosa M. Parks Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,156,Lois P. Rockwell Elementary,Elementary,8.7,35,5.2,21,<= 5.0,*,401.2,20200117
+2019,15,Montgomery,157,Roberto W. Clemente Middle,Middle,11.6,151,5.9,77,5.7,74,1301.3,20200117
+2019,15,Montgomery,158,Ronald A. McNair Elementary,Elementary,10.4,87,6,50,<= 5.0,*,836.9,20200117
+2019,15,Montgomery,159,Rachel Carson Elementary,Elementary,7.9,74,<= 5.0,*,<= 5.0,*,941.9,20200117
+2019,15,Montgomery,201,Richard Montgomery High,High,10.8,267,5.2,128,5.6,139,2465.1,20200117
+2019,15,Montgomery,204,Garrett Park Elementary,Elementary,12.2,96,6,47,6.2,49,789.9,20200117
+2019,15,Montgomery,206,Twinbrook Elementary,Elementary,17,90,8.7,46,8.3,44,528.2,20200117
+2019,15,Montgomery,207,Beall Elementary,Elementary,11.7,61,7.5,39,<= 5.0,*,522.1,20200117
+2019,15,Montgomery,209,Lakewood Elementary,Elementary,10.9,53,7.8,38,<= 5.0,*,485.2,20200117
+2019,15,Montgomery,210,Maryvale Elementary,Elementary,10.4,57,5.3,29,5.1,28,549.1,20200117
+2019,15,Montgomery,211,Julius West Middle,Middle,10.1,136,7.2,97,<= 5.0,*,1341.5,20200117
+2019,15,Montgomery,212,Meadow Hall Elementary,Elementary,14.2,61,6.7,29,7.4,32,429.6,20200117
+2019,15,Montgomery,215,Carl Sandburg Center,Elementary,18.1,17,10.7,10,7.5,7,93.8,20200117
+2019,15,Montgomery,216,Travilah Elementary,Elementary,6.4,23,<= 5.0,*,<= 5.0,*,357.9,20200117
+2019,15,Montgomery,219,Farmland Elementary,Elementary,21.7,179,11.7,97,9.9,82,826.2,20200117
+2019,15,Montgomery,220,Luxmanor Elementary,Elementary,17,92,11.5,62,5.6,30,539.9,20200117
+2019,15,Montgomery,226,Beverly Farms Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,227,Ritchie Park Elementary,Elementary,11.1,49,7.5,33,<= 5.0,*,439.5,20200117
+2019,15,Montgomery,228,Herbert Hoover Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,229,College Gardens Elementary,Elementary,9.9,68,6.8,47,<= 5.0,*,686.4,20200117
+2019,15,Montgomery,230,Rockville High,High,10.4,151,5.9,86,<= 5.0,*,1455.2,20200117
+2019,15,Montgomery,232,Tilden Middle,Middle,10.4,104,6.9,69,<= 5.0,*,996.1,20200117
+2019,15,Montgomery,233,Fallsmead Elementary,Elementary,15.1,85,7.5,42,7.7,43,561.4,20200117
+2019,15,Montgomery,234,Thomas S. Wootton High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,235,Wayside Elementary,Elementary,5.8,30,<= 5.0,*,<= 5.0,*,514.3,20200117
+2019,15,Montgomery,237,Robert Frost Middle,Middle,5.4,58,<= 5.0,*,<= 5.0,*,1082.2,20200117
+2019,15,Montgomery,238,Cold Spring Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,239,Alternative Programs,Middle,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,15,Montgomery,239,Alternative Programs,All,>= 95.0,*,>= 95.0,*,81.6,127,155.7,20200117
+2019,15,Montgomery,239,Alternative Programs,High,>= 95.0,*,>= 95.0,*,78.3,113,144.4,20200117
+2019,15,Montgomery,241,DuFief Elementary,Elementary,11.9,38,8.5,27,<= 5.0,*,319.1,20200117
+2019,15,Montgomery,242,Dr. Sally K. Ride Elementary,Elementary,14.8,68,7.6,35,7.2,33,458.2,20200117
+2019,15,Montgomery,244,Thurgood Marshall Elementary,Elementary,16.5,96,7.2,42,9.3,54,583.3,20200117
+2019,15,Montgomery,246,Northwest High,High,9.9,254,<= 5.0,*,5.2,133,2576,20200117
+2019,15,Montgomery,247,John H. Poole Middle,Middle,5.8,23,<= 5.0,*,<= 5.0,*,396.3,20200117
+2019,15,Montgomery,248,Forest Oak Middle,Middle,17.8,155,10.6,92,7.2,63,869.8,20200117
+2019,15,Montgomery,249,Clarksburg High,High,11.1,258,5.6,131,5.5,127,2329.2,20200117
+2019,15,Montgomery,302,Burtonsville Elementary,Elementary,14.4,91,8.7,55,5.7,36,632.4,20200117
+2019,15,Montgomery,303,Fairland Elementary,Elementary,20.8,118,10.8,61,10.1,57,566.4,20200117
+2019,15,Montgomery,304,JoAnn Leleck at Broad Acres Elementary,Elementary,25.5,186,14.2,104,11.2,82,729.9,20200117
+2019,15,Montgomery,305,Jackson Road Elementary,Elementary,19.7,125,10.1,64,9.6,61,634.5,20200117
+2019,15,Montgomery,307,Roscoe R Nix Elementary,Elementary,23.1,103,11.6,52,11.4,51,446.6,20200117
+2019,15,Montgomery,308,Cloverly Elementary,Elementary,6.8,32,<= 5.0,*,<= 5.0,*,472.7,20200117
+2019,15,Montgomery,309,Burnt Mills Elementary,Elementary,22.9,128,11.6,65,11.2,63,560,20200117
+2019,15,Montgomery,310,Cannon Road Elementary,Elementary,14.5,60,8.2,34,6.3,26,413.5,20200117
+2019,15,Montgomery,311,Francis Scott Key Middle,Middle,18.7,184,8.4,83,10.3,101,982.3,20200117
+2019,15,Montgomery,312,William Tyler Page Elementary,Elementary,14.9,77,9.8,51,<= 5.0,*,518.5,20200117
+2019,15,Montgomery,313,Galway Elementary,Elementary,24.2,182,12.2,92,12,90,752.9,20200117
+2019,15,Montgomery,315,Paint Branch High,High,10.5,210,5.2,104,5.3,106,1990.8,20200117
+2019,15,Montgomery,316,Stonegate Elementary,Elementary,8.7,44,<= 5.0,*,<= 5.0,*,507.9,20200117
+2019,15,Montgomery,321,James Hubert Blake High,High,10.5,180,5.4,92,5.1,88,1711.5,20200117
+2019,15,Montgomery,333,Benjamin Banneker Middle,Middle,12.3,105,5.3,45,7,60,851.5,20200117
+2019,15,Montgomery,334,Greencastle Elementary,Elementary,18.4,117,9.7,62,8.6,55,635.9,20200117
+2019,15,Montgomery,335,Briggs Chaney Middle,Middle,12.4,112,7.2,65,5.2,47,904.6,20200117
+2019,15,Montgomery,336,Little Bennett Elementary,Elementary,8.1,50,5.2,32,<= 5.0,*,620.8,20200117
+2019,15,Montgomery,337,"William B. Gibbs, Jr. Elementary",Elementary,20.1,110,8.4,46,11.7,64,547.4,20200117
+2019,15,Montgomery,340,Great Seneca Creek Elementary,Elementary,18.4,112,9.2,56,9.2,56,607.7,20200117
+2019,15,Montgomery,341,Wilson Wims Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,345,Hallie Wells Middle,Middle,6.4,51,<= 5.0,*,<= 5.0,*,794.8,20200117
+2019,15,Montgomery,346,Bayard Rustin Elementary,Elementary,11.2,65,6.9,40,<= 5.0,*,581.6,20200117
+2019,15,Montgomery,351,Darnestown Elementary,Elementary,5.2,16,<= 5.0,*,<= 5.0,*,306.5,20200117
+2019,15,Montgomery,360,Jones Lane Elementary,Elementary,7.9,33,<= 5.0,*,<= 5.0,*,417.5,20200117
+2019,15,Montgomery,401,Bethesda Elementary,Elementary,22,143,11.1,72,10.9,71,649.5,20200117
+2019,15,Montgomery,403,Chevy Chase Elementary,Elementary,7.7,35,<= 5.0,*,<= 5.0,*,451.7,20200117
+2019,15,Montgomery,405,Somerset Elementary,Elementary,10.5,62,7.1,42,<= 5.0,*,593.1,20200117
+2019,15,Montgomery,406,Bethesda-Chevy Chase High,High,8.4,180,<= 5.0,*,<= 5.0,*,2135.6,20200117
+2019,15,Montgomery,408,Westbrook Elementary,Elementary,8,28,6,21,<= 5.0,*,350.5,20200117
+2019,15,Montgomery,410,Bradley Hills Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,412,Westland Middle,Middle,8.6,67,<= 5.0,*,<= 5.0,*,775.2,20200117
+2019,15,Montgomery,413,North Bethesda Middle,Middle,6.8,79,<= 5.0,*,<= 5.0,*,1165.6,20200117
+2019,15,Montgomery,415,North Chevy Chase Elementary,Elementary,7.6,20,5.3,14,<= 5.0,*,264.4,20200117
+2019,15,Montgomery,417,Wood Acres Elementary,Elementary,6.4,40,<= 5.0,*,<= 5.0,*,626.1,20200117
+2019,15,Montgomery,419,Burning Tree Elementary,Elementary,11.5,55,<= 5.0,*,6.5,31,476.5,20200117
+2019,15,Montgomery,420,Bannockburn Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,422,Wyngate Elementary,Elementary,5.6,41,<= 5.0,*,<= 5.0,*,732.1,20200117
+2019,15,Montgomery,424,Walter Johnson High,High,9.3,239,<= 5.0,*,<= 5.0,*,2570.6,20200117
+2019,15,Montgomery,425,Ashburton Elementary,Elementary,11,99,6.8,61,<= 5.0,*,897.5,20200117
+2019,15,Montgomery,427,Walt Whitman High,High,7.4,154,<= 5.0,*,<= 5.0,*,2090.1,20200117
+2019,15,Montgomery,428,Thomas W. Pyle Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,501,Sherwood Elementary,Elementary,7.7,37,<= 5.0,*,<= 5.0,*,483,20200117
+2019,15,Montgomery,502,Olney Elementary,Elementary,7.2,49,<= 5.0,*,<= 5.0,*,682.7,20200117
+2019,15,Montgomery,503,Sherwood High,High,11.1,221,6.2,123,<= 5.0,*,1983.2,20200117
+2019,15,Montgomery,504,Westover Elementary,Elementary,13.2,36,7.3,20,5.9,16,272.7,20200117
+2019,15,Montgomery,505,Lucy V. Barnsley Elementary,Elementary,9.4,68,<= 5.0,*,<= 5.0,*,719.7,20200117
+2019,15,Montgomery,506,Flower Valley Elementary,Elementary,14.4,71,7.9,39,6.5,32,491.5,20200117
+2019,15,Montgomery,507,William H. Farquhar Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,508,Candlewood Elementary,Elementary,8,30,<= 5.0,*,<= 5.0,*,373,20200117
+2019,15,Montgomery,510,Col. Zadok Magruder High,High,12.6,201,6.5,104,6.1,97,1600.5,20200117
+2019,15,Montgomery,511,Cashell Elementary,Elementary,5.7,19,<= 5.0,*,<= 5.0,*,335.6,20200117
+2019,15,Montgomery,512,Greenwood Elementary,Elementary,5.8,30,<= 5.0,*,<= 5.0,*,517.2,20200117
+2019,15,Montgomery,513,Belmont Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,514,Judith A. Resnik Elementary,Elementary,14.4,86,7.8,47,6.5,39,598.8,20200117
+2019,15,Montgomery,517,Sligo Creek Elementary,Elementary,10.6,71,5.5,37,5.1,34,669.1,20200117
+2019,15,Montgomery,518,Brooke Grove Elementary,Elementary,9.1,38,6.2,26,<= 5.0,*,418.7,20200117
+2019,15,Montgomery,521,Shady Grove Middle,Middle,11,69,6.1,38,<= 5.0,*,626.2,20200117
+2019,15,Montgomery,522,Lakelands Park Middle,Middle,9.3,105,<= 5.0,*,<= 5.0,*,1130.4,20200117
+2019,15,Montgomery,523,Spark M. Matsunaga Elementary,Elementary,11.7,86,7.1,52,<= 5.0,*,732.3,20200117
+2019,15,Montgomery,525,MCPS Transitions School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,545,Watkins Mill High,High,21.9,352,10.7,172,11.2,180,1604.2,20200117
+2019,15,Montgomery,546,Goshen Elementary,Elementary,15.4,84,7.5,41,7.9,43,544.8,20200117
+2019,15,Montgomery,549,Flower Hill Elementary,Elementary,21.6,91,11.9,50,9.7,41,421.8,20200117
+2019,15,Montgomery,551,Gaithersburg High,High,19.2,448,9.7,227,9.4,221,2339.3,20200117
+2019,15,Montgomery,552,Washington Grove Elementary,Elementary,19.2,65,8.3,28,10.9,37,339.3,20200117
+2019,15,Montgomery,553,Gaithersburg Elementary,Elementary,29.2,236,17.6,142,11.6,94,808.1,20200117
+2019,15,Montgomery,554,Gaithersburg Middle,Middle,14.7,127,8.4,73,6.2,54,865.4,20200117
+2019,15,Montgomery,555,Rosemont Elementary,Elementary,26.7,153,13.6,78,13.1,75,573,20200117
+2019,15,Montgomery,556,Mill Creek Towne Elementary,Elementary,14.8,65,8.7,38,6.2,27,438.6,20200117
+2019,15,Montgomery,557,Montgomery Village Middle,Middle,14.7,109,7.7,57,7,52,739,20200117
+2019,15,Montgomery,558,Whetstone Elementary,Elementary,17.3,114,9.3,61,8.1,53,658.3,20200117
+2019,15,Montgomery,559,Brown Station Elementary,Elementary,28.8,134,15.3,71,13.5,63,465.3,20200117
+2019,15,Montgomery,561,Watkins Mill Elementary,Elementary,27.6,182,13.6,90,13.9,92,660.1,20200117
+2019,15,Montgomery,562,Redland Middle,Middle,9.1,55,<= 5.0,*,<= 5.0,*,605.8,20200117
+2019,15,Montgomery,563,Summit Hall Elementary,Elementary,22.7,139,12.1,74,10.6,65,611,20200117
+2019,15,Montgomery,564,South Lake Elementary,Elementary,32.6,252,16.4,127,16.1,125,774,20200117
+2019,15,Montgomery,565,Sequoyah Elementary,Elementary,15.9,61,7.6,29,8.4,32,383,20200117
+2019,15,Montgomery,566,Fields Road Elementary,Elementary,16.6,74,9,40,7.6,34,444.7,20200117
+2019,15,Montgomery,568,Stedwick Elementary,Elementary,19.4,103,9.6,51,9.8,52,531.3,20200117
+2019,15,Montgomery,569,Strawberry Knoll Elementary,Elementary,16.5,91,10.9,60,5.6,31,551.7,20200117
+2019,15,Montgomery,570,Diamond Elementary,Elementary,19.7,152,10.5,81,9.2,71,770.9,20200117
+2019,15,Montgomery,601,Potomac Elementary,Elementary,8.7,32,6.8,25,<= 5.0,*,369.8,20200117
+2019,15,Montgomery,602,Winston Churchill High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,603,Seven Locks Elementary,Elementary,5.8,25,<= 5.0,*,<= 5.0,*,430.4,20200117
+2019,15,Montgomery,604,Carderock Springs Elementary,Elementary,6.5,24,5.1,19,<= 5.0,*,369,20200117
+2019,15,Montgomery,606,Cabin John Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,607,Bells Mill Elementary,Elementary,5.8,35,<= 5.0,*,<= 5.0,*,605,20200117
+2019,15,Montgomery,647,Silver Spring International Middle,Middle,10.9,124,6.4,73,<= 5.0,*,1135,20200117
+2019,15,Montgomery,652,Monocacy Elementary,Elementary,12,18,8.6,13,<= 5.0,*,150.3,20200117
+2019,15,Montgomery,653,Stone Mill Elementary,Elementary,7.5,41,<= 5.0,*,<= 5.0,*,545.7,20200117
+2019,15,Montgomery,701,Damascus High,High,8.7,113,<= 5.0,*,5.6,72,1296.6,20200117
+2019,15,Montgomery,702,Damascus Elementary,Elementary,9.2,32,6.9,24,<= 5.0,*,349.2,20200117
+2019,15,Montgomery,703,Cedar Grove Elementary,Elementary,7.9,49,<= 5.0,*,<= 5.0,*,617.4,20200117
+2019,15,Montgomery,704,Woodfield Elementary,Elementary,7.8,20,<= 5.0,*,<= 5.0,*,257.6,20200117
+2019,15,Montgomery,705,John T. Baker Middle,Middle,7,60,<= 5.0,*,<= 5.0,*,852.1,20200117
+2019,15,Montgomery,706,Clearspring Elementary,Elementary,7.8,46,<= 5.0,*,<= 5.0,*,587.1,20200117
+2019,15,Montgomery,707,Rocky Hill Middle,Middle,10.9,92,5.5,47,5.3,45,847.5,20200117
+2019,15,Montgomery,708,Kingsview Middle,Middle,6.8,68,<= 5.0,*,<= 5.0,*,1000.2,20200117
+2019,15,Montgomery,747,Dr. Charles R. Drew Elementary,Elementary,9.9,42,6.2,26,<= 5.0,*,422.7,20200117
+2019,15,Montgomery,749,Piney Branch Elementary,Elementary,9.8,66,<= 5.0,*,5.2,35,673.5,20200117
+2019,15,Montgomery,754,Takoma Park Elementary,Elementary,10.2,65,5.2,33,<= 5.0,*,635.7,20200117
+2019,15,Montgomery,755,Takoma Park Middle,Middle,8.8,98,5.2,58,<= 5.0,*,1113.2,20200117
+2019,15,Montgomery,756,East Silver Spring Elementary,Elementary,15.6,68,6.7,29,9,39,435.4,20200117
+2019,15,Montgomery,757,Montgomery Blair High,High,11,350,5.9,188,5.1,162,3191.1,20200117
+2019,15,Montgomery,761,Pine Crest Elementary,Elementary,13,57,8.2,36,<= 5.0,*,437.7,20200117
+2019,15,Montgomery,764,Woodlin Elementary,Elementary,11.3,65,6.1,35,5.2,30,576.4,20200117
+2019,15,Montgomery,766,Oak View Elementary,Elementary,10.9,47,6.5,28,<= 5.0,*,432.1,20200117
+2019,15,Montgomery,767,Glen Haven Elementary,Elementary,17.2,77,10.9,49,6.2,28,448.9,20200117
+2019,15,Montgomery,769,Oakland Terrace Elementary,Elementary,7.9,35,5.2,23,<= 5.0,*,443.2,20200117
+2019,15,Montgomery,770,Flora M. Singer Elementary,Elementary,9.6,63,5.8,38,<= 5.0,*,654.5,20200117
+2019,15,Montgomery,771,Rolling Terrace Elementary,Elementary,19.5,139,10.1,72,9.4,67,713.1,20200117
+2019,15,Montgomery,772,Viers Mill Elementary,Elementary,19.1,93,11.5,56,7.6,37,488.1,20200117
+2019,15,Montgomery,773,Rock Creek Forest Elementary,Elementary,9.9,70,5.7,40,<= 5.0,*,705.8,20200117
+2019,15,Montgomery,774,Highland Elementary,Elementary,17.9,89,8.9,44,9.1,45,497.2,20200117
+2019,15,Montgomery,775,Eastern Middle,Middle,10.9,107,6.4,63,<= 5.0,*,978.1,20200117
+2019,15,Montgomery,776,Montgomery Knolls Elementary,Elementary,12.5,46,7.3,27,5.2,19,367.7,20200117
+2019,15,Montgomery,777,Weller Road Elementary,Elementary,13.2,80,8.2,50,<= 5.0,*,607.4,20200117
+2019,15,Montgomery,778,Sligo Middle,Middle,13.5,89,7.4,49,6,40,661.4,20200117
+2019,15,Montgomery,779,Sargent Shriver Elementary,Elementary,18,133,9.9,73,8.1,60,737.5,20200117
+2019,15,Montgomery,780,Bel Pre Elementary,Elementary,17.8,88,9.5,47,8.3,41,493.5,20200117
+2019,15,Montgomery,782,Wheaton High,High,11.4,237,6.1,126,5.3,111,2077.5,20200117
+2019,15,Montgomery,783,Kensington Parkwood Elementary,Elementary,6.9,45,<= 5.0,*,<= 5.0,*,651.6,20200117
+2019,15,Montgomery,784,Highland View Elementary,Elementary,13.6,56,6.8,28,6.8,28,413,20200117
+2019,15,Montgomery,786,Georgian Forest Elementary,Elementary,31.5,187,16.9,100,14.7,87,592.7,20200117
+2019,15,Montgomery,787,A. Mario Loiederman Middle,Middle,12.4,123,7,69,5.5,54,988.8,20200117
+2019,15,Montgomery,788,Wheaton Woods Elementary,Elementary,14.8,71,9.4,45,5.4,26,480.3,20200117
+2019,15,Montgomery,789,Albert Einstein High,High,12.8,225,7.1,125,5.7,100,1758.7,20200117
+2019,15,Montgomery,790,Arcola Elementary,Elementary,20.5,141,11.3,78,9.1,63,688.6,20200117
+2019,15,Montgomery,791,New Hampshire Estates Elem,Elementary,22.2,76,13.2,45,9.1,31,341.8,20200117
+2019,15,Montgomery,792,Newport Mill Middle,Middle,13.5,92,7.6,52,5.8,40,683.8,20200117
+2019,15,Montgomery,794,Rosemary Hills Elementary,Elementary,10.7,56,6.7,35,<= 5.0,*,524.5,20200117
+2019,15,Montgomery,795,Rock View Elementary,Elementary,13.7,82,9.9,59,<= 5.0,*,596.6,20200117
+2019,15,Montgomery,796,Northwood High,High,19.8,345,11.4,199,8.4,146,1740.5,20200117
+2019,15,Montgomery,797,Harmony Hills Elementary,Elementary,21,142,13.9,94,7.1,48,676.2,20200117
+2019,15,Montgomery,798,Springbrook High,High,15.2,262,7.6,132,7.5,130,1728.7,20200117
+2019,15,Montgomery,799,Stephen Knolls School,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,799,Stephen Knolls School,Middle,30.1,3,20,2,10,1,10,20200117
+2019,15,Montgomery,799,Stephen Knolls School,All,6.8,3,<= 5.0,*,<= 5.0,*,44,20200117
+2019,15,Montgomery,799,Stephen Knolls School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,803,Forest Knolls Elementary,Elementary,7.7,52,<= 5.0,*,<= 5.0,*,673.5,20200117
+2019,15,Montgomery,805,Kemp Mill Elementary,Elementary,20.5,90,10.7,47,9.8,43,438.8,20200117
+2019,15,Montgomery,807,Brookhaven Elementary,Elementary,13.6,48,8.2,29,5.4,19,352.6,20200117
+2019,15,Montgomery,808,Cresthaven Elementary,Elementary,19,106,9.3,52,9.7,54,556.7,20200117
+2019,15,Montgomery,811,White Oak Middle,Middle,17.4,138,9.1,72,8.3,66,794.2,20200117
+2019,15,Montgomery,812,Parkland Middle,Middle,8.4,90,5.3,56,<= 5.0,*,1065.4,20200117
+2019,15,Montgomery,815,John F. Kennedy High,High,15.7,277,8.5,150,7.2,127,1765.4,20200117
+2019,15,Montgomery,817,Glenallan Elementary,Elementary,17.6,125,11,78,6.6,47,711.9,20200117
+2019,15,Montgomery,818,Col. E. Brooke Lee Middle,Middle,18.2,138,9.1,69,9.1,69,756.9,20200117
+2019,15,Montgomery,819,Rock Creek Valley Elementary,Elementary,12.3,52,7.1,30,5.2,22,422.1,20200117
+2019,15,Montgomery,820,Earle B. Wood Middle,Middle,8,77,<= 5.0,*,<= 5.0,*,960.2,20200117
+2019,15,Montgomery,822,Strathmore Elementary,Elementary,17.7,80,10.8,49,6.8,31,452.8,20200117
+2019,15,Montgomery,823,Argyle Middle,Middle,11.9,121,7.5,76,<= 5.0,*,1018,20200117
+2019,15,Montgomery,835,Silver Creek Middle,Middle,9.1,79,5.1,44,<= 5.0,*,870.4,20200117
+2019,15,Montgomery,916,Rock Terrace School,Middle,22.1,6,7.4,2,14.8,4,27.1,20200117
+2019,15,Montgomery,916,Rock Terrace School,High,13,9,<= 5.0,*,8.7,6,69.2,20200117
+2019,15,Montgomery,916,Rock Terrace School,All,15.6,15,5.2,5,10.4,10,96.3,20200117
+2019,15,Montgomery,951,Longview School,Elementary,10.9,3,<= 5.0,*,7.3,2,27.4,20200117
+2019,15,Montgomery,951,Longview School,Middle,*,*,*,*,*,*,*,20200117
+2019,15,Montgomery,951,Longview School,All,5.4,3,<= 5.0,*,<= 5.0,*,55.4,20200117
+2019,15,Montgomery,951,Longview School,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,15,Montgomery,965,John L Gildner Regional Inst for Children & Adol,Elementary,*,*,*,*,*,*,*,20200117
+2019,15,Montgomery,965,John L Gildner Regional Inst for Children & Adol,Middle,35.9,10,21.6,6,14.4,4,27.8,20200117
+2019,15,Montgomery,965,John L Gildner Regional Inst for Children & Adol,All,54,56,33.8,35,20.3,21,103.7,20200117
+2019,15,Montgomery,965,John L Gildner Regional Inst for Children & Adol,High,52.6,37,31.3,22,21.3,15,70.4,20200117
+2019,15,Montgomery,A,All Montgomery Schools,Elementary,14.2,10258,7.9,5689,6.3,4569,72239,20200117
+2019,15,Montgomery,A,All Montgomery Schools,Middle,10.4,3804,5.8,2122,<= 5.0,*,36738,20200117
+2019,15,Montgomery,A,All Montgomery Schools,High,11.8,5872,6.1,3041,5.7,2831,49567.6,20200117
+2019,15,Montgomery,A,All Montgomery Schools,All,12.6,19934,6.8,10852,5.7,9082,158544.6,20200117
+2019,16,Prince George's,102,High Point High,High,32.1,818,21.9,559,10.2,259,2550.7,20200117
+2019,16,Prince George's,104,Beltsville Academy,Elementary,22.2,164,13.3,98,8.9,66,738.7,20200117
+2019,16,Prince George's,104,Beltsville Academy,Middle,20.4,70,14,48,6.4,22,343,20200117
+2019,16,Prince George's,104,Beltsville Academy,All,21.6,234,13.5,146,8.1,88,1081.7,20200117
+2019,16,Prince George's,105,Calverton Elementary,Elementary,28.5,235,16.4,135,12.1,100,824.8,20200117
+2019,16,Prince George's,108,James E. Duckworth Regional Center,Elementary,14.4,6,<= 5.0,*,9.6,4,41.5,20200117
+2019,16,Prince George's,108,James E. Duckworth Regional Center,Middle,13.3,3,8.9,2,<= 5.0,*,22.5,20200117
+2019,16,Prince George's,108,James E. Duckworth Regional Center,All,14.8,13,7.9,7,6.8,6,88.1,20200117
+2019,16,Prince George's,108,James E. Duckworth Regional Center,High,16.6,4,12.4,3,<= 5.0,*,24.1,20200117
+2019,16,Prince George's,109,James H. Harrison Elementary,Elementary,30.4,89,17.8,52,12.7,37,292.4,20200117
+2019,16,Prince George's,110,Martin Luther King Jr. Middle,Middle,21.8,199,12.7,116,9.1,83,913.2,20200117
+2019,16,Prince George's,111,Vansville Elementary,Elementary,23.6,171,13,94,10.6,77,724,20200117
+2019,16,Prince George's,203,Judith P. Hoyer Montessori,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,203,Judith P. Hoyer Montessori,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,203,Judith P. Hoyer Montessori,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,205,Bladensburg Elementary,Elementary,28.8,201,18,126,10.7,75,699,20200117
+2019,16,Prince George's,208,Bladensburg High,High,23.3,429,13.1,241,10.2,188,1843.6,20200117
+2019,16,Prince George's,210,Rogers Heights Elementary,Elementary,21.4,163,12.1,92,9.3,71,760.7,20200117
+2019,16,Prince George's,211,Gladys Noon Spellman Elementary,Elementary,29.6,156,17.1,90,12.5,66,527.3,20200117
+2019,16,Prince George's,213,Cooper Lane Elementary,Elementary,36.2,196,21.6,117,14.6,79,542,20200117
+2019,16,Prince George's,214,Templeton Elementary,Elementary,32,255,16.4,131,15.6,124,797.1,20200117
+2019,16,Prince George's,216,Annapolis Road Academy,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,16,Prince George's,217,Port Towns Elementary,Elementary,25.1,264,14.2,149,10.9,115,1052.8,20200117
+2019,16,Prince George's,303,Croom High,High,53.3,59,40.6,45,12.6,14,110.8,20200117
+2019,16,Prince George's,304,Perrywood Elementary,Elementary,18.8,117,12.7,79,6.1,38,621.6,20200117
+2019,16,Prince George's,305,Patuxent Elementary,Elementary,31,84,18.8,51,12.2,33,271.1,20200117
+2019,16,Prince George's,504,Fort Washington Forest Elementary,Elementary,24.4,65,16.9,45,7.5,20,266.4,20200117
+2019,16,Prince George's,507,Rose Valley Elementary,Elementary,32.4,103,21.4,68,11,35,317.7,20200117
+2019,16,Prince George's,509,Accokeek Academy,Elementary,19.6,154,11.8,93,7.8,61,785.1,20200117
+2019,16,Prince George's,509,Accokeek Academy,Middle,16.5,135,10.3,84,6.2,51,818.4,20200117
+2019,16,Prince George's,509,Accokeek Academy,All,18,289,11,177,7,112,1603.5,20200117
+2019,16,Prince George's,510,Potomac Landing Elementary,Elementary,19.8,69,10.9,38,8.9,31,348.5,20200117
+2019,16,Prince George's,511,Friendly High,High,21.2,175,10.7,88,10.6,87,824.3,20200117
+2019,16,Prince George's,603,Suitland High,High,17.7,335,9,171,8.7,164,1895,20200117
+2019,16,Prince George's,606,Bradbury Heights Elementary,Elementary,30.2,141,18.9,88,11.4,53,466.8,20200117
+2019,16,Prince George's,607,Hillcrest Heights Elementary,Elementary,38.3,160,20.3,85,17.9,75,418.1,20200117
+2019,16,Prince George's,608,Green Valley Academy at Edgar Allan Poe,Middle,>= 95.0,*,>= 95.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,608,Green Valley Academy at Edgar Allan Poe,High,>= 95.0,*,>= 95.0,*,50.1,33,65.8,20200117
+2019,16,Prince George's,608,Green Valley Academy at Edgar Allan Poe,All,>= 95.0,*,>= 95.0,*,37.9,34,89.7,20200117
+2019,16,Prince George's,610,North Forestville Elementary,Elementary,28.1,100,15.2,54,12.9,46,355.7,20200117
+2019,16,Prince George's,613,District Heights Elementary,Elementary,35.3,129,22.1,81,13.1,48,365.7,20200117
+2019,16,Prince George's,615,Benjamin Stoddert Middle,Middle,22.6,148,14.4,94,8.3,54,654,20200117
+2019,16,Prince George's,617,Francis Scott Key Elementary,Elementary,26.4,123,16.3,76,10.1,47,465.4,20200117
+2019,16,Prince George's,618,Longfields Elementary,Elementary,24.3,64,14.8,39,9.5,25,263.4,20200117
+2019,16,Prince George's,619,Princeton Elementary,Elementary,34.1,112,21.3,70,12.8,42,328.3,20200117
+2019,16,Prince George's,622,Thurgood Marshall Middle School,Middle,29.5,193,18.5,121,11,72,654.5,20200117
+2019,16,Prince George's,632,Allenwood Elementary,Elementary,25.5,103,17.3,70,8.2,33,403.8,20200117
+2019,16,Prince George's,633,Overlook Elementary,Elementary,10.1,28,<= 5.0,*,9,25,276.7,20200117
+2019,16,Prince George's,636,William Beanes Elementary,Elementary,34.1,149,20.2,88,14,61,436.5,20200117
+2019,16,Prince George's,638,Benjamin D. Foulois Academy,Elementary,5.6,17,<= 5.0,*,<= 5.0,*,301.3,20200117
+2019,16,Prince George's,638,Benjamin D. Foulois Academy,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,638,Benjamin D. Foulois Academy,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,639,Maya Angelou French Immersion,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,639,Maya Angelou French Immersion,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,639,Maya Angelou French Immersion,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,640,Arrowhead Elementary,Elementary,28,112,18.2,73,9.7,39,400.6,20200117
+2019,16,Prince George's,645,Andrew Jackson Academy,Elementary,50.3,168,27.8,93,22.4,75,334.1,20200117
+2019,16,Prince George's,645,Andrew Jackson Academy,Middle,51.3,80,30.1,47,21.1,33,156.1,20200117
+2019,16,Prince George's,645,Andrew Jackson Academy,All,50.6,248,28.6,140,22,108,490.2,20200117
+2019,16,Prince George's,647,Concord Elementary,Elementary,24.1,79,14.7,48,9.5,31,327.6,20200117
+2019,16,Prince George's,648,Samuel P. Massie Academy,Elementary,32.3,126,18.5,72,13.8,54,390,20200117
+2019,16,Prince George's,648,Samuel P. Massie Academy,Middle,25.3,49,12.9,25,12.4,24,193.6,20200117
+2019,16,Prince George's,648,Samuel P. Massie Academy,All,30,175,16.6,97,13.4,78,583.6,20200117
+2019,16,Prince George's,656,Panorama Elementary,Elementary,29.7,169,17.4,99,12.3,70,568.9,20200117
+2019,16,Prince George's,660,Drew Freeman Middle,Middle,25.2,204,13.9,113,11.2,91,811.1,20200117
+2019,16,Prince George's,661,Suitland Elementary,Elementary,30.8,153,18.3,91,12.5,62,496.8,20200117
+2019,16,Prince George's,662,Imagine Lincoln Public Charter,Elementary,10.9,32,<= 5.0,*,8.2,24,293,20200117
+2019,16,Prince George's,662,Imagine Lincoln Public Charter,Middle,8.6,12,<= 5.0,*,7.9,11,139.5,20200117
+2019,16,Prince George's,662,Imagine Lincoln Public Charter,All,10.2,44,<= 5.0,*,8.1,35,432.5,20200117
+2019,16,Prince George's,705,Tall Oaks High,High,88.1,96,57.8,63,30.3,33,109,20200117
+2019,16,Prince George's,706,Woodmore Elementary,Elementary,13,58,7.9,35,5.2,23,445.4,20200117
+2019,16,Prince George's,708,Kenilworth Elementary,Elementary,12.5,46,6.8,25,5.7,21,369.3,20200117
+2019,16,Prince George's,711,Tulip Grove Elementary,Elementary,13,43,8.8,29,<= 5.0,*,330,20200117
+2019,16,Prince George's,712,Heather Hills Elementary,Elementary,6.2,23,<= 5.0,*,<= 5.0,*,371.4,20200117
+2019,16,Prince George's,714,Benjamin Tasker Middle School,Middle,14.6,138,7.7,73,6.9,65,943.7,20200117
+2019,16,Prince George's,716,Northview Elementary,Elementary,19.8,123,11.1,69,8.7,54,622.5,20200117
+2019,16,Prince George's,718,Pointer Ridge Elementary,Elementary,16.2,53,9.8,32,6.4,21,327.6,20200117
+2019,16,Prince George's,723,C. Elizabeth Rieg Regional Center,Elementary,8.7,5,<= 5.0,*,7,4,57.3,20200117
+2019,16,Prince George's,723,C. Elizabeth Rieg Regional Center,Middle,49.3,9,27.4,5,21.9,4,18.2,20200117
+2019,16,Prince George's,723,C. Elizabeth Rieg Regional Center,All,17.8,20,6.2,7,11.5,13,112.6,20200117
+2019,16,Prince George's,723,C. Elizabeth Rieg Regional Center,High,16.2,6,<= 5.0,*,13.5,5,37,20200117
+2019,16,Prince George's,729,Kingsford Elementary,Elementary,13.3,64,8.1,39,5.2,25,480.7,20200117
+2019,16,Prince George's,802,Baden Elementary,Elementary,18.7,39,10.6,22,8.2,17,208.1,20200117
+2019,16,Prince George's,905,Tayac Elementary,Elementary,26.3,85,16.7,54,9.6,31,323.4,20200117
+2019,16,Prince George's,906,Clinton Grove Elementary,Elementary,25.2,63,15.6,39,9.6,24,249.7,20200117
+2019,16,Prince George's,907,Tanglewood Regional Center,Elementary,>= 95.0,*,6.6,1,>= 95.0,*,15.2,20200117
+2019,16,Prince George's,907,Tanglewood Regional Center,Middle,*,*,*,*,*,*,*,20200117
+2019,16,Prince George's,907,Tanglewood Regional Center,All,>= 95.0,*,8.7,2,>= 95.0,*,23.1,20200117
+2019,16,Prince George's,908,Surrattsville High,High,17.2,121,9.5,67,7.7,54,703.3,20200117
+2019,16,Prince George's,909,James Ryder Randall Elementary,Elementary,19.2,60,11.5,36,7.7,24,312.3,20200117
+2019,16,Prince George's,912,Isaac J. Gourdine Middle,Middle,20.9,123,14.8,87,6.1,36,588.3,20200117
+2019,16,Prince George's,914,Waldon Woods Elementary,Elementary,22.3,135,11.6,70,10.8,65,604.6,20200117
+2019,16,Prince George's,915,Stephen Decatur Middle,Middle,19.1,136,11.2,80,7.9,56,712.7,20200117
+2019,16,Prince George's,916,Francis T. Evans Elementary,Elementary,29,99,17.6,60,11.4,39,341.3,20200117
+2019,16,Prince George's,917,Imagine Andrews Public Charter,Elementary,13.5,43,<= 5.0,*,9.7,31,318.4,20200117
+2019,16,Prince George's,917,Imagine Andrews Public Charter,Middle,8.4,12,<= 5.0,*,5.6,8,142.7,20200117
+2019,16,Prince George's,917,Imagine Andrews Public Charter,All,11.9,55,<= 5.0,*,8.5,39,461.1,20200117
+2019,16,Prince George's,1001,Laurel Elementary,Elementary,34.8,195,18.5,104,16.2,91,561.1,20200117
+2019,16,Prince George's,1008,Laurel High,High,22,400,10.9,198,11.1,202,1821.7,20200117
+2019,16,Prince George's,1009,Oaklands Elementary,Elementary,34.6,134,19.9,77,14.7,57,387.1,20200117
+2019,16,Prince George's,1010,Dwight D. Eisenhower Middle,Middle,32.5,314,17.1,165,15.4,149,967.3,20200117
+2019,16,Prince George's,1011,Bond Mill Elementary,Elementary,14,76,7.4,40,6.6,36,542.7,20200117
+2019,16,Prince George's,1014,Scotchtown Hills Elementary,Elementary,21.9,144,12,79,9.9,65,657.9,20200117
+2019,16,Prince George's,1015,Chesapeake Math and IT Public Charter,Elementary,8.5,51,6.2,37,<= 5.0,*,597.3,20200117
+2019,16,Prince George's,1015,Chesapeake Math and IT Public Charter,Middle,7,38,<= 5.0,*,<= 5.0,*,546.2,20200117
+2019,16,Prince George's,1015,Chesapeake Math and IT Public Charter,All,6.8,108,<= 5.0,*,<= 5.0,*,1595.4,20200117
+2019,16,Prince George's,1015,Chesapeake Math and IT Public Charter,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1101,Brandywine Elementary,Elementary,22.7,89,14.3,56,8.4,33,391.7,20200117
+2019,16,Prince George's,1102,Mattaponi Elementary,Elementary,13.6,52,9.4,36,<= 5.0,*,383,20200117
+2019,16,Prince George's,1103,Gwynn Park High,High,18.8,176,10.1,95,8.6,81,937.4,20200117
+2019,16,Prince George's,1104,Gwynn Park Middle,Middle,13.3,86,8.1,52,5.3,34,645.8,20200117
+2019,16,Prince George's,1105,Rosaryville Elementary,Elementary,12.5,47,6.9,26,5.6,21,376,20200117
+2019,16,Prince George's,1201,Oxon Hill Elementary,Elementary,36.7,83,20.3,46,16.4,37,226.1,20200117
+2019,16,Prince George's,1204,Forest Heights Elementary,Elementary,39.9,115,23.6,68,16.3,47,288.4,20200117
+2019,16,Prince George's,1206,John Hanson Montessori,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1206,John Hanson Montessori,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1206,John Hanson Montessori,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1208,Flintstone Elementary,Elementary,28.5,124,16.3,71,12.2,53,434.7,20200117
+2019,16,Prince George's,1209,Oxon Hill High,High,11.7,171,7.1,103,<= 5.0,*,1459.8,20200117
+2019,16,Prince George's,1213,Fort Foote Elementary,Elementary,29.5,90,19.7,60,9.8,30,304.9,20200117
+2019,16,Prince George's,1214,Glassmanor Elementary,Elementary,33.3,106,22.9,73,10.4,33,318.6,20200117
+2019,16,Prince George's,1216,Samuel Chase Elementary,Elementary,28.5,84,17.6,52,10.9,32,294.7,20200117
+2019,16,Prince George's,1217,Crossland High,High,40.3,398,18.4,182,21.9,216,986.7,20200117
+2019,16,Prince George's,1218,Valley View Elementary,Elementary,29.7,119,16.2,65,13.5,54,400.2,20200117
+2019,16,Prince George's,1219,Barnaby Manor Elementary,Elementary,36.9,161,20.4,89,16.5,72,436.6,20200117
+2019,16,Prince George's,1220,Potomac High,High,28.8,346,15.1,182,13.6,164,1202,20200117
+2019,16,Prince George's,1221,Avalon Elementary,Elementary,25.9,88,18.3,62,7.7,26,339.6,20200117
+2019,16,Prince George's,1229,Apple Grove Elementary,Elementary,23.7,104,17.5,77,6.1,27,439.1,20200117
+2019,16,Prince George's,1231,J. Frank Dent Elementary,Elementary,38.5,106,21.4,59,17,47,275.7,20200117
+2019,16,Prince George's,1233,Indian Queen Elementary,Elementary,18.2,49,13.3,36,<= 5.0,*,269.8,20200117
+2019,16,Prince George's,1234,Oxon Hill Middle,Middle,29,233,18.5,149,10.5,84,803.6,20200117
+2019,16,Prince George's,1302,Columbia Park Elementary,Elementary,20.8,105,12.1,61,8.7,44,504.7,20200117
+2019,16,Prince George's,1307,Highland Park Elementary,Elementary,17.4,47,9.6,26,7.8,21,270,20200117
+2019,16,Prince George's,1309,William Paca Elementary,Elementary,33,177,22,118,11,59,536.8,20200117
+2019,16,Prince George's,1310,Dodge Park Elementary,Elementary,26.5,149,13.1,74,13.3,75,563.2,20200117
+2019,16,Prince George's,1314,Largo High,High,19.1,162,10.3,87,8.8,75,848.5,20200117
+2019,16,Prince George's,1320,G. James Gholson Middle,Middle,26.1,225,14.2,122,12,103,861.2,20200117
+2019,16,Prince George's,1322,Phyllis E. Williams Elementary,Elementary,6.3,25,<= 5.0,*,<= 5.0,*,396.7,20200117
+2019,16,Prince George's,1324,Kettering Elementary,Elementary,21.6,86,13.8,55,7.8,31,398.1,20200117
+2019,16,Prince George's,1326,Kettering Middle,Middle,22.7,174,13.7,105,9,69,766.8,20200117
+2019,16,Prince George's,1327,Charles Herbert Flowers High,High,10.9,238,6.1,134,<= 5.0,*,2181.4,20200117
+2019,16,Prince George's,1330,Kenmoor Middle,Middle,19.2,179,11,102,8.3,77,930.8,20200117
+2019,16,Prince George's,1333,Judge Sylvania W. Woods Sr. Elementary,Elementary,23.5,171,13.9,101,9.6,70,727,20200117
+2019,16,Prince George's,1346,Lake Arbor Elementary,Elementary,25.8,139,16.3,88,9.5,51,539.4,20200117
+2019,16,Prince George's,1347,Cora L. Rice Elementary,Elementary,27.8,166,13.9,83,13.9,83,597.9,20200117
+2019,16,Prince George's,1348,Ernest Everett Just Middle,Middle,19.9,149,12,90,7.9,59,750.2,20200117
+2019,16,Prince George's,1350,Academy of Health Sciences at PGCC,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1351,Chesapeake Math and IT South Public Charter,Elementary,12.4,48,6,23,6.5,25,386.2,20200117
+2019,16,Prince George's,1351,Chesapeake Math and IT South Public Charter,Middle,6.6,31,<= 5.0,*,<= 5.0,*,471.4,20200117
+2019,16,Prince George's,1351,Chesapeake Math and IT South Public Charter,All,10,115,<= 5.0,*,5.7,66,1148.7,20200117
+2019,16,Prince George's,1351,Chesapeake Math and IT South Public Charter,High,12.4,36,<= 5.0,*,8.9,26,291.1,20200117
+2019,16,Prince George's,1352,International High school @ Largo,High,17,62,7.4,27,9.6,35,365.6,20200117
+2019,16,Prince George's,1408,Glenn Dale Elementary,Elementary,33.8,196,19.5,113,14.3,83,579.4,20200117
+2019,16,Prince George's,1409,Duval High,High,21.9,436,11.3,226,10.5,210,1994.2,20200117
+2019,16,Prince George's,1411,Gaywood Elementary,Elementary,24,109,13.9,63,10.1,46,454.2,20200117
+2019,16,Prince George's,1412,High Bridge Elementary,Elementary,15.5,59,8.9,34,6.6,25,381.4,20200117
+2019,16,Prince George's,1414,Catherine T. Reed Elementary,Elementary,39,184,24.4,115,14.6,69,471.5,20200117
+2019,16,Prince George's,1416,Dora Kennedy French Immersion,Elementary,6.1,31,<= 5.0,*,<= 5.0,*,512.3,20200117
+2019,16,Prince George's,1416,Dora Kennedy French Immersion,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1416,Dora Kennedy French Immersion,All,5.3,35,<= 5.0,*,<= 5.0,*,666.2,20200117
+2019,16,Prince George's,1417,Robert Goddard Montessori,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1417,Robert Goddard Montessori,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1417,Robert Goddard Montessori,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1423,Bowie High,High,12.7,304,7.2,174,5.4,130,2403.1,20200117
+2019,16,Prince George's,1424,Montpelier Elementary,Elementary,31.3,168,18.3,98,13.1,70,536,20200117
+2019,16,Prince George's,1427,Yorktown Elementary,Elementary,20.4,82,11.4,46,8.9,36,402.9,20200117
+2019,16,Prince George's,1428,Samuel Ogle Middle,Middle,9.5,84,5.4,48,<= 5.0,*,883.3,20200117
+2019,16,Prince George's,1432,Rockledge Elementary,Elementary,19,57,10,30,9,27,300.7,20200117
+2019,16,Prince George's,1435,Deerfield Run Elementary,Elementary,33.6,199,20.9,124,12.6,75,593,20200117
+2019,16,Prince George's,1438,Whitehall Elementary,Elementary,8.3,50,<= 5.0,*,<= 5.0,*,604.8,20200117
+2019,16,Prince George's,1442,Excel Academy Public Charter,Elementary,8.9,26,<= 5.0,*,6.1,18,293,20200117
+2019,16,Prince George's,1442,Excel Academy Public Charter,Middle,11.5,14,<= 5.0,*,7.4,9,121.6,20200117
+2019,16,Prince George's,1442,Excel Academy Public Charter,All,9.6,40,<= 5.0,*,6.5,27,414.6,20200117
+2019,16,Prince George's,1502,Frederick Douglass High,High,11.5,114,6.6,65,<= 5.0,*,992,20200117
+2019,16,Prince George's,1504,Melwood Elementary,Elementary,13.5,62,8.9,41,<= 5.0,*,459.6,20200117
+2019,16,Prince George's,1510,James Madison Middle,Middle,16.8,137,8.9,73,7.8,64,817.2,20200117
+2019,16,Prince George's,1511,Marlton Elementary,Elementary,19,50,11.8,31,7.2,19,262.8,20200117
+2019,16,Prince George's,1518,Barack Obama Elementary,Elementary,13.6,99,6.7,49,6.9,50,727.6,20200117
+2019,16,Prince George's,1519,"Dr. Henry A. Wise, Jr. High",High,21.5,486,12,271,9.5,215,2261.5,20200117
+2019,16,Prince George's,1521,Imagine Foundations at Leeland PCS,Elementary,9.6,31,<= 5.0,*,<= 5.0,*,323.2,20200117
+2019,16,Prince George's,1521,Imagine Foundations at Leeland PCS,Middle,7,11,<= 5.0,*,5.8,9,156.1,20200117
+2019,16,Prince George's,1521,Imagine Foundations at Leeland PCS,All,8.8,42,<= 5.0,*,<= 5.0,*,479.3,20200117
+2019,16,Prince George's,1522,Imagine Foundations at Morningside PCS,Elementary,12.1,29,5.9,14,6.3,15,239.3,20200117
+2019,16,Prince George's,1522,Imagine Foundations at Morningside PCS,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1522,Imagine Foundations at Morningside PCS,All,8.4,34,<= 5.0,*,<= 5.0,*,405.7,20200117
+2019,16,Prince George's,1601,Hyattsville Elementary,Elementary,22.3,107,12.9,62,9.4,45,479.7,20200117
+2019,16,Prince George's,1602,Hyattsville Middle,Middle,16.7,153,7.3,67,9.4,86,916,20200117
+2019,16,Prince George's,1604,Edward M. Felegy ES,Elementary,28,207,16.1,119,11.9,88,739.6,20200117
+2019,16,Prince George's,1703,Mt Rainier Elementary,Elementary,19.2,57,8.4,25,10.8,32,297.2,20200117
+2019,16,Prince George's,1706,Thomas S. Stone Elementary,Elementary,41.9,234,26.9,150,15.1,84,558,20200117
+2019,16,Prince George's,1708,Northwestern High,High,29,660,13.8,313,15.3,347,2274.8,20200117
+2019,16,Prince George's,1709,Chillum Elementary,Elementary,30.8,102,16.9,56,13.9,46,331.1,20200117
+2019,16,Prince George's,1710,Ridgecrest Elementary,Elementary,24.5,152,13.2,82,11.3,70,619.9,20200117
+2019,16,Prince George's,1711,Carole Highlands Elementary,Elementary,31.9,142,20,89,11.9,53,444.9,20200117
+2019,16,Prince George's,1712,Lewisdale Elementary,Elementary,31.4,192,20.3,124,11.1,68,611.2,20200117
+2019,16,Prince George's,1713,Cesar Chavez Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1714,Adelphi Elementary,Elementary,27.2,201,16.1,119,11.1,82,739.1,20200117
+2019,16,Prince George's,1718,Nicholas Orem Middle,Middle,20.8,210,11.4,115,9.4,95,1011.6,20200117
+2019,16,Prince George's,1719,Langley Park/McCormick Elementary,Elementary,22.4,171,12.7,97,9.7,74,762.8,20200117
+2019,16,Prince George's,1725,Cool Spring Elementary,Elementary,33.5,266,21.5,171,11.9,95,795,20200117
+2019,16,Prince George's,1730,"Mary Harris ""Mother"" Jones Elementary",Elementary,30,288,20,192,10,96,959.7,20200117
+2019,16,Prince George's,1731,Rosa L. Parks Elementary,Elementary,25.7,161,16.1,101,9.6,60,625.8,20200117
+2019,16,Prince George's,1732,International High School @ Langley Park,High,12.6,41,<= 5.0,*,7.7,25,324.3,20200117
+2019,16,Prince George's,1802,Seat Pleasant Elementary,Elementary,24.2,84,13.3,46,10.9,38,347.1,20200117
+2019,16,Prince George's,1806,Fairmont Heights High,High,17.7,140,10.6,84,7.1,56,789.4,20200117
+2019,16,Prince George's,1808,Doswell E. Brooks Elementary,Elementary,19.8,44,14,31,5.9,13,221.8,20200117
+2019,16,Prince George's,1810,Central High,High,28.7,245,16.4,140,12.3,105,852.3,20200117
+2019,16,Prince George's,1811,Carmody Hills Elementary,Elementary,23.1,91,10.9,43,12.2,48,393.1,20200117
+2019,16,Prince George's,1812,Capitol Heights Elementary,Elementary,8.1,24,5.1,15,<= 5.0,*,296.7,20200117
+2019,16,Prince George's,1814,Thomas G. Pullen School,Elementary,5.7,25,<= 5.0,*,<= 5.0,*,439.8,20200117
+2019,16,Prince George's,1814,Thomas G. Pullen School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1814,Thomas G. Pullen School,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,1816,John H. Bayne Elementary,Elementary,29.6,111,16.3,61,13.3,50,375.2,20200117
+2019,16,Prince George's,1819,Walker Mill Middle,Middle,16.6,117,8.5,60,8.1,57,704.5,20200117
+2019,16,Prince George's,1828,Robert R. Gray Elementary,Elementary,26.9,114,14.1,60,12.7,54,424.6,20200117
+2019,16,Prince George's,1830,William W. Hall Academy,Elementary,25.2,86,15.5,53,9.7,33,341.5,20200117
+2019,16,Prince George's,1830,William W. Hall Academy,Middle,21.7,39,13.4,24,8.4,15,179.6,20200117
+2019,16,Prince George's,1830,William W. Hall Academy,All,24,125,14.8,77,9.2,48,521.1,20200117
+2019,16,Prince George's,1901,Riverdale Elementary,Elementary,22.2,145,12.9,84,9.4,61,652,20200117
+2019,16,Prince George's,1902,University Park Elementary,Elementary,10.5,54,5.8,30,<= 5.0,*,512.9,20200117
+2019,16,Prince George's,1907,Beacon Heights Elementary,Elementary,10.2,45,6.5,29,<= 5.0,*,443,20200117
+2019,16,Prince George's,1908,William Wirt Middle,Middle,17.5,208,9.5,113,8,95,1185.7,20200117
+2019,16,Prince George's,1909,Parkdale High,High,22.8,530,11.2,260,11.6,270,2323,20200117
+2019,16,Prince George's,2003,Seabrook Elementary,Elementary,26.1,82,15,47,11.1,35,314.4,20200117
+2019,16,Prince George's,2005,Carrollton Elementary,Elementary,23,127,12.9,71,10.1,56,551.9,20200117
+2019,16,Prince George's,2006,Glenridge Elementary,Elementary,36.3,278,21.4,164,14.9,114,765.7,20200117
+2019,16,Prince George's,2007,Woodridge Elementary,Elementary,31.6,95,18.3,55,13.3,40,301.1,20200117
+2019,16,Prince George's,2008,Ardmore Elementary,Elementary,18.5,69,9.4,35,9.1,34,373,20200117
+2019,16,Prince George's,2009,Thomas Johnson Middle,Middle,22.7,282,13.8,172,8.8,110,1243,20200117
+2019,16,Prince George's,2010,Glenarden Woods Elementary,Elementary,6.9,34,<= 5.0,*,<= 5.0,*,489.6,20200117
+2019,16,Prince George's,2011,Charles Carroll Middle,Middle,17.5,230,10.6,139,6.9,91,1312.9,20200117
+2019,16,Prince George's,2012,Margaret Brent Regional Center,Elementary,14.9,8,13,7,<= 5.0,*,53.7,20200117
+2019,16,Prince George's,2012,Margaret Brent Regional Center,Middle,32.9,8,24.7,6,8.2,2,24.3,20200117
+2019,16,Prince George's,2012,Margaret Brent Regional Center,All,20.5,16,16.7,13,<= 5.0,*,78,20200117
+2019,16,Prince George's,2013,James McHenry Elementary,Elementary,27.4,187,14.7,100,12.8,87,682,20200117
+2019,16,Prince George's,2014,Lamont Elementary,Elementary,24,119,15.7,78,8.3,41,496.2,20200117
+2019,16,Prince George's,2016,Robert Frost Elementary,Elementary,24.7,70,14.5,41,10.2,29,283.7,20200117
+2019,16,Prince George's,2022,Turning Point Academy Public Charter,Elementary,18.1,71,10.9,43,7.1,28,392.9,20200117
+2019,16,Prince George's,2022,Turning Point Academy Public Charter,Middle,13.1,24,7.1,13,6,11,183.3,20200117
+2019,16,Prince George's,2022,Turning Point Academy Public Charter,All,16.5,95,9.7,56,6.8,39,576.1,20200117
+2019,16,Prince George's,2106,Greenbelt Elementary,Elementary,20.7,119,9.2,53,11.5,66,574.5,20200117
+2019,16,Prince George's,2107,Hollywood Elementary,Elementary,36,137,26,99,10,38,380.3,20200117
+2019,16,Prince George's,2108,Buck Lodge Middle,Middle,21.4,250,14.1,165,7.3,85,1167.9,20200117
+2019,16,Prince George's,2109,Berwyn Heights Elementary,Elementary,20.6,96,11.4,53,9.2,43,465.8,20200117
+2019,16,Prince George's,2113,Springhill Lake Elementary,Elementary,38.5,344,24.5,219,14,125,893.5,20200117
+2019,16,Prince George's,2114,Eleanor Roosevelt High,High,15.8,415,9.2,242,6.6,173,2629,20200117
+2019,16,Prince George's,2121,Cherokee Lane Elementary,Elementary,31.9,176,19.4,107,12.5,69,552.4,20200117
+2019,16,Prince George's,2122,Magnolia Elementary,Elementary,22.1,109,12.6,62,9.5,47,493,20200117
+2019,16,Prince George's,2123,Paint Branch Elementary,Elementary,19.4,60,13.9,43,5.5,17,309.7,20200117
+2019,16,Prince George's,2141,Greenbelt Middle,Middle,18.5,252,11.5,157,7,95,1363.4,20200117
+2019,16,Prince George's,2142,College Park Academy,Middle,13.3,50,9.6,36,<= 5.0,*,375.9,20200117
+2019,16,Prince George's,2142,College Park Academy,All,9.6,62,6.2,40,<= 5.0,*,647.8,20200117
+2019,16,Prince George's,2142,College Park Academy,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,16,Prince George's,2211,Northwestern Evening/Saturday High,High,>= 95.0,*,74,246,44.8,149,332.3,20200117
+2019,16,Prince George's,2213,Crossland Evening/Saturday High,High,86.3,191,54.7,121,31.6,70,221.2,20200117
+2019,16,Prince George's,2217,Incarcerated Youth Center (JACS),High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,16,Prince George's,2220,Community Based Classrooms,High,68.9,52,53,40,15.9,12,75.5,20200117
+2019,16,Prince George's,A,All Prince George's Schools,Elementary,24,14667,14,8598,9.9,6069,61213.3,20200117
+2019,16,Prince George's,A,All Prince George's Schools,Middle,19.4,5741,11.2,3327,8.1,2414,29634.1,20200117
+2019,16,Prince George's,A,All Prince George's Schools,High,22.7,8416,12.6,4668,10.1,3748,37059.3,20200117
+2019,16,Prince George's,A,All Prince George's Schools,All,22.5,28824,13,16593,9.6,12231,127906.7,20200117
+2019,17,Queen Anne's,101,Sudlersville Middle School,Elementary,8.7,10,6.1,7,<= 5.0,*,115.1,20200117
+2019,17,Queen Anne's,101,Sudlersville Middle School,Middle,5.2,20,<= 5.0,*,<= 5.0,*,381.2,20200117
+2019,17,Queen Anne's,101,Sudlersville Middle School,All,6,30,<= 5.0,*,<= 5.0,*,496.3,20200117
+2019,17,Queen Anne's,106,Sudlersville Elementary School,Elementary,15.5,41,7.9,21,7.5,20,265.2,20200117
+2019,17,Queen Anne's,202,Church Hill Elementary School,Elementary,14.5,37,8.6,22,5.9,15,255.1,20200117
+2019,17,Queen Anne's,301,Queen Anne's County High School,High,5.6,65,<= 5.0,*,<= 5.0,*,1154.5,20200117
+2019,17,Queen Anne's,302,Kennard Elementary School,Elementary,7.9,40,<= 5.0,*,<= 5.0,*,503.5,20200117
+2019,17,Queen Anne's,303,Centreville Middle School,Middle,5.5,30,<= 5.0,*,<= 5.0,*,541.7,20200117
+2019,17,Queen Anne's,308,Centreville Elementary School,Elementary,6.1,28,<= 5.0,*,<= 5.0,*,457.6,20200117
+2019,17,Queen Anne's,402,Kent Island Elementary School,Elementary,8.3,34,<= 5.0,*,<= 5.0,*,407.5,20200117
+2019,17,Queen Anne's,403,Bayside Elementary School,Elementary,6.2,27,<= 5.0,*,<= 5.0,*,433.5,20200117
+2019,17,Queen Anne's,404,Stevensville Middle School,Middle,5.1,27,<= 5.0,*,<= 5.0,*,533.4,20200117
+2019,17,Queen Anne's,405,Kent Island High School,High,5.5,67,<= 5.0,*,<= 5.0,*,1214.9,20200117
+2019,17,Queen Anne's,406,Matapeake Elementary School,Elementary,10.1,45,<= 5.0,*,5.4,24,447.6,20200117
+2019,17,Queen Anne's,407,Matapeake Middle School,Middle,5.6,20,<= 5.0,*,<= 5.0,*,356.6,20200117
+2019,17,Queen Anne's,503,Grasonville Elementary School,Elementary,11.2,49,6.4,28,<= 5.0,*,437.1,20200117
+2019,17,Queen Anne's,A,All Queen Anne's Schools,Elementary,9.4,311,5.1,168,<= 5.0,*,3322.3,20200117
+2019,17,Queen Anne's,A,All Queen Anne's Schools,Middle,5.4,97,<= 5.0,*,<= 5.0,*,1812.8,20200117
+2019,17,Queen Anne's,A,All Queen Anne's Schools,High,5.6,132,<= 5.0,*,<= 5.0,*,2369.4,20200117
+2019,17,Queen Anne's,A,All Queen Anne's Schools,All,7.2,540,<= 5.0,*,<= 5.0,*,7504.5,20200117
+2019,18,Saint Mary's,101,Spring Ridge Middle,Middle,20,203,10.4,106,9.5,97,1016.3,20200117
+2019,18,Saint Mary's,104,Ridge Elementary,Elementary,16.5,37,9.8,22,6.7,15,224.3,20200117
+2019,18,Saint Mary's,201,Piney Point Elementary,Elementary,15.4,64,10.8,45,<= 5.0,*,416.8,20200117
+2019,18,Saint Mary's,301,Leonardtown Elementary,Elementary,11.6,51,7.5,33,<= 5.0,*,441,20200117
+2019,18,Saint Mary's,302,Benjamin Banneker Elementary,Elementary,7.3,37,<= 5.0,*,<= 5.0,*,506.3,20200117
+2019,18,Saint Mary's,303,Chopticon High,High,8.2,133,<= 5.0,*,5.1,83,1629.4,20200117
+2019,18,Saint Mary's,305,Leonardtown Middle,Middle,8,84,<= 5.0,*,<= 5.0,*,1050.4,20200117
+2019,18,Saint Mary's,306,Leonardtown High,High,9.2,161,<= 5.0,*,5.1,90,1751.1,20200117
+2019,18,Saint Mary's,308,Captain Walter Francis Duke Elementary,Elementary,10.4,57,6,33,<= 5.0,*,547.7,20200117
+2019,18,Saint Mary's,404,Margaret Brent Middle,Middle,7.4,74,<= 5.0,*,<= 5.0,*,1001.1,20200117
+2019,18,Saint Mary's,501,Lettie Marshall Dent Elem,Elementary,7.6,40,<= 5.0,*,<= 5.0,*,523.7,20200117
+2019,18,Saint Mary's,503,White Marsh Elementary,Elementary,11.9,31,6.1,16,5.8,15,260.8,20200117
+2019,18,Saint Mary's,504,Mechanicsville Elementary,Elementary,6.9,21,<= 5.0,*,<= 5.0,*,304.8,20200117
+2019,18,Saint Mary's,602,Oakville Elementary,Elementary,10,24,6.3,15,<= 5.0,*,238.9,20200117
+2019,18,Saint Mary's,604,Hollywood Elementary,Elementary,20.2,92,9.9,45,10.3,47,456.5,20200117
+2019,18,Saint Mary's,606,Evergreen Elementary School,Elementary,19.4,142,10.2,75,9.1,67,732.6,20200117
+2019,18,Saint Mary's,702,Dynard Elementary,Elementary,8.7,36,<= 5.0,*,<= 5.0,*,412,20200117
+2019,18,Saint Mary's,801,Great Mills High,High,20.1,323,8.6,138,11.5,185,1610.7,20200117
+2019,18,Saint Mary's,803,Green Holly Elementary School,Elementary,32,115,16.1,58,15.9,57,359.3,20200117
+2019,18,Saint Mary's,804,Lexington Park Elementary,Elementary,36.6,165,17.3,78,19.3,87,450.7,20200117
+2019,18,Saint Mary's,805,George Washington Carver Elementary,Elementary,23.4,122,14.7,77,8.6,45,522.4,20200117
+2019,18,Saint Mary's,806,Town Creek Elementary,Elementary,23.9,52,9.7,21,14.2,31,217.6,20200117
+2019,18,Saint Mary's,807,Esperanza Middle,Middle,14.5,130,7.3,65,7.3,65,894.6,20200117
+2019,18,Saint Mary's,808,Park Hall Elementary,Elementary,24.6,135,13,71,11.7,64,548,20200117
+2019,18,Saint Mary's,810,Greenview Knolls Elementary,Elementary,18.7,66,11,39,7.6,27,353.8,20200117
+2019,18,Saint Mary's,813,Chesapeake Charter School,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,18,Saint Mary's,813,Chesapeake Charter School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,18,Saint Mary's,813,Chesapeake Charter School,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,18,Saint Mary's,A,All Saint Mary's Schools,Elementary,16.6,1297,9,705,7.6,592,7833.4,20200117
+2019,18,Saint Mary's,A,All Saint Mary's Schools,Middle,12,492,6.2,255,5.8,237,4083.3,20200117
+2019,18,Saint Mary's,A,All Saint Mary's Schools,High,14.5,729,6.6,335,7.8,394,5040.7,20200117
+2019,18,Saint Mary's,A,All Saint Mary's Schools,All,14.8,2518,7.6,1295,7.2,1223,16957.5,20200117
+2019,19,Somerset,102,Washington Academy and High School,Middle,26.7,34,9.4,12,17.3,22,127.2,20200117
+2019,19,Somerset,102,Washington Academy and High School,All,23.3,130,9.8,55,13.4,75,559.1,20200117
+2019,19,Somerset,102,Washington Academy and High School,High,22.2,96,10,43,12.3,53,431.9,20200117
+2019,19,Somerset,107,Greenwood Elementary School,Elementary,26,123,13.1,62,12.9,61,472.9,20200117
+2019,19,Somerset,108,Princess Anne Elementary School,Elementary,22.4,58,10.8,28,11.6,30,259,20200117
+2019,19,Somerset,702,Crisfield Academy and High School,Middle,9.9,8,8.6,7,<= 5.0,*,81,20200117
+2019,19,Somerset,702,Crisfield Academy and High School,All,10.2,41,5.5,22,<= 5.0,*,402.1,20200117
+2019,19,Somerset,702,Crisfield Academy and High School,High,10.3,33,<= 5.0,*,5.6,18,321.1,20200117
+2019,19,Somerset,705,Carter G Woodson Elementary,Elementary,17.1,83,8.5,41,8.7,42,484.5,20200117
+2019,19,Somerset,1003,Ewell School,Elementary,*,*,*,*,*,*,*,20200117
+2019,19,Somerset,1303,Somerset 6/7 Intermediate School,Middle,19.7,79,11,44,8.7,35,400.9,20200117
+2019,19,Somerset,1401,Deal Island School,Elementary,8.4,10,5.1,6,<= 5.0,*,118.5,20200117
+2019,19,Somerset,A,All Somerset Schools,Elementary,20.5,274,10.2,137,10.2,137,1339.8,20200117
+2019,19,Somerset,A,All Somerset Schools,Middle,19.8,121,10.3,63,9.5,58,610.1,20200117
+2019,19,Somerset,A,All Somerset Schools,High,17.1,129,7.7,58,9.4,71,753,20200117
+2019,19,Somerset,A,All Somerset Schools,All,19.4,524,9.5,258,9.8,266,2702.9,20200117
+2019,20,Talbot,101,Easton High,High,10.2,123,5.7,69,<= 5.0,*,1201.3,20200117
+2019,20,Talbot,104,Easton Elementary,Elementary,12.9,120,9.1,85,<= 5.0,*,930.5,20200117
+2019,20,Talbot,106,Easton Middle,Middle,9.8,81,5.7,47,<= 5.0,*,829.5,20200117
+2019,20,Talbot,202,St. Michaels Middle/High School,Middle,10.7,20,5.9,11,<= 5.0,*,187.5,20200117
+2019,20,Talbot,202,St. Michaels Middle/High School,All,11.2,47,6.4,27,<= 5.0,*,419.9,20200117
+2019,20,Talbot,202,St. Michaels Middle/High School,High,11.6,27,6.9,16,<= 5.0,*,232.4,20200117
+2019,20,Talbot,204,St. Michaels Elementary,Elementary,10.3,27,<= 5.0,*,5.7,15,262.2,20200117
+2019,20,Talbot,302,White Marsh Elementary,Elementary,20.3,69,9.7,33,10.6,36,339.6,20200117
+2019,20,Talbot,401,Chapel District Elementary,Elementary,6.4,22,<= 5.0,*,<= 5.0,*,341.6,20200117
+2019,20,Talbot,501,Tilghman Elementary,Elementary,12.3,11,5.6,5,6.7,6,89.2,20200117
+2019,20,Talbot,A,All Talbot Schools,Elementary,12.7,249,7.3,144,5.3,105,1963.2,20200117
+2019,20,Talbot,A,All Talbot Schools,Middle,9.9,101,5.7,58,<= 5.0,*,1017,20200117
+2019,20,Talbot,A,All Talbot Schools,All,11.3,500,6.5,287,<= 5.0,*,4413.9,20200117
+2019,20,Talbot,A,All Talbot Schools,High,10.5,150,5.9,85,<= 5.0,*,1433.7,20200117
+2019,21,Washington,40,Barbara Ingram School for the Arts,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,21,Washington,101,Sharpsburg Elementary,Elementary,14.2,32,<= 5.0,*,9.3,21,225.3,20200117
+2019,21,Washington,190,Jonathan Hager Elementary,Elementary,15.1,51,10.1,34,<= 5.0,*,337.1,20200117
+2019,21,Washington,201,Springfield Middle,Middle,12.1,102,6.3,53,5.8,49,840.3,20200117
+2019,21,Washington,202,Williamsport Elementary,Elementary,14.4,78,8.1,44,6.3,34,541.1,20200117
+2019,21,Washington,204,Williamsport High,High,11.3,102,5.7,51,5.7,51,900.3,20200117
+2019,21,Washington,301,South Hagerstown High,High,21,260,10.7,133,10.2,127,1239.2,20200117
+2019,21,Washington,302,Emma K. Doub Elementary,Elementary,16.6,53,8.1,26,8.4,27,319.7,20200117
+2019,21,Washington,304,E. Russell Hicks Middle,Middle,19.8,162,10.8,88,9.1,74,816.1,20200117
+2019,21,Washington,305,Washington County Technical High,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,21,Washington,325,Rockland Woods Elementary,Elementary,10.1,56,6,33,<= 5.0,*,553.3,20200117
+2019,21,Washington,328,Ruth Ann Monroe Primary,Elementary,33.1,155,19.6,92,13.4,63,468.7,20200117
+2019,21,Washington,401,Clear Spring Middle,Middle,8.9,31,5.2,18,<= 5.0,*,349.5,20200117
+2019,21,Washington,402,Clear Spring Elementary,Elementary,5.8,22,<= 5.0,*,<= 5.0,*,379.6,20200117
+2019,21,Washington,403,Clear Spring High,High,11.7,53,5.1,23,6.6,30,452.6,20200117
+2019,21,Washington,501,Hancock Middle Senior High,Middle,10.3,12,<= 5.0,*,6.9,8,116.5,20200117
+2019,21,Washington,501,Hancock Middle Senior High,All,11.5,29,<= 5.0,*,7.1,18,252.2,20200117
+2019,21,Washington,501,Hancock Middle Senior High,High,12.5,17,5.2,7,7.4,10,135.7,20200117
+2019,21,Washington,502,Hancock Elementary,Elementary,12.1,26,7.9,17,<= 5.0,*,215.2,20200117
+2019,21,Washington,601,Boonsboro High,High,6,56,<= 5.0,*,<= 5.0,*,939.4,20200117
+2019,21,Washington,602,Boonsboro Middle,Middle,6.3,47,<= 5.0,*,<= 5.0,*,747.5,20200117
+2019,21,Washington,603,Boonsboro Elementary,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,21,Washington,701,Smithsburg High,High,9.5,71,<= 5.0,*,5.1,38,745.9,20200117
+2019,21,Washington,702,Smithsburg Elementary,Elementary,11.2,38,6.8,23,<= 5.0,*,340.4,20200117
+2019,21,Washington,704,Smithsburg Middle,Middle,9.6,61,5.8,37,<= 5.0,*,635.8,20200117
+2019,21,Washington,705,Washington County Job Development Center,High,16.4,5,13.1,4,<= 5.0,*,30.6,20200117
+2019,21,Washington,902,Paramount Elementary,Elementary,16.9,67,9.1,36,7.8,31,396.1,20200117
+2019,21,Washington,903,Old Forge Elementary,Elementary,8.2,29,<= 5.0,*,<= 5.0,*,354.9,20200117
+2019,21,Washington,1002,Eastern Elementary,Elementary,26.8,118,15,66,11.8,52,439.7,20200117
+2019,21,Washington,1101,Pleasant Valley Elementary,Elementary,9.2,21,6.6,15,<= 5.0,*,228.1,20200117
+2019,21,Washington,1301,Maugansville Elementary,Elementary,15.8,100,9.3,59,6.5,41,631.4,20200117
+2019,21,Washington,1401,Cascade Elementary,Elementary,17.5,25,7,10,10.5,15,142.9,20200117
+2019,21,Washington,1602,Greenbrier Elementary,Elementary,8.3,17,<= 5.0,*,<= 5.0,*,204.1,20200117
+2019,21,Washington,1701,Bester Elementary,Elementary,35.7,196,18.9,104,16.7,92,549.7,20200117
+2019,21,Washington,1802,Pangborn Elementary,Elementary,24.6,172,14.8,103,9.9,69,698.2,20200117
+2019,21,Washington,1805,Potomac Heights Elementary,Elementary,23.8,62,14.2,37,9.6,25,260.2,20200117
+2019,21,Washington,2002,Fountain Rock Elementary,Elementary,11.6,27,6.4,15,5.1,12,233,20200117
+2019,21,Washington,2101,North Hagerstown High,High,13.3,178,7.5,100,5.8,78,1334.8,20200117
+2019,21,Washington,2102,Northern Middle,Middle,18.9,138,9.9,72,9,66,729.6,20200117
+2019,21,Washington,2501,Western Heights Middle,Middle,19.2,184,9.4,90,9.8,94,959,20200117
+2019,21,Washington,2503,Salem Avenue Elementary,Elementary,27.2,186,15.4,105,11.9,81,683.1,20200117
+2019,21,Washington,2505,Marshall Street School,Elementary,26.3,3,17.5,2,8.8,1,11.4,20200117
+2019,21,Washington,2505,Marshall Street School,Middle,*,*,*,*,*,*,*,20200117
+2019,21,Washington,2505,Marshall Street School,All,21.2,10,14.8,7,6.4,3,47.2,20200117
+2019,21,Washington,2505,Marshall Street School,High,17.9,5,10.8,3,7.2,2,27.9,20200117
+2019,21,Washington,2601,Lincolnshire Elementary,Elementary,16.6,79,8.8,42,7.8,37,476.4,20200117
+2019,21,Washington,2602,Hickory Elementary,Elementary,24.3,65,12,32,12.4,33,267.1,20200117
+2019,21,Washington,2701,Fountaindale Elementary,Elementary,17,63,7.6,28,9.4,35,370.4,20200117
+2019,21,Washington,A,All Washington Schools,Elementary,17.9,1768,10,985,7.9,783,9879.1,20200117
+2019,21,Washington,A,All Washington Schools,Middle,14.2,739,7.4,384,6.8,355,5202.3,20200117
+2019,21,Washington,A,All Washington Schools,All,15.1,3285,8.1,1760,7,1525,21774.2,20200117
+2019,21,Washington,A,All Washington Schools,High,11.6,778,5.8,391,5.8,387,6692.8,20200117
+2019,22,Wicomico,102,Mardela Middle & High,Middle,14.6,43,<= 5.0,*,10.2,30,294.3,20200117
+2019,22,Wicomico,102,Mardela Middle & High,High,14.7,54,<= 5.0,*,10.9,40,366.3,20200117
+2019,22,Wicomico,102,Mardela Middle & High,All,14.7,97,<= 5.0,*,10.6,70,660.7,20200117
+2019,22,Wicomico,106,Northwestern Elementary,Elementary,19,56,7.8,23,11.2,33,294.3,20200117
+2019,22,Wicomico,406,Pittsville Elementary & Middle,Elementary,17.1,29,<= 5.0,*,12.9,22,170,20200117
+2019,22,Wicomico,406,Pittsville Elementary & Middle,Middle,17.8,43,5.8,14,12,29,241.3,20200117
+2019,22,Wicomico,406,Pittsville Elementary & Middle,All,17.5,72,5.1,21,12.4,51,411.3,20200117
+2019,22,Wicomico,510,Wicomico Middle,Middle,34.1,279,15.7,129,18.3,150,819.1,20200117
+2019,22,Wicomico,512,East Salisbury Elementary,Elementary,27.8,130,14.3,67,13.5,63,467.8,20200117
+2019,22,Wicomico,513,Wicomico High,High,28.8,291,10.7,108,18.1,183,1010.3,20200117
+2019,22,Wicomico,514,Beaver Run School,Elementary,37.3,178,20.3,97,17,81,477.5,20200117
+2019,22,Wicomico,515,Glen Avenue School,Elementary,27.7,116,12.9,54,14.8,62,418.2,20200117
+2019,22,Wicomico,520,Wicomico County Evening High,High,>= 95.0,*,92.8,86,43.2,40,92.7,20200117
+2019,22,Wicomico,905,North Salisbury Elementary,Elementary,19.6,93,9.1,43,10.6,50,473.3,20200117
+2019,22,Wicomico,906,Pemberton Elementary,Elementary,17.7,87,7.9,39,9.7,48,492.7,20200117
+2019,22,Wicomico,907,Charles H. Chipman Elementary,Elementary,47.5,99,24.4,51,23,48,208.6,20200117
+2019,22,Wicomico,909,West Salisbury,Elementary,22.9,64,12.5,35,10.4,29,279.3,20200117
+2019,22,Wicomico,910,Salisbury Middle,Middle,27.9,212,10.9,83,17,129,759.7,20200117
+2019,22,Wicomico,1103,Delmar Elementary,Elementary,14,115,7.7,63,6.4,52,818.6,20200117
+2019,22,Wicomico,1305,Pinehurst Elementary,Elementary,31.8,167,14.5,76,17.3,91,525.2,20200117
+2019,22,Wicomico,1306,Prince Street School,Elementary,30.8,215,19.2,134,11.6,81,697.1,20200117
+2019,22,Wicomico,1307,James M. Bennett High,High,23.8,362,10,152,13.8,210,1517.9,20200117
+2019,22,Wicomico,1308,Bennett Middle,Middle,23.1,225,10.6,103,12.5,122,972.2,20200117
+2019,22,Wicomico,1309,Parkside High,High,20.9,232,7.9,88,13,144,1109.4,20200117
+2019,22,Wicomico,1404,Willards Elementary,Elementary,19.9,53,9,24,10.9,29,266,20200117
+2019,22,Wicomico,1501,Westside Primary,Elementary,23.9,43,10,18,13.9,25,180.2,20200117
+2019,22,Wicomico,1502,Westside Intermediate,Elementary,16.3,66,6.7,27,9.6,39,405.5,20200117
+2019,22,Wicomico,1601,Fruitland Primary,Elementary,16.2,72,8.1,36,8.1,36,445,20200117
+2019,22,Wicomico,1602,Fruitland Intermediate,Elementary,20.9,91,10.5,46,10.3,45,436.4,20200117
+2019,22,Wicomico,A,All Wicomico Schools,Elementary,23.7,1673,11.9,840,11.8,833,7055.5,20200117
+2019,22,Wicomico,A,All Wicomico Schools,Middle,25.9,799,11,341,14.8,458,3086.5,20200117
+2019,22,Wicomico,A,All Wicomico Schools,All,24.9,3541,11.4,1630,13.4,1911,14238.9,20200117
+2019,22,Wicomico,A,All Wicomico Schools,High,26.1,1069,11,449,15.1,620,4097,20200117
+2019,23,Worcester,102,Pocomoke Elementary,Elementary,16,53,8.8,29,7.3,24,330.6,20200117
+2019,23,Worcester,107,Pocomoke High,High,16.3,54,8.7,29,7.5,25,332,20200117
+2019,23,Worcester,108,Pocomoke Middle,Elementary,7.4,12,<= 5.0,*,<= 5.0,*,162.4,20200117
+2019,23,Worcester,108,Pocomoke Middle,Middle,10.9,25,5.2,12,5.7,13,228.7,20200117
+2019,23,Worcester,108,Pocomoke Middle,All,9.5,37,5.1,20,<= 5.0,*,391.1,20200117
+2019,23,Worcester,205,Snow Hill Elementary,Elementary,9.1,28,5.9,18,<= 5.0,*,307.3,20200117
+2019,23,Worcester,207,Snow Hill High,High,7.2,23,<= 5.0,*,<= 5.0,*,321,20200117
+2019,23,Worcester,208,Snow Hill Middle,Elementary,10.8,19,6.3,11,<= 5.0,*,175.2,20200117
+2019,23,Worcester,208,Snow Hill Middle,Middle,10.4,25,<= 5.0,*,5.4,13,240.9,20200117
+2019,23,Worcester,208,Snow Hill Middle,All,10.6,44,5.5,23,<= 5.0,*,416.2,20200117
+2019,23,Worcester,308,Stephen Decatur Middle,Middle,7.6,49,<= 5.0,*,<= 5.0,*,647.5,20200117
+2019,23,Worcester,310,Stephen Decatur High,High,9.8,132,<= 5.0,*,6.3,84,1341.7,20200117
+2019,23,Worcester,311,Berlin Intermediate,Elementary,9.7,78,5.7,46,<= 5.0,*,807.5,20200117
+2019,23,Worcester,312,Showell Elementary,Elementary,8.8,40,6.2,28,<= 5.0,*,453.7,20200117
+2019,23,Worcester,401,Cedar Chapel Special School,Elementary,5.7,1,<= 5.0,*,5.7,1,17.5,20200117
+2019,23,Worcester,401,Cedar Chapel Special School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,23,Worcester,401,Cedar Chapel Special School,All,5.7,3,<= 5.0,*,5.7,3,53,20200117
+2019,23,Worcester,401,Cedar Chapel Special School,High,8.2,2,<= 5.0,*,8.2,2,24.4,20200117
+2019,23,Worcester,901,Buckingham Elementary,Elementary,11.7,55,5.1,24,6.6,31,469,20200117
+2019,23,Worcester,1001,Ocean City Elementary,Elementary,19,98,9.9,51,9.1,47,514.6,20200117
+2019,23,Worcester,A,All Worcester Schools,Elementary,12.2,352,6.9,198,5.4,154,2874.3,20200117
+2019,23,Worcester,A,All Worcester Schools,Middle,8.8,131,<= 5.0,*,<= 5.0,*,1491.7,20200117
+2019,23,Worcester,A,All Worcester Schools,All,10.9,694,5.5,348,5.4,346,6385.2,20200117
+2019,23,Worcester,A,All Worcester Schools,High,10.4,211,<= 5.0,*,6.3,127,2019.2,20200117
+2019,30,Baltimore City,4,Steuart Hill Academic Academy,Elementary,39.2,77,16.8,33,22.4,44,196.3,20200117
+2019,30,Baltimore City,7,Cecil Elementary,Elementary,34.2,100,16.4,48,17.8,52,292.3,20200117
+2019,30,Baltimore City,8,City Springs Elementary/Middle,Elementary,29.7,129,15.2,66,14.5,63,434.3,20200117
+2019,30,Baltimore City,8,City Springs Elementary/Middle,Middle,27.2,60,18.2,40,9.1,20,220.2,20200117
+2019,30,Baltimore City,8,City Springs Elementary/Middle,All,28.9,189,16.2,106,12.7,83,654.5,20200117
+2019,30,Baltimore City,10,James McHenry Elementary/Middle,Elementary,26.6,84,16.1,51,10.4,33,315.9,20200117
+2019,30,Baltimore City,10,James McHenry Elementary/Middle,Middle,35.2,53,18.6,28,16.6,25,150.6,20200117
+2019,30,Baltimore City,10,James McHenry Elementary/Middle,All,29.4,137,16.9,79,12.4,58,466.5,20200117
+2019,30,Baltimore City,11,Eutaw-Marshburn Elementary,Elementary,36,84,23.2,54,12.9,30,233,20200117
+2019,30,Baltimore City,12,Lakeland Elementary/Middle,Elementary,26.4,150,16,91,10.4,59,567.5,20200117
+2019,30,Baltimore City,12,Lakeland Elementary/Middle,Middle,15.8,43,8.8,24,7,19,272.1,20200117
+2019,30,Baltimore City,12,Lakeland Elementary/Middle,All,23,193,13.7,115,9.3,78,839.5,20200117
+2019,30,Baltimore City,13,Tench Tilghman Elementary/Middle,Elementary,42.7,101,21.6,51,21.1,50,236.6,20200117
+2019,30,Baltimore City,13,Tench Tilghman Elementary/Middle,Middle,46.9,50,24.4,26,22.5,24,106.5,20200117
+2019,30,Baltimore City,13,Tench Tilghman Elementary/Middle,All,44,151,22.4,77,21.6,74,343.1,20200117
+2019,30,Baltimore City,15,Stadium School,Middle,35,119,14.7,50,20.3,69,340,20200117
+2019,30,Baltimore City,16,Johnston Square Elementary,Elementary,52.6,132,27.1,68,25.5,64,251,20200117
+2019,30,Baltimore City,21,Hilton Elementary,Elementary,32.6,101,16.8,52,15.8,49,309.7,20200117
+2019,30,Baltimore City,22,George Washington Elementary,Elementary,25.2,49,9.3,18,15.9,31,194.5,20200117
+2019,30,Baltimore City,23,Wolfe Street Academy,Elementary,16.4,36,8.2,18,8.2,18,219.4,20200117
+2019,30,Baltimore City,27,Commodore John Rogers Elementary/Middle,Elementary,28.2,153,17.7,96,10.5,57,543.1,20200117
+2019,30,Baltimore City,27,Commodore John Rogers Elementary/Middle,Middle,23.3,67,10.5,30,12.9,37,287,20200117
+2019,30,Baltimore City,27,Commodore John Rogers Elementary/Middle,All,26.5,220,15.2,126,11.3,94,830.1,20200117
+2019,30,Baltimore City,28,William Pinderhughes Elementary/Middle,Elementary,44.1,53,29.1,35,15,18,120.1,20200117
+2019,30,Baltimore City,28,William Pinderhughes Elementary/Middle,Middle,44.9,45,22.9,23,21.9,22,100.3,20200117
+2019,30,Baltimore City,28,William Pinderhughes Elementary/Middle,All,44.5,98,26.3,58,18.2,40,220.4,20200117
+2019,30,Baltimore City,29,Matthew A. Henson Elementary,Elementary,42.3,125,16.6,49,25.7,76,295.5,20200117
+2019,30,Baltimore City,34,Charles Carroll Barrister Elementary,Elementary,32.7,98,16.7,50,16,48,299.4,20200117
+2019,30,Baltimore City,35,Harlem Park Elementary/Middle,Elementary,31.7,53,10.2,17,21.6,36,167,20200117
+2019,30,Baltimore City,35,Harlem Park Elementary/Middle,Middle,35.7,40,24.1,27,11.6,13,111.9,20200117
+2019,30,Baltimore City,35,Harlem Park Elementary/Middle,All,33.3,93,15.8,44,17.6,49,278.9,20200117
+2019,30,Baltimore City,37,Harford Heights Elementary,Elementary,33.6,123,18.8,69,14.7,54,366.3,20200117
+2019,30,Baltimore City,39,Dallas F. Nicholas Sr. Elementary,Elementary,24.9,49,11.2,22,13.7,27,196.8,20200117
+2019,30,Baltimore City,44,Montebello Elementary/Middle,Elementary,32,96,13,39,19,57,299.7,20200117
+2019,30,Baltimore City,44,Montebello Elementary/Middle,Middle,29.5,59,16,32,13.5,27,199.8,20200117
+2019,30,Baltimore City,44,Montebello Elementary/Middle,All,31,155,14.2,71,16.8,84,499.5,20200117
+2019,30,Baltimore City,45,Federal Hill Preparatory Academy,Elementary,22.8,58,6.7,17,16.1,41,254.7,20200117
+2019,30,Baltimore City,47,Hampstead Hill Academy,Elementary,8.3,42,<= 5.0,*,5.1,26,508.9,20200117
+2019,30,Baltimore City,47,Hampstead Hill Academy,Middle,8.9,23,<= 5.0,*,5.4,14,258,20200117
+2019,30,Baltimore City,47,Hampstead Hill Academy,All,8.5,65,<= 5.0,*,5.2,40,766.9,20200117
+2019,30,Baltimore City,50,Abbottston Elementary,Elementary,48.9,146,31.1,93,17.7,53,298.8,20200117
+2019,30,Baltimore City,51,Waverly Elementary/Middle,Elementary,20.4,64,8,25,12.5,39,313,20200117
+2019,30,Baltimore City,51,Waverly Elementary/Middle,Middle,22.1,56,9.5,24,12.6,32,253.2,20200117
+2019,30,Baltimore City,51,Waverly Elementary/Middle,All,21.2,120,8.7,49,12.5,71,566.2,20200117
+2019,30,Baltimore City,53,Margaret Brent Elementary/Middle,Elementary,26.3,52,12.6,25,13.7,27,197.8,20200117
+2019,30,Baltimore City,53,Margaret Brent Elementary/Middle,Middle,21.1,23,9.2,10,11.9,13,109.1,20200117
+2019,30,Baltimore City,53,Margaret Brent Elementary/Middle,All,24.4,75,11.4,35,13,40,306.8,20200117
+2019,30,Baltimore City,54,Barclay Elementary/Middle,Elementary,25.7,69,15.6,42,10,27,268.9,20200117
+2019,30,Baltimore City,54,Barclay Elementary/Middle,Middle,32.1,54,19,32,13.1,22,168.1,20200117
+2019,30,Baltimore City,54,Barclay Elementary/Middle,All,28.1,123,16.9,74,11.2,49,437,20200117
+2019,30,Baltimore City,55,Hampden Elementary/Middle,Elementary,25.2,69,12.1,33,13.2,36,273.8,20200117
+2019,30,Baltimore City,55,Hampden Elementary/Middle,Middle,33.1,44,22.6,30,10.5,14,132.8,20200117
+2019,30,Baltimore City,55,Hampden Elementary/Middle,All,27.8,113,15.5,63,12.3,50,406.6,20200117
+2019,30,Baltimore City,58,Dr. Nathan A. Pitts-Ashburton Elementary/Middle,Elementary,26.4,45,12.3,21,14.1,24,170.7,20200117
+2019,30,Baltimore City,58,Dr. Nathan A. Pitts-Ashburton Elementary/Middle,Middle,33.5,53,15.8,25,17.7,28,158.4,20200117
+2019,30,Baltimore City,58,Dr. Nathan A. Pitts-Ashburton Elementary/Middle,All,29.8,98,14,46,15.8,52,329,20200117
+2019,30,Baltimore City,60,Gwynns Falls Elementary,Elementary,28.9,82,16.9,48,12,34,283.9,20200117
+2019,30,Baltimore City,61,Dorothy I. Height Elementary,Elementary,34.2,95,16.5,46,17.6,49,278.2,20200117
+2019,30,Baltimore City,62,Edgecombe Circle Elementary,Elementary,65.4,107,30.5,50,34.8,57,163.7,20200117
+2019,30,Baltimore City,63,Rosemont Elementary/Middle,Elementary,25.9,46,13.5,24,12.4,22,177.4,20200117
+2019,30,Baltimore City,63,Rosemont Elementary/Middle,Middle,43.7,57,23,30,20.7,27,130.4,20200117
+2019,30,Baltimore City,63,Rosemont Elementary/Middle,All,33.5,103,17.5,54,15.9,49,307.8,20200117
+2019,30,Baltimore City,64,Liberty Elementary,Elementary,31.7,138,16.5,72,15.2,66,435.5,20200117
+2019,30,Baltimore City,66,Mount Royal Elementary/Middle,Elementary,21.4,64,9.7,29,11.7,35,299.7,20200117
+2019,30,Baltimore City,66,Mount Royal Elementary/Middle,Middle,15.6,66,6.8,29,8.7,37,423.8,20200117
+2019,30,Baltimore City,66,Mount Royal Elementary/Middle,All,18,130,8,58,10,72,723.5,20200117
+2019,30,Baltimore City,67,Edgewood Elementary,Elementary,35.5,62,20,35,15.5,27,174.7,20200117
+2019,30,Baltimore City,73,Sarah M. Roach Elementary,Elementary,32.7,66,19.8,40,12.9,26,201.8,20200117
+2019,30,Baltimore City,75,Calverton Elementary/Middle,Elementary,57.2,48,34.5,29,22.6,19,84,20200117
+2019,30,Baltimore City,75,Calverton Elementary/Middle,Middle,55.2,190,25.3,87,29.9,103,344.1,20200117
+2019,30,Baltimore City,75,Calverton Elementary/Middle,All,55.6,238,27.1,116,28.5,122,428.1,20200117
+2019,30,Baltimore City,76,Francis Scott Key Elementary/Middle,Elementary,13.2,29,6.8,15,6.4,14,219.4,20200117
+2019,30,Baltimore City,76,Francis Scott Key Elementary/Middle,Middle,15.2,35,8.7,20,6.5,15,230.6,20200117
+2019,30,Baltimore City,76,Francis Scott Key Elementary/Middle,All,14.2,64,7.8,35,6.4,29,450.1,20200117
+2019,30,Baltimore City,81,North Bend Elementary/Middle,Elementary,29.3,90,16.6,51,12.7,39,307.3,20200117
+2019,30,Baltimore City,81,North Bend Elementary/Middle,Middle,32.2,37,15.7,18,16.5,19,114.9,20200117
+2019,30,Baltimore City,81,North Bend Elementary/Middle,All,30.1,127,16.3,69,13.7,58,422.2,20200117
+2019,30,Baltimore City,83,William Paca Elementary,Elementary,46.2,181,25.3,99,20.9,82,392.1,20200117
+2019,30,Baltimore City,84,Thomas Johnson Elementary/Middle,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,84,Thomas Johnson Elementary/Middle,Middle,8.1,14,<= 5.0,*,<= 5.0,*,173.2,20200117
+2019,30,Baltimore City,84,Thomas Johnson Elementary/Middle,All,5.8,29,<= 5.0,*,<= 5.0,*,496.6,20200117
+2019,30,Baltimore City,85,Fort Worthington Elementary/Middle,Elementary,44.7,223,24.1,120,20.7,103,498.4,20200117
+2019,30,Baltimore City,85,Fort Worthington Elementary/Middle,Middle,33.7,84,17.3,43,16.5,41,249.1,20200117
+2019,30,Baltimore City,85,Fort Worthington Elementary/Middle,All,41.1,307,21.8,163,19.3,144,747.5,20200117
+2019,30,Baltimore City,87,Windsor Hills Elementary/Middle,Elementary,35.1,50,19,27,16.2,23,142.3,20200117
+2019,30,Baltimore City,87,Windsor Hills Elementary/Middle,Middle,31.9,37,12.9,15,18.9,22,116.1,20200117
+2019,30,Baltimore City,87,Windsor Hills Elementary/Middle,All,33.7,87,16.3,42,17.4,45,258.4,20200117
+2019,30,Baltimore City,88,Wildwood Elementary/Middle,Elementary,26.8,135,16.1,81,10.7,54,504.4,20200117
+2019,30,Baltimore City,88,Wildwood Elementary/Middle,Middle,27.9,62,19.4,43,8.6,19,222.1,20200117
+2019,30,Baltimore City,88,Wildwood Elementary/Middle,All,27.1,197,17.1,124,10,73,726.5,20200117
+2019,30,Baltimore City,95,Franklin Square Elementary/Middle,Elementary,37.6,92,21.3,52,16.4,40,244.6,20200117
+2019,30,Baltimore City,95,Franklin Square Elementary/Middle,Middle,25.1,50,13.6,27,11.5,23,199.1,20200117
+2019,30,Baltimore City,95,Franklin Square Elementary/Middle,All,32,142,17.8,79,14.2,63,443.7,20200117
+2019,30,Baltimore City,97,Collington Square Elementary/Middle,Elementary,43.6,77,24.4,43,19.3,34,176.5,20200117
+2019,30,Baltimore City,97,Collington Square Elementary/Middle,Middle,52,71,30,41,22,30,136.6,20200117
+2019,30,Baltimore City,97,Collington Square Elementary/Middle,All,47.3,148,26.8,84,20.4,64,313.2,20200117
+2019,30,Baltimore City,105,Moravia Park Elementary,Elementary,26,172,12.6,83,13.5,89,660.6,20200117
+2019,30,Baltimore City,107,Gilmor Elementary,Elementary,49.5,110,24.3,54,25.2,56,222.2,20200117
+2019,30,Baltimore City,122,The Historic Samuel Coleridge-Taylor Elementary,Elementary,45,102,16.3,37,28.7,65,226.6,20200117
+2019,30,Baltimore City,124,Bay-Brook Elementary/Middle,Elementary,57.3,151,28.1,74,29.2,77,263.5,20200117
+2019,30,Baltimore City,124,Bay-Brook Elementary/Middle,Middle,37,38,18.5,19,18.5,19,102.8,20200117
+2019,30,Baltimore City,124,Bay-Brook Elementary/Middle,All,51.6,189,25.4,93,26.2,96,366.3,20200117
+2019,30,Baltimore City,125,Furman Templeton Preparatory Academy,Elementary,43.6,179,18.3,75,25.3,104,410.4,20200117
+2019,30,Baltimore City,130,Booker T. Washington Middle,Middle,57.2,135,30.1,71,27.1,64,236.1,20200117
+2019,30,Baltimore City,134,Walter P. Carter Elementary/Middle,Elementary,34.6,71,19.5,40,15.1,31,205,20200117
+2019,30,Baltimore City,134,Walter P. Carter Elementary/Middle,Middle,39.7,44,19.8,22,19.8,22,110.9,20200117
+2019,30,Baltimore City,134,Walter P. Carter Elementary/Middle,All,36.4,115,19.6,62,16.8,53,316,20200117
+2019,30,Baltimore City,142,Robert W. Coleman Elementary,Elementary,24.4,66,12.9,35,11.5,31,270.6,20200117
+2019,30,Baltimore City,144,James Mosher Elementary,Elementary,47,108,25.7,59,21.3,49,229.7,20200117
+2019,30,Baltimore City,145,Alexander Hamilton Elementary,Elementary,38,59,14.8,23,23.2,36,155.3,20200117
+2019,30,Baltimore City,150,Mary Ann Winterling Elementary at Bentalou,Elementary,20.8,46,12.6,28,8.1,18,221.4,20200117
+2019,30,Baltimore City,159,Cherry Hill Elementary/Middle,Elementary,40.3,134,21.6,72,18.6,62,332.9,20200117
+2019,30,Baltimore City,159,Cherry Hill Elementary/Middle,Middle,28.3,91,12.7,41,15.5,50,321.8,20200117
+2019,30,Baltimore City,159,Cherry Hill Elementary/Middle,All,34.4,225,17.3,113,17.1,112,654.7,20200117
+2019,30,Baltimore City,164,Arundel Elementary,Elementary,33.7,128,20.5,78,13.2,50,379.8,20200117
+2019,30,Baltimore City,177,George W. F. McMechen High,High,15.1,7,10.8,5,<= 5.0,*,46.5,20200117
+2019,30,Baltimore City,178,Excel Academy at Francis M. Wood High,Middle,>= 95.0,*,74.4,33,67.7,30,44.3,20200117
+2019,30,Baltimore City,178,Excel Academy at Francis M. Wood High,High,>= 95.0,*,66,364,29.9,165,551.9,20200117
+2019,30,Baltimore City,178,Excel Academy at Francis M. Wood High,All,>= 95.0,*,66.6,397,32.7,195,596.2,20200117
+2019,30,Baltimore City,201,Dickey Hill Elementary/Middle,Elementary,38.8,88,21.1,48,17.6,40,227,20200117
+2019,30,Baltimore City,201,Dickey Hill Elementary/Middle,Middle,42.4,58,27.8,38,14.6,20,136.7,20200117
+2019,30,Baltimore City,201,Dickey Hill Elementary/Middle,All,40.2,146,23.7,86,16.5,60,363.6,20200117
+2019,30,Baltimore City,203,Maree Garnett Farring Elementary/Middle,Elementary,38.9,184,22,104,16.9,80,473.3,20200117
+2019,30,Baltimore City,203,Maree Garnett Farring Elementary/Middle,Middle,30,70,21,49,9,21,233,20200117
+2019,30,Baltimore City,203,Maree Garnett Farring Elementary/Middle,All,36,254,21.7,153,14.3,101,706.3,20200117
+2019,30,Baltimore City,204,Mary E. Rodman Elementary,Elementary,40.7,98,22.4,54,18.3,44,240.8,20200117
+2019,30,Baltimore City,205,Woodhome Elementary/Middle,Elementary,23.5,57,12,29,11.5,28,242.7,20200117
+2019,30,Baltimore City,205,Woodhome Elementary/Middle,Middle,29.9,33,18.1,20,11.8,13,110.4,20200117
+2019,30,Baltimore City,205,Woodhome Elementary/Middle,All,25.5,90,13.9,49,11.6,41,353.1,20200117
+2019,30,Baltimore City,206,Furley Elementary,Elementary,34.9,128,19.4,71,15.5,57,366.8,20200117
+2019,30,Baltimore City,207,Curtis Bay Elementary/Middle,Elementary,46.6,190,27,110,19.6,80,407.4,20200117
+2019,30,Baltimore City,207,Curtis Bay Elementary/Middle,Middle,38.8,53,20.5,28,18.3,25,136.7,20200117
+2019,30,Baltimore City,207,Curtis Bay Elementary/Middle,All,44.7,243,25.4,138,19.3,105,544.1,20200117
+2019,30,Baltimore City,210,Hazelwood Elementary/Middle,Elementary,40.2,99,17.9,44,22.3,55,246.3,20200117
+2019,30,Baltimore City,210,Hazelwood Elementary/Middle,Middle,45.6,81,22.5,40,23.1,41,177.5,20200117
+2019,30,Baltimore City,210,Hazelwood Elementary/Middle,All,42.5,180,19.8,84,22.7,96,423.8,20200117
+2019,30,Baltimore City,211,Gardenville Elementary,Elementary,25.7,71,15.9,44,9.8,27,276.6,20200117
+2019,30,Baltimore City,212,Garrett Heights Elementary/Middle,Elementary,23,43,7.5,14,15.5,29,186.8,20200117
+2019,30,Baltimore City,212,Garrett Heights Elementary/Middle,Middle,34.2,26,17.1,13,17.1,13,76,20200117
+2019,30,Baltimore City,212,Garrett Heights Elementary/Middle,All,26.3,69,10.3,27,16,42,262.8,20200117
+2019,30,Baltimore City,213,Govans Elementary,Elementary,21,77,12.6,46,8.5,31,366.2,20200117
+2019,30,Baltimore City,214,Guilford Elementary/Middle,Elementary,48.5,74,24.3,37,24.3,37,152.5,20200117
+2019,30,Baltimore City,214,Guilford Elementary/Middle,Middle,37.3,36,22.8,22,14.5,14,96.5,20200117
+2019,30,Baltimore City,214,Guilford Elementary/Middle,All,44.2,110,23.7,59,20.5,51,249,20200117
+2019,30,Baltimore City,215,Highlandtown Elementary/Middle #215,Elementary,25,68,14.7,40,10.3,28,272.2,20200117
+2019,30,Baltimore City,215,Highlandtown Elementary/Middle #215,Middle,13.7,19,9.3,13,<= 5.0,*,139.1,20200117
+2019,30,Baltimore City,215,Highlandtown Elementary/Middle #215,All,21.2,87,12.9,53,8.3,34,411.2,20200117
+2019,30,Baltimore City,217,Belmont Elementary,Elementary,43,99,21.3,49,21.7,50,230,20200117
+2019,30,Baltimore City,219,Yorkwood Elementary,Elementary,36.2,138,21.5,82,14.7,56,381.3,20200117
+2019,30,Baltimore City,220,Morrell Park Elementary/Middle,Elementary,30.2,79,19.1,50,11.1,29,261.5,20200117
+2019,30,Baltimore City,220,Morrell Park Elementary/Middle,Middle,28.3,49,16.2,28,12.1,21,173.2,20200117
+2019,30,Baltimore City,220,Morrell Park Elementary/Middle,All,29.4,128,17.9,78,11.5,50,434.7,20200117
+2019,30,Baltimore City,221,The Mount Washington School,Elementary,9.7,39,<= 5.0,*,5.9,24,403.5,20200117
+2019,30,Baltimore City,221,The Mount Washington School,Middle,11.7,24,<= 5.0,*,7.8,16,204.5,20200117
+2019,30,Baltimore City,221,The Mount Washington School,All,10.4,63,<= 5.0,*,6.6,40,608,20200117
+2019,30,Baltimore City,223,Pimlico Elementary/Middle,Elementary,75.8,174,43.6,100,32.2,74,229.5,20200117
+2019,30,Baltimore City,223,Pimlico Elementary/Middle,Middle,62.6,114,34.6,63,28,51,182.1,20200117
+2019,30,Baltimore City,223,Pimlico Elementary/Middle,All,70,288,39.6,163,30.4,125,411.6,20200117
+2019,30,Baltimore City,225,Westport Academy,Elementary,50.3,94,25.7,48,24.6,46,186.8,20200117
+2019,30,Baltimore City,225,Westport Academy,Middle,41.9,39,22.6,21,19.4,18,93,20200117
+2019,30,Baltimore City,225,Westport Academy,All,47.5,133,24.7,69,22.9,64,279.8,20200117
+2019,30,Baltimore City,226,Violetville Elementary/Middle,Elementary,24.6,60,14.8,36,9.9,24,243.6,20200117
+2019,30,Baltimore City,226,Violetville Elementary/Middle,Middle,28.7,41,16.1,23,12.6,18,142.8,20200117
+2019,30,Baltimore City,226,Violetville Elementary/Middle,All,26.1,101,15.3,59,10.9,42,386.3,20200117
+2019,30,Baltimore City,228,John Ruhrah Elementary/Middle,Elementary,28.1,148,15.6,82,12.6,66,525.8,20200117
+2019,30,Baltimore City,228,John Ruhrah Elementary/Middle,Middle,21.2,51,10,24,11.2,27,241,20200117
+2019,30,Baltimore City,228,John Ruhrah Elementary/Middle,All,26,199,13.8,106,12.1,93,766.8,20200117
+2019,30,Baltimore City,229,Holabird Elementary/Middle,Elementary,42.2,123,23,67,19.2,56,291.3,20200117
+2019,30,Baltimore City,229,Holabird Elementary/Middle,Middle,44.5,62,26.6,37,18,25,139.2,20200117
+2019,30,Baltimore City,229,Holabird Elementary/Middle,All,43,185,24.2,104,18.8,81,430.6,20200117
+2019,30,Baltimore City,231,Brehms Lane Public Charter School,Elementary,26.5,165,14.1,88,12.4,77,622.4,20200117
+2019,30,Baltimore City,232,Thomas Jefferson Elementary/Middle,Elementary,21.8,62,12,34,9.9,28,284.2,20200117
+2019,30,Baltimore City,232,Thomas Jefferson Elementary/Middle,Middle,17.3,29,11.9,20,5.4,9,167.8,20200117
+2019,30,Baltimore City,232,Thomas Jefferson Elementary/Middle,All,20.1,91,11.9,54,8.2,37,452,20200117
+2019,30,Baltimore City,233,Roland Park Elementary/Middle,Elementary,10.8,73,<= 5.0,*,5.8,39,676.5,20200117
+2019,30,Baltimore City,233,Roland Park Elementary/Middle,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,233,Roland Park Elementary/Middle,All,7.3,103,<= 5.0,*,<= 5.0,*,1415,20200117
+2019,30,Baltimore City,234,Arlington Elementary/Middle,Elementary,28.5,96,14.9,50,13.7,46,336.6,20200117
+2019,30,Baltimore City,234,Arlington Elementary/Middle,Middle,30.1,50,13.8,23,16.2,27,166.2,20200117
+2019,30,Baltimore City,234,Arlington Elementary/Middle,All,29,146,14.5,73,14.5,73,502.9,20200117
+2019,30,Baltimore City,235,Glenmount Elementary/Middle,Elementary,23.5,93,12.9,51,10.6,42,395.6,20200117
+2019,30,Baltimore City,235,Glenmount Elementary/Middle,Middle,29.4,68,13.9,32,15.6,36,231,20200117
+2019,30,Baltimore City,235,Glenmount Elementary/Middle,All,25.7,161,13.2,83,12.4,78,626.6,20200117
+2019,30,Baltimore City,236,Hamilton Elementary/Middle,Elementary,14,66,6.3,30,7.6,36,472.7,20200117
+2019,30,Baltimore City,236,Hamilton Elementary/Middle,Middle,11.4,38,5.4,18,6,20,334.3,20200117
+2019,30,Baltimore City,236,Hamilton Elementary/Middle,All,12.9,104,5.9,48,6.9,56,807,20200117
+2019,30,Baltimore City,237,Highlandtown Elementary/Middle #237,Elementary,44,252,30.2,173,13.8,79,572.6,20200117
+2019,30,Baltimore City,237,Highlandtown Elementary/Middle #237,Middle,39.4,89,26.1,59,13.3,30,226.1,20200117
+2019,30,Baltimore City,237,Highlandtown Elementary/Middle #237,All,42.7,341,29,232,13.6,109,798.7,20200117
+2019,30,Baltimore City,239,Benjamin Franklin High School at Masonville Cove,High,48.9,258,24.8,131,24.1,127,527.6,20200117
+2019,30,Baltimore City,240,Graceland Park/O'Donnel Heights Elementary/Middle,Elementary,26.7,84,18.8,59,7.9,25,314.7,20200117
+2019,30,Baltimore City,240,Graceland Park/O'Donnel Heights Elementary/Middle,Middle,33.9,48,23.3,33,10.6,15,141.8,20200117
+2019,30,Baltimore City,240,Graceland Park/O'Donnel Heights Elementary/Middle,All,28.9,132,20.2,92,8.8,40,456.4,20200117
+2019,30,Baltimore City,241,Fallstaff Elementary/Middle,Elementary,40.6,129,24.3,77,16.4,52,317.4,20200117
+2019,30,Baltimore City,241,Fallstaff Elementary/Middle,Middle,39.3,55,20,28,19.3,27,139.8,20200117
+2019,30,Baltimore City,241,Fallstaff Elementary/Middle,All,40.2,184,23,105,17.3,79,457.2,20200117
+2019,30,Baltimore City,242,Northwood Elementary,Elementary,20.9,115,10.5,58,10.3,57,551,20200117
+2019,30,Baltimore City,243,Armistead Gardens Elementary/Middle,Elementary,19.5,90,10.2,47,9.3,43,460.6,20200117
+2019,30,Baltimore City,243,Armistead Gardens Elementary/Middle,Middle,14.5,36,8.9,22,5.6,14,248.5,20200117
+2019,30,Baltimore City,243,Armistead Gardens Elementary/Middle,All,17.8,126,9.7,69,8,57,709,20200117
+2019,30,Baltimore City,245,Leith Walk Elementary/Middle,Elementary,18.9,123,9.8,64,9.1,59,650.8,20200117
+2019,30,Baltimore City,245,Leith Walk Elementary/Middle,Middle,31,95,14.7,45,16.3,50,306.9,20200117
+2019,30,Baltimore City,245,Leith Walk Elementary/Middle,All,22.8,218,11.4,109,11.4,109,957.6,20200117
+2019,30,Baltimore City,246,Beechfield Elementary/Middle,Elementary,44.4,157,20.4,72,24,85,353.8,20200117
+2019,30,Baltimore City,246,Beechfield Elementary/Middle,Middle,48.2,87,28.3,51,19.9,36,180.5,20200117
+2019,30,Baltimore City,246,Beechfield Elementary/Middle,All,45.7,244,23,123,22.6,121,534.3,20200117
+2019,30,Baltimore City,247,Cross Country Elementary/Middle,Elementary,19,80,8.1,34,10.9,46,420.2,20200117
+2019,30,Baltimore City,247,Cross Country Elementary/Middle,Middle,18.3,42,9.2,21,9.2,21,228.9,20200117
+2019,30,Baltimore City,247,Cross Country Elementary/Middle,All,18.8,122,8.5,55,10.3,67,649.1,20200117
+2019,30,Baltimore City,248,Sinclair Lane Elementary,Elementary,45.9,121,25.8,68,20.1,53,263.4,20200117
+2019,30,Baltimore City,249,Medfield Heights Elementary,Elementary,12,41,<= 5.0,*,7.3,25,341.3,20200117
+2019,30,Baltimore City,250,"Dr. Bernard Harris, Sr. Elementary",Elementary,29.1,83,14,40,15.1,43,285.2,20200117
+2019,30,Baltimore City,251,Callaway Elementary,Elementary,34.2,92,18.9,51,15.2,41,269.1,20200117
+2019,30,Baltimore City,254,"Dr. Martin Luther King, Jr. Elementary/Middle",Elementary,57.5,90,30,47,27.5,43,156.5,20200117
+2019,30,Baltimore City,254,"Dr. Martin Luther King, Jr. Elementary/Middle",Middle,24.1,22,13.1,12,11,10,91.3,20200117
+2019,30,Baltimore City,254,"Dr. Martin Luther King, Jr. Elementary/Middle",All,45.2,112,23.8,59,21.4,53,247.8,20200117
+2019,30,Baltimore City,256,Calvin M. Rodwell Elementary/Middle,Elementary,32.3,149,16,74,16.2,75,462,20200117
+2019,30,Baltimore City,256,Calvin M. Rodwell Elementary/Middle,Middle,40.8,71,27,47,13.8,24,173.8,20200117
+2019,30,Baltimore City,256,Calvin M. Rodwell Elementary/Middle,All,34.6,220,19,121,15.6,99,635.8,20200117
+2019,30,Baltimore City,260,Frederick Elementary,Elementary,43.6,148,23,78,20.6,70,339.7,20200117
+2019,30,Baltimore City,261,Lockerman Bundy Elementary,Elementary,41.1,88,15.9,34,25.2,54,214,20200117
+2019,30,Baltimore City,262,Empowerment Academy,Elementary,15.5,23,7.4,11,8.1,12,148.3,20200117
+2019,30,Baltimore City,262,Empowerment Academy,Middle,13.3,11,6.1,5,7.3,6,82.6,20200117
+2019,30,Baltimore City,262,Empowerment Academy,All,14.7,34,6.9,16,7.8,18,230.8,20200117
+2019,30,Baltimore City,301,William S. Baer School,Elementary,21.6,15,10.1,7,11.5,8,69.3,20200117
+2019,30,Baltimore City,301,William S. Baer School,Middle,8,3,5.3,2,<= 5.0,*,37.6,20200117
+2019,30,Baltimore City,301,William S. Baer School,High,19.4,5,<= 5.0,*,19.4,5,25.7,20200117
+2019,30,Baltimore City,301,William S. Baer School,All,17.3,23,6.8,9,10.6,14,132.6,20200117
+2019,30,Baltimore City,307,Claremont School,Middle,*,*,*,*,*,*,*,20200117
+2019,30,Baltimore City,307,Claremont School,All,14.5,8,<= 5.0,*,10.9,6,55.2,20200117
+2019,30,Baltimore City,307,Claremont School,High,12.5,6,<= 5.0,*,10.4,5,48.2,20200117
+2019,30,Baltimore City,313,Lois T. Murray Elementary/Middle,Elementary,41.7,10,16.7,4,25,6,24,20200117
+2019,30,Baltimore City,313,Lois T. Murray Elementary/Middle,Middle,9,2,9,2,<= 5.0,*,22.3,20200117
+2019,30,Baltimore City,313,Lois T. Murray Elementary/Middle,All,26,12,13,6,13,6,46.2,20200117
+2019,30,Baltimore City,314,Sharp-Leadenhall Elementary,Elementary,>= 95.0,*,82,24,17.1,5,29.3,20200117
+2019,30,Baltimore City,321,Midtown Academy,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,321,Midtown Academy,Middle,6,4,<= 5.0,*,<= 5.0,*,66.6,20200117
+2019,30,Baltimore City,321,Midtown Academy,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,322,New Song Academy,Elementary,8.3,8,<= 5.0,*,6.2,6,96.4,20200117
+2019,30,Baltimore City,322,New Song Academy,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,322,New Song Academy,All,6.1,9,<= 5.0,*,<= 5.0,*,146.4,20200117
+2019,30,Baltimore City,323,The Crossroads School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,325,ConneXions: A  Community Based Arts School,Middle,20.2,41,9.4,19,10.9,22,202.6,20200117
+2019,30,Baltimore City,325,ConneXions: A  Community Based Arts School,High,16.6,49,6.4,19,10.2,30,294.7,20200117
+2019,30,Baltimore City,325,ConneXions: A  Community Based Arts School,All,18.1,90,7.6,38,10.5,52,497.3,20200117
+2019,30,Baltimore City,326,City Neighbors Charter School,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,326,City Neighbors Charter School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,326,City Neighbors Charter School,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,327,Patterson Park Public Charter School,Elementary,5.6,28,<= 5.0,*,<= 5.0,*,499.2,20200117
+2019,30,Baltimore City,327,Patterson Park Public Charter School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,327,Patterson Park Public Charter School,All,5.1,34,<= 5.0,*,<= 5.0,*,672.3,20200117
+2019,30,Baltimore City,328,Southwest Baltimore Charter School,Elementary,12.3,33,5.6,15,6.7,18,267.6,20200117
+2019,30,Baltimore City,328,Southwest Baltimore Charter School,Middle,8.4,11,<= 5.0,*,<= 5.0,*,130.7,20200117
+2019,30,Baltimore City,328,Southwest Baltimore Charter School,All,11,44,<= 5.0,*,6,24,398.4,20200117
+2019,30,Baltimore City,330,Northwood Appold Community Academy,Elementary,25.1,38,9.2,14,15.8,24,151.5,20200117
+2019,30,Baltimore City,332,The Green School of Baltimore,Elementary,7.5,12,<= 5.0,*,<= 5.0,*,159.4,20200117
+2019,30,Baltimore City,333,Independence School Local I,High,58.8,74,19.9,25,38.9,49,125.9,20200117
+2019,30,Baltimore City,335,Baltimore International Academy,Elementary,10,57,5.3,30,<= 5.0,*,571.3,20200117
+2019,30,Baltimore City,335,Baltimore International Academy,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,335,Baltimore International Academy,All,8.8,62,<= 5.0,*,<= 5.0,*,704.6,20200117
+2019,30,Baltimore City,336,Baltimore Montessori Public Charter School,Elementary,12.7,34,<= 5.0,*,9.7,26,268.7,20200117
+2019,30,Baltimore City,336,Baltimore Montessori Public Charter School,Middle,15.6,16,<= 5.0,*,12.6,13,102.8,20200117
+2019,30,Baltimore City,336,Baltimore Montessori Public Charter School,All,13.5,50,<= 5.0,*,10.5,39,371.5,20200117
+2019,30,Baltimore City,337,Afya Public Charter School,Middle,8.3,29,<= 5.0,*,5.8,20,347.4,20200117
+2019,30,Baltimore City,341,The Reach! Partnership School,High,55.6,271,25.3,123,30.4,148,487.1,20200117
+2019,30,Baltimore City,345,Joseph C. Briscoe Academy,Middle,74.3,14,15.9,3,58.4,11,18.8,20200117
+2019,30,Baltimore City,345,Joseph C. Briscoe Academy,High,>= 95.0,*,47.8,23,64.4,31,48.1,20200117
+2019,30,Baltimore City,345,Joseph C. Briscoe Academy,All,>= 95.0,*,38.8,26,62.7,42,66.9,20200117
+2019,30,Baltimore City,346,City Neighbors Hamilton,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,346,City Neighbors Hamilton,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,346,City Neighbors Hamilton,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,347,KIPP Harmony Academy,Elementary,13,125,6.9,66,6.1,59,961.7,20200117
+2019,30,Baltimore City,347,KIPP Harmony Academy,Middle,11.2,59,5.3,28,5.9,31,526.2,20200117
+2019,30,Baltimore City,347,KIPP Harmony Academy,All,12.4,184,6.3,94,6,90,1487.9,20200117
+2019,30,Baltimore City,348,Baltimore Leadership School for Young Women,Middle,9.5,29,<= 5.0,*,7.5,23,306.3,20200117
+2019,30,Baltimore City,348,Baltimore Leadership School for Young Women,All,6.7,35,<= 5.0,*,5.4,28,521.5,20200117
+2019,30,Baltimore City,348,Baltimore Leadership School for Young Women,High,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,349,N.A.C.A. Freedom and Democracy Academy II,Middle,61,64,18.1,19,42.9,45,104.8,20200117
+2019,30,Baltimore City,349,N.A.C.A. Freedom and Democracy Academy II,High,60.1,114,23.7,45,36.4,69,189.6,20200117
+2019,30,Baltimore City,349,N.A.C.A. Freedom and Democracy Academy II,All,60.5,178,21.7,64,38.7,114,294.4,20200117
+2019,30,Baltimore City,357,Banneker Blake Academy of Arts and Sciences,Middle,28.9,53,<= 5.0,*,24.5,45,183.6,20200117
+2019,30,Baltimore City,362,Bard High School Early College,High,14.3,66,<= 5.0,*,10.6,49,461.9,20200117
+2019,30,Baltimore City,364,Bluford Drew Jemison STEM Academy West,Middle,85.9,90,26.7,28,59.1,62,104.8,20200117
+2019,30,Baltimore City,364,Bluford Drew Jemison STEM Academy West,High,84.1,85,30.7,31,53.4,54,101.1,20200117
+2019,30,Baltimore City,364,Bluford Drew Jemison STEM Academy West,All,85,175,28.7,59,56.3,116,205.9,20200117
+2019,30,Baltimore City,368,Elmer A. Henderson: A Johns Hopkins Partnership Sc,Elementary,8.7,35,<= 5.0,*,<= 5.0,*,401.2,20200117
+2019,30,Baltimore City,368,Elmer A. Henderson: A Johns Hopkins Partnership Sc,Middle,8,11,<= 5.0,*,5.1,7,137.1,20200117
+2019,30,Baltimore City,368,Elmer A. Henderson: A Johns Hopkins Partnership Sc,All,8.5,46,<= 5.0,*,<= 5.0,*,538.3,20200117
+2019,30,Baltimore City,371,Lillie May Carroll Jackson School,Elementary,54.4,25,43.5,20,10.9,5,46,20200117
+2019,30,Baltimore City,371,Lillie May Carroll Jackson School,Middle,27,60,13.5,30,13.5,30,222.1,20200117
+2019,30,Baltimore City,371,Lillie May Carroll Jackson School,All,31.7,85,18.7,50,13.1,35,268,20200117
+2019,30,Baltimore City,373,Tunbridge Public Charter School,Elementary,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,373,Tunbridge Public Charter School,Middle,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,373,Tunbridge Public Charter School,All,<= 5.0,*,<= 5.0,*,<= 5.0,*,*,20200117
+2019,30,Baltimore City,374,Vanguard Collegiate Middle,Middle,51.1,195,28,107,23,88,381.9,20200117
+2019,30,Baltimore City,375,Baltimore Collegiate School for Boys,Elementary,37.7,70,21.5,40,16.2,30,185.7,20200117
+2019,30,Baltimore City,375,Baltimore Collegiate School for Boys,Middle,30.4,80,19,50,11.4,30,263.5,20200117
+2019,30,Baltimore City,375,Baltimore Collegiate School for Boys,All,33.4,150,20,90,13.4,60,449.3,20200117
+2019,30,Baltimore City,376,City Neighbors High,High,8.9,35,<= 5.0,*,6.6,26,391.1,20200117
+2019,30,Baltimore City,377,Green Street Academy,Middle,6.9,25,<= 5.0,*,<= 5.0,*,360.4,20200117
+2019,30,Baltimore City,377,Green Street Academy,All,7.2,59,<= 5.0,*,5.5,45,818.5,20200117
+2019,30,Baltimore City,377,Green Street Academy,High,7.4,34,<= 5.0,*,5.9,27,458,20200117
+2019,30,Baltimore City,379,Roots and Branches School,Elementary,38.1,46,9.9,12,28.1,34,120.9,20200117
+2019,30,Baltimore City,381,Monarch Academy Public Charter School,Elementary,25.4,155,9,55,16.4,100,610.9,20200117
+2019,30,Baltimore City,381,Monarch Academy Public Charter School,Middle,21.8,70,8.4,27,13.4,43,320.4,20200117
+2019,30,Baltimore City,381,Monarch Academy Public Charter School,All,24.2,225,8.8,82,15.4,143,931.3,20200117
+2019,30,Baltimore City,382,Baltimore Design School,Middle,13.4,29,<= 5.0,*,10.2,22,216.3,20200117
+2019,30,Baltimore City,382,Baltimore Design School,All,9.1,45,<= 5.0,*,6.9,34,494.6,20200117
+2019,30,Baltimore City,382,Baltimore Design School,High,5.8,16,<= 5.0,*,<= 5.0,*,278.3,20200117
+2019,30,Baltimore City,384,Creative City Public Charter School,Elementary,19.2,60,<= 5.0,*,14.4,45,312.2,20200117
+2019,30,Baltimore City,400,Edmondson-Westside High,High,27.4,229,10.7,89,16.8,140,835,20200117
+2019,30,Baltimore City,403,Baltimore Polytechnic Institute,High,6.8,103,<= 5.0,*,<= 5.0,*,1525.6,20200117
+2019,30,Baltimore City,405,Patterson High,High,52.5,541,29.8,307,22.7,234,1030.4,20200117
+2019,30,Baltimore City,406,Forest Park High,High,49,290,27.4,162,21.6,128,591.4,20200117
+2019,30,Baltimore City,407,Western High,High,9.3,97,<= 5.0,*,5.9,61,1040.1,20200117
+2019,30,Baltimore City,410,Mergenthaler Vocational-Technical High,High,20.4,330,7.3,118,13.1,212,1616.3,20200117
+2019,30,Baltimore City,413,Achievement Academy at Harbor City High,High,>= 95.0,*,81.6,313,37,142,383.8,20200117
+2019,30,Baltimore City,414,Paul Laurence Dunbar High,High,15.9,133,6.3,53,9.6,80,837.2,20200117
+2019,30,Baltimore City,415,Baltimore School for the Arts,High,7.6,32,<= 5.0,*,5.5,23,420.4,20200117
+2019,30,Baltimore City,416,Digital Harbor High School,High,31,340,9.5,104,21.5,236,1095.1,20200117
+2019,30,Baltimore City,419,Reginald F. Lewis High,High,65.2,324,28.2,140,37,184,497.1,20200117
+2019,30,Baltimore City,421,National Academy Foundation,Middle,47.9,103,24.7,53,23.3,50,215,20200117
+2019,30,Baltimore City,421,National Academy Foundation,High,42.8,236,19.6,108,23.2,128,552,20200117
+2019,30,Baltimore City,421,National Academy Foundation,All,44.2,339,21,161,23.2,178,767,20200117
+2019,30,Baltimore City,422,New Era Academy,High,67.7,191,33.7,95,34,96,282.2,20200117
+2019,30,Baltimore City,427,Academy for College and Career Exploration,Middle,88,96,48.6,53,39.4,43,109.1,20200117
+2019,30,Baltimore City,427,Academy for College and Career Exploration,High,65.5,265,32.6,132,32.9,133,404.4,20200117
+2019,30,Baltimore City,427,Academy for College and Career Exploration,All,70.3,361,36,185,34.3,176,513.5,20200117
+2019,30,Baltimore City,429,Vivien T. Thomas Medical Arts Academy,High,49.1,171,19.5,68,29.6,103,348.5,20200117
+2019,30,Baltimore City,430,Augusta Fells Savage Institute of Visual Arts,High,46.3,183,19.2,76,27.1,107,395.4,20200117
+2019,30,Baltimore City,432,Coppin Academy,High,13.6,45,<= 5.0,*,10,33,330.2,20200117
+2019,30,Baltimore City,433,Renaissance Academy,High,>= 95.0,*,59.3,134,58.4,132,226,20200117
+2019,30,Baltimore City,450,Frederick Douglass High,High,46.7,370,20.4,162,26.2,208,792.8,20200117
+2019,30,Baltimore City,454,Carver Vocational-Technical High,High,31.3,256,11.1,91,20.2,165,816.9,20200117
+2019,30,Baltimore City,480,Baltimore City College,High,10,127,<= 5.0,*,8.3,105,1267.4,20200117
+2019,30,Baltimore City,884,Eager Street Academy,High,>= 95.0,*,>= 95.0,*,>= 95.0,*,*,20200117
+2019,30,Baltimore City,A,All Baltimore City Schools,Elementary,28.8,10619,15,5546,13.7,5073,36927.5,20200117
+2019,30,Baltimore City,A,All Baltimore City Schools,Middle,26.5,4509,13.5,2298,13,2211,17003.8,20200117
+2019,30,Baltimore City,A,All Baltimore City Schools,High,34.6,6766,16.2,3165,18.4,3601,19578.8,20200117
+2019,30,Baltimore City,A,All Baltimore City Schools,All,29.8,21894,15,11009,14.8,10885,73510.1,20200117
+2019,32,SEED,1000,The Seed School of Maryland,Middle,22.3,51,12.7,29,9.6,22,228.7,20200117
+2019,32,SEED,1000,The Seed School of Maryland,High,5.6,9,<= 5.0,*,5.6,9,160.2,20200117
+2019,32,SEED,1000,The Seed School of Maryland,All,15.4,60,7.5,29,8,31,388.9,20200117
+2019,32,SEED,A,All SEED Schools,Middle,22.3,51,12.7,29,9.6,22,228.7,20200117
+2019,32,SEED,A,All SEED Schools,All,15.4,60,7.5,29,8,31,388.9,20200117
+2019,32,SEED,A,All SEED Schools,High,5.6,9,<= 5.0,*,5.6,9,160.2,20200117
+2019,A,All Public Schools,A,All Maryland Schools,Elementary,17.9,72190,10.1,40719,7.8,31471,403878.1,20200117
+2019,A,All Public Schools,A,All Maryland Schools,Middle,15.5,31319,8.5,17220,7,14099,202396.6,20200117
+2019,A,All Public Schools,A,All Maryland Schools,High,17.2,44638,8.8,22783,8.4,21855,259221.2,20200117
+2019,A,All Public Schools,A,All Maryland Schools,All,17.1,148147,9.3,80722,7.8,67425,865495.9,20200117

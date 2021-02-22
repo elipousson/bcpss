@@ -35,7 +35,7 @@ bcps_programs_SY2021
 }
 \description{
 Locations for Baltimore City Public School buildings and programs for the 2020-2021
-school year. The `program_name` variable is equivalent to the `school_number`
+school year. The \code{program_name} variable is equivalent to the \code{school_number}
 variable used in the demographic and survey datasets.
 }
 \keyword{datasets}

@@ -22,7 +22,7 @@ bcps_es_zones_SY2021
 }
 \description{
 Boundaries for Baltimore City Public School elementary school attendance zones for
-the 2020-2021 school year. The `program_name` variable is equivalent to the `school_number`
+the 2020-2021 school year. The \code{program_name} variable is equivalent to the \code{school_number}
 variable used in the demographic and survey datasets.
 }
 \keyword{datasets}

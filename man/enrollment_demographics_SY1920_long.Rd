@@ -3,7 +3,8 @@
 \docType{data}
 \name{enrollment_demographics_SY1920_long}
 \alias{enrollment_demographics_SY1920_long}
-\title{Enrollment and demographic data by Baltimore City Public School (SY 2019-2020) - long format}
+\title{Enrollment and demographic data by Baltimore City Public School (SY
+2019-2020) - long format}
 \format{
 A data frame with 26,916 rows and 10 variables:
 \describe{
@@ -26,10 +27,10 @@ A data frame with 26,916 rows and 10 variables:
 enrollment_demographics_SY1920_long
 }
 \description{
-Total enrollment and demographic characteristics for Baltimore City
-public school students including data aggregated by grade, grade band,
-school, and citywide for the 2019-2020 school year. Long format version is
-based on the `enrollment_demographics_SY1920` data with an additional `label`
+Total enrollment and demographic characteristics for Baltimore City public
+school students including data aggregated by grade, grade band, school, and
+citywide for the 2019-2020 school year. Long format version is based on the
+\code{enrollment_demographics_SY1920} data with an additional \code{label}
 column based on the original Excel sheet column names.
 }
 \keyword{datasets}

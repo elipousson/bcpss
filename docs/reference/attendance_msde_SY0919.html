@@ -22,7 +22,7 @@
   }
 </script>
 
-<title>Baltimore City Public School Educator Survey (SY 2018-2019) — educator_survey_SY1819 • bcpss</title>
+<title>Attendance data by school (SY 2009-2019) — attendance_msde_SY0919 • bcpss</title>
 
 
 <!-- jquery -->
@@ -65,13 +65,13 @@
 
 
 
-<meta property="og:title" content="Baltimore City Public School Educator Survey (SY 2018-2019) — educator_survey_SY1819" />
-<meta property="og:description" content="The Maryland School Survey was administered for the first time in spring 2019
-to students and educators. It is online only, in English and Spanish for
-students. Student participants were from Elementary (Grade 5), Middle (grades
-6-8), and High (grades 9-11), and all instructional staff were eligible. The
-student participation rate was 69.9
-rate was 76.9" />
+<meta property="og:title" content="Attendance data by school (SY 2009-2019) — attendance_msde_SY0919" />
+<meta property="og:description" content="Attendance data from the Maryland State Department of Education.
+  Raw CSV data files with the full state enrollment data are available in the
+  inst/extdata folder. Any percent variables with a value of 95
+  interpreted as equivalent at or above 95
+  value of 5
+  definitions are incomplete." />
 
 
 
@@ -154,51 +154,47 @@ rate was 76.9" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Baltimore City Public School Educator Survey (SY 2018-2019)</h1>
+    <h1>Attendance data by school (SY 2009-2019)</h1>
     
-    <div class="hidden name"><code>educator_survey_SY1819.Rd</code></div>
+    <div class="hidden name"><code>attendance_msde_SY0919.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The Maryland School Survey was administered for the first time in spring 2019
-to students and educators. It is online only, in English and Spanish for
-students. Student participants were from Elementary (Grade 5), Middle (grades
-6-8), and High (grades 9-11), and all instructional staff were eligible. The
-student participation rate was 69.9<!-- % overall, and the educator participation -->
-rate was 76.9<!-- %. --></p>
+    <p>Attendance data from the Maryland State Department of Education.
+  Raw CSV data files with the full state enrollment data are available in the
+  <code>inst/extdata</code> folder. Any percent variables with a value of 95<!-- % should be -->
+  interpreted as equivalent at or above 95<!-- %. Any percent variables with a -->
+  value of 5<!-- % should be interpreted as equivalent at or below 5%. Variable -->
+  definitions are incomplete.</p>
     </div>
 
-    <pre class="usage"><span class='va'>educator_survey_SY1819</span></pre>
+    <pre class="usage"><span class='va'>attendance_msde_SY0919</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1,782 rows and 7 variables:</p><dl>
-  <dt>school_number</dt><dd><p>School number</p></dd>
-  <dt>school_name</dt><dd><p>School name</p></dd>
-  <dt>grade_band</dt><dd><p>Grade band</p></dd>
-  <dt>respondent_grade_band</dt><dd><p>Grade band of student survey respondents</p></dd>
-  <dt>respondent_count</dt><dd><p>Number of student survey respondents</p></dd>
-  <dt>domain</dt><dd><p>Survey domain name</p></dd>
-  <dt>topic</dt><dd><p>Survey topic name</p></dd>
-  <dt>average_score</dt><dd><p>Average score</p></dd>
+    <p>A data frame with 3,197 rows and 15 variables:</p><dl>
+  <dt><code>school_year</code></dt><dd><p>School year or academic year, e.g. 2019 for 2019-2020 school year</p></dd>
+  <dt><code>school_number</code></dt><dd><p>School number (0 indicates all schools)</p></dd>
+  <dt><code>school_name</code></dt><dd><p>School name</p></dd>
+  <dt><code>grade_band</code></dt><dd><p>Grade band (school type)</p></dd>
+  <dt><code>attend_rate_pct</code></dt><dd><p>Attendance rate (percent)</p></dd>
+  <dt><code>days_attended_cnt</code></dt><dd><p>Count of days attended</p></dd>
+  <dt><code>days_member_cnt</code></dt><dd><p>double ... count</p></dd>
+  <dt><code>fewer_5_pct</code></dt><dd><p>double ... percent</p></dd>
+  <dt><code>fewer_5_cnt</code></dt><dd><p>double ... count</p></dd>
+  <dt><code>more_20_pct</code></dt><dd><p>double ... percent</p></dd>
+  <dt><code>more_20_cnt</code></dt><dd><p>double ... count</p></dd>
+  <dt><code>more_90_member_cnt</code></dt><dd><p>double ... count</p></dd>
+  <dt><code>chronic_absentee_cnt</code></dt><dd><p>Chronic absentee count</p></dd>
+  <dt><code>chronic_absentee_denom</code></dt><dd><p>Chronic absentee denominator</p></dd>
+  <dt><code>chronic_absentee_pct</code></dt><dd><p>Chronic absentee percent</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://www.baltimorecityschools.org/data'>https://www.baltimorecityschools.org/data</a></p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>There were four domains and ten topics for students, and five domains and
-eleven topics for educators. Survey results ranged from 1-10, with 10 being
-most favorable and 1 being least favorable. Schools with fewer than 10
-respondents overall or in any topic were excluded from relevant district
-averages. Cells with an asterisk (*) denote less than 10 students or
-educators in the summary group. Consequently, all data for that group are
-suppressed. Survey results are included as an indicator of School Quality and
-Student Success in the Maryland School Report Card (10 of 100 points: 7 from
-the student survey, 3 from the educator survey).</p>
+    <p><a href='https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads//3/17/6/99/XXXX/2019'>https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads//3/17/6/99/XXXX/2019</a></p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

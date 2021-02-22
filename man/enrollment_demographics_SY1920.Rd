@@ -3,7 +3,8 @@
 \docType{data}
 \name{enrollment_demographics_SY1920}
 \alias{enrollment_demographics_SY1920}
-\title{Enrollment and demographic data by Baltimore City Public School (SY 2019-2020)}
+\title{Enrollment and demographic data by Baltimore City Public School (SY
+2019-2020)}
 \format{
 A data frame with 2,243 rows and 19 variables:
 \describe{
@@ -35,8 +36,8 @@ A data frame with 2,243 rows and 19 variables:
 enrollment_demographics_SY1920
 }
 \description{
-Total enrollment and demographic characteristics for Baltimore City
-public school students including data aggregated by grade, grade band,
-school, and citywide for the 2019-2020 school year.
+Total enrollment and demographic characteristics for Baltimore City public
+school students including data aggregated by grade, grade band, school, and
+citywide for the 2019-2020 school year.
 }
 \keyword{datasets}

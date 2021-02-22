@@ -3,7 +3,7 @@
 \docType{data}
 \name{parent_survey_SY1819}
 \alias{parent_survey_SY1819}
-\title{Baltimore City Public School Parent Survey Results (2018-2019 school year)}
+\title{Baltimore City Public School Parent Survey Results (SY 2018-2019)}
 \format{
 A data frame with 168 rows and 50 variables:
 \describe{
@@ -67,7 +67,7 @@ parent_survey_SY1819
 }
 \description{
 Results from the Baltimore City Public School Parent Survey administered
-during the for the 2018-2029 school year. Data includes composite scores
-and responses to selected questions school.
+during the for the 2018-2029 school year. Data includes composite scores and
+responses to selected questions school.
 }
 \keyword{datasets}

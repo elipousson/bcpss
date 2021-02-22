@@ -1,0 +1,1650 @@
+Academic Year,LEA Number,LEA Name,School Number,School Name,School Type,Attend Rate Pct,Days Attended Cnt,Days Member Cnt,Fewer 5 Pct,Fewer 5 Cnt,More 20 Pct,More 20 Cnt,More 90 Member Cnt,Create Date
+2017,01,Allegany,0301,Flintstone Elementary,Elementary,>= 95.0,*,*,32.0,64,<= 5.0,*,200,20180117
+2017,01,Allegany,0401,South Penn Elementary,Elementary,93.9,44499.5,47391,21.9,83,11.1,42,379,20180117
+2017,01,Allegany,0402,John Humbird Elementary,Elementary,93.5,22798.0,24395,23.2,44,13.2,25,190,20180117
+2017,01,Allegany,0405,Fort Hill High,High,92.3,91351.0,99002,25.1,197,20.2,159,786,20180117
+2017,01,Allegany,0406,Washington Middle,Middle,93.5,68397.5,73166,29.1,169,13.1,76,580,20180117
+2017,01,Allegany,0502,Northeast Elementary,Elementary,>= 95.0,*,*,37.4,88,<= 5.0,*,235,20180117
+2017,01,Allegany,0504,Braddock Middle,Middle,93.7,68622.0,73221,28.6,165,13.7,79,576,20180117
+2017,01,Allegany,0601,Center for Career & Technical Education,High,92.4,31261.0,33826,23.1,61,21.2,56,264,20180117
+2017,01,Allegany,0603,West Side Elementary,Elementary,>= 95.0,*,*,32.7,96,<= 5.0,*,294,20180117
+2017,01,Allegany,0606,Allegany High,High,93.3,78502.0,84117,25.5,168,12.9,85,660,20180117
+2017,01,Allegany,0701,Cresaptown Elementary,Elementary,94.9,32277.5,34009,29.3,79,<= 5.0,*,270,20180117
+2017,01,Allegany,0702,Bel Air Elementary,Elementary,>= 95.0,*,*,38.0,68,6.1,11,179,20180117
+2017,01,Allegany,0801,Westernport Elementary,Elementary,94.3,25501.5,27031,32.1,68,10.4,22,212,20180117
+2017,01,Allegany,0802,Westmar Middle,Middle,94.2,32966.5,35011,27.3,76,11.5,32,278,20180117
+2017,01,Allegany,1001,George's Creek Elementary,Elementary,>= 95.0,*,*,33.2,75,8.4,19,226,20180117
+2017,01,Allegany,1101,Frost Elementary,Elementary,>= 95.0,*,*,32.8,60,<= 5.0,*,183,20180117
+2017,01,Allegany,1301,Mount Savage Middle,Middle,94.5,48810.0,51664,29.4,121,8.7,36,412,20180117
+2017,01,Allegany,1302,Mt. Savage Elementary,Elementary,>= 95.0,*,*,40.3,58,5.6,8,144,20180117
+2017,01,Allegany,2404,Mountain Ridge High School,High,92.8,89660.0,96648,21.7,166,17.4,133,766,20180117
+2017,01,Allegany,2801,Beall Elementary,Elementary,>= 95.0,*,*,32.2,103,<= 5.0,*,320,20180117
+2017,01,Allegany,2901,Cash Valley Elementary,Elementary,94.9,24319.0,25628,26.5,54,6.4,13,204,20180117
+2017,01,Allegany,2902,Parkside Elementary,Elementary,94.6,20471.5,21645,23.7,41,8.7,15,173,20180117
+2017,01,Allegany,A,All Allegany Schools,Elementary,>= 95.0,*,*,30.1,969,7.0,226,3220,20180117
+2017,01,Allegany,A,All Allegany Schools,Middle,93.9,218796.0,233062,28.7,530,12.3,227,1849,20180117
+2017,01,Allegany,A,All Allegany Schools,High,92.7,290774.0,313593,23.8,590,17.7,439,2479,20180117
+2017,02,Anne Arundel,1023,Brooklyn Park Middle,Middle,94.0,83147.0,88417,31.0,213,12.5,86,688,20180117
+2017,02,Anne Arundel,1033,Glen Burnie High,High,90.0,218127.5,242376,25.0,473,26.8,507,1894,20180117
+2017,02,Anne Arundel,1043,Corkran Middle School,Middle,93.9,63702.5,67832,35.0,188,13.6,73,537,20180117
+2017,02,Anne Arundel,1053,Lindale Middle,Middle,93.4,124919.5,133728,26.7,283,15.0,159,1061,20180117
+2017,02,Anne Arundel,1063,Marley Middle,Middle,93.3,98938.0,105994,32.1,270,15.6,131,841,20180117
+2017,02,Anne Arundel,1082,Belle Grove Elementary,Elementary,93.6,22830.5,24401,21.5,41,10.5,20,191,20180117
+2017,02,Anne Arundel,1092,Brooklyn Park Elementary,Elementary,94.2,39694.5,42130,27.1,90,11.4,38,332,20180117
+2017,02,Anne Arundel,1112,George T. Cromwell Elementary,Elementary,93.7,37221.5,39739,24.3,77,14.5,46,317,20180117
+2017,02,Anne Arundel,1122,Freetown Elementary,Elementary,94.4,42030.0,44526,30.9,111,10.0,36,359,20180117
+2017,02,Anne Arundel,1132,Glendale Elementary,Elementary,93.9,39307.5,41850,27.5,89,12.7,41,324,20180117
+2017,02,Anne Arundel,1142,Hilltop Elementary,Elementary,94.5,64800.5,68604,27.6,148,10.6,57,536,20180117
+2017,02,Anne Arundel,1152,Linthicum Elementary,Elementary,>= 95.0,*,*,34.6,132,<= 5.0,*,381,20180117
+2017,02,Anne Arundel,1162,Marley Elementary,Elementary,94.8,73166.0,77163,36.2,219,9.1,55,605,20180117
+2017,02,Anne Arundel,1172,North Glen Elementary,Elementary,94.2,25056.0,26603,28.5,59,13.0,27,207,20180117
+2017,02,Anne Arundel,1182,Oakwood Elementary,Elementary,94.8,24058.0,25368,32.3,64,5.1,10,198,20180117
+2017,02,Anne Arundel,1192,Overlook Elementary,Elementary,94.6,33143.5,35051,32.6,90,6.9,19,276,20180117
+2017,02,Anne Arundel,1202,Park Elementary,Elementary,93.3,43439.0,46535,26.9,100,15.1,56,372,20180117
+2017,02,Anne Arundel,1212,Point Pleasant Elementary,Elementary,94.1,54061.5,57428,29.6,136,11.5,53,459,20180117
+2017,02,Anne Arundel,1232,Quarterfield Elementary,Elementary,>= 95.0,*,*,41.9,134,<= 5.0,*,320,20180117
+2017,02,Anne Arundel,1242,Richard Henry Lee Elementary,Elementary,94.9,56932.5,59999,33.2,157,8.7,41,473,20180117
+2017,02,Anne Arundel,1262,Woodside Elementary,Elementary,94.4,32255.0,34170,31.0,84,9.2,25,271,20180117
+2017,02,Anne Arundel,1274,Marley Glen School,Elementary,90.2,2020.0,2240,22.2,4,33.3,6,18,20180117
+2017,02,Anne Arundel,1274,Marley Glen School,Middle,86.6,1279.0,1477,18.2,2,27.3,3,11,20180117
+2017,02,Anne Arundel,1274,Marley Glen School,High,90.1,1954.0,2169,27.8,5,22.2,4,18,20180117
+2017,02,Anne Arundel,1323,North County High,High,91.2,245055.5,268622,27.8,588,22.3,472,2113,20180117
+2017,02,Anne Arundel,2013,Severna Park High,High,>= 95.0,*,*,47.0,820,5.3,93,1743,20180117
+2017,02,Anne Arundel,2023,Northeast High,High,93.1,161000.5,173006,33.0,451,15.5,212,1365,20180117
+2017,02,Anne Arundel,2033,George Fox Middle,Middle,93.8,104725.5,111698,27.5,242,13.1,115,881,20180117
+2017,02,Anne Arundel,2043,Severna Park Middle,Middle,>= 95.0,*,*,45.3,687,<= 5.0,*,1517,20180117
+2017,02,Anne Arundel,2052,Arnold Elementary,Elementary,>= 95.0,*,*,37.0,121,<= 5.0,*,327,20180117
+2017,02,Anne Arundel,2062,Belvedere Elementary,Elementary,>= 95.0,*,*,36.5,167,<= 5.0,*,457,20180117
+2017,02,Anne Arundel,2072,Benfield Elementary,Elementary,>= 95.0,*,*,37.1,143,<= 5.0,*,385,20180117
+2017,02,Anne Arundel,2082,Bodkin Elementary,Elementary,>= 95.0,*,*,33.1,163,<= 5.0,*,492,20180117
+2017,02,Anne Arundel,2092,Cape St. Claire Elementary,Elementary,>= 95.0,*,*,31.1,156,<= 5.0,*,501,20180117
+2017,02,Anne Arundel,2102,Folger Mckinsey Elementary,Elementary,>= 95.0,*,*,34.1,175,<= 5.0,*,513,20180117
+2017,02,Anne Arundel,2112,Fort Smallwood Elementary,Elementary,94.6,37268.5,39392,28.6,89,5.1,16,311,20180117
+2017,02,Anne Arundel,2132,High Point Elementary,Elementary,94.3,65703.5,69685,25.1,138,8.5,47,550,20180117
+2017,02,Anne Arundel,2142,Jacobsville Elementary,Elementary,>= 95.0,*,*,27.5,131,7.8,37,476,20180117
+2017,02,Anne Arundel,2152,Jones Elementary,Elementary,>= 95.0,*,*,35.4,91,<= 5.0,*,257,20180117
+2017,02,Anne Arundel,2162,Lake Shore Elementary,Elementary,>= 95.0,*,*,28.3,71,5.2,13,251,20180117
+2017,02,Anne Arundel,2172,Oak Hill Elementary,Elementary,>= 95.0,*,*,37.9,201,<= 5.0,*,531,20180117
+2017,02,Anne Arundel,2182,Pasadena Elementary,Elementary,>= 95.0,*,*,35.5,102,<= 5.0,*,287,20180117
+2017,02,Anne Arundel,2192,Riviera Beach Elementary,Elementary,>= 95.0,*,*,31.4,83,7.6,20,264,20180117
+2017,02,Anne Arundel,2202,Severna Park Elementary,Elementary,>= 95.0,*,*,34.6,108,<= 5.0,*,312,20180117
+2017,02,Anne Arundel,2212,Solley Elementary,Elementary,94.8,74364.5,78433,25.5,160,6.5,41,627,20180117
+2017,02,Anne Arundel,2222,Sunset Elementary,Elementary,94.8,45225.5,47694,23.9,90,9.3,35,376,20180117
+2017,02,Anne Arundel,2233,Anne Arundel Evening High,High,86.2,21829.5,25320,22.3,33,31.8,47,148,20180117
+2017,02,Anne Arundel,2243,Magothy River Middle,Middle,>= 95.0,*,*,32.8,246,5.6,42,749,20180117
+2017,02,Anne Arundel,2273,Chesapeake High,High,93.4,163282.0,174825,22.2,304,14.2,194,1371,20180117
+2017,02,Anne Arundel,2322,Broadneck Elementary,Elementary,>= 95.0,*,*,37.2,262,<= 5.0,*,704,20180117
+2017,02,Anne Arundel,2363,Broadneck High,High,94.3,244236.0,258966,28.5,579,11.9,243,2034,20180117
+2017,02,Anne Arundel,2372,Windsor Farm Elementary,Elementary,>= 95.0,*,*,39.5,187,<= 5.0,*,473,20180117
+2017,02,Anne Arundel,2413,Severn River Middle,Middle,>= 95.0,*,*,33.8,254,<= 5.0,*,751,20180117
+2017,02,Anne Arundel,2423,Chesapeake Bay Middle,Middle,94.1,124131.5,131929,27.6,284,12.3,127,1030,20180117
+2017,02,Anne Arundel,2432,Shipley's Choice Elementary,Elementary,>= 95.0,*,*,38.8,116,<= 5.0,*,299,20180117
+2017,02,Anne Arundel,3013,Arundel High,High,93.3,247173.0,264828,30.7,642,16.1,336,2089,20180117
+2017,02,Anne Arundel,3023,Arundel Middle,Middle,>= 95.0,*,*,34.3,350,9.3,95,1021,20180117
+2017,02,Anne Arundel,3033,MacArthur Middle,Middle,94.8,114502.5,120805,38.5,362,9.8,92,940,20180117
+2017,02,Anne Arundel,3062,Brock Bridge Elementary,Elementary,>= 95.0,*,*,42.9,182,<= 5.0,*,424,20180117
+2017,02,Anne Arundel,3072,Crofton Elementary,Elementary,>= 95.0,*,*,42.3,237,<= 5.0,*,560,20180117
+2017,02,Anne Arundel,3082,Crofton Woods Elementary,Elementary,>= 95.0,*,*,36.9,212,<= 5.0,*,574,20180117
+2017,02,Anne Arundel,3092,Seven Oaks Elementary,Elementary,>= 95.0,*,*,42.6,239,<= 5.0,*,561,20180117
+2017,02,Anne Arundel,3102,Hebron - Harman Elementary,Elementary,94.6,75617.5,79973,32.0,203,9.5,60,634,20180117
+2017,02,Anne Arundel,3112,Jessup Elementary,Elementary,>= 95.0,*,*,30.6,125,7.1,29,408,20180117
+2017,02,Anne Arundel,3122,Manor View Elementary,Elementary,>= 95.0,*,*,38.3,119,<= 5.0,*,311,20180117
+2017,02,Anne Arundel,3132,Maryland City Elementary,Elementary,>= 95.0,*,*,35.7,102,5.6,16,286,20180117
+2017,02,Anne Arundel,3142,Meade Heights Elementary,Elementary,94.9,29442.5,31027,38.0,93,10.6,26,245,20180117
+2017,02,Anne Arundel,3152,Van Bokkelen Elementary,Elementary,94.0,40838.5,43448,33.4,115,14.0,48,344,20180117
+2017,02,Anne Arundel,3162,Millersville Elementary,Elementary,>= 95.0,*,*,33.0,94,<= 5.0,*,285,20180117
+2017,02,Anne Arundel,3172,Odenton Elementary,Elementary,94.6,43688.0,46173,32.9,120,7.9,29,365,20180117
+2017,02,Anne Arundel,3182,Pershing Hill Elementary,Elementary,>= 95.0,*,*,32.3,207,5.6,36,641,20180117
+2017,02,Anne Arundel,3192,Ridgeway Elementary,Elementary,>= 95.0,*,*,42.1,225,<= 5.0,*,535,20180117
+2017,02,Anne Arundel,3202,Severn Elementary,Elementary,>= 95.0,*,*,42.2,152,<= 5.0,*,360,20180117
+2017,02,Anne Arundel,3212,South Shore Elementary,Elementary,>= 95.0,*,*,34.8,89,<= 5.0,*,256,20180117
+2017,02,Anne Arundel,3222,Waugh Chapel Elementary,Elementary,>= 95.0,*,*,36.0,174,5.8,28,483,20180117
+2017,02,Anne Arundel,3242,Piney Orchard Elementary,Elementary,>= 95.0,*,*,38.8,221,<= 5.0,*,569,20180117
+2017,02,Anne Arundel,3263,Crofton Middle,Middle,>= 95.0,*,*,38.1,434,5.1,58,1139,20180117
+2017,02,Anne Arundel,3272,Four Seasons Elementary,Elementary,>= 95.0,*,*,40.9,200,<= 5.0,*,489,20180117
+2017,02,Anne Arundel,3282,Nantucket Elementary,Elementary,>= 95.0,*,*,39.4,258,<= 5.0,*,654,20180117
+2017,02,Anne Arundel,3323,Meade High,High,91.7,232050.0,253040,26.7,529,22.9,453,1981,20180117
+2017,02,Anne Arundel,3333,Old Mill Middle North,Middle,94.8,116440.0,122867,35.8,344,11.0,106,962,20180117
+2017,02,Anne Arundel,3343,Old Mill Middle South,Middle,>= 95.0,*,*,34.5,293,9.2,78,850,20180117
+2017,02,Anne Arundel,3353,Old Mill High,High,93.0,260185.0,279724,26.3,579,18.6,409,2199,20180117
+2017,02,Anne Arundel,3362,Crofton Meadows Elementary,Elementary,>= 95.0,*,*,38.3,171,<= 5.0,*,446,20180117
+2017,02,Anne Arundel,3372,Glen Burnie Park Elementary,Elementary,94.4,48018.5,50878,30.0,118,10.2,40,393,20180117
+2017,02,Anne Arundel,3382,Southgate Elementary,Elementary,94.3,74437.0,78922,30.4,190,10.7,67,625,20180117
+2017,02,Anne Arundel,3392,Rippling Woods Elementary,Elementary,94.9,65936.5,69465,29.5,160,5.9,32,542,20180117
+2017,02,Anne Arundel,3414,Ruth Parker Eason School,Elementary,86.9,3112.0,3583,27.6,8,27.6,8,29,20180117
+2017,02,Anne Arundel,3414,Ruth Parker Eason School,Middle,87.9,1765.0,2009,6.3,1,31.3,5,16,20180117
+2017,02,Anne Arundel,3414,Ruth Parker Eason School,High,86.2,2966.0,3441,25.9,7,40.7,11,27,20180117
+2017,02,Anne Arundel,3423,Meade Middle,Middle,94.2,68282.0,72494,34.8,202,9.1,53,580,20180117
+2017,02,Anne Arundel,4013,Annapolis High,High,89.7,224616.0,250321,19.1,375,29.9,588,1968,20180117
+2017,02,Anne Arundel,4023,Southern High,High,92.7,124102.0,133925,18.6,195,17.2,180,1048,20180117
+2017,02,Anne Arundel,4033,Annapolis Middle,Middle,94.4,91143.0,96555,28.7,219,11.0,84,764,20180117
+2017,02,Anne Arundel,4043,Wiley H. Bates Middle,Middle,>= 95.0,*,*,40.2,340,7.3,62,846,20180117
+2017,02,Anne Arundel,4053,Southern Middle,Middle,94.4,87813.5,93043,26.3,191,12.1,88,727,20180117
+2017,02,Anne Arundel,4064,Mary Moss at Adams Academy,Middle,71.2,5922.5,8319,<= 5.0,*,75.0,45,60,20180117
+2017,02,Anne Arundel,4074,Phoenix Academy,Elementary,89.1,9424.5,10581,8.3,7,32.1,27,84,20180117
+2017,02,Anne Arundel,4074,Phoenix Academy,Middle,85.2,6768.0,7948,7.7,5,55.4,36,65,20180117
+2017,02,Anne Arundel,4074,Phoenix Academy,High,80.7,18318.5,22695,9.8,17,61.5,107,174,20180117
+2017,02,Anne Arundel,4092,Annapolis Elementary,Elementary,94.8,25840.0,27264,25.2,54,7.0,15,214,20180117
+2017,02,Anne Arundel,4112,Central Elementary,Elementary,>= 95.0,*,*,38.0,197,<= 5.0,*,519,20180117
+2017,02,Anne Arundel,4122,Davidsonville Elementary,Elementary,>= 95.0,*,*,32.0,182,<= 5.0,*,569,20180117
+2017,02,Anne Arundel,4132,Deale Elementary,Elementary,>= 95.0,*,*,30.4,63,5.3,11,207,20180117
+2017,02,Anne Arundel,4142,Eastport Elementary,Elementary,93.3,21420.5,22963,19.0,34,17.3,31,179,20180117
+2017,02,Anne Arundel,4152,Edgewater Elementary,Elementary,>= 95.0,*,*,28.8,136,<= 5.0,*,472,20180117
+2017,02,Anne Arundel,4162,Georgetown East Elementary,Elementary,93.6,29373.5,31384,27.5,67,14.8,36,244,20180117
+2017,02,Anne Arundel,4182,Germantown Elementary,Elementary,>= 95.0,*,*,37.8,192,5.1,26,508,20180117
+2017,02,Anne Arundel,4192,Hillsmere Elementary,Elementary,>= 95.0,*,*,30.3,128,6.9,29,422,20180117
+2017,02,Anne Arundel,4202,Lothian Elementary,Elementary,>= 95.0,*,*,31.4,120,6.8,26,382,20180117
+2017,02,Anne Arundel,4212,Mayo Elementary,Elementary,>= 95.0,*,*,38.7,101,<= 5.0,*,261,20180117
+2017,02,Anne Arundel,4222,Walter S. Mills - Parole Elementary,Elementary,>= 95.0,*,*,29.4,141,6.0,29,480,20180117
+2017,02,Anne Arundel,4232,Rolling Knolls Elementary,Elementary,>= 95.0,*,*,35.2,113,<= 5.0,*,321,20180117
+2017,02,Anne Arundel,4242,Shady Side Elementary,Elementary,94.3,46077.5,48888,22.1,85,8.6,33,385,20180117
+2017,02,Anne Arundel,4252,Traceys Elementary,Elementary,94.3,41053.5,43517,25.0,86,8.7,30,344,20180117
+2017,02,Anne Arundel,4262,Tyler Heights Elementary,Elementary,94.7,55744.0,58847,24.8,116,7.9,37,467,20180117
+2017,02,Anne Arundel,4272,West Annapolis Elementary,Elementary,>= 95.0,*,*,29.1,48,<= 5.0,*,165,20180117
+2017,02,Anne Arundel,4283,Central Middle,Middle,>= 95.0,*,*,35.4,425,6.2,74,1201,20180117
+2017,02,Anne Arundel,4293,South River High,High,94.2,257342.5,273154,33.7,721,11.8,252,2141,20180117
+2017,02,Anne Arundel,4304,Central Special School,Elementary,86.8,1316.0,1517,16.7,2,33.3,4,12,20180117
+2017,02,Anne Arundel,4304,Central Special School,Middle,87.7,1266.0,1444,41.7,5,33.3,4,12,20180117
+2017,02,Anne Arundel,4304,Central Special School,High,88.6,3419.0,3859,29.0,9,32.3,10,31,20180117
+2017,02,Anne Arundel,6113,Monarch Global Academy PCS Laurel Campus,Elementary,>= 95.0,*,*,41.7,208,<= 5.0,*,499,20180117
+2017,02,Anne Arundel,6113,Monarch Global Academy PCS Laurel Campus,Middle,>= 95.0,*,*,40.2,82,5.9,12,204,20180117
+2017,02,Anne Arundel,6223,Chesapeake Science Point,Middle,>= 95.0,*,*,56.9,128,<= 5.0,*,225,20180117
+2017,02,Anne Arundel,6223,Chesapeake Science Point,High,>= 95.0,*,*,40.7,96,<= 5.0,*,236,20180117
+2017,02,Anne Arundel,6233,Monarch Academy,Elementary,>= 95.0,*,*,33.8,125,<= 5.0,*,370,20180117
+2017,02,Anne Arundel,6233,Monarch Academy,Middle,>= 95.0,*,*,43.2,101,<= 5.0,*,234,20180117
+2017,02,Anne Arundel,A,All Anne Arundel Schools,Elementary,>= 95.0,*,*,33.0,10626,6.3,2021,32182,20180117
+2017,02,Anne Arundel,A,All Anne Arundel Schools,Middle,94.7,2152437.0,2272409,34.2,6120,9.9,1768,17908,20180117
+2017,02,Anne Arundel,A,All Anne Arundel Schools,High,92.5,2661914.5,2877311,28.2,6393,18.8,4264,22676,20180117
+2017,03,Baltimore County,0054,Extended Day Learning Program,High,88.5,7144.0,8072,33.3,20,31.7,19,60,20180117
+2017,03,Baltimore County,0057,Home Assignments-Elementary,Elementary,*,*,*,*,*,*,*,*,20180117
+2017,03,Baltimore County,0058,Home Assignments-Secondary,Middle,69.9,1560.0,2232,*,*,*,*,*,20180117
+2017,03,Baltimore County,0058,Home Assignments-Secondary,High,63.2,3983.0,6303,<= 5.0,*,73.0,27,37,20180117
+2017,03,Baltimore County,0069,Catonsville Center for Alternative Studies,High,66.7,5585.0,8372,<= 5.0,*,79.2,19,24,20180117
+2017,03,Baltimore County,0070,Meadowood Education Center,Middle,81.6,4138.0,5069,*,*,*,*,*,20180117
+2017,03,Baltimore County,0072,Rosedale Center,Middle,79.7,2229.0,2795,*,*,*,*,*,20180117
+2017,03,Baltimore County,0072,Rosedale Center,High,81.7,7247.0,8874,12.5,5,52.5,21,40,20180117
+2017,03,Baltimore County,0075,Crossroads Center,Middle,91.7,10168.5,11084,11.4,10,37.5,33,88,20180117
+2017,03,Baltimore County,0075,Crossroads Center,High,81.5,9457.5,11605,<= 5.0,*,60.9,56,92,20180117
+2017,03,Baltimore County,0077,BCDC Educational Center,High,>= 95.0,*,*,>= 95.0,*,<= 5.0,*,11,20180117
+2017,03,Baltimore County,0101,Catonsville Elementary,Elementary,>= 95.0,*,*,30.8,135,6.2,27,438,20180117
+2017,03,Baltimore County,0102,Westchester Elementary,Elementary,>= 95.0,*,*,40.4,197,<= 5.0,*,488,20180117
+2017,03,Baltimore County,0103,Westowne Elementary,Elementary,>= 95.0,*,*,32.4,145,6.7,30,447,20180117
+2017,03,Baltimore County,0104,Edmondson Heights Elementary,Elementary,94.6,50461.5,53333,29.4,131,11.7,52,445,20180117
+2017,03,Baltimore County,0105,Johnnycake Elementary,Elementary,>= 95.0,*,*,32.7,183,9.1,51,559,20180117
+2017,03,Baltimore County,0111,Maiden Choice School,Elementary,87.4,2723.0,3117,12.0,3,40.0,10,25,20180117
+2017,03,Baltimore County,0111,Maiden Choice School,Middle,90.0,1612.0,1791,20.0,3,33.3,5,15,20180117
+2017,03,Baltimore County,0111,Maiden Choice School,High,86.3,2934.5,3399,26.9,7,34.6,9,26,20180117
+2017,03,Baltimore County,0112,Dogwood Elementary,Elementary,94.9,62202.5,65571,29.7,157,8.9,47,528,20180117
+2017,03,Baltimore County,0113,Chadwick Elementary,Elementary,>= 95.0,*,*,34.9,169,8.3,40,484,20180117
+2017,03,Baltimore County,0115,Hillcrest Elementary,Elementary,>= 95.0,*,*,31.8,196,<= 5.0,*,616,20180117
+2017,03,Baltimore County,0116,Woodbridge Elementary,Elementary,>= 95.0,*,*,32.4,109,9.5,32,336,20180117
+2017,03,Baltimore County,0151,Catonsville Middle,Middle,>= 95.0,*,*,28.8,243,10.2,86,844,20180117
+2017,03,Baltimore County,0155,Southwest Academy,Middle,94.2,92536.0,98271,25.9,209,15.5,125,807,20180117
+2017,03,Baltimore County,0172,Woodlawn High Center for Pre-Eng. Res.,High,84.6,144730.0,171130,9.5,133,45.4,632,1393,20180117
+2017,03,Baltimore County,0174,Catonsville High,High,92.7,204937.0,221074,26.0,454,20.3,355,1748,20180117
+2017,03,Baltimore County,0175,Western School of Technology & Env. Science,High,>= 95.0,*,*,39.8,361,5.8,53,906,20180117
+2017,03,Baltimore County,0202,Randallstown Elementary,Elementary,>= 95.0,*,*,46.5,147,<= 5.0,*,316,20180117
+2017,03,Baltimore County,0204,Featherbed Lane Elementary,Elementary,94.9,58893.5,62026,28.0,136,7.8,38,486,20180117
+2017,03,Baltimore County,0205,Woodmoor Elementary,Elementary,94.6,53716.5,56794,29.8,136,10.5,48,457,20180117
+2017,03,Baltimore County,0206,Scotts Branch Elementary,Elementary,>= 95.0,*,*,38.4,191,9.1,45,497,20180117
+2017,03,Baltimore County,0207,Church Lane Elementary Technology,Elementary,>= 95.0,*,*,39.3,144,9.0,33,366,20180117
+2017,03,Baltimore County,0209,Hebbville Elementary,Elementary,94.9,41087.5,43296,34.0,118,13.3,46,347,20180117
+2017,03,Baltimore County,0210,Powhatan Elementary,Elementary,94.0,28930.0,30774,26.2,64,12.7,31,244,20180117
+2017,03,Baltimore County,0211,Winfield Elementary,Elementary,>= 95.0,*,*,36.6,139,8.4,32,380,20180117
+2017,03,Baltimore County,0213,Winand Elementary,Elementary,94.8,47910.5,50561,28.4,115,9.6,39,405,20180117
+2017,03,Baltimore County,0214,Hernwood Elementary,Elementary,94.6,40408.0,42732,26.8,93,9.8,34,347,20180117
+2017,03,Baltimore County,0216,Deer Park Elementary,Elementary,>= 95.0,*,*,44.1,156,8.2,29,354,20180117
+2017,03,Baltimore County,0217,New Town Elementary,Elementary,>= 95.0,*,*,43.1,304,5.5,39,705,20180117
+2017,03,Baltimore County,0252,Northwest Academy of Health Sciences,Middle,93.7,87381.0,93269,19.3,142,18.6,137,736,20180117
+2017,03,Baltimore County,0253,Woodlawn Middle,Middle,94.2,72190.0,76604,24.8,151,17.6,107,609,20180117
+2017,03,Baltimore County,0254,Deer Park Middle Magnet School,Middle,94.2,151365.5,160744,23.7,302,16.5,210,1273,20180117
+2017,03,Baltimore County,0256,Windsor Mill Middle,Middle,>= 95.0,*,*,33.1,167,8.5,43,505,20180117
+2017,03,Baltimore County,0271,Milford Mill Academy,High,91.5,153868.0,168155,14.5,193,27.4,366,1335,20180117
+2017,03,Baltimore County,0272,Randallstown High,High,91.0,110211.0,121061,13.3,127,27.7,265,957,20180117
+2017,03,Baltimore County,0303,Bedford Elementary,Elementary,>= 95.0,*,*,40.6,129,7.2,23,318,20180117
+2017,03,Baltimore County,0304,Wellwood International Elementary,Elementary,>= 95.0,*,*,33.2,142,6.3,27,428,20180117
+2017,03,Baltimore County,0307,Milbrook Elementary,Elementary,94.8,49367.0,52079,31.1,130,10.3,43,418,20180117
+2017,03,Baltimore County,0308,Fort Garrison Elementary,Elementary,>= 95.0,*,*,30.0,80,5.2,14,267,20180117
+2017,03,Baltimore County,0310,Summit Park Elementary,Elementary,>= 95.0,*,*,37.3,141,5.8,22,378,20180117
+2017,03,Baltimore County,0311,Woodholme Elementary,Elementary,>= 95.0,*,*,34.3,243,5.5,39,708,20180117
+2017,03,Baltimore County,0352,Pikesville Middle,Middle,94.9,115420.0,121616,32.4,315,11.9,116,972,20180117
+2017,03,Baltimore County,0353,Sudbrook Magnet Middle,Middle,>= 95.0,*,*,49.6,518,<= 5.0,*,1044,20180117
+2017,03,Baltimore County,0371,Pikesville High,High,93.5,98143.0,104965,25.2,209,16.8,139,829,20180117
+2017,03,Baltimore County,0402,Owings Mills Elementary,Elementary,94.7,65189.5,68805,32.1,178,8.3,46,555,20180117
+2017,03,Baltimore County,0403,Franklin Elementary,Elementary,>= 95.0,*,*,31.9,116,6.3,23,364,20180117
+2017,03,Baltimore County,0404,Chatsworth School,Elementary,>= 95.0,*,*,32.5,101,5.8,18,311,20180117
+2017,03,Baltimore County,0405,Timber Grove Elementary,Elementary,94.3,58559.0,62071,28.8,144,15.0,75,500,20180117
+2017,03,Baltimore County,0406,Reisterstown Elementary,Elementary,94.2,54356.5,57704,29.9,141,14.9,70,471,20180117
+2017,03,Baltimore County,0407,Glyndon Elementary,Elementary,94.2,47477.5,50381,27.9,112,16.2,65,402,20180117
+2017,03,Baltimore County,0408,Cedarmere Elementary,Elementary,>= 95.0,*,*,34.2,152,7.9,35,444,20180117
+2017,03,Baltimore County,0410,Lyons Mill Elementary,Elementary,>= 95.0,*,*,36.3,215,7.3,43,593,20180117
+2017,03,Baltimore County,0451,Franklin Middle,Middle,93.2,148557.0,159431,18.4,240,19.2,251,1307,20180117
+2017,03,Baltimore County,0452,Owings Mills High,High,91.0,117779.5,129459,24.1,248,24.9,256,1028,20180117
+2017,03,Baltimore County,0472,Franklin High,High,89.9,176024.5,195905,25.2,403,28.7,459,1600,20180117
+2017,03,Baltimore County,0473,New Town High,High,93.1,121449.5,130472,28.8,298,17.3,179,1033,20180117
+2017,03,Baltimore County,0501,Fifth District Elementary,Elementary,>= 95.0,*,*,29.7,73,<= 5.0,*,246,20180117
+2017,03,Baltimore County,0601,Prettyboy Elementary,Elementary,>= 95.0,*,*,34.7,126,<= 5.0,*,363,20180117
+2017,03,Baltimore County,0701,Seventh District Elementary,Elementary,>= 95.0,*,*,32.1,108,<= 5.0,*,336,20180117
+2017,03,Baltimore County,0772,Hereford High,High,94.7,149192.0,157504,23.3,292,9.7,122,1252,20180117
+2017,03,Baltimore County,0801,Sparks Elementary,Elementary,>= 95.0,*,*,41.5,182,<= 5.0,*,439,20180117
+2017,03,Baltimore County,0803,Lutherville Laboratory,Elementary,>= 95.0,*,*,41.8,138,<= 5.0,*,330,20180117
+2017,03,Baltimore County,0805,Timonium Elementary,Elementary,>= 95.0,*,*,40.7,149,<= 5.0,*,366,20180117
+2017,03,Baltimore County,0808,Pot Spring Elementary,Elementary,>= 95.0,*,*,35.0,126,5.3,19,360,20180117
+2017,03,Baltimore County,0809,Riderwood Elementary,Elementary,>= 95.0,*,*,36.3,132,<= 5.0,*,364,20180117
+2017,03,Baltimore County,0810,Padonia International Elementary,Elementary,>= 95.0,*,*,45.9,162,<= 5.0,*,353,20180117
+2017,03,Baltimore County,0811,Pinewood Elementary,Elementary,>= 95.0,*,*,39.2,163,<= 5.0,*,416,20180117
+2017,03,Baltimore County,0813,Warren Elementary,Elementary,>= 95.0,*,*,44.3,147,5.7,19,332,20180117
+2017,03,Baltimore County,0814,Mays Chapel Elementary,Elementary,>= 95.0,*,*,35.2,211,<= 5.0,*,599,20180117
+2017,03,Baltimore County,0852,Ridgely Middle,Middle,>= 95.0,*,*,34.2,417,6.0,73,1221,20180117
+2017,03,Baltimore County,0853,Cockeysville Middle,Middle,>= 95.0,*,*,43.9,359,5.6,46,817,20180117
+2017,03,Baltimore County,0855,Hereford Middle,Middle,>= 95.0,*,*,37.5,378,<= 5.0,*,1009,20180117
+2017,03,Baltimore County,0872,Dulaney High,High,93.8,208530.0,222409,34.1,619,15.1,275,1816,20180117
+2017,03,Baltimore County,0905,Stoneleigh Elementary,Elementary,>= 95.0,*,*,42.1,260,<= 5.0,*,617,20180117
+2017,03,Baltimore County,0907,Rodgers Forge Elementary,Elementary,>= 95.0,*,*,42.2,152,<= 5.0,*,360,20180117
+2017,03,Baltimore County,0908,Villa Cresta Elementary,Elementary,94.6,66322.0,70129,27.1,152,11.2,63,561,20180117
+2017,03,Baltimore County,0909,Pleasant Plains Elementary,Elementary,94.5,56512.0,59803,29.1,143,11.6,57,492,20180117
+2017,03,Baltimore County,0910,Oakleigh Elementary,Elementary,94.1,57380.0,60947,25.2,128,12.8,65,507,20180117
+2017,03,Baltimore County,0911,Hampton Elementary,Elementary,>= 95.0,*,*,37.3,173,<= 5.0,*,464,20180117
+2017,03,Baltimore County,0912,Halstead Academy,Elementary,94.4,44533.0,47174,28.2,109,14.2,55,387,20180117
+2017,03,Baltimore County,0915,Harford Hills Elementary,Elementary,94.8,39847.0,42012,28.7,96,10.4,35,335,20180117
+2017,03,Baltimore County,0916,Cromwell Valley Elementary Technology,Elementary,>= 95.0,*,*,42.9,123,<= 5.0,*,287,20180117
+2017,03,Baltimore County,0921,Pine Grove Elementary,Elementary,>= 95.0,*,*,30.8,134,6.4,28,435,20180117
+2017,03,Baltimore County,0922,Ridge Ruxton,Elementary,89.4,3931.0,4398,16.7,6,44.4,16,36,20180117
+2017,03,Baltimore County,0922,Ridge Ruxton,Middle,88.3,2303.0,2609,23.8,5,28.6,6,21,20180117
+2017,03,Baltimore County,0922,Ridge Ruxton,High,89.7,5086.0,5669,23.9,11,32.6,15,46,20180117
+2017,03,Baltimore County,0923,White Oak School,Elementary,91.6,10124.0,11055,20.5,17,24.1,20,83,20180117
+2017,03,Baltimore County,0925,West Towson Elementary,Elementary,>= 95.0,*,*,41.6,181,<= 5.0,*,435,20180117
+2017,03,Baltimore County,0953,Dumbarton Middle,Middle,>= 95.0,*,*,27.5,323,8.3,97,1175,20180117
+2017,03,Baltimore County,0954,Loch Raven Technical Academy,Middle,>= 95.0,*,*,25.2,187,10.5,78,743,20180117
+2017,03,Baltimore County,0957,Pine Grove Middle,Middle,>= 95.0,*,*,29.2,265,10.5,95,907,20180117
+2017,03,Baltimore County,0971,Towson High Law & Public Policy,High,93.6,177458.5,189559,24.7,370,16.8,252,1499,20180117
+2017,03,Baltimore County,0972,Parkville High & Center for Math/Science,High,90.3,192059.0,212745,18.8,321,29.0,496,1709,20180117
+2017,03,Baltimore County,0973,Loch Raven High,High,92.8,98268.5,105864,30.6,257,19.5,164,841,20180117
+2017,03,Baltimore County,0975,George W. Carver Center for Arts & Technology,High,>= 95.0,*,*,25.7,224,9.6,84,872,20180117
+2017,03,Baltimore County,1001,Carroll Manor Elementary,Elementary,>= 95.0,*,*,36.9,106,<= 5.0,*,287,20180117
+2017,03,Baltimore County,1002,Jacksonville Elementary,Elementary,>= 95.0,*,*,37.7,174,<= 5.0,*,461,20180117
+2017,03,Baltimore County,1104,Kingsville Elementary,Elementary,>= 95.0,*,*,40.1,123,<= 5.0,*,307,20180117
+2017,03,Baltimore County,1105,Perry Hall Elementary,Elementary,>= 95.0,*,*,36.9,226,<= 5.0,*,613,20180117
+2017,03,Baltimore County,1106,Carney Elementary,Elementary,>= 95.0,*,*,31.2,143,7.6,35,458,20180117
+2017,03,Baltimore County,1107,Chapel Hill Elementary,Elementary,>= 95.0,*,*,41.3,289,<= 5.0,*,700,20180117
+2017,03,Baltimore County,1109,Joppa View Elementary,Elementary,>= 95.0,*,*,29.5,187,5.2,33,634,20180117
+2017,03,Baltimore County,1110,Seven Oaks Elementary,Elementary,>= 95.0,*,*,33.1,116,6.0,21,350,20180117
+2017,03,Baltimore County,1111,Gunpowder Elementary,Elementary,>= 95.0,*,*,37.9,179,5.1,24,472,20180117
+2017,03,Baltimore County,1151,Perry Hall Middle,Middle,>= 95.0,*,*,37.6,694,8.3,153,1845,20180117
+2017,03,Baltimore County,1171,Perry Hall High,High,93.1,232299.5,249644,24.7,495,20.4,409,2002,20180117
+2017,03,Baltimore County,1202,Dundalk Elementary,Elementary,92.8,59440.5,64058,23.4,125,19.7,105,534,20180117
+2017,03,Baltimore County,1205,Berkshire Elementary,Elementary,94.1,42854.5,45542,26.6,101,12.7,48,379,20180117
+2017,03,Baltimore County,1206,Bear Creek Elementary,Elementary,94.2,43146.0,45797,27.4,104,10.0,38,379,20180117
+2017,03,Baltimore County,1207,Norwood Elementary,Elementary,94.0,40835.0,43462,26.8,93,8.9,31,347,20180117
+2017,03,Baltimore County,1210,Grange Elementary,Elementary,>= 95.0,*,*,31.1,108,5.8,20,347,20180117
+2017,03,Baltimore County,1212,Charlesmont Elementary,Elementary,93.1,37721.0,40510,19.1,64,11.3,38,335,20180117
+2017,03,Baltimore County,1215,Battle Monument School,Elementary,85.4,2658.5,3114,20.0,5,40.0,10,25,20180117
+2017,03,Baltimore County,1215,Battle Monument School,Middle,92.0,1717.0,1867,13.3,2,20.0,3,15,20180117
+2017,03,Baltimore County,1215,Battle Monument School,High,84.8,2420.5,2854,22.7,5,59.1,13,22,20180117
+2017,03,Baltimore County,1216,Sandy Plains Elementary,Elementary,93.4,55891.5,59819,22.5,108,15.6,75,480,20180117
+2017,03,Baltimore County,1217,Logan Elementary,Elementary,94.0,60494.0,64364,25.1,130,13.7,71,518,20180117
+2017,03,Baltimore County,1251,Dundalk Middle,Middle,92.8,84088.5,90571,21.4,157,18.6,136,733,20180117
+2017,03,Baltimore County,1253,Holabird Middle,Elementary,94.1,26889.0,28585,30.8,70,16.3,37,227,20180117
+2017,03,Baltimore County,1253,Holabird Middle,Middle,92.5,82538.5,89276,18.2,128,23.0,162,705,20180117
+2017,03,Baltimore County,1255,General John Stricker Middle,Middle,91.5,84168.5,92008,15.7,115,25.8,189,733,20180117
+2017,03,Baltimore County,1272,Patapsco High & Center for Arts,High,88.2,155496.0,176344,17.9,256,33.6,481,1430,20180117
+2017,03,Baltimore County,1273,Dundalk High,High,88.3,164779.0,186712,18.0,268,34.5,513,1486,20180117
+2017,03,Baltimore County,1302,Arbutus Elementary,Elementary,94.4,38968.0,41287,26.8,90,10.1,34,336,20180117
+2017,03,Baltimore County,1307,Baltimore Highlands Elementary,Elementary,94.2,58649.0,62248,23.2,120,11.8,61,517,20180117
+2017,03,Baltimore County,1308,Riverview Elementary,Elementary,93.7,54307.5,57978,19.5,91,19.3,90,467,20180117
+2017,03,Baltimore County,1310,Relay Elementary,Elementary,>= 95.0,*,*,30.3,128,6.9,29,423,20180117
+2017,03,Baltimore County,1311,Lansdowne Elementary,Elementary,94.4,43530.0,46132,27.6,104,11.1,42,377,20180117
+2017,03,Baltimore County,1313,Halethorpe Elementary,Elementary,>= 95.0,*,*,31.9,119,9.1,34,373,20180117
+2017,03,Baltimore County,1351,Lansdowne Middle,Middle,93.5,89913.0,96119,20.1,155,20.1,155,773,20180117
+2017,03,Baltimore County,1356,Arbutus Middle,Middle,94.9,100018.0,105376,26.2,225,11.2,96,860,20180117
+2017,03,Baltimore County,1371,Lansdowne High & Academy of Finance,High,88.9,145230.5,163382,20.0,269,31.4,422,1345,20180117
+2017,03,Baltimore County,1403,McCormick Elementary,Elementary,94.7,33559.5,35425,22.7,65,11.2,32,286,20180117
+2017,03,Baltimore County,1404,Fullerton Elementary,Elementary,>= 95.0,*,*,33.2,171,7.6,39,515,20180117
+2017,03,Baltimore County,1405,Elmwood Elementary,Elementary,94.8,50298.0,53071,27.8,118,13.4,57,425,20180117
+2017,03,Baltimore County,1406,Red House Run Elementary,Elementary,>= 95.0,*,*,33.0,149,7.7,35,452,20180117
+2017,03,Baltimore County,1409,Shady Spring Elementary,Elementary,94.5,61503.0,65092,36.2,187,10.1,52,517,20180117
+2017,03,Baltimore County,1451,Golden Ring Middle,Middle,93.1,77187.0,82930,24.2,164,18.0,122,678,20180117
+2017,03,Baltimore County,1452,Parkville Middle & Center of Technology,Middle,94.7,134154.5,141629,36.0,405,11.1,125,1124,20180117
+2017,03,Baltimore County,1473,Overlea High & Academy of Finance,High,91.7,106009.5,115597,18.6,175,24.6,231,940,20180117
+2017,03,Baltimore County,1502,Edgemere Elementary,Elementary,94.8,45233.5,47700,30.6,118,7.3,28,385,20180117
+2017,03,Baltimore County,1503,Colgate Elementary,Elementary,94.5,40942.5,43335,32.7,115,9.4,33,352,20180117
+2017,03,Baltimore County,1505,Victory Villa Elementary,Elementary,94.8,39889.0,42099,29.7,105,6.5,23,353,20180117
+2017,03,Baltimore County,1506,Martin Boulevard Elementary,Elementary,>= 95.0,*,*,42.1,96,5.7,13,228,20180117
+2017,03,Baltimore County,1507,Chase Elementary,Elementary,94.4,30190.5,31967,29.0,75,8.9,23,259,20180117
+2017,03,Baltimore County,1508,Essex Elementary,Elementary,94.5,44966.0,47560,19.2,73,12.6,48,380,20180117
+2017,03,Baltimore County,1511,Chesapeake Terrace Elementary,Elementary,>= 95.0,*,*,25.8,67,<= 5.0,*,260,20180117
+2017,03,Baltimore County,1512,Mars Estates Elementary,Elementary,>= 95.0,*,*,29.2,95,7.1,23,325,20180117
+2017,03,Baltimore County,1513,Sussex Elementary,Elementary,93.6,40985.0,43773,18.6,66,15.3,54,354,20180117
+2017,03,Baltimore County,1514,Middlesex Elementary,Elementary,94.9,48451.0,51081,32.4,130,10.5,42,401,20180117
+2017,03,Baltimore County,1515,Hawthorne Elementary,Elementary,93.9,41279.0,43961,21.2,76,14.0,50,358,20180117
+2017,03,Baltimore County,1517,Battle Grove Elementary,Elementary,94.2,24316.0,25811,18.7,39,10.0,21,209,20180117
+2017,03,Baltimore County,1518,Glenmar Elementary,Elementary,>= 95.0,*,*,38.7,140,9.9,36,362,20180117
+2017,03,Baltimore County,1519,Orems Elementary,Elementary,94.6,28283.0,29901,25.2,62,7.7,19,246,20180117
+2017,03,Baltimore County,1520,Middleborough Elementary,Elementary,94.2,34663.0,36787,23.8,71,8.7,26,298,20180117
+2017,03,Baltimore County,1525,Deep Creek Elementary,Elementary,93.2,47350.5,50803,22.1,88,16.6,66,398,20180117
+2017,03,Baltimore County,1527,Sandalwood Elementary,Elementary,94.6,55163.5,58315,29.2,136,11.2,52,465,20180117
+2017,03,Baltimore County,1531,Seneca Elementary,Elementary,94.9,45477.5,47931,24.2,93,7.3,28,385,20180117
+2017,03,Baltimore County,1533,Vincent Farm Elementary,Elementary,>= 95.0,*,*,33.6,249,8.4,62,740,20180117
+2017,03,Baltimore County,1534,Oliver Beach Elementary,Elementary,>= 95.0,*,*,26.6,41,<= 5.0,*,154,20180117
+2017,03,Baltimore County,1554,Stemmers Run Middle,Middle,92.8,83302.5,89741,16.7,123,22.8,168,736,20180117
+2017,03,Baltimore County,1556,Middle River Middle,Middle,92.6,93550.5,100978,23.1,191,21.9,181,827,20180117
+2017,03,Baltimore County,1557,Deep Creek Middle,Middle,93.2,98920.5,106134,22.0,184,19.5,163,836,20180117
+2017,03,Baltimore County,1559,Sparrows Point Middle,Middle,93.1,64124.0,68858,11.7,64,23.9,130,545,20180117
+2017,03,Baltimore County,1572,Kenwood High IB and Sports Science,High,88.8,174018.5,195924,20.2,322,31.5,502,1592,20180117
+2017,03,Baltimore County,1573,Sparrows Point High,High,93.7,104338.5,111322,28.2,248,14.8,130,879,20180117
+2017,03,Baltimore County,1574,Chesapeake High,High,90.0,108031.0,119983,22.8,219,27.5,264,961,20180117
+2017,03,Baltimore County,1575,Eastern Technical High School,High,>= 95.0,*,*,54.5,634,<= 5.0,*,1164,20180117
+2017,03,Baltimore County,A,All Baltimore County Schools,Elementary,>= 95.0,*,*,31.8,14161,8.6,3848,44502,20180117
+2017,03,Baltimore County,A,All Baltimore County Schools,Middle,94.4,2892885.0,3065923,27.6,6789,14.6,3589,24602,20180117
+2017,03,Baltimore County,A,All Baltimore County Schools,High,91.4,3546221.5,3878141,23.8,7415,24.4,7577,31115,20180117
+2017,04,Calvert,0101,Patuxent Appeal Elementary Campus,Elementary,94.5,74795.0,79156,26.5,167,5.4,34,631,20180117
+2017,04,Calvert,0110,Mutual Elementary,Elementary,>= 95.0,*,*,40.8,129,<= 5.0,*,316,20180117
+2017,04,Calvert,0111,Southern Middle,Middle,>= 95.0,*,*,28.8,137,5.1,24,475,20180117
+2017,04,Calvert,0113,Patuxent High,High,92.9,117907.5,126934,17.6,179,15.8,161,1018,20180117
+2017,04,Calvert,0114,St Leonard Elementary,Elementary,94.7,49003.0,51745,26.7,111,6.3,26,415,20180117
+2017,04,Calvert,0115,Dowell Elementary,Elementary,>= 95.0,*,*,29.2,136,<= 5.0,*,466,20180117
+2017,04,Calvert,0116,Mill Creek Middle,Middle,94.8,59807.0,63104,23.7,120,<= 5.0,*,506,20180117
+2017,04,Calvert,0201,Calvert Middle,Middle,94.9,70153.5,73948,30.7,183,6.2,37,596,20180117
+2017,04,Calvert,0206,Calvert Country School,Elementary,87.4,1533.5,1754,12.5,2,25.0,4,16,20180117
+2017,04,Calvert,0206,Calvert Country School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,04,Calvert,0206,Calvert Country School,High,81.9,1877.5,2293,25.0,4,37.5,6,16,20180117
+2017,04,Calvert,0207,Calvert Elementary,Elementary,94.9,46165.0,48648,29.5,115,<= 5.0,*,390,20180117
+2017,04,Calvert,0208,Barstow Elementary,Elementary,>= 95.0,*,*,33.2,143,7.9,34,431,20180117
+2017,04,Calvert,0209,Huntingtown Elementary,Elementary,>= 95.0,*,*,30.5,124,5.4,22,406,20180117
+2017,04,Calvert,0213,Calvert High,High,93.4,140559.0,150471,21.2,255,10.7,129,1203,20180117
+2017,04,Calvert,0215,Plum Point Elementary,Elementary,94.7,54013.0,57010,24.2,110,<= 5.0,*,455,20180117
+2017,04,Calvert,0216,Plum Point Middle,Middle,>= 95.0,*,*,23.4,162,<= 5.0,*,693,20180117
+2017,04,Calvert,0217,Huntingtown High School,High,94.2,170345.0,180782,19.6,283,8.9,129,1443,20180117
+2017,04,Calvert,0302,Beach Elementary,Elementary,>= 95.0,*,*,35.2,164,<= 5.0,*,466,20180117
+2017,04,Calvert,0312,Mount Harmony Elementary,Elementary,>= 95.0,*,*,34.2,165,<= 5.0,*,482,20180117
+2017,04,Calvert,0314,Northern High,High,93.9,171335.0,182407,20.9,304,8.4,122,1458,20180117
+2017,04,Calvert,0315,Northern Middle,Middle,>= 95.0,*,*,34.6,240,<= 5.0,*,693,20180117
+2017,04,Calvert,0316,Sunderland Elementary,Elementary,>= 95.0,*,*,32.8,180,<= 5.0,*,549,20180117
+2017,04,Calvert,0317,Windy Hill Elementary,Elementary,>= 95.0,*,*,29.9,174,<= 5.0,*,582,20180117
+2017,04,Calvert,0318,Windy Hill Middle,Middle,>= 95.0,*,*,30.6,232,<= 5.0,*,757,20180117
+2017,04,Calvert,0500,Calvert County Alternative School,High,77.2,889.5,1152,*,*,*,*,*,20180117
+2017,04,Calvert,A,All Calvert Schools,Elementary,>= 95.0,*,*,30.4,1705,<= 5.0,*,5607,20180117
+2017,04,Calvert,A,All Calvert Schools,Middle,>= 95.0,*,*,28.7,1071,<= 5.0,*,3728,20180117
+2017,04,Calvert,A,All Calvert Schools,High,93.6,602870.0,643975,19.9,1023,11.0,565,5152,20180117
+2017,05,Caroline,0201,Greensboro Elementary School,Elementary,>= 95.0,*,*,33.3,194,5.2,30,582,20180117
+2017,05,Caroline,0301,Denton Elementary School,Elementary,94.8,60419.0,63749,29.0,145,6.4,32,500,20180117
+2017,05,Caroline,0302,Lockerman Middle School,Middle,94.4,99128.0,104966,29.4,242,9.6,79,822,20180117
+2017,05,Caroline,0401,Preston Elementary School,Elementary,>= 95.0,*,*,32.6,99,6.6,20,304,20180117
+2017,05,Caroline,0501,Federalsburg Elementary School,Elementary,94.6,43010.0,45468,29.8,107,8.1,29,359,20180117
+2017,05,Caroline,0701,Ridgely Elementary School,Elementary,>= 95.0,*,*,30.5,122,6.0,24,400,20180117
+2017,05,Caroline,0703,North Caroline High School,High,92.8,128427.5,138334,23.8,258,17.0,184,1083,20180117
+2017,05,Caroline,0801,Colonel Richardson High School,High,93.4,60631.5,64924,24.3,124,14.1,72,510,20180117
+2017,05,Caroline,0802,Colonel Richardson Middle School,Middle,94.7,49234.5,52006,36.0,147,11.8,48,408,20180117
+2017,05,Caroline,A,All Caroline Schools,Elementary,>= 95.0,*,*,31.0,664,6.3,136,2145,20180117
+2017,05,Caroline,A,All Caroline Schools,Middle,94.5,148362.5,156972,31.6,389,10.4,128,1231,20180117
+2017,05,Caroline,A,All Caroline Schools,High,93.0,189059.0,203258,24.0,382,16.1,256,1593,20180117
+2017,06,Carroll,0103,Taneytown Elementary,Elementary,94.7,37868.0,39986,34.2,111,8.3,27,325,20180117
+2017,06,Carroll,0105,Northwest Middle,Middle,94.4,73143.0,77513,35.7,225,11.4,72,631,20180117
+2017,06,Carroll,0202,Francis Scott Key High,High,94.8,109843.0,115847,36.4,345,9.6,91,948,20180117
+2017,06,Carroll,0204,Runnymede Elementary,Elementary,>= 95.0,*,*,32.6,159,5.3,26,488,20180117
+2017,06,Carroll,0404,Sandymount Elementary,Elementary,>= 95.0,*,*,34.0,121,<= 5.0,*,356,20180117
+2017,06,Carroll,0406,Mechanicsville Elementary,Elementary,>= 95.0,*,*,38.7,147,<= 5.0,*,380,20180117
+2017,06,Carroll,0501,Eldersburg Elementary,Elementary,>= 95.0,*,*,40.7,155,<= 5.0,*,381,20180117
+2017,06,Carroll,0503,Linton Springs Elementary,Elementary,>= 95.0,*,*,32.1,170,<= 5.0,*,529,20180117
+2017,06,Carroll,0504,Sykesville Middle,Middle,>= 95.0,*,*,39.5,316,<= 5.0,*,800,20180117
+2017,06,Carroll,0505,Freedom District Elementary,Elementary,>= 95.0,*,*,34.6,140,<= 5.0,*,405,20180117
+2017,06,Carroll,0506,Carrolltowne Elementary,Elementary,>= 95.0,*,*,37.3,156,<= 5.0,*,418,20180117
+2017,06,Carroll,0507,Liberty High,High,>= 95.0,*,*,42.2,462,5.9,65,1095,20180117
+2017,06,Carroll,0508,Oklahoma Road Middle,Middle,>= 95.0,*,*,41.8,317,5.4,41,758,20180117
+2017,06,Carroll,0509,Piney Ridge Elementary,Elementary,>= 95.0,*,*,40.9,190,<= 5.0,*,465,20180117
+2017,06,Carroll,0510,Century High,High,>= 95.0,*,*,40.3,438,7.2,78,1088,20180117
+2017,06,Carroll,0601,Manchester Elementary,Elementary,>= 95.0,*,*,42.2,219,<= 5.0,*,519,20180117
+2017,06,Carroll,0602,Manchester Valley High,High,94.6,155756.5,164692,35.3,477,11.5,155,1353,20180117
+2017,06,Carroll,0603,Ebb Valley Elementary,Elementary,>= 95.0,*,*,36.9,167,<= 5.0,*,452,20180117
+2017,06,Carroll,0701,Westminster East Middle,Middle,94.5,80576.0,85262,36.9,258,12.0,84,699,20180117
+2017,06,Carroll,0703,Westminster West Middle,Middle,>= 95.0,*,*,37.8,390,9.2,95,1032,20180117
+2017,06,Carroll,0704,Winters Mill High,High,94.6,124728.5,131865,38.3,413,11.4,123,1077,20180117
+2017,06,Carroll,0705,William Winchester Elementary,Elementary,>= 95.0,*,*,38.0,190,7.0,35,500,20180117
+2017,06,Carroll,0707,Westminster High,High,94.4,173145.5,183325,36.4,548,11.6,175,1505,20180117
+2017,06,Carroll,0710,Westminster Elementary,Elementary,>= 95.0,*,*,37.0,154,<= 5.0,*,416,20180117
+2017,06,Carroll,0711,Robert Moton Elementary,Elementary,94.5,36711.0,38863,30.2,95,10.2,32,315,20180117
+2017,06,Carroll,0712,Carroll Springs School,Elementary,*,*,*,*,*,*,*,*,20180117
+2017,06,Carroll,0712,Carroll Springs School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,06,Carroll,0712,Carroll Springs School,High,88.2,1298.0,1471,16.7,2,41.7,5,12,20180117
+2017,06,Carroll,0714,Friendship Valley Elementary,Elementary,>= 95.0,*,*,35.3,138,<= 5.0,*,391,20180117
+2017,06,Carroll,0715,Cranberry Station Elementary,Elementary,>= 95.0,*,*,38.4,162,<= 5.0,*,422,20180117
+2017,06,Carroll,0716,Gateway School,High,80.4,6031.0,7499,10.2,6,52.5,31,59,20180117
+2017,06,Carroll,0717,Post Secondary Program,High,91.2,3127.5,3428,29.6,8,22.2,6,27,20180117
+2017,06,Carroll,0718,PRIDE School,Elementary,91.8,1953.0,2128,6.3,1,<= 5.0,*,16,20180117
+2017,06,Carroll,0726,Crossroads Middle School,Middle,86.9,1403.0,1614,7.7,1,53.8,7,13,20180117
+2017,06,Carroll,0801,North Carroll Middle,Middle,>= 95.0,*,*,38.8,230,7.4,44,593,20180117
+2017,06,Carroll,0804,Hampstead Elementary,Elementary,>= 95.0,*,*,38.3,105,5.5,15,274,20180117
+2017,06,Carroll,0806,Spring Garden Elementary,Elementary,>= 95.0,*,*,42.7,177,<= 5.0,*,415,20180117
+2017,06,Carroll,0807,Shiloh Middle,Middle,>= 95.0,*,*,40.5,268,9.2,61,662,20180117
+2017,06,Carroll,0903,Flexible Student Support,High,92.7,3502.0,3776,60.0,15,12.0,3,25,20180117
+2017,06,Carroll,0906,Winfield Elementary,Elementary,94.6,49377.0,52210,26.3,113,8.1,35,430,20180117
+2017,06,Carroll,1201,Elmer A. Wolfe Elementary,Elementary,>= 95.0,*,*,35.7,122,<= 5.0,*,342,20180117
+2017,06,Carroll,1304,Parr's Ridge Elementary,Elementary,94.8,34697.0,36586,23.0,69,6.0,18,300,20180117
+2017,06,Carroll,1305,Mount Airy Elementary,Elementary,>= 95.0,*,*,32.9,150,<= 5.0,*,456,20180117
+2017,06,Carroll,1306,Mount Airy Middle,Middle,>= 95.0,*,*,33.6,255,7.4,56,759,20180117
+2017,06,Carroll,1401,South Carroll High,High,>= 95.0,*,*,34.2,358,9.1,95,1046,20180117
+2017,06,Carroll,A,All Carroll Schools,Elementary,>= 95.0,*,*,35.4,3196,<= 5.0,*,9016,20180117
+2017,06,Carroll,A,All Carroll Schools,Middle,>= 95.0,*,*,37.9,2258,8.5,507,5957,20180117
+2017,06,Carroll,A,All Carroll Schools,High,94.8,954564.0,1006814,37.1,3060,10.3,850,8252,20180117
+2017,07,Cecil,0104,Cecilton Elementary,Elementary,>= 95.0,*,*,30.8,80,<= 5.0,*,260,20180117
+2017,07,Cecil,0204,Bohemia Manor High,High,92.1,72152.5,78360,19.1,122,21.4,137,639,20180117
+2017,07,Cecil,0205,Chesapeake City Elementary,Elementary,>= 95.0,*,*,33.1,80,7.4,18,242,20180117
+2017,07,Cecil,0206,Bohemia Manor Middle,Middle,94.1,57954.5,61617,29.5,149,11.9,60,505,20180117
+2017,07,Cecil,0302,Elkton High,High,90.1,106257.5,117944,21.0,200,31.8,302,951,20180117
+2017,07,Cecil,0303,Elkton Middle,Middle,91.1,61282.0,67247,19.6,107,24.0,131,545,20180117
+2017,07,Cecil,0310,Gilpin Manor Elementary,Elementary,94.3,34461.5,36550,28.1,83,11.9,35,295,20180117
+2017,07,Cecil,0311,Holly Hall Elementary,Elementary,93.3,49958.0,53533,29.1,128,15.2,67,440,20180117
+2017,07,Cecil,0313,Cherry Hill Middle,Middle,94.1,48680.0,51743,29.6,124,13.8,58,419,20180117
+2017,07,Cecil,0315,Leeds Elementary,Elementary,>= 95.0,*,*,37.9,108,9.8,28,285,20180117
+2017,07,Cecil,0316,Thomson Estates Elementary,Elementary,94.2,45212.5,47974,26.0,102,12.0,47,392,20180117
+2017,07,Cecil,0317,Kenmore Elementary,Elementary,>= 95.0,*,*,36.2,88,6.6,16,243,20180117
+2017,07,Cecil,0401,Cecil Manor Elementary,Elementary,94.2,41917.0,44478,27.0,98,12.4,45,363,20180117
+2017,07,Cecil,0504,North East Middle,Middle,92.7,85931.5,92727,25.2,192,19.1,146,763,20180117
+2017,07,Cecil,0506,North East Elementary,Elementary,94.3,50099.0,53147,31.4,136,11.8,51,433,20180117
+2017,07,Cecil,0510,Bay View Elementary,Elementary,93.3,50250.0,53832,23.2,102,16.1,71,440,20180117
+2017,07,Cecil,0513,Charlestown Elementary,Elementary,94.8,22593.0,23828,31.8,62,7.7,15,195,20180117
+2017,07,Cecil,0514,North East High,High,90.9,119126.0,131113,19.9,212,28.5,304,1066,20180117
+2017,07,Cecil,0515,Elk Neck Elementary,Elementary,>= 95.0,*,*,33.7,119,6.8,24,353,20180117
+2017,07,Cecil,0606,Rising Sun Middle School,Middle,93.4,74693.5,79939,27.0,178,15.5,102,659,20180117
+2017,07,Cecil,0607,Rising Sun Elementary,Elementary,>= 95.0,*,*,32.9,181,6.0,33,550,20180117
+2017,07,Cecil,0701,Perryville Middle,Middle,92.8,62085.0,66931,24.7,135,18.5,101,547,20180117
+2017,07,Cecil,0703,Perryville Elementary,Elementary,94.8,35514.0,37473,31.7,98,6.1,19,309,20180117
+2017,07,Cecil,0704,Bainbridge Elementary,Elementary,93.7,26273.0,28044,20.5,47,13.5,31,229,20180117
+2017,07,Cecil,0705,Perryville High,High,90.3,86796.5,96080,17.0,132,29.0,225,776,20180117
+2017,07,Cecil,0801,Conowingo Elementary,Elementary,94.8,41731.0,44007,30.7,111,6.9,25,361,20180117
+2017,07,Cecil,0904,Calvert Elementary,Elementary,94.3,45075.5,47778,24.0,94,7.4,29,391,20180117
+2017,07,Cecil,0905,Rising Sun High,High,92.2,130674.5,141781,22.5,260,22.4,259,1156,20180117
+2017,07,Cecil,A,All Cecil Schools,Elementary,94.5,668635.0,707186,29.2,1694,10.2,592,5795,20180117
+2017,07,Cecil,A,All Cecil Schools,Middle,93.0,390626.5,420204,25.6,881,17.7,609,3445,20180117
+2017,07,Cecil,A,All Cecil Schools,High,91.1,515007.0,565278,20.1,926,27.1,1244,4597,20180117
+2017,08,Charles,0104,Milton M. Somers Middle School,Middle,>= 95.0,*,*,32.5,322,8.8,87,990,20180117
+2017,08,Charles,0105,Walter J. Mitchell Elementary,Elementary,>= 95.0,*,*,33.8,187,5.6,31,554,20180117
+2017,08,Charles,0106,La Plata High School,High,94.0,125994.5,134041,32.0,341,12.6,134,1065,20180117
+2017,08,Charles,0108,Maurice J. McDonough High School,High,93.3,106807.5,114485,28.3,260,17.6,162,919,20180117
+2017,08,Charles,0109,Mary Matula Elementary School,Elementary,>= 95.0,*,*,38.6,240,<= 5.0,*,622,20180117
+2017,08,Charles,0302,Mt Hope/Nanjemoy Elementary School,Elementary,>= 95.0,*,*,30.1,71,<= 5.0,*,236,20180117
+2017,08,Charles,0501,Dr. Thomas L. Higdon Elementary,Elementary,>= 95.0,*,*,25.6,86,6.3,21,336,20180117
+2017,08,Charles,0503,Piccowaxen Middle School,Middle,94.9,49368.5,52044,32.6,137,10.0,42,420,20180117
+2017,08,Charles,0604,Dr. Samuel A. Mudd Elementary School,Elementary,>= 95.0,*,*,36.6,112,7.8,24,306,20180117
+2017,08,Charles,0605,Thomas Stone High School,High,92.5,130041.0,140586,24.6,276,19.1,215,1124,20180117
+2017,08,Charles,0606,J. P. Ryon Elementary School,Elementary,>= 95.0,*,*,36.6,208,6.5,37,568,20180117
+2017,08,Charles,0608,John Hanson Middle School,Middle,>= 95.0,*,*,34.7,281,9.0,73,809,20180117
+2017,08,Charles,0609,Dr. James Craik Elementary School,Elementary,>= 95.0,*,*,36.9,146,5.6,22,396,20180117
+2017,08,Charles,0611,Dr. Gustavus Brown Elementary,Elementary,>= 95.0,*,*,30.8,102,8.2,27,331,20180117
+2017,08,Charles,0612,Arthur Middleton Elementary School,Elementary,>= 95.0,*,*,37.7,144,<= 5.0,*,382,20180117
+2017,08,Charles,0613,Benjamin Stoddert Middle School,Middle,94.9,82840.0,87302,31.3,218,9.3,65,697,20180117
+2017,08,Charles,0616,Eva Turner Elementary School,Elementary,94.8,40655.0,42903,28.6,99,7.8,27,346,20180117
+2017,08,Charles,0617,Daniel of St. Thomas Jenifer Elementary School,Elementary,>= 95.0,*,*,40.6,189,<= 5.0,*,465,20180117
+2017,08,Charles,0618,William B. Wade Elementary School,Elementary,>= 95.0,*,*,38.6,218,<= 5.0,*,565,20180117
+2017,08,Charles,0619,Westlake High School,High,94.3,137481.0,145835,28.4,329,12.3,143,1159,20180117
+2017,08,Charles,0620,C. Paul Barnhart Elementary School,Elementary,>= 95.0,*,*,30.4,158,<= 5.0,*,519,20180117
+2017,08,Charles,0621,Mattawoman Middle School,Middle,>= 95.0,*,*,39.0,369,6.1,58,946,20180117
+2017,08,Charles,0622,Berry Elementary School,Elementary,>= 95.0,*,*,41.5,318,<= 5.0,*,766,20180117
+2017,08,Charles,0623,North Point High School,High,>= 95.0,*,*,40.9,719,6.2,109,1756,20180117
+2017,08,Charles,0624,William A. Diggs Elementary,Elementary,>= 95.0,*,*,40.7,265,<= 5.0,*,651,20180117
+2017,08,Charles,0625,Theodore G. Davis Middle School,Middle,>= 95.0,*,*,49.8,419,<= 5.0,*,841,20180117
+2017,08,Charles,0626,Mary B. Neal Elementary School,Elementary,>= 95.0,*,*,36.9,221,<= 5.0,*,599,20180117
+2017,08,Charles,0701,Matthew Henson Middle School,Middle,>= 95.0,*,*,38.0,275,5.4,39,723,20180117
+2017,08,Charles,0703,J. C. Parks Elementary School,Elementary,>= 95.0,*,*,30.9,183,6.1,36,593,20180117
+2017,08,Charles,0705,General Smallwood Middle School,Middle,94.3,63370.0,67194,29.8,159,10.7,57,534,20180117
+2017,08,Charles,0708,Robert D. Stethem Educational Center,Middle,86.9,993.5,1143,*,*,*,*,*,20180117
+2017,08,Charles,0708,Robert D. Stethem Educational Center,High,85.0,8400.0,9887,10.0,7,44.3,31,70,20180117
+2017,08,Charles,0710,Indian Head Elementary School,Elementary,94.7,42514.0,44876,24.7,90,5.2,19,364,20180117
+2017,08,Charles,0801,T. C. Martin Elementary School,Elementary,>= 95.0,*,*,31.6,136,6.0,26,431,20180117
+2017,08,Charles,0802,St. Charles High School,High,93.8,148036.5,157779,31.7,398,14.1,177,1256,20180117
+2017,08,Charles,0902,Malcolm Elementary School,Elementary,>= 95.0,*,*,32.9,103,<= 5.0,*,313,20180117
+2017,08,Charles,1001,Gale-Bailey Elementary School,Elementary,>= 95.0,*,*,31.8,91,6.3,18,286,20180117
+2017,08,Charles,1002,Henry E. Lackey High School,High,93.2,112494.5,120721,22.2,214,19.6,189,966,20180117
+2017,08,Charles,A,All Charles Schools,Elementary,>= 95.0,*,*,34.6,3344,5.2,506,9654,20180117
+2017,08,Charles,A,All Charles Schools,Middle,>= 95.0,*,*,36.1,2157,8.1,484,5972,20180117
+2017,08,Charles,A,All Charles Schools,High,93.9,979485.0,1042803,30.4,2538,14.5,1212,8342,20180117
+2017,09,Dorchester,0205,Warwick Elementary School,Elementary,>= 95.0,*,*,33.1,94,6.0,17,284,20180117
+2017,09,Dorchester,0207,North Dorchester High School,High,>= 95.0,*,*,39.4,191,8.9,43,485,20180117
+2017,09,Dorchester,0208,North Dorchester Middle School,Middle,93.7,51918.0,55410,22.4,100,13.9,62,447,20180117
+2017,09,Dorchester,0302,Vienna Elementary School,Elementary,93.9,18104.0,19279,29.1,46,12.0,19,158,20180117
+2017,09,Dorchester,0508,South Dorchester School,Elementary,>= 95.0,*,*,33.0,36,<= 5.0,*,109,20180117
+2017,09,Dorchester,0508,South Dorchester School,Middle,>= 95.0,*,*,30.6,22,5.6,4,72,20180117
+2017,09,Dorchester,0707,Mace's Lane Middle School,Middle,90.6,59647.0,65837,14.3,76,29.6,157,531,20180117
+2017,09,Dorchester,0710,Sandy Hill Elementary,Elementary,93.6,39815.0,42558,22.8,79,15.0,52,347,20180117
+2017,09,Dorchester,0711,Maple Elementary School,Elementary,93.3,41847.0,44834,28.7,104,16.3,59,362,20180117
+2017,09,Dorchester,0713,Cambridge-South Dorchester High School,High,94.4,88998.0,94260,35.8,271,12.8,97,756,20180117
+2017,09,Dorchester,0716,Choptank Elementary School,Elementary,94.2,36784.0,39054,33.3,103,12.0,37,309,20180117
+2017,09,Dorchester,1503,Hurlock Elementary School,Elementary,94.1,43889.0,46629,28.3,106,10.7,40,374,20180117
+2017,09,Dorchester,A,All Dorchester Schools,Elementary,94.2,226559.5,240613,28.7,558,12.0,234,1945,20180117
+2017,09,Dorchester,A,All Dorchester Schools,Middle,92.2,119735.5,129833,18.9,198,21.3,224,1050,20180117
+2017,09,Dorchester,A,All Dorchester Schools,High,94.8,146682.0,154730,37.1,461,11.3,140,1241,20180117
+2017,10,Frederick,0108,Carroll Manor Elementary,Elementary,>= 95.0,*,*,33.7,139,<= 5.0,*,413,20180117
+2017,10,Frederick,0109,Tuscarora Elementary,Elementary,>= 95.0,*,*,38.5,255,6.0,40,663,20180117
+2017,10,Frederick,0201,Parkway Elementary,Elementary,>= 95.0,*,*,43.9,83,<= 5.0,*,189,20180117
+2017,10,Frederick,0204,Lincoln Elementary,Elementary,>= 95.0,*,*,39.1,172,7.3,32,440,20180117
+2017,10,Frederick,0209,Frederick High,High,93.0,151871.0,163278,38.6,497,17.7,228,1287,20180117
+2017,10,Frederick,0210,North Frederick Elementary,Elementary,>= 95.0,*,*,40.8,214,<= 5.0,*,524,20180117
+2017,10,Frederick,0211,West Frederick Middle,Middle,>= 95.0,*,*,41.0,334,7.6,62,814,20180117
+2017,10,Frederick,0213,Gov. Thomas Johnson High,High,92.4,173636.0,187990,34.4,514,19.9,298,1496,20180117
+2017,10,Frederick,0219,Monocacy Middle,Middle,>= 95.0,*,*,39.3,293,8.8,66,746,20180117
+2017,10,Frederick,0222,Monocacy Elementary,Elementary,>= 95.0,*,*,37.8,176,<= 5.0,*,465,20180117
+2017,10,Frederick,0223,Ballenger Creek Elementary,Elementary,>= 95.0,*,*,32.3,176,6.8,37,545,20180117
+2017,10,Frederick,0225,Gov. Thomas Johnson Middle,Middle,94.7,66400.5,70113,35.0,194,11.0,61,555,20180117
+2017,10,Frederick,0226,Monocacy Valley Montessori School,Elementary,>= 95.0,*,*,25.8,41,<= 5.0,*,159,20180117
+2017,10,Frederick,0226,Monocacy Valley Montessori School,Middle,>= 95.0,*,*,33.8,27,<= 5.0,*,80,20180117
+2017,10,Frederick,0227,Crestwood Middle,Middle,>= 95.0,*,*,40.4,216,9.9,53,534,20180117
+2017,10,Frederick,0228,Carroll Creek Montessori Public Charter School,Elementary,94.7,17175.5,18133,24.1,35,8.3,12,145,20180117
+2017,10,Frederick,0228,Carroll Creek Montessori Public Charter School,Middle,>= 95.0,*,*,32.6,15,<= 5.0,*,46,20180117
+2017,10,Frederick,0303,Middletown Elementary,Elementary,>= 95.0,*,*,33.3,144,<= 5.0,*,433,20180117
+2017,10,Frederick,0311,Middletown Middle,Middle,>= 95.0,*,*,35.7,302,6.6,56,846,20180117
+2017,10,Frederick,0313,Middletown High,High,94.8,134383.5,141706,36.2,406,9.4,106,1122,20180117
+2017,10,Frederick,0314,Middletown Primary,Elementary,>= 95.0,*,*,34.3,98,<= 5.0,*,286,20180117
+2017,10,Frederick,0503,Emmitsburg Elementary,Elementary,94.7,24696.0,26090,32.5,67,5.8,12,206,20180117
+2017,10,Frederick,0603,Wolfsville Elementary,Elementary,94.8,14154.0,14925,31.4,37,5.9,7,118,20180117
+2017,10,Frederick,0702,Urbana Elementary,Elementary,>= 95.0,*,*,34.6,210,<= 5.0,*,607,20180117
+2017,10,Frederick,0713,Urbana High,High,>= 95.0,*,*,44.3,756,5.9,100,1708,20180117
+2017,10,Frederick,0714,Windsor Knolls Middle,Middle,>= 95.0,*,*,37.2,290,5.8,45,779,20180117
+2017,10,Frederick,0715,Centerville Elementary,Elementary,>= 95.0,*,*,43.4,378,<= 5.0,*,871,20180117
+2017,10,Frederick,0716,Urbana Middle,Middle,>= 95.0,*,*,48.8,430,<= 5.0,*,881,20180117
+2017,10,Frederick,0801,Liberty Elementary,Elementary,94.8,29201.5,30807,28.3,69,5.7,14,244,20180117
+2017,10,Frederick,0903,New Market Elementary,Elementary,>= 95.0,*,*,33.2,202,<= 5.0,*,608,20180117
+2017,10,Frederick,0912,Linganore High,High,94.9,165656.5,174625,40.2,557,9.2,127,1384,20180117
+2017,10,Frederick,0913,Green Valley Elementary,Elementary,>= 95.0,*,*,33.8,105,<= 5.0,*,311,20180117
+2017,10,Frederick,0914,New Market Middle,Middle,>= 95.0,*,*,37.2,188,6.3,32,505,20180117
+2017,10,Frederick,0915,Kemptown Elementary,Elementary,>= 95.0,*,*,36.5,126,<= 5.0,*,345,20180117
+2017,10,Frederick,0916,Spring Ridge Elementary,Elementary,>= 95.0,*,*,30.4,109,8.4,30,358,20180117
+2017,10,Frederick,0917,Deer Crossing Elementary,Elementary,>= 95.0,*,*,36.6,226,<= 5.0,*,617,20180117
+2017,10,Frederick,0918,Oakdale Middle,Middle,>= 95.0,*,*,41.7,264,<= 5.0,*,633,20180117
+2017,10,Frederick,0919,Oakdale Elementary,Elementary,>= 95.0,*,*,38.7,197,<= 5.0,*,509,20180117
+2017,10,Frederick,0920,Oakdale High,High,>= 95.0,*,*,40.0,503,8.3,105,1258,20180117
+2017,10,Frederick,1001,Sabillasville Elementary,Elementary,>= 95.0,*,*,44.4,44,<= 5.0,*,99,20180117
+2017,10,Frederick,1105,New Midway/Woodsboro Elementary,Elementary,>= 95.0,*,*,31.1,71,<= 5.0,*,228,20180117
+2017,10,Frederick,1301,Frederick Classical Charter School,Elementary,>= 95.0,*,*,37.8,76,<= 5.0,*,201,20180117
+2017,10,Frederick,1301,Frederick Classical Charter School,Middle,>= 95.0,*,*,41.9,49,<= 5.0,*,117,20180117
+2017,10,Frederick,1406,Valley Elementary,Elementary,>= 95.0,*,*,31.8,100,<= 5.0,*,314,20180117
+2017,10,Frederick,1503,Thurmont Elementary,Elementary,>= 95.0,*,*,38.3,118,6.2,19,308,20180117
+2017,10,Frederick,1509,Catoctin High,High,93.8,96901.0,103318,24.4,199,14.3,117,816,20180117
+2017,10,Frederick,1510,Thurmont Middle,Middle,94.6,67325.5,71198,33.6,189,9.6,54,563,20180117
+2017,10,Frederick,1511,Thurmont Primary,Elementary,94.8,24069.5,25401,29.6,60,7.9,16,203,20180117
+2017,10,Frederick,1604,Myersville Elementary,Elementary,>= 95.0,*,*,36.7,109,<= 5.0,*,297,20180117
+2017,10,Frederick,1801,Twin Ridge Elementary,Elementary,>= 95.0,*,*,31.8,125,7.9,31,393,20180117
+2017,10,Frederick,2001,Lewistown Elementary,Elementary,>= 95.0,*,*,30.4,35,5.2,6,115,20180117
+2017,10,Frederick,2103,Yellow Springs Elementary,Elementary,>= 95.0,*,*,40.3,162,<= 5.0,*,402,20180117
+2017,10,Frederick,2107,Whittier Elementary,Elementary,>= 95.0,*,*,37.6,205,<= 5.0,*,545,20180117
+2017,10,Frederick,2302,Hillcrest Elementary,Elementary,>= 95.0,*,*,36.5,259,7.0,50,710,20180117
+2017,10,Frederick,2305,Ballenger Creek Middle,Middle,>= 95.0,*,*,41.3,322,5.5,43,780,20180117
+2017,10,Frederick,2306,Orchard Grove Elementary,Elementary,>= 95.0,*,*,36.9,195,<= 5.0,*,528,20180117
+2017,10,Frederick,2307,Tuscarora High,High,94.2,181621.0,192717,38.5,586,12.8,195,1521,20180117
+2017,10,Frederick,2403,Waverley Elementary,Elementary,94.6,56575.0,59827,31.9,153,7.5,36,480,20180117
+2017,10,Frederick,2404,Rock Creek School,Elementary,77.7,1555.5,2002,6.3,1,62.5,10,16,20180117
+2017,10,Frederick,2404,Rock Creek School,Middle,92.7,1801.5,1943,33.3,5,26.7,4,15,20180117
+2017,10,Frederick,2404,Rock Creek School,High,88.0,4388.0,4988,12.5,5,42.5,17,40,20180117
+2017,10,Frederick,2503,Brunswick High,High,93.6,89992.0,96129,34.0,258,14.9,113,759,20180117
+2017,10,Frederick,2504,Brunswick Elementary,Elementary,>= 95.0,*,*,34.3,172,7.2,36,501,20180117
+2017,10,Frederick,2525,Brunswick Middle,Middle,>= 95.0,*,*,34.8,207,9.2,55,595,20180117
+2017,10,Frederick,2606,Walkersville Middle,Middle,>= 95.0,*,*,41.3,346,6.1,51,838,20180117
+2017,10,Frederick,2607,Walkersville Elementary,Elementary,>= 95.0,*,*,35.8,217,<= 5.0,*,606,20180117
+2017,10,Frederick,2610,Walkersville High,High,94.5,131663.0,139396,39.5,436,11.1,122,1104,20180117
+2017,10,Frederick,2611,Glade Elementary,Elementary,>= 95.0,*,*,33.9,172,<= 5.0,*,508,20180117
+2017,10,Frederick,A,All Frederick Schools,Elementary,>= 95.0,*,*,35.4,5489,<= 5.0,*,15520,20180117
+2017,10,Frederick,A,All Frederick Schools,Middle,>= 95.0,*,*,39.2,3662,7.0,652,9331,20180117
+2017,10,Frederick,A,All Frederick Schools,High,94.2,1487487.5,1578248,37.6,4707,12.3,1543,12503,20180117
+2017,11,Garrett,0202,Friendsville Elementary,Elementary,94.0,12012.5,12774,22.8,23,10.9,11,101,20180117
+2017,11,Garrett,0301,Grantsville Elementary,Elementary,>= 95.0,*,*,35.7,61,<= 5.0,*,171,20180117
+2017,11,Garrett,0501,Accident Elementary,Elementary,>= 95.0,*,*,34.4,66,<= 5.0,*,192,20180117
+2017,11,Garrett,0511,Northern Middle School,Middle,>= 95.0,*,*,29.4,103,<= 5.0,*,350,20180117
+2017,11,Garrett,0512,Northern Garrett High School,High,94.3,50516.5,53558,23.2,100,5.3,23,431,20180117
+2017,11,Garrett,0707,Broad Ford Elementary,Elementary,94.6,51817.5,54754,28.1,124,5.9,26,441,20180117
+2017,11,Garrett,0708,Southern Middle School,Middle,94.1,62697.5,66626,23.9,129,9.1,49,539,20180117
+2017,11,Garrett,0709,Southern Garrett High School,High,92.7,77706.0,83861,19.6,131,17.0,114,670,20180117
+2017,11,Garrett,0710,Yough Glades Elementary,Elementary,>= 95.0,*,*,32.9,85,6.2,16,258,20180117
+2017,11,Garrett,0812,Swan Meadow School,Elementary,>= 95.0,*,*,40.9,9,<= 5.0,*,22,20180117
+2017,11,Garrett,0812,Swan Meadow School,Middle,>= 95.0,*,*,50.0,7,<= 5.0,*,14,20180117
+2017,11,Garrett,0904,Route 40 Elementary,Elementary,>= 95.0,*,*,39.6,38,<= 5.0,*,96,20180117
+2017,11,Garrett,1408,Crellin Elementary,Elementary,>= 95.0,*,*,34.9,38,<= 5.0,*,109,20180117
+2017,11,Garrett,A,All Garrett Schools,Elementary,>= 95.0,*,*,31.7,442,5.1,71,1393,20180117
+2017,11,Garrett,A,All Garrett Schools,Middle,94.6,105682.5,111692,26.4,239,6.9,62,904,20180117
+2017,11,Garrett,A,All Garrett Schools,High,93.3,128222.5,137419,21.0,231,12.4,137,1102,20180117
+2017,12,Harford,0113,William S. James Elementary,Elementary,>= 95.0,*,*,36.5,127,<= 5.0,*,348,20180117
+2017,12,Harford,0115,Edgewood Elementary,Elementary,94.1,32693.5,34752,28.8,81,11.7,33,281,20180117
+2017,12,Harford,0120,Deerfield Elementary,Elementary,94.9,73727.0,77683,38.3,243,9.6,61,634,20180117
+2017,12,Harford,0121,Emmorton Elementary,Elementary,>= 95.0,*,*,38.8,188,<= 5.0,*,484,20180117
+2017,12,Harford,0123,Abingdon Elementary,Elementary,>= 95.0,*,*,31.3,206,<= 5.0,*,658,20180117
+2017,12,Harford,0125,Church Creek Elementary,Elementary,>= 95.0,*,*,36.8,233,<= 5.0,*,633,20180117
+2017,12,Harford,0131,Magnolia Elementary,Elementary,>= 95.0,*,*,32.6,130,10.0,40,399,20180117
+2017,12,Harford,0137,Joppatowne Elementary,Elementary,>= 95.0,*,*,32.9,145,5.9,26,441,20180117
+2017,12,Harford,0140,William Paca/Old Post Road Elementary,Elementary,94.4,70741.5,74922,28.1,168,10.1,60,597,20180117
+2017,12,Harford,0143,Riverside Elementary,Elementary,>= 95.0,*,*,31.3,114,6.6,24,364,20180117
+2017,12,Harford,0176,Edgewood High,High,91.7,148988.0,162394,26.3,342,22.6,294,1300,20180117
+2017,12,Harford,0177,Edgewood Middle,Middle,93.4,123662.5,132453,27.2,293,18.4,198,1077,20180117
+2017,12,Harford,0181,Joppatowne High,High,90.7,75521.5,83245,22.1,147,26.5,176,664,20180117
+2017,12,Harford,0184,Magnolia Middle,Middle,94.3,86061.0,91221,33.2,246,12.0,89,742,20180117
+2017,12,Harford,0187,Patterson Mill High School,High,>= 95.0,*,*,38.2,319,7.9,66,834,20180117
+2017,12,Harford,0188,Patterson Mill Middle School,Middle,>= 95.0,*,*,42.9,298,<= 5.0,*,695,20180117
+2017,12,Harford,0211,G. Lisby Elementary at Hillsdale,Elementary,94.3,40866.5,43318,27.6,97,10.5,37,351,20180117
+2017,12,Harford,0212,Bakerfield Elementary,Elementary,>= 95.0,*,*,33.8,108,<= 5.0,*,320,20180117
+2017,12,Harford,0230,Halls Cross Roads Elementary,Elementary,93.3,42893.0,45977,28.9,109,14.6,55,377,20180117
+2017,12,Harford,0265,Aberdeen Middle,Middle,93.7,129506.0,138239,30.2,341,16.7,188,1128,20180117
+2017,12,Harford,0270,Aberdeen High,High,90.6,163036.0,179856,26.9,390,27.9,404,1448,20180117
+2017,12,Harford,0292,Center for Educational Opportunity,Middle,83.2,1650.5,1983,*,*,*,*,*,20180117
+2017,12,Harford,0292,Center for Educational Opportunity,High,76.2,6095.5,8000,11.3,7,59.7,37,62,20180117
+2017,12,Harford,0304,Harford Technical High,High,>= 95.0,*,*,43.0,423,6.1,60,984,20180117
+2017,12,Harford,0314,Bel Air Elementary,Elementary,>= 95.0,*,*,33.2,125,<= 5.0,*,376,20180117
+2017,12,Harford,0316,Churchville Elementary,Elementary,94.6,36113.0,38162,31.0,96,5.5,17,310,20180117
+2017,12,Harford,0326,Forest Hill Elementary,Elementary,>= 95.0,*,*,43.0,166,<= 5.0,*,386,20180117
+2017,12,Harford,0327,Fountain Green Elementary,Elementary,>= 95.0,*,*,35.1,149,<= 5.0,*,425,20180117
+2017,12,Harford,0328,Forest Lakes Elementary,Elementary,>= 95.0,*,*,38.9,151,<= 5.0,*,388,20180117
+2017,12,Harford,0329,Prospect Mill Elementary,Elementary,>= 95.0,*,*,38.4,186,5.6,27,484,20180117
+2017,12,Harford,0333,Hickory Elementary,Elementary,>= 95.0,*,*,33.8,198,<= 5.0,*,586,20180117
+2017,12,Harford,0335,Homestead/Wakefield Elementary,Elementary,>= 95.0,*,*,40.9,314,<= 5.0,*,767,20180117
+2017,12,Harford,0345,Ring Factory Elementary,Elementary,>= 95.0,*,*,46.5,208,<= 5.0,*,447,20180117
+2017,12,Harford,0348,Youths Benefit Elementary,Elementary,>= 95.0,*,*,35.9,303,<= 5.0,*,845,20180117
+2017,12,Harford,0349,Red Pump Elementary School,Elementary,>= 95.0,*,*,37.5,212,<= 5.0,*,565,20180117
+2017,12,Harford,0372,Bel Air Middle,Middle,>= 95.0,*,*,40.0,530,<= 5.0,*,1325,20180117
+2017,12,Harford,0373,Bel Air High,High,94.8,182426.5,192510,39.9,622,12.0,187,1560,20180117
+2017,12,Harford,0374,Southampton Middle,Middle,>= 95.0,*,*,37.5,446,5.8,69,1188,20180117
+2017,12,Harford,0382,Fallston High,High,>= 95.0,*,*,38.6,402,8.9,93,1041,20180117
+2017,12,Harford,0385,C. Milton Wright High,High,93.9,169274.0,180348,29.0,425,11.6,171,1468,20180117
+2017,12,Harford,0386,Fallston Middle School,Middle,>= 95.0,*,*,43.3,378,<= 5.0,*,873,20180117
+2017,12,Harford,0391,John Archer School,Elementary,88.1,3037.0,3449,14.3,4,32.1,9,28,20180117
+2017,12,Harford,0391,John Archer School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,12,Harford,0391,John Archer School,High,87.4,9090.5,10406,15.7,13,36.1,30,83,20180117
+2017,12,Harford,0436,Jarrettsville Elementary,Elementary,>= 95.0,*,*,34.0,124,<= 5.0,*,365,20180117
+2017,12,Harford,0441,Norrisville Elementary,Elementary,>= 95.0,*,*,34.2,54,<= 5.0,*,158,20180117
+2017,12,Harford,0447,North Bend Elementary,Elementary,>= 95.0,*,*,38.1,98,<= 5.0,*,257,20180117
+2017,12,Harford,0518,Darlington Elementary,Elementary,94.8,11940.5,12590,35.6,36,7.9,8,101,20180117
+2017,12,Harford,0522,Dublin Elementary,Elementary,>= 95.0,*,*,39.2,78,<= 5.0,*,199,20180117
+2017,12,Harford,0544,North Harford Elementary,Elementary,>= 95.0,*,*,29.0,88,<= 5.0,*,303,20180117
+2017,12,Harford,0580,North Harford High,High,94.1,142146.5,151010,32.0,391,11.7,143,1222,20180117
+2017,12,Harford,0583,North Harford Middle,Middle,>= 95.0,*,*,38.4,366,7.9,75,952,20180117
+2017,12,Harford,0632,Havre de Grace Elementary,Elementary,94.6,40188.0,42467,32.5,112,9.3,32,345,20180117
+2017,12,Harford,0638,Meadowvale Elementary,Elementary,>= 95.0,*,*,35.4,147,5.3,22,415,20180117
+2017,12,Harford,0639,Roye-Williams Elementary,Elementary,>= 95.0,*,*,31.1,130,6.0,25,418,20180117
+2017,12,Harford,0678,Havre de Grace High,High,91.4,67947.5,74350,20.5,123,26.2,157,599,20180117
+2017,12,Harford,0679,Havre de Grace Middle,Middle,93.9,60207.0,64152,32.6,170,13.0,68,522,20180117
+2017,12,Harford,A,All Harford Schools,Elementary,>= 95.0,*,*,34.9,4911,5.5,781,14082,20180117
+2017,12,Harford,A,All Harford Schools,Middle,94.8,992658.5,1047425,35.8,3057,9.9,848,8530,20180117
+2017,12,Harford,A,All Harford Schools,High,93.3,1301924.5,1395425,31.8,3590,16.6,1875,11296,20180117
+2017,13,Howard,0080,Homewood School,Middle,75.5,2372.0,3141,<= 5.0,*,73.1,19,26,20180117
+2017,13,Howard,0080,Homewood School,High,74.7,10462.0,14007,7.8,9,67.2,78,116,20180117
+2017,13,Howard,0101,Elkridge Elementary,Elementary,>= 95.0,*,*,40.0,277,5.8,40,692,20180117
+2017,13,Howard,0103,Deep Run Elementary,Elementary,>= 95.0,*,*,36.9,226,8.0,49,612,20180117
+2017,13,Howard,0104,Mayfield Woods Middle,Middle,>= 95.0,*,*,45.5,311,6.1,42,684,20180117
+2017,13,Howard,0105,Rockburn Elementary,Elementary,>= 95.0,*,*,45.8,248,<= 5.0,*,541,20180117
+2017,13,Howard,0106,Elkridge Landing Middle,Middle,>= 95.0,*,*,48.0,336,<= 5.0,*,700,20180117
+2017,13,Howard,0107,Ilchester Elementary,Elementary,>= 95.0,*,*,45.7,261,<= 5.0,*,571,20180117
+2017,13,Howard,0108,Bonnie Branch Middle,Middle,>= 95.0,*,*,48.0,341,<= 5.0,*,711,20180117
+2017,13,Howard,0109,Ducketts Lane,Elementary,>= 95.0,*,*,42.1,300,<= 5.0,*,712,20180117
+2017,13,Howard,0110,Thomas Viaduct,Middle,>= 95.0,*,*,47.8,301,5.7,36,630,20180117
+2017,13,Howard,0202,Ellicott Mills Middle,Middle,>= 95.0,*,*,55.9,467,<= 5.0,*,836,20180117
+2017,13,Howard,0203,Howard High,High,>= 95.0,*,*,47.5,868,<= 5.0,*,1829,20180117
+2017,13,Howard,0204,St. Johns Lane Elementary,Elementary,>= 95.0,*,*,50.4,307,<= 5.0,*,609,20180117
+2017,13,Howard,0207,Mount Hebron High,High,>= 95.0,*,*,44.2,702,8.8,139,1587,20180117
+2017,13,Howard,0208,Northfield Elementary,Elementary,>= 95.0,*,*,45.2,276,<= 5.0,*,610,20180117
+2017,13,Howard,0209,Patapsco Middle,Middle,>= 95.0,*,*,54.9,373,<= 5.0,*,680,20180117
+2017,13,Howard,0210,Centennial Lane Elementary,Elementary,>= 95.0,*,*,52.2,333,<= 5.0,*,638,20180117
+2017,13,Howard,0211,Dunloggin Middle,Middle,>= 95.0,*,*,55.2,341,<= 5.0,*,618,20180117
+2017,13,Howard,0213,Worthington Elementary,Elementary,>= 95.0,*,*,41.8,198,<= 5.0,*,474,20180117
+2017,13,Howard,0214,Centennial High,High,>= 95.0,*,*,51.4,773,<= 5.0,*,1505,20180117
+2017,13,Howard,0215,Waverly Elementary,Elementary,>= 95.0,*,*,48.0,297,<= 5.0,*,619,20180117
+2017,13,Howard,0216,Burleigh Manor Middle School,Middle,>= 95.0,*,*,55.7,456,<= 5.0,*,819,20180117
+2017,13,Howard,0217,Hollifield Station Elementary,Elementary,>= 95.0,*,*,39.0,238,<= 5.0,*,610,20180117
+2017,13,Howard,0218,Bellows Spring Elementary,Elementary,>= 95.0,*,*,44.4,251,<= 5.0,*,565,20180117
+2017,13,Howard,0219,Veterans Elementary,Elementary,>= 95.0,*,*,47.7,343,<= 5.0,*,719,20180117
+2017,13,Howard,0302,West Friendship Elementary,Elementary,>= 95.0,*,*,43.7,122,<= 5.0,*,279,20180117
+2017,13,Howard,0304,Mount View Middle,Middle,>= 95.0,*,*,46.8,376,<= 5.0,*,803,20180117
+2017,13,Howard,0305,Manor Woods Elementary,Elementary,>= 95.0,*,*,48.1,311,<= 5.0,*,646,20180117
+2017,13,Howard,0306,Triadelphia Ridge Elementary,Elementary,>= 95.0,*,*,52.3,261,<= 5.0,*,499,20180117
+2017,13,Howard,0307,Folly Quarter Middle,Middle,>= 95.0,*,*,52.1,320,<= 5.0,*,614,20180117
+2017,13,Howard,0308,Marriotts Ridge High,High,>= 95.0,*,*,44.7,564,5.4,68,1263,20180117
+2017,13,Howard,0404,Glenelg High,High,>= 95.0,*,*,46.0,552,<= 5.0,*,1201,20180117
+2017,13,Howard,0405,Glenwood Middle,Middle,>= 95.0,*,*,47.1,244,<= 5.0,*,518,20180117
+2017,13,Howard,0406,Bushy Park Elementary,Elementary,>= 95.0,*,*,33.5,177,<= 5.0,*,528,20180117
+2017,13,Howard,0407,Lisbon Elementary,Elementary,>= 95.0,*,*,39.9,154,<= 5.0,*,386,20180117
+2017,13,Howard,0505,Clarksville Elementary,Elementary,>= 95.0,*,*,49.9,195,<= 5.0,*,391,20180117
+2017,13,Howard,0509,Atholton High,High,>= 95.0,*,*,40.6,586,7.1,102,1444,20180117
+2017,13,Howard,0510,Bryant Woods Elementary,Elementary,>= 95.0,*,*,33.0,105,10.7,34,318,20180117
+2017,13,Howard,0512,Wilde Lake Middle,Middle,>= 95.0,*,*,34.4,192,11.8,66,558,20180117
+2017,13,Howard,0514,Longfellow Elementary,Elementary,>= 95.0,*,*,39.1,142,7.2,26,363,20180117
+2017,13,Howard,0515,Running Brook Elementary,Elementary,>= 95.0,*,*,33.2,131,8.1,32,395,20180117
+2017,13,Howard,0516,Wilde Lake High,High,93.8,141251.5,150655,39.4,480,11.4,139,1218,20180117
+2017,13,Howard,0517,Swansfield Elementary,Elementary,94.3,59113.5,62704,31.8,161,10.5,53,506,20180117
+2017,13,Howard,0518,Harpers Choice Middle,Middle,>= 95.0,*,*,35.0,200,10.5,60,571,20180117
+2017,13,Howard,0520,Clemens Crossing Elementary,Elementary,>= 95.0,*,*,41.2,181,<= 5.0,*,439,20180117
+2017,13,Howard,0521,Clarksville Middle,Middle,>= 95.0,*,*,57.1,322,<= 5.0,*,564,20180117
+2017,13,Howard,0522,Cedar Lane Special Center,Elementary,87.4,3533.5,4042,24.2,8,36.4,12,33,20180117
+2017,13,Howard,0522,Cedar Lane Special Center,Middle,>= 95.0,*,*,57.1,12,9.5,2,21,20180117
+2017,13,Howard,0522,Cedar Lane Special Center,High,>= 95.0,*,*,48.8,20,7.3,3,41,20180117
+2017,13,Howard,0523,Pointers Run Elementary,Elementary,>= 95.0,*,*,47.8,301,<= 5.0,*,630,20180117
+2017,13,Howard,0524,River Hill High,High,>= 95.0,*,*,49.4,568,<= 5.0,*,1150,20180117
+2017,13,Howard,0525,Fulton Elementary,Elementary,>= 95.0,*,*,48.4,337,<= 5.0,*,696,20180117
+2017,13,Howard,0526,Lime Kiln Middle,Middle,>= 95.0,*,*,46.7,341,<= 5.0,*,730,20180117
+2017,13,Howard,0527,Reservoir High,High,>= 95.0,*,*,42.5,624,6.5,96,1467,20180117
+2017,13,Howard,0528,Dayton Oaks,Elementary,>= 95.0,*,*,38.5,207,<= 5.0,*,537,20180117
+2017,13,Howard,0602,Guilford Elementary,Elementary,>= 95.0,*,*,44.3,162,<= 5.0,*,366,20180117
+2017,13,Howard,0603,Atholton Elementary,Elementary,>= 95.0,*,*,37.4,132,<= 5.0,*,353,20180117
+2017,13,Howard,0604,Waterloo Elementary,Elementary,>= 95.0,*,*,45.2,221,5.1,25,489,20180117
+2017,13,Howard,0605,Thunder Hill Elementary,Elementary,>= 95.0,*,*,42.3,202,<= 5.0,*,478,20180117
+2017,13,Howard,0606,Hammond Elementary,Elementary,>= 95.0,*,*,39.0,210,6.3,34,539,20180117
+2017,13,Howard,0607,Hammond Middle School,Middle,>= 95.0,*,*,43.0,253,7.0,41,589,20180117
+2017,13,Howard,0608,Stevens Forest Elementary,Elementary,>= 95.0,*,*,38.5,132,6.7,23,343,20180117
+2017,13,Howard,0609,Talbott Springs Elementary,Elementary,>= 95.0,*,*,44.5,171,<= 5.0,*,384,20180117
+2017,13,Howard,0610,Oakland Mills Middle,Middle,>= 95.0,*,*,40.0,181,5.1,23,452,20180117
+2017,13,Howard,0611,Oakland Mills High,High,93.9,131843.0,140472,30.9,353,15.5,177,1143,20180117
+2017,13,Howard,0612,Phelps Luck Elementary,Elementary,>= 95.0,*,*,37.9,185,<= 5.0,*,488,20180117
+2017,13,Howard,0613,Jeffers Hill Elementary,Elementary,>= 95.0,*,*,40.9,151,6.5,24,369,20180117
+2017,13,Howard,0616,Cradlerock Elementary,Elementary,>= 95.0,*,*,33.5,126,10.9,41,376,20180117
+2017,13,Howard,0617,Lake Elkhorn Middle,Middle,94.5,60640.0,64144,32.4,168,12.9,67,519,20180117
+2017,13,Howard,0618,Laurel Woods Elementary,Elementary,>= 95.0,*,*,40.8,188,5.4,25,461,20180117
+2017,13,Howard,0619,Hammond High,High,94.4,148839.5,157709,33.4,428,11.1,142,1280,20180117
+2017,13,Howard,0620,Bollman Bridge Elementary,Elementary,>= 95.0,*,*,41.9,226,<= 5.0,*,539,20180117
+2017,13,Howard,0621,Patuxent Valley Middle,Middle,>= 95.0,*,*,47.3,299,5.4,34,632,20180117
+2017,13,Howard,0622,Forest Ridge Elementary,Elementary,>= 95.0,*,*,46.3,272,<= 5.0,*,587,20180117
+2017,13,Howard,0623,Long Reach High,High,94.9,180248.0,189857,41.6,641,9.3,144,1542,20180117
+2017,13,Howard,0624,Murray Hill Middle,Middle,>= 95.0,*,*,41.3,281,6.3,43,680,20180117
+2017,13,Howard,0625,Gorman Crossing Elementary,Elementary,>= 95.0,*,*,41.8,239,<= 5.0,*,572,20180117
+2017,13,Howard,A,All Howard Schools,Elementary,>= 95.0,*,*,42.6,8924,<= 5.0,*,20972,20180117
+2017,13,Howard,A,All Howard Schools,Middle,>= 95.0,*,*,47.1,6105,5.3,691,12966,20180117
+2017,13,Howard,A,All Howard Schools,High,>= 95.0,*,*,42.6,7156,7.9,1332,16796,20180117
+2017,14,Kent,0102,Millington Elementary,Elementary,94.2,13519.5,14345,22.8,26,12.3,14,114,20180117
+2017,14,Kent,0105,Galena Elementary School,Elementary,>= 95.0,*,*,37.1,49,<= 5.0,*,132,20180117
+2017,14,Kent,0301,Kent County High,High,92.5,65800.0,71099,22.1,126,19.3,110,571,20180117
+2017,14,Kent,0304,Worton Elementary,Elementary,94.2,23208.0,24637,34.2,68,5.5,11,199,20180117
+2017,14,Kent,0402,Kent County Middle School,Middle,93.2,49700.5,53354,25.3,109,13.7,59,430,20180117
+2017,14,Kent,0403,H. H. Garnett Elementary,Elementary,>= 95.0,*,*,42.3,66,<= 5.0,*,156,20180117
+2017,14,Kent,0504,Rock Hall Elementary,Elementary,94.7,15341.5,16205,34.1,45,9.1,12,132,20180117
+2017,14,Kent,A,All Kent Schools,Elementary,94.8,86343.5,91042,34.5,253,6.7,49,734,20180117
+2017,14,Kent,A,All Kent Schools,Middle,93.2,49700.5,53354,25.3,109,13.7,59,430,20180117
+2017,14,Kent,A,All Kent Schools,High,92.5,65800.0,71099,22.1,126,19.3,110,571,20180117
+2017,15,Montgomery,0051,Laytonsville Elementary,Elementary,>= 95.0,*,*,32.1,110,6.4,22,343,20180117
+2017,15,Montgomery,0100,Clopper Mill Elementary,Elementary,94.4,42193.5,44682,31.2,112,7.8,28,359,20180117
+2017,15,Montgomery,0101,Clarksburg Elementary,Elementary,>= 95.0,*,*,33.6,97,6.6,19,289,20180117
+2017,15,Montgomery,0102,Germantown Elementary,Elementary,>= 95.0,*,*,40.6,108,7.5,20,266,20180117
+2017,15,Montgomery,0104,Seneca Valley High,High,92.0,138077.0,150087,31.4,382,20.7,252,1216,20180117
+2017,15,Montgomery,0105,Ridgeview Middle,Middle,>= 95.0,*,*,36.5,275,8.6,65,754,20180117
+2017,15,Montgomery,0106,Fox Chapel Elementary,Elementary,>= 95.0,*,*,40.0,206,6.0,31,515,20180117
+2017,15,Montgomery,0107,Martin Luther King Jr. Middle,Middle,94.2,67881.5,72089,36.2,211,11.1,65,583,20180117
+2017,15,Montgomery,0108,Lake Seneca Elementary,Elementary,94.3,41638.5,44171,26.9,97,9.1,33,361,20180117
+2017,15,Montgomery,0109,Waters Landing Elementary,Elementary,94.2,67313.5,71425,28.1,162,10.9,63,576,20180117
+2017,15,Montgomery,0110,S. Christa McAuliffe Elementary,Elementary,94.9,57556.0,60635,32.4,159,8.8,43,490,20180117
+2017,15,Montgomery,0111,Captain James E. Daly Elementary,Elementary,94.2,59127.0,62783,31.5,158,13.5,68,502,20180117
+2017,15,Montgomery,0115,Neelsville Middle,Middle,93.5,105392.0,112681,32.6,295,18.2,165,906,20180117
+2017,15,Montgomery,0125,Quince Orchard High,High,91.9,223295.5,242989,25.5,503,22.7,447,1971,20180117
+2017,15,Montgomery,0152,Poolesville High,High,94.2,137473.5,145917,23.6,277,16.1,189,1172,20180117
+2017,15,Montgomery,0153,Poolesville Elementary,Elementary,>= 95.0,*,*,26.0,95,6.0,22,365,20180117
+2017,15,Montgomery,0155,Rosa M. Parks Middle,Middle,>= 95.0,*,*,32.5,281,9.6,83,864,20180117
+2017,15,Montgomery,0156,Lois P. Rockwell Elementary,Elementary,>= 95.0,*,*,33.1,117,5.7,20,353,20180117
+2017,15,Montgomery,0157,Roberto W. Clemente Middle,Middle,>= 95.0,*,*,46.8,623,6.1,81,1330,20180117
+2017,15,Montgomery,0158,Ronald A. McNair Elementary,Elementary,>= 95.0,*,*,37.8,266,8.5,60,703,20180117
+2017,15,Montgomery,0159,Rachel Carson Elementary,Elementary,>= 95.0,*,*,34.1,293,5.5,47,860,20180117
+2017,15,Montgomery,0201,Richard Montgomery High,High,93.3,276996.0,296792,28.9,692,21.8,521,2393,20180117
+2017,15,Montgomery,0204,Garrett Park Elementary,Elementary,>= 95.0,*,*,31.7,211,6.0,40,665,20180117
+2017,15,Montgomery,0206,Twinbrook Elementary,Elementary,94.4,46100.5,48816,30.9,121,8.2,32,391,20180117
+2017,15,Montgomery,0207,Beall Elementary,Elementary,>= 95.0,*,*,33.2,199,6.0,36,599,20180117
+2017,15,Montgomery,0209,Lakewood Elementary,Elementary,>= 95.0,*,*,42.3,204,<= 5.0,*,482,20180117
+2017,15,Montgomery,0210,Maryvale Elementary,Elementary,>= 95.0,*,*,29.2,133,9.6,44,456,20180117
+2017,15,Montgomery,0211,Julius West Middle,Middle,>= 95.0,*,*,43.4,572,6.3,83,1318,20180117
+2017,15,Montgomery,0212,Meadow Hall Elementary,Elementary,94.4,44294.0,46937,29.2,110,9.8,37,377,20180117
+2017,15,Montgomery,0215,Carl Sandburg Center,Elementary,92.8,9114.5,9825,21.5,17,21.5,17,79,20180117
+2017,15,Montgomery,0216,Travilah Elementary,Elementary,>= 95.0,*,*,40.9,135,<= 5.0,*,330,20180117
+2017,15,Montgomery,0219,Farmland Elementary,Elementary,>= 95.0,*,*,31.9,190,5.4,32,595,20180117
+2017,15,Montgomery,0220,Luxmanor Elementary,Elementary,>= 95.0,*,*,28.9,107,5.9,22,370,20180117
+2017,15,Montgomery,0226,Beverly Farms Elementary,Elementary,>= 95.0,*,*,32.1,160,<= 5.0,*,499,20180117
+2017,15,Montgomery,0227,Ritchie Park Elementary,Elementary,>= 95.0,*,*,39.3,171,<= 5.0,*,435,20180117
+2017,15,Montgomery,0228,Herbert Hoover Middle,Middle,>= 95.0,*,*,49.7,502,<= 5.0,*,1011,20180117
+2017,15,Montgomery,0229,College Gardens Elementary,Elementary,>= 95.0,*,*,30.7,230,6.3,47,748,20180117
+2017,15,Montgomery,0230,Rockville High,High,93.2,167855.0,180191,34.9,508,17.4,253,1455,20180117
+2017,15,Montgomery,0232,Tilden Middle School,Middle,>= 95.0,*,*,39.3,361,8.1,74,918,20180117
+2017,15,Montgomery,0233,Fallsmead Elementary,Elementary,>= 95.0,*,*,40.4,179,<= 5.0,*,443,20180117
+2017,15,Montgomery,0234,Thomas S. Wootton High,High,>= 95.0,*,*,37.4,818,12.2,267,2190,20180117
+2017,15,Montgomery,0235,Wayside Elementary,Elementary,>= 95.0,*,*,38.3,171,<= 5.0,*,447,20180117
+2017,15,Montgomery,0237,Robert Frost Middle School,Middle,>= 95.0,*,*,50.7,563,<= 5.0,*,1110,20180117
+2017,15,Montgomery,0238,Cold Spring Elementary,Elementary,>= 95.0,*,*,54.5,159,<= 5.0,*,292,20180117
+2017,15,Montgomery,0239,Alternative Programs,Middle,60.9,1669.0,2740,5.3,1,94.7,18,19,20180117
+2017,15,Montgomery,0239,Alternative Programs,High,55.4,6905.0,12474,7.7,7,89.0,81,91,20180117
+2017,15,Montgomery,0241,DuFief Elementary,Elementary,>= 95.0,*,*,34.0,87,<= 5.0,*,256,20180117
+2017,15,Montgomery,0242,Dr. Sally K. Ride Elementary,Elementary,>= 95.0,*,*,34.5,130,9.5,36,377,20180117
+2017,15,Montgomery,0244,Thurgood Marshall Elementary,Elementary,>= 95.0,*,*,26.6,138,5.6,29,519,20180117
+2017,15,Montgomery,0246,Northwest High,High,93.2,269793.5,289393,33.1,774,18.2,426,2335,20180117
+2017,15,Montgomery,0247,John H. Poole Middle,Middle,94.4,41723.5,44177,26.4,94,16.0,57,356,20180117
+2017,15,Montgomery,0248,Forest Oak Middle,Middle,94.6,94151.0,99521,32.8,263,11.3,91,802,20180117
+2017,15,Montgomery,0249,Clarksburg High,High,93.1,244122.5,262177,32.6,691,19.1,406,2122,20180117
+2017,15,Montgomery,0302,Burtonsville Elementary,Elementary,>= 95.0,*,*,42.6,221,8.3,43,519,20180117
+2017,15,Montgomery,0303,Fairland Elementary,Elementary,94.8,58494.5,61707,36.3,180,11.1,55,496,20180117
+2017,15,Montgomery,0304,Broad Acres Elementary,Elementary,94.4,74674.5,79131,29.9,192,8.4,54,642,20180117
+2017,15,Montgomery,0305,Jackson Road Elementary,Elementary,>= 95.0,*,*,38.4,186,8.5,41,484,20180117
+2017,15,Montgomery,0307,Roscoe R Nix Elementary,Elementary,94.4,36811.5,39010,30.2,95,9.5,30,315,20180117
+2017,15,Montgomery,0308,Cloverly Elementary,Elementary,94.9,45346.5,47779,27.9,108,8.5,33,387,20180117
+2017,15,Montgomery,0309,Burnt Mills Elementary,Elementary,>= 95.0,*,*,38.7,164,7.8,33,424,20180117
+2017,15,Montgomery,0310,Cannon Road Elementary,Elementary,>= 95.0,*,*,38.2,132,7.8,27,346,20180117
+2017,15,Montgomery,0311,Francis Scott Key Middle,Middle,94.8,108504.0,114460,41.3,379,10.4,95,917,20180117
+2017,15,Montgomery,0312,William Tyler Page Elementary,Elementary,>= 95.0,*,*,34.6,108,8.3,26,312,20180117
+2017,15,Montgomery,0313,Galway Elementary,Elementary,>= 95.0,*,*,46.1,287,9.6,60,622,20180117
+2017,15,Montgomery,0315,Paint Branch High,High,94.8,233305.0,246180,45.4,898,11.9,236,1979,20180117
+2017,15,Montgomery,0316,Stonegate Elementary,Elementary,>= 95.0,*,*,27.7,124,6.7,30,447,20180117
+2017,15,Montgomery,0321,James Hubert Blake High,High,93.4,184769.5,197751,32.3,514,15.1,240,1593,20180117
+2017,15,Montgomery,0333,Benjamin Banneker Middle,Middle,>= 95.0,*,*,50.9,434,6.2,53,852,20180117
+2017,15,Montgomery,0334,Greencastle Elementary,Elementary,94.8,68781.5,72592,38.5,223,10.0,58,579,20180117
+2017,15,Montgomery,0335,Briggs Chaney Middle,Middle,>= 95.0,*,*,48.3,433,8.4,75,896,20180117
+2017,15,Montgomery,0336,Little Bennett Elementary,Elementary,>= 95.0,*,*,31.9,170,<= 5.0,*,533,20180117
+2017,15,Montgomery,0337,"William B. Gibbs, Jr.",Elementary,>= 95.0,*,*,34.7,189,8.3,45,545,20180117
+2017,15,Montgomery,0340,Great Seneca Creek Elementary,Elementary,>= 95.0,*,*,32.4,184,10.6,60,568,20180117
+2017,15,Montgomery,0341,Wilson Wims Elementary School,Elementary,>= 95.0,*,*,31.7,280,<= 5.0,*,882,20180117
+2017,15,Montgomery,0345,Hallie Wells Middle School,Middle,>= 95.0,*,*,49.3,236,5.6,27,479,20180117
+2017,15,Montgomery,0351,Darnestown Elementary,Elementary,94.4,28701.5,30397,20.0,49,7.8,19,245,20180117
+2017,15,Montgomery,0360,Jones Lane Elementary,Elementary,>= 95.0,*,*,29.9,118,5.6,22,395,20180117
+2017,15,Montgomery,0401,Bethesda Elementary,Elementary,94.8,57087.5,60192,28.0,136,6.4,31,485,20180117
+2017,15,Montgomery,0403,Chevy Chase Elementary,Elementary,>= 95.0,*,*,39.0,217,<= 5.0,*,556,20180117
+2017,15,Montgomery,0405,Somerset Elementary,Elementary,>= 95.0,*,*,31.3,157,<= 5.0,*,501,20180117
+2017,15,Montgomery,0406,Bethesda-Chevy Chase High,High,93.6,239621.5,256089,28.8,593,15.8,325,2062,20180117
+2017,15,Montgomery,0408,Westbrook Elementary,Elementary,>= 95.0,*,*,32.5,112,5.8,20,345,20180117
+2017,15,Montgomery,0410,Bradley Hills Elementary,Elementary,>= 95.0,*,*,36.5,201,<= 5.0,*,551,20180117
+2017,15,Montgomery,0412,Westland Middle,Middle,>= 95.0,*,*,31.2,423,6.7,91,1356,20180117
+2017,15,Montgomery,0413,North Bethesda Middle,Middle,>= 95.0,*,*,41.0,453,5.1,56,1105,20180117
+2017,15,Montgomery,0415,North Chevy Chase Elementary,Elementary,>= 95.0,*,*,40.7,153,<= 5.0,*,376,20180117
+2017,15,Montgomery,0417,Wood Acres Elementary,Elementary,>= 95.0,*,*,23.8,138,<= 5.0,*,581,20180117
+2017,15,Montgomery,0419,Burning Tree Elementary,Elementary,>= 95.0,*,*,26.1,115,<= 5.0,*,441,20180117
+2017,15,Montgomery,0420,Bannockburn Elementary,Elementary,>= 95.0,*,*,33.2,126,<= 5.0,*,379,20180117
+2017,15,Montgomery,0422,Wyngate Elementary,Elementary,>= 95.0,*,*,31.9,201,<= 5.0,*,631,20180117
+2017,15,Montgomery,0424,Walter Johnson High,High,93.9,274512.5,292193,31.1,735,14.2,336,2363,20180117
+2017,15,Montgomery,0425,Ashburton Elementary,Elementary,>= 95.0,*,*,33.3,237,5.8,41,711,20180117
+2017,15,Montgomery,0427,Walt Whitman High,High,94.5,241212.0,255158,34.8,718,13.1,271,2063,20180117
+2017,15,Montgomery,0428,Thomas W. Pyle Middle School,Middle,>= 95.0,*,*,43.4,650,5.3,79,1496,20180117
+2017,15,Montgomery,0501,Sherwood Elementary,Elementary,>= 95.0,*,*,30.5,127,5.3,22,417,20180117
+2017,15,Montgomery,0502,Olney Elementary,Elementary,>= 95.0,*,*,31.8,181,7.4,42,569,20180117
+2017,15,Montgomery,0503,Sherwood High,High,93.5,222762.5,238131,27.8,535,14.5,280,1927,20180117
+2017,15,Montgomery,0504,Westover Elementary,Elementary,>= 95.0,*,*,41.1,83,<= 5.0,*,202,20180117
+2017,15,Montgomery,0505,Lucy V. Barnsley Elementary,Elementary,>= 95.0,*,*,40.4,256,5.2,33,634,20180117
+2017,15,Montgomery,0506,Flower Valley Elementary,Elementary,94.4,47724.5,50572,24.3,98,7.4,30,404,20180117
+2017,15,Montgomery,0507,William H. Farquhar Middle,Middle,>= 95.0,*,*,44.6,304,6.9,47,682,20180117
+2017,15,Montgomery,0508,Candlewood Elementary,Elementary,>= 95.0,*,*,33.9,105,6.5,20,310,20180117
+2017,15,Montgomery,0510,Col. Zadok Magruder High,High,92.3,176566.0,191270,22.9,353,30.8,474,1541,20180117
+2017,15,Montgomery,0511,Cashell Elementary,Elementary,>= 95.0,*,*,31.0,90,5.9,17,290,20180117
+2017,15,Montgomery,0512,Greenwood Elementary,Elementary,>= 95.0,*,*,26.6,108,5.2,21,406,20180117
+2017,15,Montgomery,0513,Belmont Elementary,Elementary,>= 95.0,*,*,30.1,83,<= 5.0,*,276,20180117
+2017,15,Montgomery,0514,Judith A. Resnik Elementary,Elementary,94.3,58710.5,62291,29.5,149,10.1,51,505,20180117
+2017,15,Montgomery,0517,Sligo Creek Elementary,Elementary,>= 95.0,*,*,30.9,171,<= 5.0,*,553,20180117
+2017,15,Montgomery,0518,Brooke Grove Elementary,Elementary,>= 95.0,*,*,32.8,109,7.5,25,332,20180117
+2017,15,Montgomery,0521,Shady Grove Middle,Middle,>= 95.0,*,*,35.9,227,11.2,71,633,20180117
+2017,15,Montgomery,0522,Lakelands Park Middle,Middle,>= 95.0,*,*,35.9,386,8.3,89,1074,20180117
+2017,15,Montgomery,0523,Spark M. Matsunaga Elementary School,Elementary,>= 95.0,*,*,38.1,265,<= 5.0,*,696,20180117
+2017,15,Montgomery,0525,MCPS Transitions School,High,92.4,5786.5,6262,22.0,11,18.0,9,50,20180117
+2017,15,Montgomery,0545,Watkins Mill High,High,87.7,174983.5,199482,18.3,298,36.3,591,1626,20180117
+2017,15,Montgomery,0546,Goshen Elementary,Elementary,>= 95.0,*,*,29.9,148,7.7,38,495,20180117
+2017,15,Montgomery,0549,Flower Hill Elementary,Elementary,93.8,45147.5,48132,24.0,93,13.9,54,388,20180117
+2017,15,Montgomery,0551,Gaithersburg High,High,89.2,263454.0,295464,29.2,696,28.8,685,2381,20180117
+2017,15,Montgomery,0552,Washington Grove Elementary,Elementary,>= 95.0,*,*,29.3,75,<= 5.0,*,256,20180117
+2017,15,Montgomery,0553,Gaithersburg Elementary,Elementary,93.6,78288.0,83613,25.0,168,11.6,78,672,20180117
+2017,15,Montgomery,0554,Gaithersburg Middle,Middle,94.3,94183.0,99876,30.9,249,13.1,106,807,20180117
+2017,15,Montgomery,0555,Rosemont Elementary,Elementary,>= 95.0,*,*,36.8,175,<= 5.0,*,475,20180117
+2017,15,Montgomery,0556,Mill Creek Towne Elementary,Elementary,94.2,34380.5,36496,23.8,71,12.8,38,298,20180117
+2017,15,Montgomery,0557,Montgomery Village Middle School,Middle,94.4,88173.5,93361,36.9,279,12.6,95,756,20180117
+2017,15,Montgomery,0558,Whetstone Elementary,Elementary,94.8,69386.0,73193,30.0,177,8.6,51,590,20180117
+2017,15,Montgomery,0559,Brown Station Elementary,Elementary,94.3,38311.0,40609,29.4,97,7.6,25,330,20180117
+2017,15,Montgomery,0561,Watkins Mill Elementary,Elementary,93.9,62588.0,66678,27.5,150,13.2,72,545,20180117
+2017,15,Montgomery,0562,Redland Middle,Middle,>= 95.0,*,*,34.4,192,10.6,59,558,20180117
+2017,15,Montgomery,0563,Summit Hall Elementary,Elementary,>= 95.0,*,*,38.2,198,8.1,42,518,20180117
+2017,15,Montgomery,0564,South Lake Elementary,Elementary,93.4,75057.5,80363,27.5,180,14.5,95,654,20180117
+2017,15,Montgomery,0565,Sequoyah Elementary,Elementary,94.4,39695.0,42036,22.5,77,7.9,27,342,20180117
+2017,15,Montgomery,0566,Fields Road Elementary,Elementary,>= 95.0,*,*,36.2,123,6.2,21,340,20180117
+2017,15,Montgomery,0568,Stedwick Elementary,Elementary,>= 95.0,*,*,32.1,153,7.4,35,476,20180117
+2017,15,Montgomery,0569,Strawberry Knoll Elementary,Elementary,94.8,55803.5,58844,27.4,130,8.0,38,474,20180117
+2017,15,Montgomery,0570,Diamond Elementary,Elementary,>= 95.0,*,*,32.6,191,<= 5.0,*,585,20180117
+2017,15,Montgomery,0601,Potomac Elementary,Elementary,>= 95.0,*,*,22.7,87,<= 5.0,*,383,20180117
+2017,15,Montgomery,0602,Winston Churchill High,High,94.7,245121.5,258761,32.6,681,13.2,276,2088,20180117
+2017,15,Montgomery,0603,Seven Locks Elementary,Elementary,>= 95.0,*,*,38.8,137,<= 5.0,*,353,20180117
+2017,15,Montgomery,0604,Carderock Springs Elementary,Elementary,>= 95.0,*,*,31.0,113,<= 5.0,*,364,20180117
+2017,15,Montgomery,0606,Cabin John Middle School,Middle,>= 95.0,*,*,50.3,489,<= 5.0,*,973,20180117
+2017,15,Montgomery,0607,Bells Mill Elementary,Elementary,>= 95.0,*,*,37.8,193,<= 5.0,*,511,20180117
+2017,15,Montgomery,0647,Silver Spring International Middle,Middle,94.8,125292.5,132127,26.2,279,11.2,119,1066,20180117
+2017,15,Montgomery,0652,Monocacy Elementary,Elementary,>= 95.0,*,*,22.9,30,9.9,13,131,20180117
+2017,15,Montgomery,0653,Stone Mill Elementary,Elementary,>= 95.0,*,*,42.7,216,<= 5.0,*,506,20180117
+2017,15,Montgomery,0701,Damascus High,High,92.3,139392.5,151010,20.0,243,20.9,253,1213,20180117
+2017,15,Montgomery,0702,Damascus Elementary,Elementary,94.4,34401.5,36454,28.1,82,8.9,26,292,20180117
+2017,15,Montgomery,0703,Cedar Grove Elementary,Elementary,>= 95.0,*,*,30.4,152,6.0,30,500,20180117
+2017,15,Montgomery,0704,Woodfield Elementary,Elementary,>= 95.0,*,*,31.3,62,5.1,10,198,20180117
+2017,15,Montgomery,0705,John T. Baker Middle School,Middle,>= 95.0,*,*,32.2,263,11.4,93,818,20180117
+2017,15,Montgomery,0706,Clearspring Elementary,Elementary,>= 95.0,*,*,28.0,152,6.1,33,543,20180117
+2017,15,Montgomery,0707,Rocky Hill Middle,Middle,>= 95.0,*,*,40.1,378,7.7,73,943,20180117
+2017,15,Montgomery,0708,Kingsview Middle,Middle,>= 95.0,*,*,46.4,484,6.0,63,1042,20180117
+2017,15,Montgomery,0747,Dr. Charles R. Drew Elementary,Elementary,94.8,46889.5,49457,32.6,130,7.8,31,399,20180117
+2017,15,Montgomery,0749,Piney Branch Elementary,Elementary,>= 95.0,*,*,34.9,213,6.9,42,610,20180117
+2017,15,Montgomery,0754,Takoma Park Elementary,Elementary,>= 95.0,*,*,29.6,136,<= 5.0,*,460,20180117
+2017,15,Montgomery,0755,Takoma Park Middle School,Middle,>= 95.0,*,*,47.0,504,7.6,82,1073,20180117
+2017,15,Montgomery,0756,East Silver Spring Elementary,Elementary,>= 95.0,*,*,42.7,168,<= 5.0,*,393,20180117
+2017,15,Montgomery,0757,Montgomery Blair High,High,92.3,337657.0,365749,32.2,954,20.6,611,2960,20180117
+2017,15,Montgomery,0761,Pine Crest Elementary,Elementary,>= 95.0,*,*,39.3,192,<= 5.0,*,488,20180117
+2017,15,Montgomery,0764,Woodlin Elementary,Elementary,94.9,57078.5,60154,29.3,141,6.4,31,481,20180117
+2017,15,Montgomery,0766,Oak View Elementary,Elementary,>= 95.0,*,*,32.2,141,7.1,31,438,20180117
+2017,15,Montgomery,0767,Glen Haven Elementary,Elementary,>= 95.0,*,*,31.9,118,7.0,26,370,20180117
+2017,15,Montgomery,0769,Oakland Terrace Elementary,Elementary,>= 95.0,*,*,31.2,115,<= 5.0,*,369,20180117
+2017,15,Montgomery,0770,Flora M. Singer Elementary School,Elementary,>= 95.0,*,*,31.3,180,7.3,42,576,20180117
+2017,15,Montgomery,0771,Rolling Terrace Elementary,Elementary,94.7,82346.5,86974,31.3,220,8.5,60,703,20180117
+2017,15,Montgomery,0772,Viers Mill Elementary,Elementary,>= 95.0,*,*,37.5,177,5.1,24,472,20180117
+2017,15,Montgomery,0773,Rock Creek Forest Elementary,Elementary,>= 95.0,*,*,31.2,186,<= 5.0,*,596,20180117
+2017,15,Montgomery,0774,Highland Elementary,Elementary,94.5,50852.5,53807,28.7,124,8.3,36,432,20180117
+2017,15,Montgomery,0775,Eastern Middle School,Middle,94.9,113930.0,120027,40.1,391,7.9,77,975,20180117
+2017,15,Montgomery,0776,Montgomery Knolls Elementary,Elementary,>= 95.0,*,*,29.0,71,5.7,14,245,20180117
+2017,15,Montgomery,0777,Weller Road Elementary,Elementary,>= 95.0,*,*,34.0,180,8.9,47,529,20180117
+2017,15,Montgomery,0778,Sligo Middle,Middle,94.7,83618.5,88327,35.3,253,11.6,83,716,20180117
+2017,15,Montgomery,0779,Sargent Shriver Elementary,Elementary,94.6,75387.5,79728,28.0,182,7.8,51,650,20180117
+2017,15,Montgomery,0780,Bel Pre Elementary,Elementary,94.4,37348.0,39555,27.1,86,9.1,29,317,20180117
+2017,15,Montgomery,0782,Wheaton High,High,92.3,201775.0,218665,39.9,703,20.4,359,1764,20180117
+2017,15,Montgomery,0783,Kensington Parkwood Elementary,Elementary,>= 95.0,*,*,32.7,182,<= 5.0,*,556,20180117
+2017,15,Montgomery,0784,Highland View Elementary,Elementary,>= 95.0,*,*,35.1,117,6.3,21,333,20180117
+2017,15,Montgomery,0786,Georgian Forest Elementary,Elementary,92.7,50432.5,54403,21.3,94,14.5,64,442,20180117
+2017,15,Montgomery,0787,A. Mario Loiederman Middle,Middle,94.3,107830.0,114407,32.9,304,11.4,105,923,20180117
+2017,15,Montgomery,0788,Wheaton Woods Elementary,Elementary,>= 95.0,*,*,42.9,165,5.7,22,385,20180117
+2017,15,Montgomery,0789,Albert Einstein High,High,90.5,196924.0,217490,27.1,476,24.9,438,1759,20180117
+2017,15,Montgomery,0790,Arcola Elementary,Elementary,93.6,66985.0,71577,23.5,136,14.4,83,578,20180117
+2017,15,Montgomery,0791,New Hampshire Estates Elem,Elementary,94.0,28053.0,29828,25.6,62,11.6,28,242,20180117
+2017,15,Montgomery,0792,Newport Mill Middle,Middle,94.8,69822.5,73659,36.1,215,9.2,55,596,20180117
+2017,15,Montgomery,0794,Rosemary Hills Elementary,Elementary,>= 95.0,*,*,30.9,115,<= 5.0,*,372,20180117
+2017,15,Montgomery,0795,Rock View Elementary,Elementary,94.6,58781.5,62116,33.8,170,8.5,43,503,20180117
+2017,15,Montgomery,0796,Northwood High School,High,90.4,187258.5,207064,25.3,426,29.5,497,1683,20180117
+2017,15,Montgomery,0797,Harmony Hills Elementary,Elementary,94.7,66615.0,70361,27.9,159,10.5,60,569,20180117
+2017,15,Montgomery,0798,Springbrook High,High,92.3,205789.5,223052,34.2,620,18.7,339,1811,20180117
+2017,15,Montgomery,0799,Stephen Knolls School,Elementary,79.9,1896.5,2374,15.8,3,68.4,13,19,20180117
+2017,15,Montgomery,0799,Stephen Knolls School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,15,Montgomery,0799,Stephen Knolls School,High,89.3,1967.5,2203,27.8,5,27.8,5,18,20180117
+2017,15,Montgomery,0803,Forest Knolls Elementary,Elementary,>= 95.0,*,*,33.3,195,6.2,36,585,20180117
+2017,15,Montgomery,0805,Kemp Mill Elementary,Elementary,93.9,45744.0,48735,23.5,92,11.8,46,391,20180117
+2017,15,Montgomery,0807,Brookhaven Elementary,Elementary,>= 95.0,*,*,39.5,115,6.5,19,291,20180117
+2017,15,Montgomery,0808,Cresthaven Elementary,Elementary,94.4,66053.5,69965,36.2,204,11.3,64,564,20180117
+2017,15,Montgomery,0811,White Oak Middle,Middle,>= 95.0,*,*,41.1,322,8.6,67,783,20180117
+2017,15,Montgomery,0812,Parkland Middle,Middle,94.9,114999.0,121161,28.3,276,9.1,89,976,20180117
+2017,15,Montgomery,0815,John F. Kennedy High,High,91.0,179037.0,196729,26.2,416,34.2,542,1587,20180117
+2017,15,Montgomery,0817,Glenallan Elementary,Elementary,>= 95.0,*,*,31.5,169,10.1,54,536,20180117
+2017,15,Montgomery,0818,Col. E. Brooke Lee Middle,Middle,94.3,85315.0,90432,32.6,239,12.6,92,733,20180117
+2017,15,Montgomery,0819,Rock Creek Valley Elementary,Elementary,>= 95.0,*,*,33.6,121,<= 5.0,*,360,20180117
+2017,15,Montgomery,0820,Earle B. Wood Middle,Middle,>= 95.0,*,*,35.5,356,9.6,96,1003,20180117
+2017,15,Montgomery,0822,Strathmore Elementary,Elementary,94.7,53834.0,56849,35.5,163,10.7,49,459,20180117
+2017,15,Montgomery,0823,Argyle Middle,Middle,>= 95.0,*,*,43.3,403,8.6,80,930,20180117
+2017,15,Montgomery,0916,Rock Terrace School,Middle,94.3,2864.5,3038,41.7,10,8.3,2,24,20180117
+2017,15,Montgomery,0916,Rock Terrace School,High,92.0,7594.5,8256,44.6,29,15.4,10,65,20180117
+2017,15,Montgomery,0951,Longview School,Elementary,76.2,1417.0,1860,<= 5.0,*,73.3,11,15,20180117
+2017,15,Montgomery,0951,Longview School,Middle,87.0,1294.5,1488,16.7,2,33.3,4,12,20180117
+2017,15,Montgomery,0951,Longview School,High,85.0,2100.5,2471,25.0,5,50.0,10,20,20180117
+2017,15,Montgomery,0965,Regional Institute for Children & Adolescents,Elementary,*,*,*,*,*,*,*,*,20180117
+2017,15,Montgomery,0965,Regional Institute for Children & Adolescents,Middle,91.5,3323.5,3633,25.8,8,32.3,10,31,20180117
+2017,15,Montgomery,0965,Regional Institute for Children & Adolescents,High,82.4,7345.5,8914,5.8,4,52.2,36,69,20180117
+2017,15,Montgomery,A,All Montgomery Schools,Elementary,>= 95.0,*,*,32.0,19548,7.7,4693,61023,20180117
+2017,15,Montgomery,A,All Montgomery Schools,Middle,>= 95.0,*,*,39.1,13845,9.1,3240,35450,20180117
+2017,15,Montgomery,A,All Montgomery Schools,High,92.6,5451015.5,5889552,30.5,14521,20.6,9804,47610,20180117
+2017,16,Prince George's,0102,High Point High,High,91.0,293396.5,322500,23.5,613,26.8,697,2603,20180117
+2017,16,Prince George's,0104,Beltsville Academy,Elementary,94.7,74580.5,78767,30.1,190,8.6,54,631,20180117
+2017,16,Prince George's,0104,Beltsville Academy,Middle,>= 95.0,*,*,40.7,125,<= 5.0,*,307,20180117
+2017,16,Prince George's,0105,Calverton Elementary,Elementary,94.9,82161.0,86587,29.3,205,7.6,53,700,20180117
+2017,16,Prince George's,0108,James E. Duckworth Regional Center,Elementary,82.4,3532.0,4285,16.7,6,58.3,21,36,20180117
+2017,16,Prince George's,0108,James E. Duckworth Regional Center,Middle,86.0,1579.0,1836,20.0,3,46.7,7,15,20180117
+2017,16,Prince George's,0108,James E. Duckworth Regional Center,High,90.5,2824.0,3120,16.0,4,24.0,6,25,20180117
+2017,16,Prince George's,0109,James H. Harrison Elementary,Elementary,94.5,30600.0,32382,31.2,82,9.1,24,263,20180117
+2017,16,Prince George's,0110,Martin Luther King Jr. Middle,Middle,>= 95.0,*,*,42.3,276,5.7,37,652,20180117
+2017,16,Prince George's,0111,Vansville Elementary,Elementary,>= 95.0,*,*,41.7,263,<= 5.0,*,631,20180117
+2017,16,Prince George's,0203,Judith P. Hoyer Montessori,Elementary,>= 95.0,*,*,43.7,69,<= 5.0,*,158,20180117
+2017,16,Prince George's,0203,Judith P. Hoyer Montessori,Middle,>= 95.0,*,*,30.0,12,<= 5.0,*,40,20180117
+2017,16,Prince George's,0205,Bladensburg Elementary,Elementary,94.4,71130.0,75372,20.3,124,12.4,76,612,20180117
+2017,16,Prince George's,0208,Bladensburg High,High,86.0,205759.0,239244,9.7,189,46.3,904,1951,20180117
+2017,16,Prince George's,0210,Rogers Heights Elementary,Elementary,>= 95.0,*,*,31.4,204,6.3,41,649,20180117
+2017,16,Prince George's,0211,Gladys Noon Spellman Elementary,Elementary,>= 95.0,*,*,39.2,185,5.7,27,472,20180117
+2017,16,Prince George's,0213,Cooper Lane Elementary,Elementary,93.6,46012.5,49160,23.9,94,14.0,55,393,20180117
+2017,16,Prince George's,0214,Templeton Elementary,Elementary,94.1,74010.0,78615,29.9,189,8.7,55,633,20180117
+2017,16,Prince George's,0216,Annapolis Road Academy,High,74.2,8204.5,11060,<= 5.0,*,83.6,51,61,20180117
+2017,16,Prince George's,0217,Port Towns Elementary,Elementary,94.3,98747.0,104747,24.2,206,10.3,88,851,20180117
+2017,16,Prince George's,0303,Croom High,High,75.6,9357.0,12381,<= 5.0,*,72.6,69,95,20180117
+2017,16,Prince George's,0304,Perrywood Elementary,Elementary,>= 95.0,*,*,34.2,190,6.1,34,556,20180117
+2017,16,Prince George's,0305,Patuxent Elementary,Elementary,>= 95.0,*,*,24.3,55,11.9,27,226,20180117
+2017,16,Prince George's,0504,Fort Washington Forest Elementary,Elementary,94.9,24178.0,25475,27.7,57,8.7,18,206,20180117
+2017,16,Prince George's,0507,Rose Valley Elementary,Elementary,94.4,37101.0,39303,19.7,62,13.7,43,314,20180117
+2017,16,Prince George's,0509,Accokeek Academy,Elementary,>= 95.0,*,*,28.9,168,5.2,30,581,20180117
+2017,16,Prince George's,0509,Accokeek Academy,Middle,>= 95.0,*,*,28.3,218,8.6,66,769,20180117
+2017,16,Prince George's,0510,Potomac Landing Elementary,Elementary,>= 95.0,*,*,27.6,91,8.5,28,330,20180117
+2017,16,Prince George's,0511,Friendly High,High,91.9,101074.0,110015,15.8,139,23.8,210,881,20180117
+2017,16,Prince George's,0603,Suitland High,High,89.2,229400.0,257276,19.8,408,30.3,625,2064,20180117
+2017,16,Prince George's,0606,Bradbury Heights Elementary,Elementary,94.3,41474.5,44000,20.4,73,15.1,54,358,20180117
+2017,16,Prince George's,0607,Hillcrest Heights Elementary,Elementary,94.6,43925.0,46420,19.8,73,13.3,49,369,20180117
+2017,16,Prince George's,0608,Green Valley Academy at Edgar Allan Poe,Middle,78.3,2746.5,3508,5.3,1,84.2,16,19,20180117
+2017,16,Prince George's,0608,Green Valley Academy at Edgar Allan Poe,High,77.7,7214.5,9289,<= 5.0,*,69.6,39,56,20180117
+2017,16,Prince George's,0610,North Forestville Elementary,Elementary,93.9,34383.0,36632,22.9,67,15.1,44,292,20180117
+2017,16,Prince George's,0613,District Heights Elementary,Elementary,92.8,48543.0,52309,11.5,48,30.0,125,416,20180117
+2017,16,Prince George's,0615,Benjamin Stoddert Middle,Middle,>= 95.0,*,*,34.3,207,7.8,47,604,20180117
+2017,16,Prince George's,0617,Francis Scott Key Elementary,Elementary,94.4,53019.0,56189,22.4,102,13.6,62,456,20180117
+2017,16,Prince George's,0618,Longfields Elementary,Elementary,94.0,29380.5,31259,21.8,54,14.9,37,248,20180117
+2017,16,Prince George's,0619,Princeton Elementary,Elementary,93.0,32969.5,35447,14.4,41,22.1,63,285,20180117
+2017,16,Prince George's,0622,Thurgood Marshall Middle School,Middle,93.8,67321.0,71790,18.7,108,17.5,101,577,20180117
+2017,16,Prince George's,0632,Allenwood Elementary,Elementary,>= 95.0,*,*,36.0,123,8.5,29,342,20180117
+2017,16,Prince George's,0633,Overlook Elementary,Elementary,>= 95.0,*,*,25.3,40,7.0,11,158,20180117
+2017,16,Prince George's,0636,William Beanes Elementary,Elementary,93.5,48472.5,51821,16.7,70,15.3,64,419,20180117
+2017,16,Prince George's,0638,Benjamin D. Foulois Academy,Elementary,>= 95.0,*,*,37.3,91,<= 5.0,*,244,20180117
+2017,16,Prince George's,0638,Benjamin D. Foulois Academy,Middle,>= 95.0,*,*,29.7,70,<= 5.0,*,236,20180117
+2017,16,Prince George's,0639,Maya Angelou French Immersion,Elementary,>= 95.0,*,*,37.5,105,5.7,16,280,20180117
+2017,16,Prince George's,0639,Maya Angelou French Immersion,Middle,>= 95.0,*,*,70.3,83,<= 5.0,*,118,20180117
+2017,16,Prince George's,0640,Arrowhead Elementary,Elementary,>= 95.0,*,*,26.6,82,7.5,23,308,20180117
+2017,16,Prince George's,0645,Andrew Jackson Academy,Elementary,89.6,41765.0,46614,7.5,28,35.7,134,375,20180117
+2017,16,Prince George's,0645,Andrew Jackson Academy,Middle,91.8,23229.0,25309,12.4,25,23.4,47,201,20180117
+2017,16,Prince George's,0647,Concord Elementary,Elementary,94.1,33934.0,36074,23.6,67,13.7,39,284,20180117
+2017,16,Prince George's,0648,Samuel P. Massie Academy,Elementary,93.3,39357.0,42182,14.8,50,21.0,71,338,20180117
+2017,16,Prince George's,0648,Samuel P. Massie Academy,Middle,>= 95.0,*,*,33.9,60,9.0,16,177,20180117
+2017,16,Prince George's,0656,Panorama Elementary,Elementary,92.8,54558.0,58771,19.3,91,19.7,93,471,20180117
+2017,16,Prince George's,0660,Drew Freeman Middle,Middle,91.6,70967.5,77512,17.5,108,23.5,145,618,20180117
+2017,16,Prince George's,0661,Suitland Elementary,Elementary,93.1,48202.5,51762,23.5,97,19.9,82,412,20180117
+2017,16,Prince George's,0662,Imagine Lincoln Public Charter,Elementary,93.2,33603.5,36045,21.1,61,24.2,70,289,20180117
+2017,16,Prince George's,0662,Imagine Lincoln Public Charter,Middle,>= 95.0,*,*,42.1,59,8.6,12,140,20180117
+2017,16,Prince George's,0705,Tall Oaks High,High,85.7,9685.0,11295,12.2,12,37.8,37,98,20180117
+2017,16,Prince George's,0706,Woodmore Elementary,Elementary,>= 95.0,*,*,36.2,130,<= 5.0,*,359,20180117
+2017,16,Prince George's,0708,Kenilworth Elementary,Elementary,>= 95.0,*,*,26.8,71,6.8,18,265,20180117
+2017,16,Prince George's,0711,Tulip Grove Elementary,Elementary,>= 95.0,*,*,37.7,113,6.7,20,300,20180117
+2017,16,Prince George's,0712,Heather Hills Elementary,Elementary,>= 95.0,*,*,45.3,172,<= 5.0,*,380,20180117
+2017,16,Prince George's,0714,Benjamin Tasker Middle School,Middle,>= 95.0,*,*,34.6,274,10.4,82,791,20180117
+2017,16,Prince George's,0716,Northview Elementary,Elementary,94.9,65662.0,69224,31.4,176,8.9,50,561,20180117
+2017,16,Prince George's,0718,Pointer Ridge Elementary,Elementary,>= 95.0,*,*,33.6,109,5.2,17,324,20180117
+2017,16,Prince George's,0723,C. Elizabeth Rieg Regional Center,Elementary,85.9,4087.5,4760,17.5,7,37.5,15,40,20180117
+2017,16,Prince George's,0723,C. Elizabeth Rieg Regional Center,Middle,72.8,1737.0,2387,16.7,3,38.9,7,18,20180117
+2017,16,Prince George's,0723,C. Elizabeth Rieg Regional Center,High,79.0,4203.0,5318,18.6,8,55.8,24,43,20180117
+2017,16,Prince George's,0729,Kingsford Elementary,Elementary,>= 95.0,*,*,47.0,222,<= 5.0,*,472,20180117
+2017,16,Prince George's,0802,Baden Elementary,Elementary,93.7,25478.0,27193,12.9,28,17.5,38,217,20180117
+2017,16,Prince George's,0905,Tayac Elementary,Elementary,93.9,34246.0,36456,17.7,52,14.3,42,293,20180117
+2017,16,Prince George's,0906,Clinton Grove Elementary,Elementary,94.1,31044.0,32984,28.6,76,12.0,32,266,20180117
+2017,16,Prince George's,0907,Tanglewood Regional Center,Elementary,90.4,3142.5,3476,25.0,7,32.1,9,28,20180117
+2017,16,Prince George's,0907,Tanglewood Regional Center,Middle,*,*,*,*,*,*,*,*,20180117
+2017,16,Prince George's,0908,Surrattsville High,High,92.7,84512.0,91133,20.3,149,23.9,175,733,20180117
+2017,16,Prince George's,0909,James Ryder Randall Elementary,Elementary,>= 95.0,*,*,32.5,83,5.9,15,255,20180117
+2017,16,Prince George's,0912,Isaac J. Gourdine Middle,Middle,>= 95.0,*,*,57.2,285,<= 5.0,*,498,20180117
+2017,16,Prince George's,0914,Waldon Woods Elementary,Elementary,>= 95.0,*,*,36.8,196,8.1,43,532,20180117
+2017,16,Prince George's,0915,Stephen Decatur Middle,Middle,>= 95.0,*,*,38.7,264,7.5,51,682,20180117
+2017,16,Prince George's,0916,Francis T. Evans Elementary,Elementary,>= 95.0,*,*,29.1,81,8.3,23,278,20180117
+2017,16,Prince George's,0917,Imagine Andrews Public Charter,Elementary,>= 95.0,*,*,33.1,89,5.9,16,269,20180117
+2017,16,Prince George's,0917,Imagine Andrews Public Charter,Middle,94.9,16218.5,17096,25.5,35,14.6,20,137,20180117
+2017,16,Prince George's,1001,Laurel Elementary,Elementary,>= 95.0,*,*,31.5,143,6.8,31,454,20180117
+2017,16,Prince George's,1008,Laurel High,High,91.2,208561.0,228639,27.5,507,24.1,445,1845,20180117
+2017,16,Prince George's,1009,Oaklands Elementary,Elementary,>= 95.0,*,*,25.8,78,10.3,31,302,20180117
+2017,16,Prince George's,1010,Dwight D. Eisenhower Middle,Middle,94.6,110329.5,116567,33.7,315,13.9,130,935,20180117
+2017,16,Prince George's,1011,Bond Mill Elementary,Elementary,>= 95.0,*,*,38.0,178,7.2,34,469,20180117
+2017,16,Prince George's,1014,Scotchtown Hills Elementary,Elementary,>= 95.0,*,*,34.5,211,10.0,61,611,20180117
+2017,16,Prince George's,1015,Chesapeake Math and IT Public Charter,Middle,>= 95.0,*,*,55.3,220,<= 5.0,*,398,20180117
+2017,16,Prince George's,1015,Chesapeake Math and IT Public Charter,High,>= 95.0,*,*,47.0,156,6.3,21,332,20180117
+2017,16,Prince George's,1016,Chesapeake Math and IT Elementary Public Charter,Elementary,>= 95.0,*,*,38.8,153,<= 5.0,*,394,20180117
+2017,16,Prince George's,1101,Brandywine Elementary,Elementary,>= 95.0,*,*,35.3,120,9.1,31,340,20180117
+2017,16,Prince George's,1102,Mattaponi Elementary,Elementary,>= 95.0,*,*,30.4,99,8.6,28,326,20180117
+2017,16,Prince George's,1103,Gwynn Park High,High,93.1,112561.5,120855,28.8,281,16.0,156,976,20180117
+2017,16,Prince George's,1104,Gwynn Park Middle,Middle,>= 95.0,*,*,29.9,190,7.7,49,636,20180117
+2017,16,Prince George's,1105,Rosaryville Elementary,Elementary,>= 95.0,*,*,41.6,131,7.0,22,315,20180117
+2017,16,Prince George's,1201,Oxon Hill Elementary,Elementary,92.2,33031.5,35837,15.8,46,25.7,75,292,20180117
+2017,16,Prince George's,1204,Forest Heights Elementary,Elementary,93.5,25991.5,27793,12.9,29,14.3,32,224,20180117
+2017,16,Prince George's,1206,John Hanson Montessori,Elementary,>= 95.0,*,*,31.2,62,8.0,16,199,20180117
+2017,16,Prince George's,1206,John Hanson Montessori,Middle,>= 95.0,*,*,36.4,32,8.0,7,88,20180117
+2017,16,Prince George's,1208,Flintstone Elementary,Elementary,>= 95.0,*,*,33.6,126,<= 5.0,*,375,20180117
+2017,16,Prince George's,1209,Oxon Hill High,High,93.0,169883.0,182741,29.7,438,17.4,256,1474,20180117
+2017,16,Prince George's,1213,Fort Foote Elementary,Elementary,94.4,32744.5,34694,30.4,85,10.7,30,280,20180117
+2017,16,Prince George's,1214,Glassmanor Elementary,Elementary,94.0,33118.0,35220,26.6,77,16.9,49,290,20180117
+2017,16,Prince George's,1216,Samuel Chase Elementary,Elementary,93.9,29084.0,30982,20.7,51,14.6,36,246,20180117
+2017,16,Prince George's,1217,Crossland High,High,86.8,114540.5,131993,12.9,138,41.2,440,1069,20180117
+2017,16,Prince George's,1218,Valley View Elementary,Elementary,>= 95.0,*,*,26.9,114,10.1,43,424,20180117
+2017,16,Prince George's,1219,Barnaby Manor Elementary,Elementary,93.9,43274.5,46070,18.4,68,14.3,53,370,20180117
+2017,16,Prince George's,1220,Potomac High,High,87.6,145414.5,165968,14.4,190,35.2,465,1320,20180117
+2017,16,Prince George's,1221,Avalon Elementary,Elementary,>= 95.0,*,*,40.9,131,7.2,23,320,20180117
+2017,16,Prince George's,1229,Apple Grove Elementary,Elementary,94.1,42599.5,45282,25.7,95,13.3,49,369,20180117
+2017,16,Prince George's,1231,J. Frank Dent Elementary,Elementary,93.4,30268.0,32423,19.3,50,20.1,52,259,20180117
+2017,16,Prince George's,1233,Indian Queen Elementary,Elementary,>= 95.0,*,*,27.6,63,9.6,22,228,20180117
+2017,16,Prince George's,1234,Oxon Hill Middle,Middle,94.2,68213.0,72406,25.7,151,12.4,73,587,20180117
+2017,16,Prince George's,1302,Columbia Park Elementary,Elementary,93.4,42574.0,45605,14.4,53,20.9,77,368,20180117
+2017,16,Prince George's,1307,Highland Park Elementary,Elementary,94.3,37425.0,39697,25.3,80,15.2,48,316,20180117
+2017,16,Prince George's,1309,William Paca Elementary,Elementary,>= 95.0,*,*,30.9,127,12.2,50,411,20180117
+2017,16,Prince George's,1310,Dodge Park Elementary,Elementary,94.5,58506.0,61909,32.7,164,13.4,67,501,20180117
+2017,16,Prince George's,1314,Largo High,High,90.1,87096.5,96654,16.8,130,29.7,230,774,20180117
+2017,16,Prince George's,1320,G. James Gholson Middle,Middle,93.5,74077.5,79230,30.3,193,13.3,85,638,20180117
+2017,16,Prince George's,1322,Phyllis E. Williams Elementary,Elementary,>= 95.0,*,*,34.2,76,6.3,14,222,20180117
+2017,16,Prince George's,1324,Kettering Elementary,Elementary,94.7,40943.0,43250,25.4,88,15.0,52,346,20180117
+2017,16,Prince George's,1326,Kettering Middle,Middle,>= 95.0,*,*,55.1,403,<= 5.0,*,732,20180117
+2017,16,Prince George's,1327,Charles Herbert Flowers High,High,94.0,242003.5,257382,41.3,857,12.2,254,2077,20180117
+2017,16,Prince George's,1330,Kenmoor Middle,Middle,>= 95.0,*,*,43.3,370,10.3,88,854,20180117
+2017,16,Prince George's,1333,Judge Sylvania W. Woods Sr. Elementary,Elementary,94.7,72024.5,76058,32.1,197,9.6,59,614,20180117
+2017,16,Prince George's,1346,Lake Arbor Elementary,Elementary,94.8,60957.5,64327,27.0,138,13.3,68,512,20180117
+2017,16,Prince George's,1347,Cora L. Rice Elementary,Elementary,94.2,72634.0,77103,21.1,133,17.3,109,631,20180117
+2017,16,Prince George's,1348,Ernest Everett Just Middle,Middle,>= 95.0,*,*,34.4,200,10.5,61,581,20180117
+2017,16,Prince George's,1350,Academy of Health Sciences at PGCC,High,>= 95.0,*,*,85.8,370,<= 5.0,*,431,20180117
+2017,16,Prince George's,1351,Chesapeake Math and IT South Public Charter,Middle,>= 95.0,*,*,47.2,258,<= 5.0,*,547,20180117
+2017,16,Prince George's,1352,International High school @ Largo,High,92.8,21518.0,23186,14.1,26,18.5,34,184,20180117
+2017,16,Prince George's,1408,Glenn Dale Elementary,Elementary,>= 95.0,*,*,59.6,274,<= 5.0,*,460,20180117
+2017,16,Prince George's,1409,Duval High,High,91.3,211810.0,232096,20.7,388,27.8,520,1871,20180117
+2017,16,Prince George's,1411,Gaywood Elementary,Elementary,>= 95.0,*,*,31.7,125,7.1,28,394,20180117
+2017,16,Prince George's,1412,High Bridge Elementary,Elementary,>= 95.0,*,*,43.2,152,8.8,31,352,20180117
+2017,16,Prince George's,1414,Catherine T. Reed Elementary,Elementary,>= 95.0,*,*,37.6,157,8.4,35,417,20180117
+2017,16,Prince George's,1416,Dora Kennedy French Immersion,Elementary,>= 95.0,*,*,40.2,158,<= 5.0,*,393,20180117
+2017,16,Prince George's,1416,Dora Kennedy French Immersion,Middle,>= 95.0,*,*,62.4,103,<= 5.0,*,165,20180117
+2017,16,Prince George's,1417,Robert Goddard Montessori,Elementary,>= 95.0,*,*,48.4,103,<= 5.0,*,213,20180117
+2017,16,Prince George's,1417,Robert Goddard Montessori,Middle,>= 95.0,*,*,38.1,37,<= 5.0,*,97,20180117
+2017,16,Prince George's,1423,Bowie High,High,93.5,274600.5,293535,29.0,685,16.4,387,2360,20180117
+2017,16,Prince George's,1424,Montpelier Elementary,Elementary,>= 95.0,*,*,35.1,160,5.3,24,456,20180117
+2017,16,Prince George's,1427,Yorktown Elementary,Elementary,>= 95.0,*,*,29.3,85,5.5,16,290,20180117
+2017,16,Prince George's,1428,Samuel Ogle Middle,Middle,>= 95.0,*,*,44.5,394,6.1,54,886,20180117
+2017,16,Prince George's,1432,Rockledge Elementary,Elementary,>= 95.0,*,*,36.4,104,<= 5.0,*,286,20180117
+2017,16,Prince George's,1435,Deerfield Run Elementary,Elementary,>= 95.0,*,*,36.5,169,7.1,33,463,20180117
+2017,16,Prince George's,1438,Whitehall Elementary,Elementary,>= 95.0,*,*,36.5,175,<= 5.0,*,479,20180117
+2017,16,Prince George's,1442,Excel Academy Public Charter,Elementary,>= 95.0,*,*,36.0,90,<= 5.0,*,250,20180117
+2017,16,Prince George's,1442,Excel Academy Public Charter,Middle,>= 95.0,*,*,33.6,39,7.8,9,116,20180117
+2017,16,Prince George's,1502,Frederick Douglass High,High,94.1,102783.0,109239,22.0,193,13.2,116,878,20180117
+2017,16,Prince George's,1504,Melwood Elementary,Elementary,>= 95.0,*,*,30.8,118,6.5,25,383,20180117
+2017,16,Prince George's,1510,James Madison Middle,Middle,>= 95.0,*,*,51.6,361,<= 5.0,*,700,20180117
+2017,16,Prince George's,1511,Marlton Elementary,Elementary,94.6,29209.0,30872,22.7,57,10.8,27,251,20180117
+2017,16,Prince George's,1518,Barack Obama Elementary,Elementary,>= 95.0,*,*,29.3,166,7.9,45,567,20180117
+2017,16,Prince George's,1519,"Dr. Henry A. Wise, Jr. High",High,91.2,257732.0,282457,12.3,280,29.9,682,2280,20180117
+2017,16,Prince George's,1521,Imagine Foundations at Leeland PCS,Elementary,>= 95.0,*,*,>= 95.0,*,<= 5.0,*,274,20180117
+2017,16,Prince George's,1521,Imagine Foundations at Leeland PCS,Middle,>= 95.0,*,*,>= 95.0,*,<= 5.0,*,157,20180117
+2017,16,Prince George's,1522,Imagine Foundations at Morningside PCS,Elementary,>= 95.0,*,*,29.8,96,<= 5.0,*,322,20180117
+2017,16,Prince George's,1522,Imagine Foundations at Morningside PCS,Middle,>= 95.0,*,*,42.8,59,13.8,19,138,20180117
+2017,16,Prince George's,1601,Hyattsville Elementary,Elementary,94.6,49967.0,52798,28.8,123,11.7,50,427,20180117
+2017,16,Prince George's,1602,Hyattsville Middle,Middle,94.4,96920.0,102678,35.2,290,10.8,89,823,20180117
+2017,16,Prince George's,1604,Edward M. Felegy ES,Elementary,94.5,73652.5,77953,23.8,148,10.3,64,623,20180117
+2017,16,Prince George's,1703,Mt Rainier Elementary,Elementary,94.5,30270.0,32027,25.5,66,9.3,24,259,20180117
+2017,16,Prince George's,1706,Thomas S. Stone Elementary,Elementary,94.7,65284.0,68945,34.1,188,10.3,57,552,20180117
+2017,16,Prince George's,1708,Northwestern High,High,88.0,253798.5,288331,15.8,370,36.4,852,2341,20180117
+2017,16,Prince George's,1709,Chillum Elementary,Elementary,94.7,26223.0,27694,31.3,70,8.9,20,224,20180117
+2017,16,Prince George's,1710,Ridgecrest Elementary,Elementary,>= 95.0,*,*,40.1,228,6.5,37,568,20180117
+2017,16,Prince George's,1711,Carole Highlands Elementary,Elementary,94.4,45954.5,48660,27.9,109,11.5,45,391,20180117
+2017,16,Prince George's,1712,Lewisdale Elementary,Elementary,94.8,63716.0,67206,25.5,139,9.0,49,545,20180117
+2017,16,Prince George's,1713,Cesar Chavez Elementary,Elementary,>= 95.0,*,*,42.3,91,<= 5.0,*,215,20180117
+2017,16,Prince George's,1714,Adelphi Elementary,Elementary,94.7,69814.5,73708,32.7,191,7.7,45,584,20180117
+2017,16,Prince George's,1718,Nicholas Orem Middle,Middle,94.5,110753.5,117157,32.1,305,10.8,103,950,20180117
+2017,16,Prince George's,1719,Langley Park/McCormick Elementary,Elementary,>= 95.0,*,*,39.0,254,<= 5.0,*,652,20180117
+2017,16,Prince George's,1725,Cool Spring Elementary,Elementary,94.8,72920.5,76946,28.8,178,7.4,46,618,20180117
+2017,16,Prince George's,1730,"Mary Harris ""Mother"" Jones Elementary",Elementary,94.7,86108.0,90913,26.1,192,7.8,57,735,20180117
+2017,16,Prince George's,1731,Rosa L. Parks Elementary,Elementary,>= 95.0,*,*,30.4,165,8.5,46,543,20180117
+2017,16,Prince George's,1732,International High School @ Langley Park,High,92.7,20265.5,21861,32.8,57,13.2,23,174,20180117
+2017,16,Prince George's,1802,Seat Pleasant Elementary,Elementary,93.7,35840.5,38245,22.8,70,16.3,50,307,20180117
+2017,16,Prince George's,1806,Fairmont Heights High,High,90.5,75477.0,83392,12.7,84,32.9,218,663,20180117
+2017,16,Prince George's,1808,Doswell E. Brooks Elementary,Elementary,>= 95.0,*,*,42.6,78,<= 5.0,*,183,20180117
+2017,16,Prince George's,1810,Central High,High,89.5,111844.5,124943,22.9,227,28.5,283,992,20180117
+2017,16,Prince George's,1811,Carmody Hills Elementary,Elementary,94.0,45436.0,48312,27.1,107,17.0,67,395,20180117
+2017,16,Prince George's,1812,Capitol Heights Elementary,Elementary,>= 95.0,*,*,32.9,70,7.0,15,213,20180117
+2017,16,Prince George's,1814,Thomas G. Pullen School,Elementary,>= 95.0,*,*,26.1,97,11.3,42,372,20180117
+2017,16,Prince George's,1814,Thomas G. Pullen School,Middle,>= 95.0,*,*,46.4,137,<= 5.0,*,295,20180117
+2017,16,Prince George's,1816,John H. Bayne Elementary,Elementary,94.2,40599.0,43113,24.5,85,14.1,49,347,20180117
+2017,16,Prince George's,1819,Walker Mill Middle,Middle,94.2,92596.0,98337,29.9,236,19.1,151,789,20180117
+2017,16,Prince George's,1828,Robert R. Gray Elementary,Elementary,93.1,39583.0,42502,13.8,47,19.7,67,340,20180117
+2017,16,Prince George's,1830,William W. Hall Academy,Elementary,92.5,34037.5,36811,18.9,55,19.9,58,291,20180117
+2017,16,Prince George's,1830,William W. Hall Academy,Middle,93.9,17795.5,18944,28.1,43,14.4,22,153,20180117
+2017,16,Prince George's,1901,Riverdale Elementary,Elementary,94.1,71766.0,76246,18.5,115,12.7,79,622,20180117
+2017,16,Prince George's,1902,University Park Elementary,Elementary,>= 95.0,*,*,38.5,174,5.5,25,452,20180117
+2017,16,Prince George's,1907,Beacon Heights Elementary,Elementary,94.9,47660.0,50226,32.5,132,11.1,45,406,20180117
+2017,16,Prince George's,1908,William Wirt Middle,Middle,92.4,127544.5,137977,18.6,209,23.3,262,1123,20180117
+2017,16,Prince George's,1909,Parkdale High,High,90.8,256951.5,283066,22.0,502,25.6,584,2281,20180117
+2017,16,Prince George's,2003,Seabrook Elementary,Elementary,>= 95.0,*,*,37.8,95,5.6,14,251,20180117
+2017,16,Prince George's,2005,Carrollton Elementary,Elementary,>= 95.0,*,*,33.1,150,5.3,24,453,20180117
+2017,16,Prince George's,2006,Glenridge Elementary,Elementary,94.8,80346.0,84782,26.1,177,9.9,67,679,20180117
+2017,16,Prince George's,2007,Woodridge Elementary,Elementary,93.9,32861.5,35002,18.6,52,12.5,35,280,20180117
+2017,16,Prince George's,2008,Ardmore Elementary,Elementary,>= 95.0,*,*,41.3,176,7.5,32,426,20180117
+2017,16,Prince George's,2009,Thomas Johnson Middle,Middle,>= 95.0,*,*,40.3,463,10.3,118,1150,20180117
+2017,16,Prince George's,2010,Glenarden Woods Elementary,Elementary,>= 95.0,*,*,48.1,223,<= 5.0,*,464,20180117
+2017,16,Prince George's,2011,Charles Carroll Middle,Middle,94.9,134608.0,141843,36.5,418,8.9,102,1145,20180117
+2017,16,Prince George's,2012,Margaret Brent Regional Center,Elementary,87.0,5637.0,6481,16.0,8,42.0,21,50,20180117
+2017,16,Prince George's,2012,Margaret Brent Regional Center,Middle,87.2,2617.0,3001,23.1,6,38.5,10,26,20180117
+2017,16,Prince George's,2012,Margaret Brent Regional Center,High,88.5,3722.0,4204,27.3,9,27.3,9,33,20180117
+2017,16,Prince George's,2013,James McHenry Elementary,Elementary,>= 95.0,*,*,31.9,181,7.4,42,567,20180117
+2017,16,Prince George's,2014,Lamont Elementary,Elementary,94.8,47370.0,49962,26.2,106,8.4,34,405,20180117
+2017,16,Prince George's,2016,Robert Frost Elementary,Elementary,94.8,29737.0,31354,31.6,79,10.4,26,250,20180117
+2017,16,Prince George's,2022,Turning Point Academy Public Charter,Elementary,>= 95.0,*,*,42.7,148,7.2,25,347,20180117
+2017,16,Prince George's,2022,Turning Point Academy Public Charter,Middle,>= 95.0,*,*,70.0,142,<= 5.0,*,203,20180117
+2017,16,Prince George's,2106,Greenbelt Elementary,Elementary,>= 95.0,*,*,27.7,130,7.2,34,470,20180117
+2017,16,Prince George's,2107,Hollywood Elementary,Elementary,94.8,36228.5,38203,34.1,105,8.4,26,308,20180117
+2017,16,Prince George's,2108,Buck Lodge Middle,Middle,94.4,145802.5,154406,30.8,385,11.3,141,1252,20180117
+2017,16,Prince George's,2109,Berwyn Heights Elementary,Elementary,>= 95.0,*,*,34.5,141,<= 5.0,*,409,20180117
+2017,16,Prince George's,2113,Springhill Lake Elementary,Elementary,93.1,85431.5,91720,22.0,161,18.8,138,733,20180117
+2017,16,Prince George's,2114,Eleanor Roosevelt High,High,93.9,293760.5,312857,34.2,865,15.1,381,2527,20180117
+2017,16,Prince George's,2121,Cherokee Lane Elementary,Elementary,94.5,51790.0,54783,30.7,135,10.7,47,440,20180117
+2017,16,Prince George's,2122,Magnolia Elementary,Elementary,>= 95.0,*,*,37.7,157,5.5,23,416,20180117
+2017,16,Prince George's,2123,Paint Branch Elementary,Elementary,>= 95.0,*,*,44.6,124,<= 5.0,*,278,20180117
+2017,16,Prince George's,2141,Greenbelt Middle,Middle,94.3,151158.0,160267,29.4,383,16.5,215,1304,20180117
+2017,16,Prince George's,2142,College Park Academy,Middle,>= 95.0,*,*,57.3,200,<= 5.0,*,349,20180117
+2017,16,Prince George's,2142,College Park Academy,High,>= 95.0,*,*,44.9,84,7.0,13,187,20180117
+2017,16,Prince George's,2211,Northwestern Evening/Saturday High,High,79.2,8670.0,10953,<= 5.0,*,64.7,55,85,20180117
+2017,16,Prince George's,2213,Crossland Evening/Saturday High,High,89.2,9003.5,10097,14.5,12,20.5,17,83,20180117
+2017,16,Prince George's,2217,Incarcerated Youth Center (JACS),High,*,*,*,*,*,*,*,*,20180117
+2017,16,Prince George's,2220,Community Based Classrooms,High,89.4,8364.5,9360,20.7,18,20.7,18,87,20180117
+2017,16,Prince George's,A,All Prince George's Schools,Elementary,94.9,6051579.0,6374325,29.9,15381,10.5,5431,51514,20180117
+2017,16,Prince George's,A,All Prince George's Schools,Middle,>= 95.0,*,*,35.0,9762,11.4,3176,27891,20180117
+2017,16,Prince George's,A,All Prince George's Schools,High,91.0,4075603.5,4479252,23.2,8383,26.5,9577,36207,20180117
+2017,17,Queen Anne's,0101,Sudlersville Middle School,Elementary,>= 95.0,*,*,29.5,39,<= 5.0,*,132,20180117
+2017,17,Queen Anne's,0101,Sudlersville Middle School,Middle,>= 95.0,*,*,33.4,116,6.9,24,347,20180117
+2017,17,Queen Anne's,0106,Sudlersville Elementary School,Elementary,93.7,25622.0,27359,26.1,57,10.6,23,218,20180117
+2017,17,Queen Anne's,0202,Church Hill Elementary School,Elementary,94.7,24475.0,25834,27.6,58,9.0,19,210,20180117
+2017,17,Queen Anne's,0301,Queen Anne's County High School,High,93.4,131186.5,140461,27.5,310,13.3,150,1127,20180117
+2017,17,Queen Anne's,0302,Kennard Elementary School,Elementary,94.4,61109.5,64752,26.0,136,7.8,41,524,20180117
+2017,17,Queen Anne's,0303,Centreville Middle School,Middle,>= 95.0,*,*,27.6,149,5.4,29,539,20180117
+2017,17,Queen Anne's,0308,Centreville Elementary School,Elementary,94.3,35922.0,38078,23.4,72,5.8,18,308,20180117
+2017,17,Queen Anne's,0402,Kent Island Elementary School,Elementary,94.6,32939.5,34838,24.9,71,<= 5.0,*,285,20180117
+2017,17,Queen Anne's,0403,Bayside Elementary School,Elementary,94.7,49270.0,52052,26.9,113,6.7,28,420,20180117
+2017,17,Queen Anne's,0404,Stevensville Middle School,Middle,94.2,60076.0,63749,23.9,123,8.6,44,514,20180117
+2017,17,Queen Anne's,0405,Kent Island High School,High,93.8,138642.5,147818,28.9,344,12.2,146,1192,20180117
+2017,17,Queen Anne's,0406,Matapeake Elementary School,Elementary,94.1,46185.0,49099,22.4,89,8.3,33,397,20180117
+2017,17,Queen Anne's,0407,Matapeake Middle School,Middle,94.5,46566.0,49295,30.6,121,8.3,33,396,20180117
+2017,17,Queen Anne's,0503,Grasonville Elementary School,Elementary,94.0,42810.5,45551,22.3,82,9.3,34,367,20180117
+2017,17,Queen Anne's,A,All Queen Anne's Schools,Elementary,94.3,333947.5,353946,25.0,716,7.7,221,2864,20180117
+2017,17,Queen Anne's,A,All Queen Anne's Schools,Middle,94.8,210798.5,222443,28.4,510,7.2,130,1797,20180117
+2017,17,Queen Anne's,A,All Queen Anne's Schools,High,93.6,269829.0,288279,28.2,654,12.8,297,2320,20180117
+2017,18,Saint Mary's,0101,Spring Ridge Middle,Middle,93.6,116637.5,124581,32.0,313,15.6,153,979,20180117
+2017,18,Saint Mary's,0104,Ridge Elementary,Elementary,94.5,23381.0,24741,27.8,54,8.8,17,194,20180117
+2017,18,Saint Mary's,0201,Piney Point Elementary,Elementary,94.3,45653.5,48418,26.2,101,8.1,31,385,20180117
+2017,18,Saint Mary's,0301,Leonardtown Elementary,Elementary,94.8,47205.0,49791,29.7,119,6.5,26,401,20180117
+2017,18,Saint Mary's,0302,Benjamin Banneker Elementary,Elementary,94.7,55041.5,58094,27.0,124,7.2,33,460,20180117
+2017,18,Saint Mary's,0303,Chopticon High,High,92.8,189973.0,204652,23.9,388,19.9,323,1622,20180117
+2017,18,Saint Mary's,0305,Leonardtown Middle,Middle,94.7,117557.0,124160,33.7,332,9.0,89,985,20180117
+2017,18,Saint Mary's,0306,Leonardtown High,High,94.4,216287.0,229163,28.8,524,12.6,229,1821,20180117
+2017,18,Saint Mary's,0308,Captain Walter Francis Duke Elementary,Elementary,>= 95.0,*,*,27.8,134,5.6,27,482,20180117
+2017,18,Saint Mary's,0404,Margaret Brent Middle,Middle,94.1,118004.5,125419,30.3,302,12.8,128,997,20180117
+2017,18,Saint Mary's,0501,Lettie Marshall Dent Elem,Elementary,94.6,55446.5,58599,27.1,126,10.1,47,465,20180117
+2017,18,Saint Mary's,0503,White Marsh Elementary,Elementary,>= 95.0,*,*,34.1,78,5.2,12,229,20180117
+2017,18,Saint Mary's,0504,Mechanicsville Elementary,Elementary,>= 95.0,*,*,33.1,99,6.0,18,299,20180117
+2017,18,Saint Mary's,0602,Oakville Elementary,Elementary,>= 95.0,*,*,22.9,43,5.9,11,188,20180117
+2017,18,Saint Mary's,0604,Hollywood Elementary,Elementary,>= 95.0,*,*,26.9,112,7.7,32,417,20180117
+2017,18,Saint Mary's,0606,Evergreen Elementary School,Elementary,>= 95.0,*,*,27.7,159,5.2,30,574,20180117
+2017,18,Saint Mary's,0702,Dynard Elementary,Elementary,94.8,43293.5,45652,32.1,116,8.0,29,361,20180117
+2017,18,Saint Mary's,0801,Great Mills High,High,92.2,183768.5,199344,29.1,458,20.4,322,1576,20180117
+2017,18,Saint Mary's,0803,Green Holly Elementary School,Elementary,>= 95.0,*,*,36.6,116,7.9,25,317,20180117
+2017,18,Saint Mary's,0804,Lexington Park Elementary,Elementary,94.1,55035.5,58491,26.6,122,13.3,61,459,20180117
+2017,18,Saint Mary's,0805,George Washington Carver Elementary,Elementary,94.2,53534.0,56839,25.9,117,13.3,60,452,20180117
+2017,18,Saint Mary's,0806,Town Creek Elementary,Elementary,94.6,20441.0,21611,37.4,64,9.4,16,171,20180117
+2017,18,Saint Mary's,0807,Esperanza Middle,Middle,94.9,97940.5,103217,36.6,300,10.4,85,819,20180117
+2017,18,Saint Mary's,0808,Park Hall Elementary,Elementary,94.0,56251.0,59824,24.8,115,10.6,49,464,20180117
+2017,18,Saint Mary's,0810,Greenview Knolls Elementary,Elementary,>= 95.0,*,*,37.5,118,<= 5.0,*,315,20180117
+2017,18,Saint Mary's,0813,Chesapeake Charter School,Elementary,>= 95.0,*,*,32.4,73,<= 5.0,*,225,20180117
+2017,18,Saint Mary's,0813,Chesapeake Charter School,Middle,>= 95.0,*,*,24.6,29,5.1,6,118,20180117
+2017,18,Saint Mary's,A,All Saint Mary's Schools,Elementary,94.9,821356.0,865923,28.7,1976,8.1,560,6875,20180117
+2017,18,Saint Mary's,A,All Saint Mary's Schools,Middle,94.3,464475.0,492469,32.7,1277,11.8,462,3902,20180117
+2017,18,Saint Mary's,A,All Saint Mary's Schools,High,93.2,590028.5,633159,27.3,1372,17.5,881,5023,20180117
+2017,19,Somerset,0102,Washington Academy and High School,Middle,93.7,12874.0,13745,30.2,35,14.7,17,116,20180117
+2017,19,Somerset,0102,Washington Academy and High School,High,90.6,51330.5,56663,16.5,77,25.4,119,468,20180117
+2017,19,Somerset,0105,Greenwood Elementary School,Elementary,94.4,37820.0,40068,22.8,75,12.2,40,329,20180117
+2017,19,Somerset,0106,Princess Anne Elementary,Elementary,94.4,33932.0,35928,27.4,81,14.2,42,296,20180117
+2017,19,Somerset,0702,Crisfield Academy and High School,Middle,93.6,9938.5,10619,24.7,22,12.4,11,89,20180117
+2017,19,Somerset,0702,Crisfield Academy and High School,High,92.0,30961.5,33642,21.1,59,17.2,48,279,20180117
+2017,19,Somerset,0705,Carter G Woodson Elementary,Elementary,94.0,45131.0,48013,20.4,82,11.4,46,402,20180117
+2017,19,Somerset,1003,Ewell School,Elementary,*,*,*,*,*,*,*,*,20180117
+2017,19,Somerset,1003,Ewell School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,19,Somerset,1303,Somerset 6/7 Intermediate School,Middle,92.1,46037.5,49993,16.7,70,21.8,91,418,20180117
+2017,19,Somerset,1401,Deal Island School,Elementary,93.7,8597.0,9173,22.8,18,10.1,8,79,20180117
+2017,19,Somerset,A,All Somerset Schools,Elementary,94.2,126029.5,133777,22.8,254,12.5,139,1112,20180117
+2017,19,Somerset,A,All Somerset Schools,Middle,92.6,69165.0,74714,20.3,127,19.0,119,626,20180117
+2017,19,Somerset,A,All Somerset Schools,High,91.1,82292.0,90305,18.2,136,23.0,172,748,20180117
+2017,20,Talbot,0101,Easton High,High,93.2,136094.5,145951,22.1,251,15.9,180,1135,20180117
+2017,20,Talbot,0104,Easton Elementary,Elementary,>= 95.0,*,*,40.0,322,<= 5.0,*,804,20180117
+2017,20,Talbot,0106,Easton Middle,Middle,94.6,92536.5,97775,30.7,234,9.2,70,763,20180117
+2017,20,Talbot,0202,St. Michaels Middle/High School,Middle,94.2,23938.5,25418,24.1,48,11.6,23,199,20180117
+2017,20,Talbot,0202,St. Michaels Middle/High School,High,92.8,28635.5,30844,22.8,55,21.2,51,241,20180117
+2017,20,Talbot,0204,St. Michaels Elementary,Elementary,>= 95.0,*,*,38.7,94,6.2,15,243,20180117
+2017,20,Talbot,0302,White Marsh Elementary,Elementary,>= 95.0,*,*,23.3,70,5.3,16,301,20180117
+2017,20,Talbot,0401,Chapel District Elementary,Elementary,>= 95.0,*,*,33.1,95,<= 5.0,*,287,20180117
+2017,20,Talbot,0501,Tilghman Elementary,Elementary,>= 95.0,*,*,26.7,12,<= 5.0,*,45,20180117
+2017,20,Talbot,A,All Talbot Schools,Elementary,>= 95.0,*,*,34.9,588,<= 5.0,*,1683,20180117
+2017,20,Talbot,A,All Talbot Schools,Middle,94.5,116475.0,123193,29.3,282,9.9,95,962,20180117
+2017,20,Talbot,A,All Talbot Schools,High,93.2,164730.0,176795,22.2,306,16.9,233,1377,20180117
+2017,21,Washington,0040,Barbara Ingram School for the Arts,High,>= 95.0,*,*,36.4,102,<= 5.0,*,280,20180117
+2017,21,Washington,0101,Sharpsburg Elementary,Elementary,>= 95.0,*,*,30.5,67,<= 5.0,*,220,20180117
+2017,21,Washington,0190,Jonathan Hager Elementary,Elementary,>= 95.0,*,*,34.3,118,8.7,30,344,20180117
+2017,21,Washington,0201,Springfield Middle,Middle,94.8,102435.0,108005,35.4,290,8.4,69,819,20180117
+2017,21,Washington,0202,Williamsport Elementary,Elementary,>= 95.0,*,*,36.3,176,<= 5.0,*,485,20180117
+2017,21,Washington,0204,Williamsport High,High,93.0,114865.5,123518,29.9,276,15.4,142,924,20180117
+2017,21,Washington,0301,South Hagerstown High,High,90.8,153476.5,169008,28.4,363,24.8,317,1276,20180117
+2017,21,Washington,0302,Emma K. Doub Elementary,Elementary,>= 95.0,*,*,42.4,112,7.2,19,264,20180117
+2017,21,Washington,0304,E. Russell Hicks Middle,Middle,94.3,96735.5,102559,38.0,296,12.2,95,779,20180117
+2017,21,Washington,0305,Washington County Technical High,High,>= 95.0,*,*,37.7,223,<= 5.0,*,591,20180117
+2017,21,Washington,0325,Rockland Woods Elementary,Elementary,>= 95.0,*,*,44.0,216,<= 5.0,*,491,20180117
+2017,21,Washington,0328,Ruth Ann Monroe Primary,Elementary,94.9,39506.5,41642,38.7,118,7.9,24,305,20180117
+2017,21,Washington,0401,Clear Spring Middle,Middle,>= 95.0,*,*,35.7,144,<= 5.0,*,403,20180117
+2017,21,Washington,0402,Clear Spring Elementary,Elementary,>= 95.0,*,*,41.8,133,<= 5.0,*,318,20180117
+2017,21,Washington,0403,Clear Spring High,High,93.6,58664.0,62653,24.8,117,12.7,60,471,20180117
+2017,21,Washington,0501,Hancock Middle Senior High,Middle,94.4,13885.5,14704,31.6,36,7.0,8,114,20180117
+2017,21,Washington,0501,Hancock Middle Senior High,High,93.2,17049.5,18287,31.9,44,17.4,24,138,20180117
+2017,21,Washington,0502,Hancock Elementary,Elementary,>= 95.0,*,*,37.1,73,8.6,17,197,20180117
+2017,21,Washington,0601,Boonsboro High,High,93.8,107641.5,114759,28.8,250,13.7,119,869,20180117
+2017,21,Washington,0602,Boonsboro Middle,Middle,>= 95.0,*,*,38.4,304,<= 5.0,*,792,20180117
+2017,21,Washington,0603,Boonsboro Elementary,Elementary,>= 95.0,*,*,36.6,162,<= 5.0,*,443,20180117
+2017,21,Washington,0701,Smithsburg High,High,94.1,97829.5,103926,29.8,234,12.5,98,786,20180117
+2017,21,Washington,0702,Smithsburg Elementary,Elementary,>= 95.0,*,*,37.7,107,<= 5.0,*,284,20180117
+2017,21,Washington,0704,Smithsburg Middle,Middle,>= 95.0,*,*,38.5,251,8.4,55,652,20180117
+2017,21,Washington,0705,Washington County Job Development Center,High,91.5,3825.0,4181,41.9,13,19.4,6,31,20180117
+2017,21,Washington,0902,Paramount Elementary,Elementary,>= 95.0,*,*,55.3,167,<= 5.0,*,302,20180117
+2017,21,Washington,0903,Old Forge Elementary,Elementary,>= 95.0,*,*,41.4,116,<= 5.0,*,280,20180117
+2017,21,Washington,1002,Eastern Elementary,Elementary,>= 95.0,*,*,36.8,182,7.3,36,494,20180117
+2017,21,Washington,1101,Pleasant Valley Elementary,Elementary,>= 95.0,*,*,41.5,73,<= 5.0,*,176,20180117
+2017,21,Washington,1301,Maugansville Elementary,Elementary,>= 95.0,*,*,34.9,198,<= 5.0,*,568,20180117
+2017,21,Washington,1401,Cascade Elementary,Elementary,>= 95.0,*,*,43.7,66,<= 5.0,*,151,20180117
+2017,21,Washington,1602,Greenbrier Elementary,Elementary,>= 95.0,*,*,41.5,76,<= 5.0,*,183,20180117
+2017,21,Washington,1701,Bester Elementary,Elementary,94.3,59738.0,63349,33.6,160,12.4,59,476,20180117
+2017,21,Washington,1802,Pangborn Elementary,Elementary,>= 95.0,*,*,39.0,211,6.3,34,541,20180117
+2017,21,Washington,1805,Potomac Heights Elementary,Elementary,>= 95.0,*,*,40.2,88,5.9,13,219,20180117
+2017,21,Washington,2002,Fountain Rock Elementary,Elementary,>= 95.0,*,*,46.6,83,<= 5.0,*,178,20180117
+2017,21,Washington,2101,North Hagerstown High,High,93.6,155980.5,166656,33.4,422,14.5,183,1263,20180117
+2017,21,Washington,2102,Northern Middle,Middle,94.7,84233.5,88936,38.0,257,10.1,68,676,20180117
+2017,21,Washington,2501,Western Heights Middle,Middle,93.5,99763.0,106700,32.4,260,14.1,113,802,20180117
+2017,21,Washington,2503,Salem Avenue Elementary,Elementary,93.9,70886.0,75478,28.4,163,12.6,72,573,20180117
+2017,21,Washington,2505,Marshall Street School,Elementary,*,*,*,*,*,*,*,*,20180117
+2017,21,Washington,2505,Marshall Street School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,21,Washington,2505,Marshall Street School,High,88.9,4225.5,4754,14.3,5,34.3,12,35,20180117
+2017,21,Washington,2601,Lincolnshire Elementary,Elementary,94.5,54820.0,58009,31.8,141,9.5,42,444,20180117
+2017,21,Washington,2602,Hickory Elementary,Elementary,>= 95.0,*,*,38.4,83,6.5,14,216,20180117
+2017,21,Washington,2701,Fountaindale Elementary,Elementary,>= 95.0,*,*,38.3,119,<= 5.0,*,311,20180117
+2017,21,Washington,A,All Washington Schools,Elementary,>= 95.0,*,*,37.6,3185,6.4,543,8482,20180117
+2017,21,Washington,A,All Washington Schools,Middle,94.8,632278.0,667157,36.2,1829,9.3,468,5053,20180117
+2017,21,Washington,A,All Washington Schools,High,93.4,824080.0,882674,30.6,2042,14.9,994,6669,20180117
+2017,22,Wicomico,0102,Mardela Middle & High,Middle,94.7,32974.5,34830,35.2,103,7.2,21,293,20180117
+2017,22,Wicomico,0102,Mardela Middle & High,High,94.4,41505.5,43962,33.6,124,8.7,32,369,20180117
+2017,22,Wicomico,0106,Northwestern Elementary,Elementary,>= 95.0,*,*,29.0,71,<= 5.0,*,245,20180117
+2017,22,Wicomico,0406,Pittsville Elementary & Middle,Elementary,94.4,18586.5,19686,28.1,47,10.8,18,167,20180117
+2017,22,Wicomico,0406,Pittsville Elementary & Middle,Middle,93.6,25804.5,27561,25.7,59,14.3,33,230,20180117
+2017,22,Wicomico,0510,Wicomico Middle,Middle,93.2,78592.5,84355,26.7,189,17.2,122,708,20180117
+2017,22,Wicomico,0512,East Salisbury Elementary,Elementary,94.6,51566.0,54489,36.4,165,9.7,44,453,20180117
+2017,22,Wicomico,0513,Wicomico High,High,89.8,111779.5,124415,19.8,206,24.6,256,1041,20180117
+2017,22,Wicomico,0514,Beaver Run School,Elementary,94.4,38412.5,40671,31.8,108,10.6,36,340,20180117
+2017,22,Wicomico,0515,Glen Avenue School,Elementary,94.8,47936.5,50569,32.2,138,14.0,60,428,20180117
+2017,22,Wicomico,0520,Wicomico County Evening High,High,60.8,2812.5,4628,<= 5.0,*,89.2,33,37,20180117
+2017,22,Wicomico,0905,North Salisbury Elementary,Elementary,>= 95.0,*,*,34.6,217,7.0,44,628,20180117
+2017,22,Wicomico,0906,Pemberton Elementary,Elementary,>= 95.0,*,*,44.2,170,9.1,35,385,20180117
+2017,22,Wicomico,0907,Charles H. Chipman Elementary,Elementary,93.8,12577.0,13407,30.1,34,12.4,14,113,20180117
+2017,22,Wicomico,0910,Salisbury Middle,Middle,93.8,83470.5,89021,23.8,177,16.1,120,745,20180117
+2017,22,Wicomico,1103,Delmar Elementary,Elementary,94.4,71266.0,75461,24.3,155,8.0,51,639,20180117
+2017,22,Wicomico,1305,Pinehurst Elementary,Elementary,94.0,45247.0,48149,27.4,110,14.2,57,402,20180117
+2017,22,Wicomico,1306,Prince Street School,Elementary,94.5,66960.0,70854,33.9,201,10.8,64,593,20180117
+2017,22,Wicomico,1307,James M. Bennett High,Middle,*,*,*,*,*,*,*,*,20180117
+2017,22,Wicomico,1307,James M. Bennett High,High,91.4,163311.5,178626,25.6,382,19.4,290,1495,20180117
+2017,22,Wicomico,1308,Bennett Middle,Middle,93.2,117348.5,125911,24.9,261,17.4,183,1049,20180117
+2017,22,Wicomico,1309,Parkside High,High,91.5,124108.0,135708,24.1,272,18.8,213,1130,20180117
+2017,22,Wicomico,1404,Willards Elementary,Elementary,93.9,27874.5,29694,20.6,51,11.3,28,248,20180117
+2017,22,Wicomico,1501,Westside Primary,Elementary,>= 95.0,*,*,35.5,43,9.1,11,121,20180117
+2017,22,Wicomico,1502,Westside Intermediate,Elementary,>= 95.0,*,*,38.1,152,6.3,25,399,20180117
+2017,22,Wicomico,1601,Fruitland Primary,Elementary,>= 95.0,*,*,35.2,106,5.3,16,301,20180117
+2017,22,Wicomico,1602,Fruitland Intermediate,Elementary,>= 95.0,*,*,32.8,152,9.3,43,464,20180117
+2017,22,Wicomico,A,All Wicomico Schools,Elementary,94.9,670348.5,706554,31.7,1882,9.7,576,5939,20180117
+2017,22,Wicomico,A,All Wicomico Schools,Middle,93.5,338056.5,361526,25.8,782,16.3,494,3027,20180117
+2017,22,Wicomico,A,All Wicomico Schools,High,91.0,443680.0,487521,24.0,981,21.0,858,4089,20180117
+2017,23,Worcester,0102,Pocomoke Elementary,Elementary,>= 95.0,*,*,30.1,72,9.2,22,239,20180117
+2017,23,Worcester,0107,Pocomoke High,High,92.1,35885.0,38963,21.9,73,21.6,72,334,20180117
+2017,23,Worcester,0108,Pocomoke Middle,Elementary,94.7,15844.0,16723,22.2,32,11.1,16,144,20180117
+2017,23,Worcester,0108,Pocomoke Middle,Middle,93.3,28755.0,30813,25.0,65,16.5,43,260,20180117
+2017,23,Worcester,0205,Snow Hill Elementary,Elementary,94.5,27680.0,29298,33.7,82,6.2,15,243,20180117
+2017,23,Worcester,0207,Snow Hill High,High,91.9,33507.0,36468,19.7,61,21.6,67,310,20180117
+2017,23,Worcester,0208,Snow Hill Middle,Elementary,>= 95.0,*,*,33.3,48,6.3,9,144,20180117
+2017,23,Worcester,0208,Snow Hill Middle,Middle,94.4,25627.0,27157,22.6,53,10.6,25,235,20180117
+2017,23,Worcester,0308,Stephen Decatur Middle,Middle,93.6,69589.0,74337,21.5,137,11.6,74,636,20180117
+2017,23,Worcester,0310,Stephen Decatur High,High,91.4,143581.5,157087,13.6,181,23.5,313,1332,20180117
+2017,23,Worcester,0311,Berlin Intermediate,Elementary,94.0,83026.0,88282,22.6,170,10.9,82,753,20180117
+2017,23,Worcester,0312,Showell Elementary,Elementary,94.4,38468.0,40752,24.5,86,5.4,19,351,20180117
+2017,23,Worcester,0401,Cedar Chapel Special School,Elementary,90.8,1489.0,1639,<= 5.0,*,21.4,3,14,20180117
+2017,23,Worcester,0401,Cedar Chapel Special School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,23,Worcester,0401,Cedar Chapel Special School,High,90.7,2750.0,3032,20.0,5,28.0,7,25,20180117
+2017,23,Worcester,0901,Buckingham Elementary,Elementary,>= 95.0,*,*,33.2,117,6.0,21,352,20180117
+2017,23,Worcester,1001,Ocean City Elementary,Elementary,94.4,49156.0,52082,23.6,104,6.6,29,441,20180117
+2017,23,Worcester,A,All Worcester Schools,Elementary,94.6,262443.0,277442,27.1,640,7.8,185,2362,20180117
+2017,23,Worcester,A,All Worcester Schools,Middle,93.8,160359.0,170976,22.3,326,12.1,177,1465,20180117
+2017,23,Worcester,A,All Worcester Schools,High,91.6,215723.5,235550,16.0,320,23.0,460,2001,20180117
+2017,30,Baltimore City,0004,Steuart Hill Academic Academy,Elementary,89.1,22667.0,25436,17.1,34,32.7,65,199,20180117
+2017,30,Baltimore City,0007,Cecil Elementary,Elementary,>= 95.0,*,*,42.1,104,10.5,26,247,20180117
+2017,30,Baltimore City,0008,City Springs Elementary,Elementary,93.2,50602.0,54319,14.4,65,23.1,104,450,20180117
+2017,30,Baltimore City,0008,City Springs Elementary,Middle,92.3,21020.0,22781,20.5,39,14.2,27,190,20180117
+2017,30,Baltimore City,0010,James McHenry Elementary,Elementary,87.1,20208.0,23202,11.9,22,46.5,86,185,20180117
+2017,30,Baltimore City,0010,James McHenry Elementary,Middle,89.0,10965.5,12318,16.8,17,30.7,31,101,20180117
+2017,30,Baltimore City,0011,Eutaw-Marshburn Elementary,Elementary,>= 95.0,*,*,30.6,59,8.3,16,193,20180117
+2017,30,Baltimore City,0012,Lakeland Elementary/Middle,Elementary,94.4,50329.0,53329,27.6,119,10.7,46,431,20180117
+2017,30,Baltimore City,0012,Lakeland Elementary/Middle,Middle,92.8,27568.5,29720,25.0,61,18.9,46,244,20180117
+2017,30,Baltimore City,0013,Tench Tilghman Elementary,Elementary,>= 95.0,*,*,66.8,139,<= 5.0,*,208,20180117
+2017,30,Baltimore City,0013,Tench Tilghman Elementary,Middle,>= 95.0,*,*,64.9,61,<= 5.0,*,94,20180117
+2017,30,Baltimore City,0015,Stadium School,Middle,91.2,27878.5,30573,29.2,71,23.9,58,243,20180117
+2017,30,Baltimore City,0016,Johnston Square Elementary,Elementary,88.7,29903.0,33721,11.3,31,37.5,103,275,20180117
+2017,30,Baltimore City,0021,Hilton Elementary,Elementary,92.6,33773.5,36488,23.7,69,18.9,55,291,20180117
+2017,30,Baltimore City,0022,George Washington Elementary,Elementary,93.7,22583.0,24101,27.2,53,14.4,28,195,20180117
+2017,30,Baltimore City,0023,Wolfe Street Academy,Elementary,>= 95.0,*,*,47.8,88,<= 5.0,*,184,20180117
+2017,30,Baltimore City,0027,Commodore John Rogers Elementary,Elementary,93.6,49919.5,53345,24.5,106,19.0,82,432,20180117
+2017,30,Baltimore City,0027,Commodore John Rogers Elementary,Middle,90.8,31380.5,34552,18.4,51,27.4,76,277,20180117
+2017,30,Baltimore City,0028,William Pinderhughes Elementary,Elementary,93.4,12850.0,13759,26.1,29,16.2,18,111,20180117
+2017,30,Baltimore City,0028,William Pinderhughes Elementary,Middle,92.8,11401.5,12281,35.7,35,13.3,13,98,20180117
+2017,30,Baltimore City,0029,Matthew A. Henson Elementary,Elementary,91.0,30735.0,33783,25.0,67,27.6,74,268,20180117
+2017,30,Baltimore City,0031,Coldstream Park Elementary,Elementary,89.9,14474.0,16106,22.5,29,35.7,46,129,20180117
+2017,30,Baltimore City,0031,Coldstream Park Elementary,Middle,87.0,9282.0,10674,10.7,9,38.1,32,84,20180117
+2017,30,Baltimore City,0034,Charles Carroll Barrister Elementary,Elementary,94.8,29879.5,31504,37.4,95,8.3,21,254,20180117
+2017,30,Baltimore City,0035,Harlem Park Elementary,Elementary,90.8,18638.0,20523,11.6,19,36.0,59,164,20180117
+2017,30,Baltimore City,0035,Harlem Park Elementary,Middle,91.2,13661.5,14981,17.6,21,19.3,23,119,20180117
+2017,30,Baltimore City,0037,Harford Heights Elementary,Elementary,90.4,35008.0,38707,21.7,65,26.8,80,299,20180117
+2017,30,Baltimore City,0039,Dallas F. Nicholas Sr. Elementary,Elementary,90.1,22200.5,24645,11.9,24,34.3,69,201,20180117
+2017,30,Baltimore City,0044,Montebello Elementary,Elementary,92.0,29251.5,31806,16.1,41,25.6,65,254,20180117
+2017,30,Baltimore City,0044,Montebello Elementary,Middle,93.6,21579.0,23066,25.8,48,17.7,33,186,20180117
+2017,30,Baltimore City,0045,Federal Hill Preparatory School,Elementary,92.7,25543.0,27542,27.7,61,20.0,44,220,20180117
+2017,30,Baltimore City,0047,Hampstead Hill Academy,Elementary,>= 95.0,*,*,47.7,190,<= 5.0,*,398,20180117
+2017,30,Baltimore City,0047,Hampstead Hill Academy,Middle,>= 95.0,*,*,44.8,108,9.1,22,241,20180117
+2017,30,Baltimore City,0050,Abbottston Elementary,Elementary,93.0,19650.0,21120,30.0,51,14.7,25,170,20180117
+2017,30,Baltimore City,0051,Waverly Elementary,Elementary,92.3,36906.0,40005,20.4,65,21.9,70,319,20180117
+2017,30,Baltimore City,0051,Waverly Elementary,Middle,91.0,29620.0,32544,21.9,57,28.8,75,260,20180117
+2017,30,Baltimore City,0053,Margaret Brent Elementary,Elementary,93.5,22349.0,23905,28.4,55,17.5,34,194,20180117
+2017,30,Baltimore City,0053,Margaret Brent Elementary,Middle,91.1,10876.0,11939,26.0,25,25.0,24,96,20180117
+2017,30,Baltimore City,0054,Barclay Elementary/Middle,Elementary,91.9,27103.5,29488,19.2,45,20.1,47,234,20180117
+2017,30,Baltimore City,0054,Barclay Elementary/Middle,Middle,92.3,15373.0,16662,33.3,44,15.9,21,132,20180117
+2017,30,Baltimore City,0055,Hampden,Elementary,94.7,22634.5,23907,28.5,55,10.9,21,193,20180117
+2017,30,Baltimore City,0055,Hampden,Middle,93.7,14655.5,15634,27.6,35,22.8,29,127,20180117
+2017,30,Baltimore City,0058,Dr. Nathan A. Pitts-Ashburton Elementary/Middle,Elementary,89.7,22841.0,25466,16.8,34,37.1,75,202,20180117
+2017,30,Baltimore City,0058,Dr. Nathan A. Pitts-Ashburton Elementary/Middle,Middle,87.9,18338.0,20856,10.3,17,45.5,75,165,20180117
+2017,30,Baltimore City,0060,Gwynns Falls Elementary,Elementary,92.9,32560.0,35052,20.6,58,25.2,71,282,20180117
+2017,30,Baltimore City,0061,John Eager Howard Elementary,Elementary,92.3,28991.5,31409,22.3,56,26.7,67,251,20180117
+2017,30,Baltimore City,0062,Edgecombe Circle Elementary,Elementary,89.9,26485.0,29470,15.3,36,34.5,81,235,20180117
+2017,30,Baltimore City,0063,Rosemont Elementary,Elementary,93.7,21609.0,23074,28.3,51,16.1,29,180,20180117
+2017,30,Baltimore City,0063,Rosemont Elementary,Middle,92.0,14491.0,15750,19.8,24,24.8,30,121,20180117
+2017,30,Baltimore City,0064,Liberty Elementary,Elementary,93.2,39730.0,42638,27.6,94,17.9,61,341,20180117
+2017,30,Baltimore City,0066,Mount Royal Elementary/Middle,Elementary,91.3,30509.5,33399,13.4,36,21.3,57,268,20180117
+2017,30,Baltimore City,0066,Mount Royal Elementary/Middle,Middle,91.6,43798.0,47794,31.8,122,18.2,70,384,20180117
+2017,30,Baltimore City,0067,Edgewood Elementary,Elementary,91.7,19113.0,20832,17.6,29,20.0,33,165,20180117
+2017,30,Baltimore City,0073,Sarah M. Roach Elementary,Elementary,89.9,21807.0,24244,22.8,44,28.5,55,193,20180117
+2017,30,Baltimore City,0075,Calverton,Elementary,>= 95.0,*,*,94.4,134,<= 5.0,*,142,20180117
+2017,30,Baltimore City,0075,Calverton,Middle,91.8,50128.5,54608,36.5,160,16.7,73,438,20180117
+2017,30,Baltimore City,0076,Francis Scott Key Elementary/Middle,Elementary,>= 95.0,*,*,46.8,73,7.1,11,156,20180117
+2017,30,Baltimore City,0076,Francis Scott Key Elementary/Middle,Middle,94.5,30118.0,31866,65.6,166,9.5,24,253,20180117
+2017,30,Baltimore City,0081,North Bend Elementary,Elementary,92.6,29010.0,31318,29.6,73,17.0,42,247,20180117
+2017,30,Baltimore City,0081,North Bend Elementary,Middle,91.5,17210.0,18802,23.0,35,22.4,34,152,20180117
+2017,30,Baltimore City,0083,William Paca Elementary,Elementary,92.1,42218.0,45817,20.2,75,26.9,100,372,20180117
+2017,30,Baltimore City,0084,Thomas Johnson Elementary,Elementary,>= 95.0,*,*,40.6,117,5.2,15,288,20180117
+2017,30,Baltimore City,0084,Thomas Johnson Elementary,Middle,92.7,18443.5,19905,32.7,51,18.6,29,156,20180117
+2017,30,Baltimore City,0085,Fort Worthington Elementary,Elementary,88.6,30592.5,34547,15.2,42,37.2,103,277,20180117
+2017,30,Baltimore City,0085,Fort Worthington Elementary,Middle,83.6,15893.0,19000,11.6,18,51.6,80,155,20180117
+2017,30,Baltimore City,0087,Windsor Hills Elementary,Elementary,92.4,14717.0,15936,18.5,23,16.9,21,124,20180117
+2017,30,Baltimore City,0087,Windsor Hills Elementary,Middle,91.3,12791.5,14015,21.8,24,20.0,22,110,20180117
+2017,30,Baltimore City,0088,Lyndhurst Elementary,Elementary,93.1,31137.0,33448,28.1,76,20.0,54,270,20180117
+2017,30,Baltimore City,0089,Rognel Heights Elementary/Middle,Elementary,93.9,12125.5,12908,33.0,34,9.7,10,103,20180117
+2017,30,Baltimore City,0089,Rognel Heights Elementary/Middle,Middle,90.0,11233.0,12485,18.6,18,27.8,27,97,20180117
+2017,30,Baltimore City,0095,Franklin Square Elementary,Elementary,>= 95.0,*,*,62.3,124,<= 5.0,*,199,20180117
+2017,30,Baltimore City,0095,Franklin Square Elementary,Middle,>= 95.0,*,*,70.1,108,<= 5.0,*,154,20180117
+2017,30,Baltimore City,0097,Collington Square Elementary,Elementary,89.1,27483.5,30851,12.7,31,34.8,85,244,20180117
+2017,30,Baltimore City,0097,Collington Square Elementary,Middle,88.1,16919.0,19213,13.5,21,34.0,53,156,20180117
+2017,30,Baltimore City,0098,Samuel F. B. Morse Elementary,Elementary,89.1,26031.0,29210,14.8,35,33.9,80,236,20180117
+2017,30,Baltimore City,0105,Moravia Park,Elementary,94.5,70431.0,74569,26.5,159,14.5,87,601,20180117
+2017,30,Baltimore City,0107,Gilmor Elementary,Elementary,86.0,19113.0,22222,7.3,13,43.5,77,177,20180117
+2017,30,Baltimore City,0122,The Historic Samuel Coleridge-Taylor Elementary,Elementary,88.9,25861.0,29094,11.9,28,38.7,91,235,20180117
+2017,30,Baltimore City,0124,Bay-Brook Elementary,Elementary,90.0,31557.0,35081,17.3,49,27.9,79,283,20180117
+2017,30,Baltimore City,0124,Bay-Brook Elementary,Middle,84.1,11173.5,13283,7.7,8,47.1,49,104,20180117
+2017,30,Baltimore City,0125,Furman Templeton Preparatory Academy,Elementary,90.5,44689.5,49356,10.9,43,36.3,143,394,20180117
+2017,30,Baltimore City,0130,Booker T. Washington Middle,Middle,80.3,25658.0,31939,8.4,21,49.6,124,250,20180117
+2017,30,Baltimore City,0134,Walter P. Carter Elementary,Elementary,>= 95.0,*,*,43.3,84,8.2,16,194,20180117
+2017,30,Baltimore City,0134,Walter P. Carter Elementary,Middle,>= 95.0,*,*,75.0,63,<= 5.0,*,84,20180117
+2017,30,Baltimore City,0142,Robert W. Coleman Elementary,Elementary,>= 95.0,*,*,31.3,94,15.7,47,300,20180117
+2017,30,Baltimore City,0144,James Mosher Elementary,Elementary,90.7,18517.0,20417,18.6,30,30.4,49,161,20180117
+2017,30,Baltimore City,0145,Alexander Hamilton Elementary,Elementary,93.2,20579.0,22092,34.5,61,15.8,28,177,20180117
+2017,30,Baltimore City,0150,Mary Ann Winterling Elementary at Bentalou,Elementary,94.0,25177.5,26790,34.7,74,11.7,25,213,20180117
+2017,30,Baltimore City,0159,Cherry Hill Elementary/Middle,Elementary,90.6,28226.0,31162,16.3,39,30.4,73,240,20180117
+2017,30,Baltimore City,0159,Cherry Hill Elementary/Middle,Middle,89.3,15363.0,17205,16.5,22,32.3,43,133,20180117
+2017,30,Baltimore City,0160,Dr. Carter Godwin Woodson,Elementary,90.7,24015.5,26485,18.2,38,38.3,80,209,20180117
+2017,30,Baltimore City,0160,Dr. Carter Godwin Woodson,Middle,93.1,9745.0,10466,26.2,22,16.7,14,84,20180117
+2017,30,Baltimore City,0164,Arundel Elementary/Middle,Elementary,90.8,23260.0,25622,11.4,23,37.6,76,202,20180117
+2017,30,Baltimore City,0164,Arundel Elementary/Middle,Middle,86.1,9580.0,11126,<= 5.0,*,51.1,45,88,20180117
+2017,30,Baltimore City,0177,George W. F. McMechen,High,92.1,6132.0,6656,32.7,18,20.0,11,55,20180117
+2017,30,Baltimore City,0178,Excel Academy @ Francis M. Wood High,Middle,31.2,3115.0,9971,<= 5.0,*,>= 95.0,*,59,20180117
+2017,30,Baltimore City,0178,Excel Academy @ Francis M. Wood High,High,34.9,18199.0,52184,<= 5.0,*,>= 95.0,*,413,20180117
+2017,30,Baltimore City,0201,Dickey Hill Elementary/Middle,Elementary,92.5,20733.0,22405,22.1,40,18.8,34,181,20180117
+2017,30,Baltimore City,0201,Dickey Hill Elementary/Middle,Middle,90.9,12596.0,13862,22.9,25,28.4,31,109,20180117
+2017,30,Baltimore City,0203,Maree Garnett Farring Elementary,Elementary,92.7,51716.0,55788,26.8,121,17.5,79,451,20180117
+2017,30,Baltimore City,0203,Maree Garnett Farring Elementary,Middle,90.2,18353.0,20354,25.7,43,23.4,39,167,20180117
+2017,30,Baltimore City,0204,Mary E. Rodman Elementary,Elementary,91.4,19720.5,21567,20.2,35,28.9,50,173,20180117
+2017,30,Baltimore City,0205,Woodhome Elementary/Middle,Elementary,94.0,20854.0,22196,33.5,61,15.4,28,182,20180117
+2017,30,Baltimore City,0205,Woodhome Elementary/Middle,Middle,92.7,12920.0,13934,27.8,32,20.9,24,115,20180117
+2017,30,Baltimore City,0206,Furley Elementary,Elementary,91.8,39357.0,42871,25.6,87,25.0,85,340,20180117
+2017,30,Baltimore City,0207,Curtis Bay Elementary,Elementary,89.0,37886.0,42556,19.7,65,32.1,106,330,20180117
+2017,30,Baltimore City,0207,Curtis Bay Elementary,Middle,90.0,15029.5,16692,12.9,17,34.8,46,132,20180117
+2017,30,Baltimore City,0210,Hazelwood Elementary/Middle,Elementary,94.1,24570.0,26111,27.6,58,15.2,32,210,20180117
+2017,30,Baltimore City,0210,Hazelwood Elementary/Middle,Middle,91.6,18854.0,20582,30.7,50,23.9,39,163,20180117
+2017,30,Baltimore City,0211,Gardenville Elementary,Elementary,92.0,34657.0,37668,17.3,51,21.7,64,295,20180117
+2017,30,Baltimore City,0212,Garrett Heights Elementary,Elementary,92.5,20878.0,22569,27.8,50,18.3,33,180,20180117
+2017,30,Baltimore City,0212,Garrett Heights Elementary,Middle,93.0,10886.0,11705,22.9,22,20.8,20,96,20180117
+2017,30,Baltimore City,0213,Govans Elementary,Elementary,92.9,39012.0,42000,22.1,75,25.1,85,339,20180117
+2017,30,Baltimore City,0214,Guilford Elementary/Middle,Elementary,90.0,20663.0,22970,18.5,34,30.4,56,184,20180117
+2017,30,Baltimore City,0214,Guilford Elementary/Middle,Middle,91.1,11692.0,12833,24.3,25,23.3,24,103,20180117
+2017,30,Baltimore City,0215,Highlandtown Elementary #215,Elementary,93.3,31410.0,33657,23.4,64,19.0,52,273,20180117
+2017,30,Baltimore City,0215,Highlandtown Elementary #215,Middle,92.7,13683.0,14755,19.8,23,19.8,23,116,20180117
+2017,30,Baltimore City,0217,Belmont Elementary,Elementary,92.9,28654.0,30854,28.2,70,23.0,57,248,20180117
+2017,30,Baltimore City,0219,Yorkwood Elementary,Elementary,93.5,37642.5,40238,34.3,109,13.2,42,318,20180117
+2017,30,Baltimore City,0220,Morrell Park Elementary/Middle,Elementary,93.2,22766.0,24437,24.1,48,20.6,41,199,20180117
+2017,30,Baltimore City,0220,Morrell Park Elementary/Middle,Middle,91.6,18349.0,20030,20.5,33,24.8,40,161,20180117
+2017,30,Baltimore City,0221,The Mount Washington School,Elementary,94.8,43063.0,45427,30.9,112,10.2,37,363,20180117
+2017,30,Baltimore City,0221,The Mount Washington School,Middle,93.4,23424.0,25071,22.9,46,12.4,25,201,20180117
+2017,30,Baltimore City,0223,Pimlico Elementary,Elementary,89.2,15542.0,17429,20.4,28,27.0,37,137,20180117
+2017,30,Baltimore City,0223,Pimlico Elementary,Middle,88.8,14876.0,16759,26.4,34,24.0,31,129,20180117
+2017,30,Baltimore City,0224,Grove Park Elementary,Elementary,93.2,17650.0,18928,28.9,44,15.1,23,152,20180117
+2017,30,Baltimore City,0224,Grove Park Elementary,Middle,92.0,11050.0,12011,17.5,17,25.8,25,97,20180117
+2017,30,Baltimore City,0225,Westport Academy,Elementary,90.6,19552.0,21571,18.0,31,39.0,67,172,20180117
+2017,30,Baltimore City,0225,Westport Academy,Middle,86.1,9848.0,11434,11.1,10,43.3,39,90,20180117
+2017,30,Baltimore City,0226,Violetville Elementary/Middle,Elementary,92.1,27074.0,29401,15.8,37,27.4,64,234,20180117
+2017,30,Baltimore City,0226,Violetville Elementary/Middle,Middle,89.0,16880.0,18974,9.8,15,27.5,42,153,20180117
+2017,30,Baltimore City,0228,John Ruhrah Elementary,Elementary,94.6,54040.0,57098,25.6,119,10.5,49,465,20180117
+2017,30,Baltimore City,0228,John Ruhrah Elementary,Middle,93.0,23229.5,24983,27.9,57,20.6,42,204,20180117
+2017,30,Baltimore City,0229,Holabird Elementary,Elementary,93.1,28953.0,31100,20.3,51,15.9,40,251,20180117
+2017,30,Baltimore City,0229,Holabird Elementary,Middle,93.1,14087.0,15137,33.3,41,22.8,28,123,20180117
+2017,30,Baltimore City,0231,Brehms Lane Public Charter School,Elementary,89.9,56462.5,62780,12.8,63,30.8,152,494,20180117
+2017,30,Baltimore City,0232,Thomas Jefferson Elementary,Elementary,93.1,28874.0,31020,28.2,70,19.4,48,248,20180117
+2017,30,Baltimore City,0232,Thomas Jefferson Elementary,Middle,92.4,14591.0,15789,30.8,40,18.5,24,130,20180117
+2017,30,Baltimore City,0233,Roland Park Elementary/Middle,Elementary,>= 95.0,*,*,42.4,235,<= 5.0,*,554,20180117
+2017,30,Baltimore City,0233,Roland Park Elementary/Middle,Middle,>= 95.0,*,*,43.0,292,5.9,40,679,20180117
+2017,30,Baltimore City,0234,Arlington Elementary/Middle,Elementary,92.4,34566.0,37417,24.4,74,19.8,60,303,20180117
+2017,30,Baltimore City,0234,Arlington Elementary/Middle,Middle,93.2,20591.5,22105,27.9,50,19.0,34,179,20180117
+2017,30,Baltimore City,0235,Glenmount Elementary/Middle,Elementary,>= 95.0,*,*,43.8,133,5.6,17,304,20180117
+2017,30,Baltimore City,0235,Glenmount Elementary/Middle,Middle,92.6,25214.0,27232,33.6,74,16.4,36,220,20180117
+2017,30,Baltimore City,0236,Hamilton Elementary/Middle,Elementary,94.5,43513.0,46025,39.1,146,11.5,43,373,20180117
+2017,30,Baltimore City,0236,Hamilton Elementary/Middle,Middle,94.8,34199.5,36070,40.1,116,14.5,42,289,20180117
+2017,30,Baltimore City,0237,Highlandtown Elementary #237,Elementary,93.6,54373.5,58118,30.7,145,14.0,66,473,20180117
+2017,30,Baltimore City,0237,Highlandtown Elementary #237,Middle,94.6,24168.5,25541,42.0,86,10.7,22,205,20180117
+2017,30,Baltimore City,0239,Benjamin Franklin High School at Masonville Cove,High,76.7,44259.0,57702,9.2,42,58.7,267,455,20180117
+2017,30,Baltimore City,0240,Graceland Park/O'Donnel Heights Elementary,Elementary,93.9,29246.0,31134,31.2,77,8.5,21,247,20180117
+2017,30,Baltimore City,0240,Graceland Park/O'Donnel Heights Elementary,Middle,94.5,14366.0,15198,32.0,39,12.3,15,122,20180117
+2017,30,Baltimore City,0241,Fallstaff Elementary,Elementary,92.2,27739.0,30077,23.2,57,21.5,53,246,20180117
+2017,30,Baltimore City,0241,Fallstaff Elementary,Middle,93.7,18851.0,20122,32.5,55,10.7,18,169,20180117
+2017,30,Baltimore City,0242,Northwood Elementary,Elementary,92.9,55353.0,59579,28.5,138,20.0,97,485,20180117
+2017,30,Baltimore City,0243,Armistead Gardens Elementary,Elementary,93.9,47027.0,50101,24.3,99,15.2,62,407,20180117
+2017,30,Baltimore City,0243,Armistead Gardens Elementary,Middle,93.5,21802.0,23307,22.3,42,20.2,38,188,20180117
+2017,30,Baltimore City,0245,Leith Walk Elementary,Elementary,93.8,83379.0,88880,27.2,193,16.1,114,710,20180117
+2017,30,Baltimore City,0245,Leith Walk Elementary,Middle,94.1,43402.0,46125,35.5,133,12.5,47,375,20180117
+2017,30,Baltimore City,0246,Beechfield Elementary,Elementary,93.8,38869.0,41458,31.6,103,12.6,41,326,20180117
+2017,30,Baltimore City,0246,Beechfield Elementary,Middle,92.3,17180.0,18611,41.5,61,16.3,24,147,20180117
+2017,30,Baltimore City,0247,Cross Country Elementary,Elementary,94.0,44677.5,47543,37.9,143,10.9,41,377,20180117
+2017,30,Baltimore City,0247,Cross Country Elementary,Middle,94.0,31524.5,33552,36.8,99,14.1,38,269,20180117
+2017,30,Baltimore City,0248,Sinclair Lane Elementary,Elementary,91.7,29562.0,32253,21.8,57,25.3,66,261,20180117
+2017,30,Baltimore City,0249,Medfield Heights Elementary,Elementary,94.7,33212.5,35069,31.3,88,14.6,41,281,20180117
+2017,30,Baltimore City,0250,"Dr. Bernard Harris, Sr. Elementary",Elementary,89.3,34264.5,38379,25.0,76,17.4,53,304,20180117
+2017,30,Baltimore City,0251,Callaway Elementary,Elementary,90.4,24324.0,26912,15.7,34,29.6,64,216,20180117
+2017,30,Baltimore City,0254,"Dr. Martin Luther King, Jr. Elementary",Elementary,89.0,16637.5,18686,15.7,24,36.6,56,153,20180117
+2017,30,Baltimore City,0254,"Dr. Martin Luther King, Jr. Elementary",Middle,87.9,12168.5,13847,9.0,10,44.1,49,111,20180117
+2017,30,Baltimore City,0256,Calvin M. Rodwell Elementary,Elementary,93.4,28734.5,30774,24.0,58,13.2,32,242,20180117
+2017,30,Baltimore City,0260,Frederick Elementary,Elementary,87.8,12847.5,14631,<= 5.0,*,33.9,39,115,20180117
+2017,30,Baltimore City,0261,Lockerman Bundy Elementary,Elementary,92.1,22076.0,23981,31.3,62,23.7,47,198,20180117
+2017,30,Baltimore City,0262,Empowerment Academy,Elementary,94.4,16927.5,17941,33.8,48,8.5,12,142,20180117
+2017,30,Baltimore City,0262,Empowerment Academy,Middle,94.4,8065.0,8545,47.1,32,<= 5.0,*,68,20180117
+2017,30,Baltimore City,0301,William S. Baer School,Elementary,83.5,7697.0,9213,<= 5.0,*,52.0,39,75,20180117
+2017,30,Baltimore City,0301,William S. Baer School,Middle,83.7,3476.0,4154,6.1,2,51.5,17,33,20180117
+2017,30,Baltimore City,0301,William S. Baer School,High,80.5,3177.0,3946,<= 5.0,*,59.4,19,32,20180117
+2017,30,Baltimore City,0307,Claremont School,Middle,*,*,*,*,*,*,*,*,20180117
+2017,30,Baltimore City,0307,Claremont School,High,91.2,7034.5,7711,26.2,16,34.4,21,61,20180117
+2017,30,Baltimore City,0313,Lois T. Murray Elementary,Elementary,94.5,2622.0,2776,40.9,9,18.2,4,22,20180117
+2017,30,Baltimore City,0313,Lois T. Murray Elementary,Middle,89.3,1886.0,2112,5.9,1,35.3,6,17,20180117
+2017,30,Baltimore City,0314,Sharp-Leadenhall Elementary,Elementary,91.7,4415.0,4813,22.5,9,20.0,8,40,20180117
+2017,30,Baltimore City,0321,Midtown Academy,Elementary,>= 95.0,*,*,46.8,51,<= 5.0,*,109,20180117
+2017,30,Baltimore City,0321,Midtown Academy,Middle,>= 95.0,*,*,65.2,43,<= 5.0,*,66,20180117
+2017,30,Baltimore City,0322,New Song Academy,Elementary,>= 95.0,*,*,48.8,39,<= 5.0,*,80,20180117
+2017,30,Baltimore City,0322,New Song Academy,Middle,94.5,5012.0,5304,51.0,26,7.8,4,51,20180117
+2017,30,Baltimore City,0323,The Crossroads School,Middle,>= 95.0,*,*,46.9,75,7.5,12,160,20180117
+2017,30,Baltimore City,0325,ConneXions: A  Community Based Arts School,Middle,94.7,23921.5,25253,46.3,94,11.3,23,203,20180117
+2017,30,Baltimore City,0325,ConneXions: A  Community Based Arts School,High,85.9,26381.0,30710,15.4,38,41.1,101,246,20180117
+2017,30,Baltimore City,0326,City Neighbors Charter School,Elementary,>= 95.0,*,*,37.2,45,9.1,11,121,20180117
+2017,30,Baltimore City,0326,City Neighbors Charter School,Middle,>= 95.0,*,*,39.5,30,5.3,4,76,20180117
+2017,30,Baltimore City,0327,Patterson Park Public Charter School,Elementary,>= 95.0,*,*,33.3,127,6.8,26,381,20180117
+2017,30,Baltimore City,0327,Patterson Park Public Charter School,Middle,>= 95.0,*,*,33.3,55,8.5,14,165,20180117
+2017,30,Baltimore City,0328,Southwest Baltimore Charter School,Elementary,92.2,27402.0,29710,21.8,52,20.9,50,239,20180117
+2017,30,Baltimore City,0328,Southwest Baltimore Charter School,Middle,92.2,15131.5,16403,26.5,35,31.1,41,132,20180117
+2017,30,Baltimore City,0330,Northwood Appold Community Academy,Elementary,>= 95.0,*,*,44.6,70,8.9,14,157,20180117
+2017,30,Baltimore City,0332,The Green School,Elementary,>= 95.0,*,*,48.4,60,<= 5.0,*,124,20180117
+2017,30,Baltimore City,0333,Independence School Local I,High,81.6,13035.0,15974,10.3,13,50.8,64,126,20180117
+2017,30,Baltimore City,0335,Baltimore International Academy,Elementary,94.4,54234.0,57481,30.4,139,10.9,50,457,20180117
+2017,30,Baltimore City,0335,Baltimore International Academy,Middle,>= 95.0,*,*,51.4,54,5.7,6,105,20180117
+2017,30,Baltimore City,0336,Baltimore Montessori Public Charter School,Elementary,>= 95.0,*,*,25.6,54,5.7,12,211,20180117
+2017,30,Baltimore City,0336,Baltimore Montessori Public Charter School,Middle,94.8,12728.0,13422,26.9,29,9.3,10,108,20180117
+2017,30,Baltimore City,0337,Afya Public Charter School,Middle,>= 95.0,*,*,56.7,194,7.3,25,342,20180117
+2017,30,Baltimore City,0339,Friendship Academy of Engineering and Technology,Middle,83.8,13127.5,15670,16.5,20,36.4,44,121,20180117
+2017,30,Baltimore City,0339,Friendship Academy of Engineering and Technology,High,69.3,27763.0,40048,5.8,18,67.4,211,313,20180117
+2017,30,Baltimore City,0341,The Reach! Partnership School,High,68.1,45231.0,66422,<= 5.0,*,77.0,398,517,20180117
+2017,30,Baltimore City,0342,K.A.S.A. (Knowledge And Success Academy),Middle,81.7,16526.0,20228,7.3,12,59.8,98,164,20180117
+2017,30,Baltimore City,0342,K.A.S.A. (Knowledge And Success Academy),High,67.5,21889.5,32451,<= 5.0,*,74.9,197,263,20180117
+2017,30,Baltimore City,0345,New Hope Academy,Middle,67.1,3041.0,4532,<= 5.0,*,82.9,29,35,20180117
+2017,30,Baltimore City,0345,New Hope Academy,High,52.1,4498.5,8640,<= 5.0,*,81.4,48,59,20180117
+2017,30,Baltimore City,0346,City Neighbors Hamilton,Elementary,94.7,14734.0,15561,33.9,42,<= 5.0,*,124,20180117
+2017,30,Baltimore City,0346,City Neighbors Hamilton,Middle,>= 95.0,*,*,56.6,47,<= 5.0,*,83,20180117
+2017,30,Baltimore City,0347,K.I.P.P. Harmony,Elementary,94.9,103503.0,109009,21.2,175,17.2,142,824,20180117
+2017,30,Baltimore City,0347,K.I.P.P. Harmony,Middle,>= 95.0,*,*,46.9,247,9.7,51,527,20180117
+2017,30,Baltimore City,0348,Baltimore Leadership School for Young Women,Middle,93.5,33713.0,36054,30.1,87,16.6,48,289,20180117
+2017,30,Baltimore City,0348,Baltimore Leadership School for Young Women,High,90.9,23550.0,25899,20.2,42,25.0,52,208,20180117
+2017,30,Baltimore City,0349,N.A.C.A. Freedom and Democracy Academy II,Middle,87.5,10376.0,11858,12.5,12,42.7,41,96,20180117
+2017,30,Baltimore City,0349,N.A.C.A. Freedom and Democracy Academy II,High,84.7,21299.5,25145,9.5,19,48.5,97,200,20180117
+2017,30,Baltimore City,0357,Banneker Blake Academy for Arts and Sciences,Middle,93.4,22051.0,23601,32.4,58,17.9,32,179,20180117
+2017,30,Baltimore City,0362,Bard High School Early College,High,94.0,37220.0,39595,36.6,117,15.3,49,320,20180117
+2017,30,Baltimore City,0364,Bluford Drew Jemison STEM Academy West,Middle,79.9,18917.0,23685,9.6,18,43.6,82,188,20180117
+2017,30,Baltimore City,0364,Bluford Drew Jemison STEM Academy West,High,65.6,18590.0,28354,7.3,16,67.3,148,220,20180117
+2017,30,Baltimore City,0368,Elmer A. Henderson: A Johns Hopkins Partnership Sc,Elementary,94.6,37905.0,40061,22.9,74,15.8,51,323,20180117
+2017,30,Baltimore City,0368,Elmer A. Henderson: A Johns Hopkins Partnership Sc,Middle,91.4,18204.5,19927,23.3,37,28.9,46,159,20180117
+2017,30,Baltimore City,0371,Lillie May Carroll Jackson School,Elementary,>= 95.0,*,*,57.7,15,<= 5.0,*,26,20180117
+2017,30,Baltimore City,0371,Lillie May Carroll Jackson School,Middle,>= 95.0,*,*,44.4,64,8.3,12,144,20180117
+2017,30,Baltimore City,0373,Tunbridge Public Charter School,Elementary,>= 95.0,*,*,38.1,94,5.7,14,247,20180117
+2017,30,Baltimore City,0373,Tunbridge Public Charter School,Middle,>= 95.0,*,*,44.2,68,<= 5.0,*,154,20180117
+2017,30,Baltimore City,0374,Vanguard Collegiate Middle School,Middle,88.7,46266.5,52182,30.9,128,30.0,124,414,20180117
+2017,30,Baltimore City,0375,Baltimore Collegiate School for Boys,Elementary,93.4,15693.0,16797,13.8,18,28.5,37,130,20180117
+2017,30,Baltimore City,0375,Baltimore Collegiate School for Boys,Middle,92.5,18326.0,19817,8.8,14,33.3,53,159,20180117
+2017,30,Baltimore City,0376,City Neighbors High School,High,93.8,47566.5,50718,31.7,128,18.3,74,404,20180117
+2017,30,Baltimore City,0377,Green Street Academy,Middle,91.2,44238.0,48533,17.2,67,32.9,128,389,20180117
+2017,30,Baltimore City,0377,Green Street Academy,High,88.4,35786.0,40474,17.5,57,31.9,104,326,20180117
+2017,30,Baltimore City,0378,Baltimore I.T. Academy,Middle,83.0,19874.5,23941,12.3,22,45.8,82,179,20180117
+2017,30,Baltimore City,0379,Roots and Branches School,Elementary,90.5,19545.0,21596,13.5,23,38.6,66,171,20180117
+2017,30,Baltimore City,0381,Monarch Academy Public Charter School,Elementary,93.0,68553.0,73732,22.1,129,11.1,65,585,20180117
+2017,30,Baltimore City,0381,Monarch Academy Public Charter School,Middle,92.3,27744.0,30046,16.8,40,11.8,28,238,20180117
+2017,30,Baltimore City,0382,Baltimore Design School,Middle,91.2,28020.5,30712,16.9,41,25.9,63,243,20180117
+2017,30,Baltimore City,0382,Baltimore Design School,High,91.4,27379.5,29951,24.6,59,22.9,55,240,20180117
+2017,30,Baltimore City,0384,Creative City Public Charter School,Elementary,91.6,29487.0,32195,16.8,43,26.6,68,256,20180117
+2017,30,Baltimore City,0400,Edmondson-Westside High,High,76.2,86118.5,112983,5.5,50,64.9,585,901,20180117
+2017,30,Baltimore City,0401,Northwestern High,High,64.6,41061.5,63532,6.9,35,76.0,387,509,20180117
+2017,30,Baltimore City,0403,Baltimore Polytechnic Institute,High,93.7,179516.0,191573,36.5,563,14.1,218,1543,20180117
+2017,30,Baltimore City,0405,Patterson High,High,66.7,95050.5,142541,6.2,67,65.8,709,1078,20180117
+2017,30,Baltimore City,0406,Forest Park High,High,65.7,34103.0,51910,<= 5.0,*,78.9,317,402,20180117
+2017,30,Baltimore City,0407,Western High,High,89.5,108864.5,121625,16.9,165,29.9,292,978,20180117
+2017,30,Baltimore City,0410,Mergenthaler Vocational-Technical High,High,84.1,170273.5,202410,11.1,179,45.6,738,1617,20180117
+2017,30,Baltimore City,0413,Achievement Academy @ Harbor City High,High,19.6,10210.0,52125,<= 5.0,*,>= 95.0,*,415,20180117
+2017,30,Baltimore City,0414,Paul Laurence Dunbar High,High,84.5,84516.5,100072,7.6,61,52.8,426,807,20180117
+2017,30,Baltimore City,0415,Baltimore School for the Arts,High,>= 95.0,*,*,39.1,153,<= 5.0,*,391,20180117
+2017,30,Baltimore City,0416,Digital Harbor High School,High,71.5,119215.5,166687,5.9,78,63.0,829,1315,20180117
+2017,30,Baltimore City,0419,Reginald F. Lewis High School,High,61.2,42535.5,69498,<= 5.0,*,74.4,392,527,20180117
+2017,30,Baltimore City,0421,National Academy Foundation,Middle,92.6,29165.5,31511,27.8,70,17.1,43,252,20180117
+2017,30,Baltimore City,0421,National Academy Foundation,High,84.7,60093.0,70943,10.1,59,56.5,330,584,20180117
+2017,30,Baltimore City,0422,New Era Academy,Middle,80.8,7109.5,8794,<= 5.0,*,55.1,38,69,20180117
+2017,30,Baltimore City,0422,New Era Academy,High,61.9,23612.5,38152,<= 5.0,*,80.4,246,306,20180117
+2017,30,Baltimore City,0427,Academy for College and Career Exploration,Middle,83.4,12990.0,15576,15.3,19,48.4,60,124,20180117
+2017,30,Baltimore City,0427,Academy for College and Career Exploration,High,72.3,41306.0,57149,<= 5.0,*,71.6,323,451,20180117
+2017,30,Baltimore City,0429,Vivien T. Thomas Medical Arts Academy,High,78.4,37804.0,48247,<= 5.0,*,64.8,248,383,20180117
+2017,30,Baltimore City,0430,Augusta Fells Savage Institute of Visual Arts,High,66.1,43329.0,65563,10.5,52,70.8,349,493,20180117
+2017,30,Baltimore City,0432,Coppin Academy,High,82.4,35758.0,43371,8.0,28,46.9,165,352,20180117
+2017,30,Baltimore City,0433,Renaissance Academy,High,56.4,17644.5,31272,<= 5.0,*,86.9,205,236,20180117
+2017,30,Baltimore City,0450,Frederick Douglass High,High,60.5,62502.5,103229,<= 5.0,*,84.9,682,803,20180117
+2017,30,Baltimore City,0454,Carver Vocational-Technical High,High,80.6,82548.0,102409,7.9,64,55.3,451,815,20180117
+2017,30,Baltimore City,0480,Baltimore City College,High,90.2,144048.0,159682,24.4,311,23.0,293,1274,20180117
+2017,30,Baltimore City,0884,Eager Street Academy,High,*,*,*,*,*,*,*,*,20180117
+2017,30,Baltimore City,A,All Baltimore City Schools,Elementary,92.9,3794279.0,4085401,25.6,8392,20.6,6755,32839,20180117
+2017,30,Baltimore City,A,All Baltimore City Schools,Middle,91.5,1907382.0,2084138,29.0,4840,22.7,3781,16672,20180117
+2017,30,Baltimore City,A,All Baltimore City Schools,High,76.6,1996387.0,2606979,12.2,2530,53.5,11095,20722,20180117
+2017,32,SEED,1000,The Seed School of Maryland,Middle,>= 95.0,*,*,42.3,90,7.0,15,213,20180117
+2017,32,SEED,1000,The Seed School of Maryland,High,93.1,21519.0,23108,13.6,25,21.2,39,184,20180117
+2017,32,SEED,A,All SEED Schools,Middle,>= 95.0,*,*,42.3,90,7.0,15,213,20180117
+2017,32,SEED,A,All SEED Schools,High,93.1,21519.0,23108,13.6,25,21.2,39,184,20180117
+2017,A,All Public Schools,A,All Maryland Schools,Elementary,95.0,40268903.5,42401254,31.8,108856,8.9,30576,341778,20180117
+2017,A,All Public Schools,A,All Maryland Schools,Middle,94.6,22948337.5,24251268,34.3,66974,11.6,22560,195166,20180117
+2017,A,All Public Schools,A,All Maryland Schools,High,91.3,28972768.5,31726857,27.4,69705,22.1,56377,254852,20180117

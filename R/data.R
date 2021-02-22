@@ -1,8 +1,9 @@
-#' Enrollment and demographic data by Baltimore City Public School (SY 2019-2020)
+#' Enrollment and demographic data by Baltimore City Public School (SY
+#' 2019-2020)
 #'
-#' Total enrollment and demographic characteristics for Baltimore City
-#' public school students including data aggregated by grade, grade band,
-#' school, and citywide for the 2019-2020 school year.
+#' Total enrollment and demographic characteristics for Baltimore City public
+#' school students including data aggregated by grade, grade band, school, and
+#' citywide for the 2019-2020 school year.
 #'
 #' @format A data frame with 2,243 rows and 19 variables:
 #' \describe{
@@ -29,12 +30,13 @@
 #' @source \url{https://www.baltimorecityschools.org/data}
 "enrollment_demographics_SY1920"
 
-#' Enrollment and demographic data by Baltimore City Public School (SY 2019-2020) - long format
+#' Enrollment and demographic data by Baltimore City Public School (SY
+#' 2019-2020) - long format
 #'
-#' Total enrollment and demographic characteristics for Baltimore City
-#' public school students including data aggregated by grade, grade band,
-#' school, and citywide for the 2019-2020 school year. Long format version is
-#' based on the `enrollment_demographics_SY1920` data with an additional `label`
+#' Total enrollment and demographic characteristics for Baltimore City public
+#' school students including data aggregated by grade, grade band, school, and
+#' citywide for the 2019-2020 school year. Long format version is based on the
+#' \code{enrollment_demographics_SY1920} data with an additional \code{label}
 #' column based on the original Excel sheet column names.
 #'
 #' @format A data frame with 26,916 rows and 10 variables:
@@ -53,11 +55,11 @@
 #' @source \url{https://www.baltimorecityschools.org/data}
 "enrollment_demographics_SY1920_long"
 
-#' Baltimore City Public School Parent Survey Results (2018-2019 school year)
+#' Baltimore City Public School Parent Survey Results (SY 2018-2019)
 #'
 #' Results from the Baltimore City Public School Parent Survey administered
-#' during the for the 2018-2029 school year. Data includes composite scores
-#' and responses to selected questions school.
+#' during the for the 2018-2029 school year. Data includes composite scores and
+#' responses to selected questions school.
 #'
 #' @format A data frame with 168 rows and 50 variables:
 #' \describe{
@@ -116,20 +118,21 @@
 "parent_survey_SY1819"
 
 
-#' Baltimore City Public School Parent Survey Results (2018-2019 school year) - long format
+#' Baltimore City Public School Parent Survey Results (SY 2018-2019) -
+#' long format
 #'
 #' Results from the Baltimore City Public School Parent Survey administered
-#' during the for the 2018-2029 school year. Data includes composite scores
-#' and responses to selected questions school. Long format version is
-#' based on the `parent_survey_SY1819` data with an additional `label`
-#' column based on the original Excel sheet column names.
+#' during the for the 2018-2029 school year. Data includes composite scores and
+#' responses to selected questions school. Long format version is based on the
+#' \code{parent_survey_SY1819} data with an additional \code{label} column based on the
+#' original Excel sheet column names.
 #'
 #' @format A data frame with 7,224 rows and 10 variables:
 #' \describe{
 #'   \item{school_number}{School number}
 #'   \item{school_name}{School name}
 #'   \item{management_type}{School management type}
-#'   \item{grade_band}{Grade band}
+#'   \item{grade_band}{School grade band}
 #'   \item{parent_response_count}{Number of parent survey responses}
 #'   \item{est_num_parents}{Estimated number of eligible parents}
 #'   \item{est_response_rate}{Estimated parent response rate}
@@ -143,60 +146,71 @@
 
 #' Baltimore City Public School Student Survey (SY 2018-2019)
 #'
-#' The Maryland School Survey was administered for the first time in spring 2019 to students and educators.
-#' It is online only, in English and Spanish for students. Student participants were from Elementary (Grade 5),
-#' Middle (grades 6-8), and High (grades 9-11), and all instructional staff were eligible. The student
-#' participation rate was 69.9% overall, and the educator participation rate was 76.9%.
+#' The Maryland School Survey was administered for the first time in spring 2019
+#' to students and educators. It is online only, in English and Spanish for
+#' students. Student participants were from Elementary (Grade 5), Middle (grades
+#' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
+#' student participation rate was 69.9% overall, and the educator participation
+#' rate was 76.9%.
 #'
-#' There were four domains and ten topics for students, and five domains and eleven topics for educators.
-#' Survey results ranged from 1-10, with 10 being most favorable and 1 being least favorable. Schools with
-#' fewer than 10 respondents overall or in any topic were excluded from relevant district averages.
-#' Cells with an asterisk (*) denote less than 10 students or educators in the summary group.
-#' Consequently, all data for that group are suppressed. Survey results are included as an indicator
-#' of School Quality and Student Success in the Maryland School Report Card (10 of 100 points:
-#' 7 from the student survey, 3 from the educator survey).
+#' There were four domains and ten topics for students, and five domains and
+#' eleven topics for educators. Survey results ranged from 1-10, with 10 being
+#' most favorable and 1 being least favorable. Schools with fewer than 10
+#' respondents overall or in any topic were excluded from relevant district
+#' averages. Cells with an asterisk (*) denote less than 10 students or
+#' educators in the summary group. Consequently, all data for that group are
+#' suppressed. Survey results are included as an indicator of School Quality and
+#' Student Success in the Maryland School Report Card (10 of 100 points: 7 from
+#' the student survey, 3 from the educator survey).
 #'
-#' Student respondent summary groups include:
-#' Students with Disabilities (SWD) ("Special Education Services" in MSDE file): Indicates students
-#' who have current Individualized Education Plans (IEPs) and are receiving special education services.
-#' English Learner (EL): English Learners, students who have a primary or home language other than
-#' English and have been assessed as having limited or no ability to understand, speak, or read English.
-#' Economically Disadvantaged (ED): Indicates students who have been identified as enrolled in a direct certification program.
-#' Direct certification is based on a student's Supplemental Nutrition Assistance Program (SNAP),
-#' Homeless, Foster care, or Temporary Assistance for Needy Families (TANF) status.
-#' ED is the new terminology used to refer to students historically identified as low-income or
-#' Free and Reduced Meals (FARMS) students under the Every Student Succeeds Act (ESSA).
+#' Student respondent summary groups include: Students with Disabilities (SWD)
+#' ("Special Education Services" in MSDE file): Indicates students who have
+#' current Individualized Education Plans (IEPs) and are receiving special
+#' education services. English Learner (EL): English Learners, students who have
+#' a primary or home language other than English and have been assessed as
+#' having limited or no ability to understand, speak, or read English.
+#' Economically Disadvantaged (ED): Indicates students who have been identified
+#' as enrolled in a direct certification program. Direct certification is based
+#' on a student's Supplemental Nutrition Assistance Program (SNAP), Homeless,
+#' Foster care, or Temporary Assistance for Needy Families (TANF) status. ED is
+#' the new terminology used to refer to students historically identified as
+#' low-income or Free and Reduced Meals (FARMS) students under the Every Student
+#' Succeeds Act (ESSA).
 #'
 #' @format A data frame with 17,380 rows and 9 variables:
 #' \describe{
 #'   \item{school_number}{School number}
 #'   \item{school_name}{School name}
-#'   \item{grade_band}{Grade band}
+#'   \item{grade_band}{School grade band}
 #'   \item{respondent_grade_band}{Grade band of student survey respondents}
 #'   \item{respondent_count}{Number of student survey respondents}
 #'   \item{respondent_group}{Summary group of respondents}
 #'   \item{domain}{Survey domain name}
 #'   \item{topic}{Survey topic name}
 #'   \item{average_score}{Average score}
-#' }
+#'   }
 #' @source \url{https://www.baltimorecityschools.org/data}
 "student_survey_SY1819"
 
 
 #' Baltimore City Public School Educator Survey (SY 2018-2019)
 #'
-#' The Maryland School Survey was administered for the first time in spring 2019 to students and educators.
-#' It is online only, in English and Spanish for students. Student participants were from Elementary (Grade 5),
-#' Middle (grades 6-8), and High (grades 9-11), and all instructional staff were eligible. The student
-#' participation rate was 69.9% overall, and the educator participation rate was 76.9%.
+#' The Maryland School Survey was administered for the first time in spring 2019
+#' to students and educators. It is online only, in English and Spanish for
+#' students. Student participants were from Elementary (Grade 5), Middle (grades
+#' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
+#' student participation rate was 69.9% overall, and the educator participation
+#' rate was 76.9%.
 #'
-#' There were four domains and ten topics for students, and five domains and eleven topics for educators.
-#' Survey results ranged from 1-10, with 10 being most favorable and 1 being least favorable. Schools with
-#' fewer than 10 respondents overall or in any topic were excluded from relevant district averages.
-#' Cells with an asterisk (*) denote less than 10 students or educators in the summary group.
-#' Consequently, all data for that group are suppressed. Survey results are included as an indicator
-#' of School Quality and Student Success in the Maryland School Report Card (10 of 100 points:
-#' 7 from the student survey, 3 from the educator survey).
+#' There were four domains and ten topics for students, and five domains and
+#' eleven topics for educators. Survey results ranged from 1-10, with 10 being
+#' most favorable and 1 being least favorable. Schools with fewer than 10
+#' respondents overall or in any topic were excluded from relevant district
+#' averages. Cells with an asterisk (*) denote less than 10 students or
+#' educators in the summary group. Consequently, all data for that group are
+#' suppressed. Survey results are included as an indicator of School Quality and
+#' Student Success in the Maryland School Report Card (10 of 100 points: 7 from
+#' the student survey, 3 from the educator survey).
 #'
 #' @format A data frame with 1,782 rows and 7 variables:
 #' \describe{
@@ -215,7 +229,7 @@
 #' Baltimore City Public School Elementary School Attendance Zones (SY 2020-2021)
 #'
 #' Boundaries for Baltimore City Public School elementary school attendance zones for
-#' the 2020-2021 school year. The `program_name` variable is equivalent to the `school_number`
+#' the 2020-2021 school year. The \code{program_name} variable is equivalent to the \code{school_number}
 #' variable used in the demographic and survey datasets.
 #'
 #' @format A data frame with 96 rows and 5 variables:
@@ -233,7 +247,7 @@
 #' Baltimore City Public School Program Locations (SY 2020-2021)
 #'
 #' Locations for Baltimore City Public School buildings and programs for the 2020-2021
-#' school year. The `program_name` variable is equivalent to the `school_number`
+#' school year. The \code{program_name} variable is equivalent to the \code{school_number}
 #' variable used in the demographic and survey datasets.
 #'
 #' @format A data frame with 165 rows and 18 variables:
@@ -259,3 +273,53 @@
 #' }
 #' @source \url{https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2021_Programs/FeatureServer}
 "bcps_programs_SY2021"
+
+
+
+#'@title Enrolled students by school and grade (SY 2009-2019)
+#'@description Enrollment data from the Maryland State Department of Education.
+#'  Raw CSV data files with the full state enrollment data are available in the
+#'  \code{inst/extdata} folder.
+#'@format A data frame with 16,763 rows and 6 variables:
+#'\describe{
+#'  \item{\code{school_year}}{School or academic year for enrollment count, e.g.
+#'    2019 data is from the start of the 2019-2020 school year.}
+#'  \item{\code{school_number}}{School number (0 indicates all schools)}
+#'  \item{\code{school_name}}{School name}
+#'  \item{\code{enrolled_count}}{Count of enrolled students in the grade or grade range}
+#'  \item{\code{grade}}{Grades from Prekindergarden (PK) to Grade 12}
+#'  \item{\code{grade_range}}{Elementary school, middle school, high school, or
+#'    all grades (total enrollment)}
+#'  }
+#'@source \url{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads//3/17/6/99/XXXX/2019}
+"enrollment_msde_SY0919"
+
+
+#' @title Attendance data by school (SY 2009-2019)
+#' @description Attendance data from the Maryland State Department of Education.
+#'   Raw CSV data files with the full state enrollment data are available in the
+#'   \code{inst/extdata} folder. Any percent variables with a value of 95% should be
+#'   interpreted as equivalent at or above 95%. Any percent variables with a
+#'   value of 5% should be interpreted as equivalent at or below 5%. Variable
+#'   definitions are incomplete.
+#' @format A data frame with 3,197 rows and 15 variables:
+#' \describe{
+#'   \item{\code{school_year}}{School year or academic year, e.g. 2019 for 2019-2020 school year}
+#'   \item{\code{school_number}}{School number (0 indicates all schools)}
+#'   \item{\code{school_name}}{School name}
+#'   \item{\code{grade_band}}{Grade band (school type)}
+#'   \item{\code{attend_rate_pct}}{Attendance rate (percent)}
+#'   \item{\code{days_attended_cnt}}{Count of days attended}
+#'   \item{\code{days_member_cnt}}{double ... count}
+#'   \item{\code{fewer_5_pct}}{double ... percent}
+#'   \item{\code{fewer_5_cnt}}{double ... count}
+#'   \item{\code{more_20_pct}}{double ... percent}
+#'   \item{\code{more_20_cnt}}{double ... count}
+#'   \item{\code{more_90_member_cnt}}{double ... count}
+#'   \item{\code{chronic_absentee_cnt}}{Chronic absentee count}
+#'   \item{\code{chronic_absentee_denom}}{Chronic absentee denominator}
+#'   \item{\code{chronic_absentee_pct}}{Chronic absentee percent}
+#'}
+#'
+#'@source \url{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads//3/17/6/99/XXXX/2019}
+"attendance_msde_SY0919"

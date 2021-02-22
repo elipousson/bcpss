@@ -24,18 +24,22 @@ A data frame with 1,782 rows and 7 variables:
 educator_survey_SY1819
 }
 \description{
-The Maryland School Survey was administered for the first time in spring 2019 to students and educators.
-It is online only, in English and Spanish for students. Student participants were from Elementary (Grade 5),
-Middle (grades 6-8), and High (grades 9-11), and all instructional staff were eligible. The student
-participation rate was 69.9% overall, and the educator participation rate was 76.9%.
+The Maryland School Survey was administered for the first time in spring 2019
+to students and educators. It is online only, in English and Spanish for
+students. Student participants were from Elementary (Grade 5), Middle (grades
+6-8), and High (grades 9-11), and all instructional staff were eligible. The
+student participation rate was 69.9% overall, and the educator participation
+rate was 76.9%.
 }
 \details{
-There were four domains and ten topics for students, and five domains and eleven topics for educators.
-Survey results ranged from 1-10, with 10 being most favorable and 1 being least favorable. Schools with
-fewer than 10 respondents overall or in any topic were excluded from relevant district averages.
-Cells with an asterisk (*) denote less than 10 students or educators in the summary group.
-Consequently, all data for that group are suppressed. Survey results are included as an indicator
-of School Quality and Student Success in the Maryland School Report Card (10 of 100 points:
-7 from the student survey, 3 from the educator survey).
+There were four domains and ten topics for students, and five domains and
+eleven topics for educators. Survey results ranged from 1-10, with 10 being
+most favorable and 1 being least favorable. Schools with fewer than 10
+respondents overall or in any topic were excluded from relevant district
+averages. Cells with an asterisk (*) denote less than 10 students or
+educators in the summary group. Consequently, all data for that group are
+suppressed. Survey results are included as an indicator of School Quality and
+Student Success in the Maryland School Report Card (10 of 100 points: 7 from
+the student survey, 3 from the educator survey).
 }
 \keyword{datasets}
