@@ -130,3 +130,35 @@ bcps_programs_SY2021 %>%
   scale_color_viridis_d()
 ```
 
+### Enrollment by year with MSDE data
+
+This package also includes enrollment data by year from the Maryland State Department of Education (MSDE) covering the period from 2009 to 2019. Enrollment data for each year is created in the fall of the school year so data from 2009 is relevant for the 2009-2010 school year. To access data on all schools filter the `school_number` to 0 and filter to grade ranges by using `is.na(grade)` as this example illustrates:
+
+```{r all_grades}
+enrollment_msde_SY0919 %>% 
+  filter(school_number == 0, is.na(grade)) %>% 
+  ggplot(aes(x = school_year,
+             y = enrolled_count,
+             color = grade_range)) +
+  geom_point() +
+  geom_line(aes(group = grade_range)) +
+  scale_y_log10()
+
+```
+
+Plotting enrollment data for a single school is similar to the approach outlined in the previous section but users should note that the school names used by MSDE do differ slightly from the school names used by BCPSS.
+
+```{r enrollment_by_year}
+enrollment_msde_SY0919 %>% 
+  filter(school_name == "Cecil Elementary",
+         !is.na(grade),
+         !is.na(enrolled_count)) %>%
+    ggplot(aes(x = school_year,
+             y = enrolled_count,
+             color = grade)) +
+  geom_point() +
+  geom_line(aes(group = grade)) +
+  facet_wrap(~ grade)
+```
+
+
