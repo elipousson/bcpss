@@ -33,9 +33,10 @@ attendance_msde_SY0919
 \description{
 Attendance data from the Maryland State Department of Education.
   Raw CSV data files with the full state enrollment data are available in the
-  \code{inst/extdata} folder. Any percent variables with a value of 95% should be
-  interpreted as equivalent at or above 95%. Any percent variables with a
-  value of 5% should be interpreted as equivalent at or below 5%. Variable
-  definitions are incomplete.
+  \code{inst/extdata} folder. Any percent variables with a value of 95
+  percent should be interpreted as equivalent at or above 95 percent. Any
+  percent variables with a value of 5 percent should be interpreted as
+  equivalent at or below 5 percent. Chronic absentee data is not available
+  prior to 2018. Variable definitions are incomplete.
 }
 \keyword{datasets}

@@ -150,8 +150,8 @@
 #' to students and educators. It is online only, in English and Spanish for
 #' students. Student participants were from Elementary (Grade 5), Middle (grades
 #' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
-#' student participation rate was 69.9% overall, and the educator participation
-#' rate was 76.9%.
+#' student participation rate was 69.9 percent overall, and the educator participation
+#' rate was 76.9 percent.
 #'
 #' There were four domains and ten topics for students, and five domains and
 #' eleven topics for educators. Survey results ranged from 1-10, with 10 being
@@ -199,8 +199,8 @@
 #' to students and educators. It is online only, in English and Spanish for
 #' students. Student participants were from Elementary (Grade 5), Middle (grades
 #' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
-#' student participation rate was 69.9% overall, and the educator participation
-#' rate was 76.9%.
+#' student participation rate was 69.9 percent overall, and the educator participation
+#' rate was 76.9 percent.
 #'
 #' There were four domains and ten topics for students, and five domains and
 #' eleven topics for educators. Survey results ranged from 1-10, with 10 being
@@ -298,10 +298,11 @@
 #' @title Attendance data by school (SY 2009-2019)
 #' @description Attendance data from the Maryland State Department of Education.
 #'   Raw CSV data files with the full state enrollment data are available in the
-#'   \code{inst/extdata} folder. Any percent variables with a value of 95% should be
-#'   interpreted as equivalent at or above 95%. Any percent variables with a
-#'   value of 5% should be interpreted as equivalent at or below 5%. Variable
-#'   definitions are incomplete.
+#'   \code{inst/extdata} folder. Any percent variables with a value of 95
+#'   percent should be interpreted as equivalent at or above 95 percent. Any
+#'   percent variables with a value of 5 percent should be interpreted as
+#'   equivalent at or below 5 percent. Chronic absentee data is not available
+#'   prior to 2018. Variable definitions are incomplete.
 #' @format A data frame with 3,197 rows and 15 variables:
 #' \describe{
 #'   \item{\code{school_year}}{School year or academic year, e.g. 2019 for 2019-2020 school year}

@@ -29,8 +29,8 @@ The Maryland School Survey was administered for the first time in spring 2019
 to students and educators. It is online only, in English and Spanish for
 students. Student participants were from Elementary (Grade 5), Middle (grades
 6-8), and High (grades 9-11), and all instructional staff were eligible. The
-student participation rate was 69.9% overall, and the educator participation
-rate was 76.9%.
+student participation rate was 69.9 percent overall, and the educator participation
+rate was 76.9 percent.
 }
 \details{
 There were four domains and ten topics for students, and five domains and
