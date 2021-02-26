@@ -71,6 +71,9 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
+      <a href="../articles/attendance_data.html">Attendance data</a>
+    </li>
+    <li>
       <a href="../articles/enrollment_demographic_data.html">Enrollment and demographic data</a>
     </li>
   </ul>
@@ -140,19 +143,19 @@
 <p>In the long format, the value of these 12 characteristics are found in the <code>share</code> column which shows the percent share of students in the grade or grade range belonging to the group indicated by <code>variable</code> and <code>label</code> columns.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># Look at enrollment and demographic data in a long format</span>
-<span class="fu"><a href="https://tibble.tidyverse.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">enrollment_demographics_SY1920_long</span><span class="op">)</span>
+<span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">enrollment_demographics_SY1920_long</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 26,916</span>
 <span class="co">#&gt; Columns: 10</span>
-<span class="co">#&gt; $ school_number    &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…</span>
-<span class="co">#&gt; $ school_name      &lt;chr&gt; "All Baltimore City Schools", "All Baltimore City Sc…</span>
-<span class="co">#&gt; $ management_type  &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …</span>
-<span class="co">#&gt; $ grade_band       &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …</span>
-<span class="co">#&gt; $ grade            &lt;fct&gt; PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, K, K…</span>
-<span class="co">#&gt; $ grade_range      &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …</span>
-<span class="co">#&gt; $ total_enrollment &lt;dbl&gt; 4283, 4283, 4283, 4283, 4283, 4283, 4283, 4283, 4283…</span>
-<span class="co">#&gt; $ variable         &lt;chr&gt; "percent_males", "percent_females", "percent_direct_…</span>
-<span class="co">#&gt; $ share            &lt;dbl&gt; 0.499, 0.501, 0.551, 0.059, 0.109, 0.757, 0.073, 0.1…</span>
-<span class="co">#&gt; $ label            &lt;chr&gt; "% Males", "% Females", "% Direct Certification", "%…</span></code></pre></div>
+<span class="co">#&gt; $ school_number    &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…</span>
+<span class="co">#&gt; $ school_name      &lt;chr&gt; "All Baltimore City Schools", "All Baltimore City Sch…</span>
+<span class="co">#&gt; $ management_type  &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span>
+<span class="co">#&gt; $ grade_band       &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span>
+<span class="co">#&gt; $ grade            &lt;fct&gt; PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, PK, K, K,…</span>
+<span class="co">#&gt; $ grade_range      &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span>
+<span class="co">#&gt; $ total_enrollment &lt;dbl&gt; 4283, 4283, 4283, 4283, 4283, 4283, 4283, 4283, 4283,…</span>
+<span class="co">#&gt; $ variable         &lt;chr&gt; "percent_males", "percent_females", "percent_direct_c…</span>
+<span class="co">#&gt; $ share            &lt;dbl&gt; 0.499, 0.501, 0.551, 0.059, 0.109, 0.757, 0.073, 0.13…</span>
+<span class="co">#&gt; $ label            &lt;chr&gt; "% Males", "% Females", "% Direct Certification", "% …</span></code></pre></div>
 </div>
 <div id="summary-rows-for-all-city-schools" class="section level3">
 <h3 class="hasAnchor">

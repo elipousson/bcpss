@@ -1,0 +1,72 @@
+---
+title: "Attendance data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Attendance data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(bcpss)
+library(dplyr)
+library(ggplot2)
+
+# Set a theme for the example plots
+theme_set(theme_light(base_size = 13))
+```
+
+The MSDE attendance data includes both count and percent variables. Not all of the variables in the wide format are available for all years of the dataset. For example, the chronic absentee rate is only available since the 2018 school year. 
+
+```{r overview}
+glimpse(attendance_msde_SY0919)
+```
+
+## Pivot attendance data to long format
+
+Unlike the BCPS data, the MSDE data has only been provided in a wide format but switching into a long format is straightforward as illustrated in the example below.
+
+```{r msde_pivot_longer}
+attendance_msde_SY0919_long <- attendance_msde_SY0919 %>%
+  tidyr::pivot_longer(
+    cols = c(5:15),
+    names_to = "variable",
+    values_to = "value"
+  )
+```
+
+Since the variables include both count and percent variables it may be helpful to add an indicator variable for the type of variable in the value column and remove rows the value is unavailable for that year or school.
+
+```{r msde_variable_type}
+attendance_msde_SY0919_long <- attendance_msde_SY0919_long %>%
+  mutate(
+    variable_type = case_when(
+      stringr::str_detect(variable, "_pct") ~ "percent",
+      stringr::str_detect(variable, "_cnt") ~ "count",
+      stringr::str_detect(variable, "_denom") ~ "denominator"
+    ),
+    .before = value
+  ) %>%
+  filter(!is.na(value))
+```
+
+This is helpful when you want to compare percent values to one another and exclude the count variables. The following examples shows how to do this in comparing the overall attendance rate to the chronic absentee rate.
+
+```{r plot_percent}
+attendance_msde_SY0919_long %>%
+  filter(
+    variable_type == "percent",
+    stringr::str_detect(variable, "attend_rate|chronic_absentee"),
+    school_year >= 2018
+  ) %>%
+  ggplot(aes(x = variable, y = value, color = grade_band)) +
+  geom_jitter(alpha = 0.6) +
+  scale_y_continuous(labels = scales::label_percent(scale = 1))
+```
