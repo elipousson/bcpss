@@ -11,32 +11,35 @@ A data frame with 3,197 rows and 15 variables:
   \item{\code{school_number}}{School number (0 indicates all schools)}
   \item{\code{school_name}}{School name}
   \item{\code{grade_band}}{Grade band (school type)}
-  \item{\code{attend_rate_pct}}{Attendance rate (percent)}
-  \item{\code{days_attended_cnt}}{Count of days attended}
-  \item{\code{days_member_cnt}}{double ... count}
-  \item{\code{fewer_5_pct}}{double ... percent}
-  \item{\code{fewer_5_cnt}}{double ... count}
-  \item{\code{more_20_pct}}{double ... percent}
-  \item{\code{more_20_cnt}}{double ... count}
-  \item{\code{more_90_member_cnt}}{double ... count}
-  \item{\code{chronic_absentee_cnt}}{Chronic absentee count}
-  \item{\code{chronic_absentee_denom}}{Chronic absentee denominator}
-  \item{\code{chronic_absentee_pct}}{Chronic absentee percent}
-}
+  \item{\code{attend_rate_pct}}{Attendance rate as defined as the average daily attendance rate of students in the school and grade band, including special education students}
+  \item{\code{days_attended_cnt}}{Total number of students in attendance from the first day of school through April 13th}
+  \item{\code{days_member_cnt}}{Total number of students registered to attend from the first day of school through April 13th}
+  \item{\code{fewer_5_pct}}{Percent of students absentee rate is the percentage of students absent from school for five or fewer days between the first day of the school year and the last day of the school year}
+  \item{\code{fewer_5_cnt}}{Count of students absentee rate is the percentage of students absent from school for five or fewer days between the first day of the school year and the last day of the school year}
+  \item{\code{more_20_pct}}{Percent of students absentee rate is the percentage of students absent from school for twenty or more days between the first day of the school year and the last day of the school year}
+  \item{\code{more_20_cnt}}{Number of students absentee rate is the percentage of students absent from school for twenty or more days between the first day of the school year and the last day of the school year}
+  \item{\code{more_90_member_cnt}}{Number of students with an attendance rate of 90 percent or more (?)}
+  \item{\code{chronic_absentee_cnt}}{Number of students expected to attend school for at least 10 days who were absent 10 percent or more of the school days while enrolled at that school}
+  \item{\code{chronic_absentee_denom}}{Number of students who are expected to attend school for at least 10 days in the school year}
+  \item{\code{chronic_absentee_pct}}{Chronic absenteeism rate as defined as the percent of students expected to attend school for at least 10 days who were absent 10 percent or more of the school days while enrolled at that school}
+ }
 }
 \source{
-\url{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads//3/17/6/99/XXXX/2019}
+\href{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload}{MSDE Data Downloads}
 }
 \usage{
 attendance_msde_SY0919
 }
 \description{
-Attendance data from the Maryland State Department of Education.
-  Raw CSV data files with the full state enrollment data are available in the
-  \code{inst/extdata} folder. Any percent variables with a value of 95
-  percent should be interpreted as equivalent at or above 95 percent. Any
-  percent variables with a value of 5 percent should be interpreted as
-  equivalent at or below 5 percent. Chronic absentee data is not available
-  prior to 2018. Variable definitions are incomplete.
+Attendance data from the Maryland State Department of Education
+  (MSDE). Raw CSV data files with the full state enrollment data are
+  available in the \code{inst/extdata} folder. Any percent variables with a
+  value of 95 percent should be interpreted as equivalent at or above 95
+  percent. Any percent variables with a value of 5 percent should be
+  interpreted as equivalent to at or below 5 percent. Chronic absenteeism
+  data is not available prior to 2018 when the federal Every Student Succeeds
+  Act (passed in 2015) went into effect and Maryland began to include the
+  chronic absenteeism rate in the state's annual academic report cards.
+  Variable definitions are based on the \href{https://reportcard.msde.maryland.gov/Definitions/Index}{definitions from the MSDE website}.
 }
 \keyword{datasets}

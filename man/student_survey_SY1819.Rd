@@ -7,15 +7,15 @@
 \format{
 A data frame with 17,380 rows and 9 variables:
 \describe{
-  \item{school_number}{School number}
-  \item{school_name}{School name}
-  \item{grade_band}{School grade band}
-  \item{respondent_grade_band}{Grade band of student survey respondents}
-  \item{respondent_count}{Number of student survey respondents}
-  \item{respondent_group}{Summary group of respondents}
-  \item{domain}{Survey domain name}
-  \item{topic}{Survey topic name}
-  \item{average_score}{Average score}
+  \item{\code{school_number}}{School number}
+  \item{\code{school_name}}{School name}
+  \item{\code{grade_band}}{School grade band}
+  \item{\code{respondent_grade_band}}{Grade band of student survey respondents}
+  \item{\code{respondent_count}}{Number of student survey respondents}
+  \item{\code{respondent_group}}{Summary group of respondents}
+  \item{\code{domain}}{Survey domain name}
+  \item{\code{topic}}{Survey topic name}
+  \item{\code{average_score}}{Average score}
   }
 }
 \source{

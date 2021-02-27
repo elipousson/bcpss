@@ -8,16 +8,16 @@ long format}
 \format{
 A data frame with 7,224 rows and 10 variables:
 \describe{
-  \item{school_number}{School number}
-  \item{school_name}{School name}
-  \item{management_type}{School management type}
-  \item{grade_band}{School grade band}
-  \item{parent_response_count}{Number of parent survey responses}
-  \item{est_num_parents}{Estimated number of eligible parents}
-  \item{est_response_rate}{Estimated parent response rate}
-  \item{variable}{Unique slug for composite score or question}
-  \item{value}{Value of composite score or share of parents responding affirmatively to question}
-  \item{label}{Variable label for composite score or question}
+  \item{\code{school_number}}{School number}
+  \item{\code{school_name}}{School name}
+  \item{\code{management_type}}{School management type}
+  \item{\code{grade_band}}{School grade band}
+  \item{\code{parent_response_count}}{Number of parent survey responses}
+  \item{\code{est_num_parents}}{Estimated number of eligible parents}
+  \item{\code{est_response_rate}}{Estimated parent response rate}
+  \item{\code{variable}}{Unique slug for composite score or question}
+  \item{\code{value}}{Value of composite score or share of parents responding affirmatively to question}
+  \item{\code{label}}{Variable label for composite score or question}
 }
 }
 \source{

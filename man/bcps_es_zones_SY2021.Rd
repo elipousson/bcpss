@@ -7,11 +7,11 @@
 \format{
 A data frame with 96 rows and 5 variables:
 \describe{
-  \item{zone_number}{Program zone number}
-  \item{zone_name}{Program zone name}
-  \item{program_number}{Program number (school number)}
-  \item{program_name_short}{Program name (short)}
-  \item{geometry}{Multipolygon geometry for zone boundaries}
+  \item{\code{zone_number}}{Program zone number}
+  \item{\code{zone_name}}{Program zone name}
+  \item{\code{program_number}}{Program number (school number)}
+  \item{\code{program_name_short}}{Program name (short)}
+  \item{\code{geometry}}{Multipolygon geometry for zone boundaries}
 }
 }
 \source{

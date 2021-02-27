@@ -7,24 +7,24 @@
 \format{
 A data frame with 165 rows and 18 variables:
 \describe{
-  \item{program_number}{Program number (school number)}
-  \item{program_name_short}{Program name (short)}
-  \item{grade_band}{Grade band for program}
-  \item{management_type}{School management type}
-  \item{category}{Grade category}
-  \item{swing}{Logical indicator for program at swing site}
-  \item{swing_building_number}{Building number for swing site}
-  \item{colocated}{Logical indicator for programs colocated with another program}
-  \item{two_buildings}{Logical indicator for programs with two buildings at one site}
-  \item{home_building}{...}
-  \item{council_district}{Baltimore City Council District Number}
-  \item{legislative_district}{Maryland Legislative District}
-  \item{congressional_district}{U.S. Congressional District}
-  \item{planning_area}{Planning area, Baltimore City Department of Planning}
-  \item{quadrant}{Quadrant}
-  \item{zone_number}{Program zone number}
-  \item{zone_name}{Program zone name}
-  \item{geometry}{Multipolygon geometry for zone boundaries}
+  \item{\code{program_number}}{Program number (school number)}
+  \item{\code{program_name_short}}{Program name (short)}
+  \item{\code{grade_band}}{Grade band for program}
+  \item{\code{management_type}}{School management type}
+  \item{\code{category}}{Grade category}
+  \item{\code{swing}}{Logical indicator for program at swing site}
+  \item{\code{swing_building_number}}{Building number for swing site}
+  \item{\code{colocated}}{Logical indicator for programs colocated with another program}
+  \item{\code{two_buildings}}{Logical indicator for programs with two buildings at one site}
+  \item{\code{home_building}}{...}
+  \item{\code{council_district}}{Baltimore City Council District Number}
+  \item{\code{legislative_district}}{Maryland Legislative District}
+  \item{\code{congressional_district}}{U.S. Congressional District}
+  \item{\code{planning_area}}{Planning area, Baltimore City Department of Planning}
+  \item{\code{quadrant}}{Quadrant}
+  \item{\code{zone_number}}{Program zone number}
+  \item{\code{zone_name}}{Program zone name}
+  \item{\code{geometry}}{Multipolygon geometry for zone boundaries}
 }
 }
 \source{
