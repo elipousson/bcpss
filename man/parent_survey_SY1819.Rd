@@ -5,7 +5,7 @@
 \alias{parent_survey_SY1819}
 \title{Baltimore City Public School Parent Survey Results (SY 2018-2019)}
 \format{
-A data frame with 168 rows and 50 variables:
+A data frame with 169 rows and 54 variables:
 \describe{
   \item{\code{school_number}}{School number}
   \item{\code{school_name}}{School name}
@@ -57,6 +57,10 @@ A data frame with 168 rows and 50 variables:
   \item{\code{parent_talk_2_i_ask_my_child_what_he_she_did_at_school_at_least_once_a_month}}{I ask my child what he/she did at school at least once a month}
   \item{\code{district_office_1_if_you_called_the_district_office_within_the_last_year_how_satisfied_were_you_overall_with_the_support_you_received}}{If you called the District Office within the last year, how satisfied were you overall with the support you received?}
   \item{\code{district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested}}{If you visited District Headquarters within the last year, how satisfied were you overall with the service(s) you requested?}
+  \item{\code{transportation_how_does_your_child_usually_get_to_school_walk}}{Transportation - How does your child usually get to school? Walk}
+  \item{\code{transportation_how_does_your_child_usually_get_to_school_school_bus}}{Transportation - How does your child usually get to school? School Bus}
+  \item{\code{transportation_how_does_your_child_usually_get_to_school_mta_bus}}{Transportation - How does your child usually get to school? MTA Bus}
+  \item{\code{transportation_how_does_your_child_usually_get_to_school_car}}{Transportation - How does your child usually get to school? Car}
 }
 }
 \source{

@@ -174,7 +174,7 @@ parent_survey_SY1819_names <- parent_survey_SY1819_names %>%
 # Switch to long format and add label column
 parent_survey_SY1819_long <- parent_survey_SY1819 %>%
   tidyr::pivot_longer(
-    cols = c(8:50),
+    cols = c(8:54),
     names_to = "variable",
     values_to = "value"
   ) %>%

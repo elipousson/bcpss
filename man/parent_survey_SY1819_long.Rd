@@ -6,7 +6,7 @@
 \title{Baltimore City Public School Parent Survey Results (SY 2018-2019) -
 long format}
 \format{
-A data frame with 7,224 rows and 10 variables:
+A data frame with 7,943 rows and 10 variables:
 \describe{
   \item{\code{school_number}}{School number}
   \item{\code{school_name}}{School name}
