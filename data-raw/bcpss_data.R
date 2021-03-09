@@ -108,6 +108,24 @@ parent_survey_SY1819 <- readxl::read_excel(parent_survey_SY1819_path) %>%
   dplyr::relocate(management_type, .after = school_name) %>%
   dplyr::arrange(school_number)
 
+# usethis::use_data(parent_survey_SY1819, overwrite = TRUE)
+
+transportation_survey_SY1819_path <- "inst/extdata/SY18-19_Parent_Survey_Transportation.xlsx"
+
+transportation_survey_SY1819 <- readxl::read_excel(transportation_survey_SY1819_path) %>%
+  janitor::clean_names("snake") %>%
+  naniar::replace_with_na_all(~ .x == "*") %>%
+  dplyr::mutate(
+    # Convert survey results into numeric variables
+    dplyr::across(c(5:9), as.numeric),
+    # Make school number an integer so it can be sorted
+    school_number = dplyr::if_else(school_number == "(all)", as.integer("0"), as.integer(school_number))
+  ) %>%
+  dplyr::select(school_number, transportation_how_does_your_child_usually_get_to_school_walk:transportation_how_does_your_child_usually_get_to_school_car)
+
+parent_survey_SY1819 <- parent_survey_SY1819 %>%
+  left_join(transportation_survey_SY1819, by = "school_number")
+
 usethis::use_data(parent_survey_SY1819, overwrite = TRUE)
 
 # Getting the text of the questions
@@ -140,6 +158,19 @@ parent_survey_SY1819_names <- readxl::read_excel(path = parent_survey_SY1819_pat
   ) %>%
   dplyr::select(variable, label)
 
+transportation_survey_SY1819_names <- readxl::read_excel(path = transportation_survey_SY1819_path) %>%
+  names() %>%
+  tibble::enframe() %>%
+  dplyr::select(-name) %>%
+  dplyr::mutate(
+    variable = snakecase::to_any_case(value, "snake")
+  ) %>%
+  dplyr::filter(stringr::str_detect("^transportation", variable)) %>%
+  dplyr::rename(label = value)
+
+parent_survey_SY1819_names <- parent_survey_SY1819_names %>%
+  dplyr::bind_rows(transportation_survey_SY1819_names)
+
 # Switch to long format and add label column
 parent_survey_SY1819_long <- parent_survey_SY1819 %>%
   tidyr::pivot_longer(
@@ -151,7 +182,6 @@ parent_survey_SY1819_long <- parent_survey_SY1819 %>%
   dplyr::arrange(school_number)
 
 usethis::use_data(parent_survey_SY1819_long, overwrite = TRUE)
-
 
 # Student and educator Survey ----
 # Starting in the 2018-2019 school year, all teachers and students in grades 5-11 had the opportunity to take
