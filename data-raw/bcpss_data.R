@@ -93,7 +93,7 @@ usethis::use_data(enrollment_demographics_SY1920_long, overwrite = TRUE)
 parent_survey_SY1819_path <- "inst/extdata/SY18-19_Parent_School_Survey_OFFICIAL.xlsx"
 
 parent_survey_SY1819 <- readxl::read_excel(parent_survey_SY1819_path) %>%
-  janitor::clean_names("snake") %>%
+  janitor::clean_names("snake", numerals = "left") %>%
   naniar::replace_with_na_all(~ .x == "S") %>%
   dplyr::mutate(
     # Convert survey results into numeric variables
@@ -113,7 +113,7 @@ parent_survey_SY1819 <- readxl::read_excel(parent_survey_SY1819_path) %>%
 transportation_survey_SY1819_path <- "inst/extdata/SY18-19_Parent_Survey_Transportation.xlsx"
 
 transportation_survey_SY1819 <- readxl::read_excel(transportation_survey_SY1819_path) %>%
-  janitor::clean_names("snake") %>%
+  janitor::clean_names("snake", numerals = "left") %>%
   naniar::replace_with_na_all(~ .x == "*") %>%
   dplyr::mutate(
     # Convert survey results into numeric variables
@@ -133,7 +133,7 @@ parent_survey_SY1819_names <- readxl::read_excel(path = parent_survey_SY1819_pat
   names() %>%
   tibble::enframe() %>%
   dplyr::mutate(
-    variable = snakecase::to_any_case(value, "snake"),
+    variable = snakecase::to_any_case(value, "snake", numerals = "left"),
     variable = dplyr::case_when(
       variable == "estimated_parent_number_eligible1" ~ "est_num_parents",
       variable == "estimated_parent_response_rate1" ~ "est_response_rate",
@@ -163,9 +163,9 @@ transportation_survey_SY1819_names <- readxl::read_excel(path = transportation_s
   tibble::enframe() %>%
   dplyr::select(-name) %>%
   dplyr::mutate(
-    variable = snakecase::to_any_case(value, "snake")
+    variable = snakecase::to_any_case(value, "snake", numerals = "left")
   ) %>%
-  dplyr::filter(stringr::str_detect("^transportation", variable)) %>%
+  dplyr::filter(stringr::str_detect(variable, "^transportation")) %>%
   dplyr::rename(label = value)
 
 parent_survey_SY1819_names <- parent_survey_SY1819_names %>%
@@ -179,6 +179,19 @@ parent_survey_SY1819_long <- parent_survey_SY1819 %>%
     values_to = "value"
   ) %>%
   dplyr::left_join(parent_survey_SY1819_names, by = "variable") %>%
+  dplyr::mutate(
+    label = dplyr::case_when(
+      variable == "admin9_parents_have_the_opportunity_to_give_input_into_the_schools_decisions" ~ "Parents have the opportunity to give input into the school's decisions",
+      variable == "creative1_student_work_in_the_arts_is_displayed_or_presented_in_my_childs_school" ~ "Student work in the arts is displayed or presented in my child's school",
+      variable == "parent11_parents_can_use_resources_at_my_childs_school_when_school_is_not_in_session" ~ "Parents can use resources at my child's school when school is not in session",
+      variable == "parent19_i_feel_that_my_input_into_my_childs_education_is_valued" ~ "I feel that my input into my child's education is valued",
+      variable == "parent20_my_childs_school_can_connect_me_to_resources_in_the_community" ~ "My child's school can connect me to resources in the community",
+      variable == "parent23_my_childs_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn" ~ "My child's school regularly communicates with parents about how they can help their children learn",
+      variable == "satisfy11_overall_i_am_satisfied_with_my_childs_school" ~ "Overall, I am satisfied with my child's school",
+      variable == "value1_regular_on_time_attendance_is_important_to_my_childs_success_in_school" ~ "Regular, on-time attendance is important to my child's success in school",
+      TRUE ~ label
+    )
+  ) %>%
   dplyr::arrange(school_number)
 
 usethis::use_data(parent_survey_SY1819_long, overwrite = TRUE)
