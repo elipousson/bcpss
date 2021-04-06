@@ -258,3 +258,44 @@ educator_survey_SY1819$grade_band <- factor(educator_survey_SY1819$grade_band, c
 
 usethis::use_data(educator_survey_SY1819, overwrite = TRUE)
 
+
+# KRA data ----
+kra_school_results_path <- "https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-20-KRA-School-Level-Results.xlsx"
+
+kra_results_SY1920 <- openxlsx::read.xlsx(kra_school_results_path,
+                                          sheet = 1) %>%
+  janitor::clean_names("snake") %>%
+  naniar::replace_with_na_all(condition = ~ .x == "*") %>%
+  mutate(
+    school_number = if_else(school_name == "All Baltimore City Schools", 0L, as.integer(school_number)),
+  ) %>%
+  mutate(
+    group_type = stringr::str_extract(student_group, ".+(?=:)"),
+    student_group = if_else(student_group != "All Students ", stringr::str_extract(student_group, "(?<=:[:space:]).+"), "All Students"),
+    student_group = if_else(student_group == "Yes", group_type, student_group),
+    .after = student_group
+  ) %>%
+  naniar::replace_with_na(replace = list(group_type = c("Economically Disadvantaged", "EL", "SWD"))) %>%
+  rename(
+    num_tested_scored_overall = test_takers_with_overall_score
+  ) %>%
+  rename_with(
+    .fn = ~ stringr::str_replace(.x, "percent_", "perc_"),
+    .cols = starts_with("percent")
+  ) %>%
+  rename_with(
+    .fn = ~ stringr::str_replace(.x, "average_", "avg_"),
+    .cols = starts_with("average")
+  ) %>%
+  mutate(
+    num_tested_scored_overall = as.integer(num_tested_scored_overall),
+    dplyr::across(c(6:13), as.numeric)
+  ) %>%
+  arrange(school_number)
+
+# Descriptions and definitions in source Excel sheet
+# kra_results_SY1920_details <- openxlsx::read.xlsx(kra_school_results_path, sheet = 2)
+
+usethis::use_data(kra_results_SY1920, overwrite = TRUE)
+
+
