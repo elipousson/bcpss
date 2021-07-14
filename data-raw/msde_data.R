@@ -124,8 +124,29 @@ usethis::use_data(attendance_msde_SY0919, overwrite = TRUE)
 
 # Not exported
 attendance_msde_SY1520_long <- attendance_msde_SY1520 %>%
-tidyr::pivot_longer(
-  cols = c(8:18),
-  names_to = "variable",
-  values_to = "value"
-)
+  tidyr::pivot_longer(
+    cols = c(8:18),
+    names_to = "variable",
+    values_to = "value"
+  )
+
+# Accountability data (exported 2021 July 13) ----
+
+accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) %>%
+  janitor::clean_names("snake") %>%
+  rename(
+    lea_number = lss_number,
+    lea_name = lss_name
+  ) %>%
+  filter(lea_name == "Baltimore City") %>%
+  naniar::replace_with_na_all(condition = ~ .x == "na") %>%
+  mutate(
+    across(all_of(c(7:10)),
+           as.numeric),
+    across(all_of(c(4, 6)),
+           as.integer)
+  ) %>%
+  select(-c(lea_number, lea_name))
+
+usethis::use_data(accountability_SY19, overwrite = TRUE)
+

@@ -365,7 +365,7 @@
 #'   \item{\code{school_name}}{School name}
 #'   \item{\code{student_group}}{Student group (includes "All Students")}
 #'   \item{\code{group_type}}{Student group type}
-#'   \item{\code{num_tested_scored_overall}}{Number of test takrs with overall scores}
+#'   \item{\code{num_tested_scored_overall}}{Number of test takers with overall scores}
 #'   \item{\code{avg_scale_score}}{Average KRA scale score}
 #'   \item{\code{perc_emerging_readiness}}{Percent of test takers in Emerging Readiness category. Emerging readiness: Student demonstrates limited foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
 #'   \item{\code{perc_approaching_readiness}}{Percent of test takers in Approaching Readiness category. Approaching readiness: Student demonstrates some foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
@@ -377,3 +377,33 @@
 #'}
 #'@source \href{https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-20-KRA-School-Level-Results.xlsx}{BCPSS Public 2019-20 KRA School Level Results}
 "kra_results_SY1920"
+
+
+#' @title Accountability data (SY 2019)
+#' @description The Maryland State Department of Education is required to report
+#'   "accountability data" under the 2015 federal Every Student Succeeds Act
+#'   (ESSA). Maryland's plan for an accountability system that complies with the
+#'   ESSA was approved by the U.S. Department of Education in early 2018.
+#'   Overall, The accountability system has two parts: academic indicators,
+#'   which make up 65 possible points in the system, and measures of school
+#'   quality and student success, which are 35 possible points.  The star rating
+#'   and total points are summary measures based on a broad selection of
+#'   performance indicators to measure how schools are doing.
+#'
+#'   Detailed data is available for download through the MSDE website. Howard
+#'   County Public School System (HCPSS) provides an accessible explanation of
+#'   the accountability data on their website:
+#'   https://www.hcpss.org/about-us/essa/
+#' @format A data frame with 160 rows and 8 variables:
+#' \describe{
+#'   \item{\code{year}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{school_number}}{School number}
+#'   \item{\code{school_name}}{School name}
+#'   \item{\code{star_rating}}{Star rating}
+#'   \item{\code{total_points_earned_percentage}}{Total points earned (as a percentage)}
+#'   \item{\code{percentile_rank_elementary}}{Statewide percentile rank for elementary school grade band}
+#'   \item{\code{percentile_rank_middle}}{Statewide percentile rank for middle school grade band}
+#'   \item{\code{percentile_rank_high}}{Statewide percentile rank for high school grade band}
+#'}
+#'@source \href{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload}{MSDE Data Downloads}
+"accountability_SY19"
