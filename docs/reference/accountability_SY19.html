@@ -22,7 +22,7 @@
   }
 </script>
 
-<title>MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City Public Schools (SY 2019-2020) — kra_results_SY1920 • bcpss</title>
+<title>Accountability data (SY 2019) — accountability_SY19 • bcpss</title>
 
 
 <!-- jquery -->
@@ -65,30 +65,20 @@
 
 
 
-<meta property="og:title" content="MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City Public Schools (SY 2019-2020) — kra_results_SY1920" />
-<meta property="og:description" content="As of 2018-19, students who are not scored (NS) in all items
-  still receive a composite score and readiness level. NS is applied when an
-  item requires demonstration of a skill (e.g., hopping), and the child is
-  not able to respond due to a disability that restricts or prevents
-  participating in the skill being assessed. A NS rating would not be
-  appropriate when the response to the item reflects a child's functioning at
-  an earlier developmental level and their ability to respond is not affected
-  by a disability; in this instance the appropriate rating would be “0” since
-  the child could access the item, but did not demonstrate the skill. See
-  MSDE: KRA 2018-19 Technical Report, January 2019. Consistent with MSDE's
-  reporting, aggregates exclude students with some incomplete items, and
-  include students with not scorable (NS) items. Missing values include data
-  that has been suppressed due to a group size of less than 10 students.
-Children whose readiness skills and behaviors are &quot;approaching&quot; or
-  &quot;emerging&quot; overall require instructional support to be successful in
-  kindergarten and beyond. Reports of KRA data prior to the 2018-19
-  administration have readiness level assigned for each of the four domains
-  (Literacy, Math, Social Foundations, and Physical Development). Since last
-  year's administration, readiness levels are no longer reported for
-  individual domains, and only an overall or composite readiness level is
-  reported. This is why this data file does not resemble previous releases of
-  KRA data. Details on the KRA assessment and changes to the test can be
-  found at https://pd.kready.org/r4kmaryland." />
+<meta property="og:title" content="Accountability data (SY 2019) — accountability_SY19" />
+<meta property="og:description" content="The Maryland State Department of Education is required to report
+  &quot;accountability data&quot; under the 2015 federal Every Student Succeeds Act
+  (ESSA). Maryland's plan for an accountability system that complies with the
+  ESSA was approved by the U.S. Department of Education in early 2018.
+  Overall, The accountability system has two parts: academic indicators,
+  which make up 65 possible points in the system, and measures of school
+  quality and student success, which are 35 possible points.  The star rating
+  and total points are summary measures based on a broad selection of
+  performance indicators to measure how schools are doing.
+Detailed data is available for download through the MSDE website. Howard
+  County Public School System (HCPSS) provides an accessible explanation of
+  the accountability data on their website:
+  https://www.hcpss.org/about-us/essa/" />
 
 
 
@@ -174,62 +164,47 @@ Children whose readiness skills and behaviors are &quot;approaching&quot; or
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City Public Schools (SY 2019-2020)</h1>
+    <h1>Accountability data (SY 2019)</h1>
     
-    <div class="hidden name"><code>kra_results_SY1920.Rd</code></div>
+    <div class="hidden name"><code>accountability_SY19.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>As of 2018-19, students who are not scored (NS) in all items
-  still receive a composite score and readiness level. NS is applied when an
-  item requires demonstration of a skill (e.g., hopping), and the child is
-  not able to respond due to a disability that restricts or prevents
-  participating in the skill being assessed. A NS rating would not be
-  appropriate when the response to the item reflects a child's functioning at
-  an earlier developmental level and their ability to respond is not affected
-  by a disability; in this instance the appropriate rating would be “0” since
-  the child could access the item, but did not demonstrate the skill. See
-  MSDE: KRA 2018-19 Technical Report, January 2019. Consistent with MSDE's
-  reporting, aggregates exclude students with some incomplete items, and
-  include students with not scorable (NS) items. Missing values include data
-  that has been suppressed due to a group size of less than 10 students.</p>
-<p>Children whose readiness skills and behaviors are "approaching" or
-  "emerging" overall require instructional support to be successful in
-  kindergarten and beyond. Reports of KRA data prior to the 2018-19
-  administration have readiness level assigned for each of the four domains
-  (Literacy, Math, Social Foundations, and Physical Development). Since last
-  year's administration, readiness levels are no longer reported for
-  individual domains, and only an overall or composite readiness level is
-  reported. This is why this data file does not resemble previous releases of
-  KRA data. Details on the KRA assessment and changes to the test can be
-  found at https://pd.kready.org/r4kmaryland.</p>
+    <p>The Maryland State Department of Education is required to report
+  "accountability data" under the 2015 federal Every Student Succeeds Act
+  (ESSA). Maryland's plan for an accountability system that complies with the
+  ESSA was approved by the U.S. Department of Education in early 2018.
+  Overall, The accountability system has two parts: academic indicators,
+  which make up 65 possible points in the system, and measures of school
+  quality and student success, which are 35 possible points.  The star rating
+  and total points are summary measures based on a broad selection of
+  performance indicators to measure how schools are doing.</p>
+<p>Detailed data is available for download through the MSDE website. Howard
+  County Public School System (HCPSS) provides an accessible explanation of
+  the accountability data on their website:
+  https://www.hcpss.org/about-us/essa/</p>
     </div>
 
-    <pre class="usage"><span class='va'>kra_results_SY1920</span></pre>
+    <pre class="usage"><span class='va'>accountability_SY19</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1604 rows and 13 variables:</p><dl>
-  <dt><code>school_number</code></dt><dd><p>School number (0 indicates all schools)</p></dd>
+    <p>A data frame with 160 rows and 8 variables:</p><dl>
+  <dt><code>school_year</code></dt><dd><p>School year</p></dd>
+  <dt><code>school_number</code></dt><dd><p>School number</p></dd>
   <dt><code>school_name</code></dt><dd><p>School name</p></dd>
-  <dt><code>student_group</code></dt><dd><p>Student group (includes "All Students")</p></dd>
-  <dt><code>group_type</code></dt><dd><p>Student group type</p></dd>
-  <dt><code>num_tested_scored_overall</code></dt><dd><p>Number of test takers with overall scores</p></dd>
-  <dt><code>avg_scale_score</code></dt><dd><p>Average KRA scale score</p></dd>
-  <dt><code>perc_emerging_readiness</code></dt><dd><p>Percent of test takers in Emerging Readiness category. Emerging readiness: Student demonstrates limited foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.</p></dd>
-  <dt><code>perc_approaching_readiness</code></dt><dd><p>Percent of test takers in Approaching Readiness category. Approaching readiness: Student demonstrates some foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.</p></dd>
-  <dt><code>perc_demonstrating_readiness</code></dt><dd><p>Percent of test takers in Demonstrating Readiness category. Demonstrating readiness: Student demonstrates foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.</p></dd>
-  <dt><code>avg_language_and_literacy_score</code></dt><dd><p>Average score in Literacy domain</p></dd>
-  <dt><code>avg_math_score</code></dt><dd><p>Average score in KRA Math domain</p></dd>
-  <dt><code>avg_physical_development_score</code></dt><dd><p>Average score in Physical Development domain</p></dd>
-  <dt><code>avg_social_foundations_score</code></dt><dd><p>Average score in Social Foundations domain</p></dd>
+  <dt><code>star_rating</code></dt><dd><p>Star rating</p></dd>
+  <dt><code>total_points_earned_percentage</code></dt><dd><p>Total points earned (as a percentage)</p></dd>
+  <dt><code>percentile_rank_elementary</code></dt><dd><p>Statewide percentile rank for elementary school grade band</p></dd>
+  <dt><code>percentile_rank_middle</code></dt><dd><p>Statewide percentile rank for middle school grade band</p></dd>
+  <dt><code>percentile_rank_high</code></dt><dd><p>Statewide percentile rank for high school grade band</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-20-KRA-School-Level-Results.xlsx'>BCPSS Public 2019-20 KRA School Level Results</a></p>
+    <p><a href='https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload'>MSDE Data Downloads</a></p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

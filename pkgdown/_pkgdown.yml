@@ -9,10 +9,12 @@ reference:
     - '`student_survey_SY1819`'
     - '`parent_survey_SY1819`'
     - '`parent_survey_SY1819_long`'
-- title: Enrollment and attendance data from Maryland State Department of Education (MSDE)
+- title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE)
   contents:
     - '`enrollment_msde_SY0919`'
     - '`attendance_msde_SY0919`'
+    - '`accountability_SY19`'
+    - '`nces_school_directory_SY19`'
 - title: Kindergarten Readiness Assessment (KRA)
   contents:
     - '`kra_results_SY1920`'
