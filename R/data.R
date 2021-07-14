@@ -396,7 +396,7 @@
 #'   https://www.hcpss.org/about-us/essa/
 #' @format A data frame with 160 rows and 8 variables:
 #' \describe{
-#'   \item{\code{year}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{school_year}}{School year}
 #'   \item{\code{school_number}}{School number}
 #'   \item{\code{school_name}}{School name}
 #'   \item{\code{star_rating}}{Star rating}

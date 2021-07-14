@@ -11,7 +11,7 @@ A data frame with 1604 rows and 13 variables:
   \item{\code{school_name}}{School name}
   \item{\code{student_group}}{Student group (includes "All Students")}
   \item{\code{group_type}}{Student group type}
-  \item{\code{num_tested_scored_overall}}{Number of test takrs with overall scores}
+  \item{\code{num_tested_scored_overall}}{Number of test takers with overall scores}
   \item{\code{avg_scale_score}}{Average KRA scale score}
   \item{\code{perc_emerging_readiness}}{Percent of test takers in Emerging Readiness category. Emerging readiness: Student demonstrates limited foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
   \item{\code{perc_approaching_readiness}}{Percent of test takers in Approaching Readiness category. Approaching readiness: Student demonstrates some foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}

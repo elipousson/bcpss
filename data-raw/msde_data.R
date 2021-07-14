@@ -135,6 +135,7 @@ attendance_msde_SY1520_long <- attendance_msde_SY1520 %>%
 accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) %>%
   janitor::clean_names("snake") %>%
   rename(
+    school_year = year,
     lea_number = lss_number,
     lea_name = lss_name
   ) %>%
