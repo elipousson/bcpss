@@ -151,3 +151,19 @@ accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", 
 
 usethis::use_data(accountability_SY19, overwrite = TRUE)
 
+nces_school_directory_SY19 <- readxl::read_excel("inst/extdata/School_Directory_2019.xlsx") %>%
+  janitor::clean_names("snake") %>%
+  rename(
+    school_year = academic_year,
+    grade_band = school_type
+  ) %>%
+  filter(
+    lss_name == "Baltimore City"
+  ) %>%
+  mutate(
+    school_number = as.integer(school_number)
+  ) %>%
+  select(-c(lss_number, lss_name, create_date))
+
+usethis::use_data(nces_school_directory_SY19, overwrite = TRUE)
+
