@@ -230,6 +230,25 @@
 #' @source \url{https://www.baltimorecityschools.org/data}
 "educator_survey_SY1819"
 
+
+#' Baltimore City Public School Elementary School Attendance Zones (SY 2021-2022)
+#'
+#' Boundaries for Baltimore City Public School elementary school attendance zones for
+#' the 2021-2022 school year. The \code{program_name} variable is equivalent to the \code{school_number}
+#' variable used in the demographic and survey datasets.
+#'
+#' @format A data frame with 92 features and 5 variables:
+#' \describe{
+#'   \item{\code{zone_number}}{Program zone number}
+#'   \item{\code{zone_name}}{Program zone name}
+#'   \item{\code{program_number}}{Program number (school number)}
+#'   \item{\code{program_name_short}}{Program name (short)}
+#'   \item{\code{geometry}}{Multipolygon geometry for zone boundaries}
+#' }
+#' @source \url{https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2122/FeatureServer/0}
+"bcps_es_zones_SY2122"
+
+
 #' Baltimore City Public School Elementary School Attendance Zones (SY 2020-2021)
 #'
 #' Boundaries for Baltimore City Public School elementary school attendance zones for

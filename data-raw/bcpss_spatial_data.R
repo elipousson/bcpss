@@ -1,5 +1,27 @@
 selected_crs <- 2804
 
+# Import Baltimore City Public School 2021-2022 attendance zones from ArcGIS Feature Server layer
+bcps_es_zones_SY2122_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2122/FeatureServer/0"
+
+bcps_es_zones_SY2122 <- esri2sf::esri2sf(bcps_es_zones_SY2122_path) %>%
+  janitor::clean_names("snake") %>%
+  sf::st_transform(selected_crs) %>%
+  dplyr::select(
+    zone_number = zone_numbe,
+    zone_name,
+    program_number = prog_no,
+    program_name_short = prog_name,
+    geometry = geoms
+  ) %>%
+  mutate(
+    zone_number = as.integer(zone_number),
+    program_number = as.integer(program_number)
+  ) %>%
+  dplyr::arrange(zone_number)
+
+usethis::use_data(bcps_es_zones_SY2122, overwrite = TRUE)
+
+
 # Import Baltimore City Public School 2020-2021 attendance zones from ArcGIS Feature Server layer
 bcps_es_zones_SY2021_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2021/FeatureServer/0"
 
