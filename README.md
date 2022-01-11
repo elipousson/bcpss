@@ -106,3 +106,21 @@ top_5_es_map
 ```
 
 <img src="man/figures/README-top_5_es_map-1.png" width="60%" />
+
+## Related projects
+
+-   [mapbaltimore](https://elipousson.github.io/mapbaltimore/)
+-   [baltimoredata](https://elipousson.github.io/baltimoredata/)
+-   [EdSurvey](https://www.air.org/project/nces-data-r-project-edsurvey):
+    “EdSurvey is an R statistical package designed for the analysis of
+    national and international education data from the National Center
+    for Education Statistics (NCES).”
+-   [edbuildr](https://github.com/EdBuild/edbuildr): “The goal of
+    edbuildr is to import EdBuild’s master dataset of school district
+    finance, student demographics, and community economic indicators for
+    every school district in the United States.”
+-   [Elementary School Operating Status + NCES 2019-2020 School District
+    Boundaries](https://github.com/hrbrmstr/2021-esos-nces)
+-   [CPSenrollpack](https://github.com/cymack/CPSenrollpack): “R package
+    of enrollment data for Chicago Public High Schools, 2006-07 to
+    2018-19”
