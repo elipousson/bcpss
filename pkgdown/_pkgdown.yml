@@ -21,6 +21,8 @@ reference:
     - '`kra_results_SY1920`'
 - title: Spatial data
   contents:
+    - '`bcps_programs_SY1920`'
     - '`bcps_programs_SY2021`'
+    - '`bcps_programs_SY2122`'
     - '`bcps_es_zones_SY2021`'
     - '`bcps_es_zones_SY2122`'

@@ -1,8 +1,8 @@
-pandoc: 2.11.4
-pkgdown: 2.0.1
+pandoc: '2.18'
+pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   attendance_data: attendance_data.html
   enrollment_demographic_data: enrollment_demographic_data.html
-last_built: 2022-01-11T04:43Z
+last_built: 2022-10-21T02:38Z
 
