@@ -7,11 +7,11 @@
 \format{
 A data frame with 96 rows and 5 variables:
 \describe{
-  \item{\code{zone_number}}{Program zone number}
-  \item{\code{zone_name}}{Program zone name}
-  \item{\code{program_number}}{Program number (school number)}
-  \item{\code{program_name_short}}{Program name (short)}
-  \item{\code{geometry}}{Multipolygon geometry for zone boundaries}
+\item{\code{zone_number}}{Program zone number}
+\item{\code{zone_name}}{Program zone name}
+\item{\code{program_number}}{Program number (school number)}
+\item{\code{program_name_short}}{Program name (short)}
+\item{\code{geometry}}{Multipolygon geometry for zone boundaries}
 }
 }
 \source{
@@ -22,7 +22,7 @@ bcps_es_zones_SY2021
 }
 \description{
 Boundaries for Baltimore City Public School elementary school attendance zones for
-the 2020-2021 school year. The \code{program_name} variable is equivalent to the \code{school_number}
+the 2020-2021 school year. The \code{program_number} variable is equivalent to the \code{school_number}
 variable used in the demographic and survey datasets.
 }
 \keyword{datasets}

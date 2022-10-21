@@ -7,14 +7,14 @@
 \format{
 A data frame with 160 rows and 8 variables:
 \describe{
-  \item{\code{school_year}}{School year}
-  \item{\code{school_number}}{School number}
-  \item{\code{school_name}}{School name}
-  \item{\code{star_rating}}{Star rating}
-  \item{\code{total_points_earned_percentage}}{Total points earned (as a percentage)}
-  \item{\code{percentile_rank_elementary}}{Statewide percentile rank for elementary school grade band}
-  \item{\code{percentile_rank_middle}}{Statewide percentile rank for middle school grade band}
-  \item{\code{percentile_rank_high}}{Statewide percentile rank for high school grade band}
+\item{\code{school_year}}{School year}
+\item{\code{school_number}}{School number}
+\item{\code{school_name}}{School name}
+\item{\code{star_rating}}{Star rating}
+\item{\code{total_points_earned_percentage}}{Total points earned (as a percentage)}
+\item{\code{percentile_rank_elementary}}{Statewide percentile rank for elementary school grade band}
+\item{\code{percentile_rank_middle}}{Statewide percentile rank for middle school grade band}
+\item{\code{percentile_rank_high}}{Statewide percentile rank for high school grade band}
 }
 }
 \source{
@@ -25,18 +25,18 @@ accountability_SY19
 }
 \description{
 The Maryland State Department of Education is required to report
-  "accountability data" under the 2015 federal Every Student Succeeds Act
-  (ESSA). Maryland's plan for an accountability system that complies with the
-  ESSA was approved by the U.S. Department of Education in early 2018.
-  Overall, The accountability system has two parts: academic indicators,
-  which make up 65 possible points in the system, and measures of school
-  quality and student success, which are 35 possible points.  The star rating
-  and total points are summary measures based on a broad selection of
-  performance indicators to measure how schools are doing.
+"accountability data" under the 2015 federal Every Student Succeeds Act
+(ESSA). Maryland's plan for an accountability system that complies with the
+ESSA was approved by the U.S. Department of Education in early 2018.
+Overall, The accountability system has two parts: academic indicators,
+which make up 65 possible points in the system, and measures of school
+quality and student success, which are 35 possible points.  The star rating
+and total points are summary measures based on a broad selection of
+performance indicators to measure how schools are doing.
 
-  Detailed data is available for download through the MSDE website. Howard
-  County Public School System (HCPSS) provides an accessible explanation of
-  the accountability data on their website:
-  https://www.hcpss.org/about-us/essa/
+Detailed data is available for download through the MSDE website. Howard
+County Public School System (HCPSS) provides an accessible explanation of
+the accountability data on their website:
+https://www.hcpss.org/about-us/essa/
 }
 \keyword{datasets}

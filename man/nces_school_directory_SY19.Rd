@@ -7,16 +7,16 @@
 \format{
 A data frame with 167 rows and 10 variables:
 \describe{
-  \item{\code{school_year}}{School year}
-  \item{\code{school_number}}{School number}
-  \item{\code{school_name}}{School name}
-  \item{\code{grade_band}}{Grade band (school type)}
-  \item{\code{address}}{Street address}
-  \item{\code{city}}{City}
-  \item{\code{state}}{State}
-  \item{\code{zip}}{Zipcode}
-  \item{\code{phone}}{Phone number}
-  \item{\code{nces_number}}{NCES number}
+\item{\code{school_year}}{School year}
+\item{\code{school_number}}{School number}
+\item{\code{school_name}}{School name}
+\item{\code{grade_band}}{Grade band (school type)}
+\item{\code{address}}{Street address}
+\item{\code{city}}{City}
+\item{\code{state}}{State}
+\item{\code{zip}}{Zipcode}
+\item{\code{phone}}{Phone number}
+\item{\code{nces_number}}{NCES number}
 }
 }
 \source{
@@ -26,7 +26,7 @@ A data frame with 167 rows and 10 variables:
 nces_school_directory_SY19
 }
 \description{
-NCES Directory listing for Baltimore City Schools including
-  school addresses, phone numbers, and NCES numbers.
+NCES Directory listing for Baltimore City Schools including school addresses,
+phone numbers, and NCES numbers.
 }
 \keyword{datasets}

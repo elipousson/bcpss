@@ -8,16 +8,16 @@
 \format{
 A data frame with 26,916 rows and 10 variables:
 \describe{
-  \item{\code{school_number}}{School number}
-  \item{\code{school_name}}{School name}
-  \item{\code{management_type}}{School management type}
-  \item{\code{grade_band}}{Grade band}
-  \item{\code{grade}}{Grade}
-  \item{\code{grade_range}}{Grade range}
-  \item{\code{total_enrollment}}{Total Enrollment}
-  \item{\code{variable}}{Variable}
-  \item{\code{share}}{Percent of Total Enrollment}
-  \item{\code{label}}{Variable label}
+\item{\code{school_number}}{School number}
+\item{\code{school_name}}{School name}
+\item{\code{management_type}}{School management type}
+\item{\code{grade_band}}{Grade band}
+\item{\code{grade}}{Grade}
+\item{\code{grade_range}}{Grade range}
+\item{\code{total_enrollment}}{Total Enrollment}
+\item{\code{variable}}{Variable}
+\item{\code{share}}{Percent of Total Enrollment}
+\item{\code{label}}{Variable label}
 }
 }
 \source{
