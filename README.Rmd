@@ -16,6 +16,9 @@ knitr::opts_chunk$set(
 # bcpss
 
 <!-- badges: start -->
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
 The goal of bcpss is to make data from the Baltimore City Public School system more consistent and accessible to R users. This package may pair well with the [mapbaltimore package](https://github.com/elipousson/mapbaltimore) that offers a broader range of Baltimore-specific datasets and functions for working with that data.
@@ -36,14 +39,16 @@ Currently, this package includes datasets that include school and grade-level en
 library(bcpss)
 library(dplyr)
 
-top_5_es <- enrollment_demographics_SY1920 %>% 
-  filter(grade_range == "All Grades",
-         grade_band == "E") %>% 
-  select(school_number, school_name, total_enrollment) %>% 
-  top_n(5, total_enrollment) %>% 
+top_5_es <- enrollment_demographics_SY1920 %>%
+  filter(
+    grade_range == "All Grades",
+    grade_band == "E"
+  ) %>%
+  select(school_number, school_name, total_enrollment) %>%
+  top_n(5, total_enrollment) %>%
   arrange(desc(total_enrollment))
 
-top_5_es %>% 
+top_5_es %>%
   knitr::kable(caption = "Five largest BCPSS elementary schools by total enrollment")
 ```
 
@@ -54,7 +59,7 @@ The package also includes spatial data for elementary school attendance zones an
 ```{r bcps_es_zones}
 library(ggplot2)
 
-bcps_es_zones_SY2021 %>% 
+bcps_es_zones_SY2021 %>%
   ggplot() +
   geom_sf(aes(fill = zone_name)) +
   scale_fill_viridis_d() +
@@ -66,9 +71,9 @@ bcps_es_zones_SY2021 %>%
 These two sources can be used in combinations by joining the `program_number` in the spatial data with the equivalent `school_number` used in the survey and demographic data.
 
 ```{r top_5_es_map}
-top_5_es_map <- bcps_programs_SY2021 %>% 
-  left_join(top_5_es, by = c("program_number" = "school_number")) %>% 
-  filter(!is.na(total_enrollment)) %>% 
+top_5_es_map <- bcps_programs_SY2021 %>%
+  left_join(top_5_es, by = c("program_number" = "school_number")) %>%
+  filter(!is.na(total_enrollment)) %>%
   ggplot() +
   geom_sf(data = bcps_es_zones_SY2021, fill = NA, color = "darkblue") +
   geom_sf(aes(color = school_name)) +

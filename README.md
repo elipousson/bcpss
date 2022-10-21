@@ -4,6 +4,14 @@
 # bcpss
 
 <!-- badges: start -->
+
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
 The goal of bcpss is to make data from the Baltimore City Public School
@@ -44,24 +52,26 @@ library(dplyr)
 #> 
 #>     intersect, setdiff, setequal, union
 
-top_5_es <- enrollment_demographics_SY1920 %>% 
-  filter(grade_range == "All Grades",
-         grade_band == "E") %>% 
-  select(school_number, school_name, total_enrollment) %>% 
-  top_n(5, total_enrollment) %>% 
+top_5_es <- enrollment_demographics_SY1920 %>%
+  filter(
+    grade_range == "All Grades",
+    grade_band == "E"
+  ) %>%
+  select(school_number, school_name, total_enrollment) %>%
+  top_n(5, total_enrollment) %>%
   arrange(desc(total_enrollment))
 
-top_5_es %>% 
+top_5_es %>%
   knitr::kable(caption = "Five largest BCPSS elementary schools by total enrollment")
 ```
 
-| school\_number | school\_name                   | total\_enrollment |
-|---------------:|:-------------------------------|------------------:|
-|            105 | Moravia Park Elementary School |               763 |
-|            242 | Northwood Elementary School    |               590 |
-|            164 | Arundel Elementary School      |               523 |
-|             83 | William Paca Elementary School |               509 |
-|            206 | Furley Elementary School       |               495 |
+| school_number | school_name                    | total_enrollment |
+|--------------:|:-------------------------------|-----------------:|
+|           105 | Moravia Park Elementary School |              763 |
+|           242 | Northwood Elementary School    |              590 |
+|           164 | Arundel Elementary School      |              523 |
+|            83 | William Paca Elementary School |              509 |
+|           206 | Furley Elementary School       |              495 |
 
 Five largest BCPSS elementary schools by total enrollment
 
@@ -74,7 +84,7 @@ zones and program locations for the 2020-2021 school year.
 ``` r
 library(ggplot2)
 
-bcps_es_zones_SY2021 %>% 
+bcps_es_zones_SY2021 %>%
   ggplot() +
   geom_sf(aes(fill = zone_name)) +
   scale_fill_viridis_d() +
@@ -90,9 +100,9 @@ These two sources can be used in combinations by joining the
 used in the survey and demographic data.
 
 ``` r
-top_5_es_map <- bcps_programs_SY2021 %>% 
-  left_join(top_5_es, by = c("program_number" = "school_number")) %>% 
-  filter(!is.na(total_enrollment)) %>% 
+top_5_es_map <- bcps_programs_SY2021 %>%
+  left_join(top_5_es, by = c("program_number" = "school_number")) %>%
+  filter(!is.na(total_enrollment)) %>%
   ggplot() +
   geom_sf(data = bcps_es_zones_SY2021, fill = NA, color = "darkblue") +
   geom_sf(aes(color = school_name)) +
