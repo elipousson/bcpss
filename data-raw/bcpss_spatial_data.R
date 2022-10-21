@@ -38,7 +38,7 @@ bcps_es_zones_SY2021 <- esri2sf::esri2sf(bcps_es_zones_SY2021_path) %>%
   mutate(
     zone_number = as.integer(zone_number),
     program_number = as.integer(program_number)
-    ) %>%
+  ) %>%
   dplyr::arrange(zone_number)
 
 usethis::use_data(bcps_es_zones_SY2021, overwrite = TRUE)
@@ -79,7 +79,7 @@ bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) %>%
     council_district = as.integer(council_district),
     legislative_district = if_else(legislative_district == "44", "44A", as.character(legislative_district)),
     congressional_district = paste0(str_to_lower(congressional_district), " District")
-    ) %>%
+  ) %>%
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY2021, overwrite = TRUE)
@@ -88,22 +88,22 @@ bcps_programs_SY1920_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcG
 
 bcps_programs_SY1920 <-
   getdata::get_esri_data(
-  url = bcps_programs_SY1920_path,
-  crs = selected_crs
-) %>%
+    url = bcps_programs_SY1920_path,
+    crs = selected_crs
+  ) %>%
   dplyr::select(
     program_number = prog_no,
     program_name = prog_name_long,
     program_name_short = prog_name_short,
     grade_band = msde,
     management_type = management,
-   # category = categorization,
+    # category = categorization,
     swing = in_swing_space,
     swing_building_number = swing_bldg_no,
     colocated,
     # two_buildings = two_bldgs,
     # home_building = home_bldg,
-   legislative_district,
+    legislative_district,
     council_district = city_council_district,
     # congressional_district = congress,
     # planning_area = plan_area,
@@ -124,6 +124,3 @@ bcps_programs_SY1920 <- bcps_programs_SY1920 %>%
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY1920, overwrite = TRUE)
-
-
-

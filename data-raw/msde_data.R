@@ -5,27 +5,33 @@ library(tidyverse)
 enrollment_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
   tibble(path = .) %>%
   filter(str_detect(path, "Enrollment_")) %>%
-  mutate(data = map(path,
-               ~ read_csv(.x, col_types = cols(.default = "c")))) %>%
+  mutate(data = map(
+    path,
+    ~ read_csv(.x, col_types = cols(.default = "c"))
+  )) %>%
   unnest(data) %>%
   janitor::clean_names("snake") %>%
   mutate(
-      lea_number = coalesce(lea_number,lss_number),
-      lea_name = coalesce(lea_name,lss_name),
-      grade = coalesce(grade,grade_title)
-      ) %>%
+    lea_number = coalesce(lea_number, lss_number),
+    lea_name = coalesce(lea_name, lss_name),
+    grade = coalesce(grade, grade_title)
+  ) %>%
   filter(lea_name == "Baltimore City") %>%
   mutate(
-      school_number = if_else(school_number == "A", "0", school_number),
-      school_number = as.integer(school_number),
-      grade_range = case_when(grade == "Total Enrollment" ~ "All Grades",
-                              grade == "Elementary" ~ grade,
-                              grade == "Middle School" ~ grade,
-                              grade == "High School" ~ grade),
-      grade = case_when(str_detect(grade, "Grade[:space:]") ~ str_remove(grade, "Grade[:space:]"),
-                        grade == "Prekindergarten" ~ "PK",
-                        grade == "Kindergarten" ~ "K",
-                        TRUE ~ "*")
+    school_number = if_else(school_number == "A", "0", school_number),
+    school_number = as.integer(school_number),
+    grade_range = case_when(
+      grade == "Total Enrollment" ~ "All Grades",
+      grade == "Elementary" ~ grade,
+      grade == "Middle School" ~ grade,
+      grade == "High School" ~ grade
+    ),
+    grade = case_when(
+      str_detect(grade, "Grade[:space:]") ~ str_remove(grade, "Grade[:space:]"),
+      grade == "Prekindergarten" ~ "PK",
+      grade == "Kindergarten" ~ "K",
+      TRUE ~ "*"
+    )
   ) %>%
   naniar::replace_with_na_all(condition = ~ .x == "*") %>%
   mutate(enrolled_count = as.numeric(enrolled_count)) %>%
@@ -43,38 +49,43 @@ usethis::use_data(enrollment_msde_SY0919, overwrite = TRUE)
 student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) %>%
   tibble(path = .) %>%
   filter(str_detect(path, "Student_")) %>%
-  mutate(data = map(path,
-                    ~ read_csv(.x, col_types = cols(.default = "c"))
-                      )) %>%
+  mutate(data = map(
+    path,
+    ~ read_csv(.x, col_types = cols(.default = "c"))
+  )) %>%
   unnest(data) %>%
   janitor::clean_names("snake") %>%
   mutate(
-    lea_number = coalesce(lea_number,lss_number),
-    lea_name = coalesce(lea_name,lss_name),
-    mobility_pct = coalesce(mobility_pct,mobility_rate),
-    mobility_cnt = coalesce(mobility_cnt,mobility_count),
-    entrants_pct = coalesce(entrants_pct,entrants_rate),
-    entrants_cnt = coalesce(entrants_cnt,entrants_count),
-    withdrawals_pct = coalesce(withdrawals_pct,withdrawals_rate),
-    withdrawals_cnt = coalesce(withdrawals_cnt,withdrawals_count),
-    avg_daily_member_cnt = coalesce(avg_daily_member_cnt,avg_daily_member_count)
+    lea_number = coalesce(lea_number, lss_number),
+    lea_name = coalesce(lea_name, lss_name),
+    mobility_pct = coalesce(mobility_pct, mobility_rate),
+    mobility_cnt = coalesce(mobility_cnt, mobility_count),
+    entrants_pct = coalesce(entrants_pct, entrants_rate),
+    entrants_cnt = coalesce(entrants_cnt, entrants_count),
+    withdrawals_pct = coalesce(withdrawals_pct, withdrawals_rate),
+    withdrawals_cnt = coalesce(withdrawals_cnt, withdrawals_count),
+    avg_daily_member_cnt = coalesce(avg_daily_member_cnt, avg_daily_member_count)
   ) %>%
   relocate(create_date, .after = academic_year) %>%
   select(-c(path, lss_number, lss_name, mobility_rate:avg_daily_member_count)) %>%
   mutate(
-    across(where(is.character),
-           ~ case_when(
-             .x == "<= 5.0" ~ as.character("5.0"),
-             .x == ">= 95.0" ~ as.character("95.0"),
-             TRUE ~ .x)
+    across(
+      where(is.character),
+      ~ case_when(
+        .x == "<= 5.0" ~ as.character("5.0"),
+        .x == ">= 95.0" ~ as.character("95.0"),
+        TRUE ~ .x
+      )
     )
   ) %>%
   naniar::replace_with_na_all(condition = ~ .x == "*")
 
 student_mobility_msde_SY1520 <- student_mobility_msde_SY1520 %>%
   mutate(
-    across(all_of(c(8:14)),
-           as.numeric)
+    across(
+      all_of(c(8:14)),
+      as.numeric
+    )
   ) %>%
   filter(lea_name == "Baltimore City") %>%
   rename(school_year = academic_year) %>%
@@ -92,32 +103,40 @@ student_mobility_msde_SY1520_long <- student_mobility_msde_SY1520 %>%
 attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
   tibble(path = .) %>%
   filter(str_detect(path, "Attendance_")) %>%
-  mutate(data = map(path,
-                    ~ read_csv(.x, col_types = cols(.default = "c")))) %>%
+  mutate(data = map(
+    path,
+    ~ read_csv(.x, col_types = cols(.default = "c"))
+  )) %>%
   unnest(data) %>%
   janitor::clean_names("snake") %>%
   mutate(
-    lea_number = coalesce(lea_number,lss_number),
-    lea_name = coalesce(lea_name,lss_name)
+    lea_number = coalesce(lea_number, lss_number),
+    lea_name = coalesce(lea_name, lss_name)
   ) %>%
   filter(lea_name == "Baltimore City") %>%
   select(-c(path, lea_number, lea_name, lss_number, lss_name, create_date)) %>%
-  rename(school_year = academic_year,
-         grade_band = school_type) %>%
+  rename(
+    school_year = academic_year,
+    grade_band = school_type
+  ) %>%
   mutate(
     school_number = if_else(school_number == "A", "0", school_number),
     school_number = as.integer(school_number),
-    across(where(is.character),
-           ~ case_when(
-             .x == "<= 5.0" ~ as.character("5.0"),
-             .x == ">= 95.0" ~ as.character("95.0"),
-             TRUE ~ .x)
-           )
-    ) %>%
+    across(
+      where(is.character),
+      ~ case_when(
+        .x == "<= 5.0" ~ as.character("5.0"),
+        .x == ">= 95.0" ~ as.character("95.0"),
+        TRUE ~ .x
+      )
+    )
+  ) %>%
   naniar::replace_with_na_all(condition = ~ .x == "*") %>%
   mutate(
-   across(all_of(c(5:15)),
-           as.numeric)
+    across(
+      all_of(c(5:15)),
+      as.numeric
+    )
   )
 
 usethis::use_data(attendance_msde_SY0919, overwrite = TRUE)
@@ -142,10 +161,14 @@ accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", 
   filter(lea_name == "Baltimore City") %>%
   naniar::replace_with_na_all(condition = ~ .x == "na") %>%
   mutate(
-    across(all_of(c(7:10)),
-           as.numeric),
-    across(all_of(c(4, 6)),
-           as.integer)
+    across(
+      all_of(c(7:10)),
+      as.numeric
+    ),
+    across(
+      all_of(c(4, 6)),
+      as.integer
+    )
   ) %>%
   select(-c(lea_number, lea_name))
 
@@ -166,4 +189,3 @@ nces_school_directory_SY19 <- readxl::read_excel("inst/extdata/School_Directory_
   select(-c(lss_number, lss_name, create_date))
 
 usethis::use_data(nces_school_directory_SY19, overwrite = TRUE)
-

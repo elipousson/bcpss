@@ -7,6 +7,8 @@
 # Set local path
 enrollment_demographics_SY1920_path <- "inst/extdata/SY19-20-Enrollment-11.10.2020.xlsx"
 
+# https://www.baltimorecityschools.org/sites/default/files/inline-files/SY21-22%20Enrollment%20with%20unofficial%20SWD%20Child%20Count%20PUBLIC.xlsx
+
 # List column types
 enrollment_demographics_SY1920_col_types <- c(
   "text", "text", "text", "text", "text",
@@ -28,7 +30,9 @@ enrollment_demographics_SY1920 <- readxl::read_excel(
     # Make school number an integer so it can be sorted
     school_number = dplyr::if_else(school_number == "(all)", as.integer("0"), as.integer(school_number)),
     # Move grade range values into a new grade range column
-    grade_range = dplyr::if_else(grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades"), grade, "0"),
+    grade_range = dplyr::if_else(
+      grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades"), grade, "0"
+    ),
     # Replace 91 w/ K, 92 w/ PK, 93 w/ Other (93), and remove grade ranges from grade column
     grade = dplyr::case_when(
       grade == "91" ~ "K",
@@ -203,7 +207,8 @@ usethis::use_data(parent_survey_SY1819_long, overwrite = TRUE)
 student_educator_survey_path <- "https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-Maryland-school-Survey-Student-Educator-Results.xlsx"
 
 student_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
-                                             sheet = 1) %>%
+  sheet = 1
+) %>%
   janitor::clean_names("snake") %>%
   rename(
     grade_band = school_gradeband,
@@ -219,8 +224,9 @@ student_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
   naniar::replace_with_na(list(average_score = "*", respondent_count = "*")) %>%
   mutate(
     school_number = if_else(school_number == "A",
-                            as.integer(0),
-                            as.integer(school_number)),
+      as.integer(0),
+      as.integer(school_number)
+    ),
     average_score = as.numeric(average_score),
     respondent_count = as.integer(respondent_count)
   ) %>%
@@ -232,7 +238,8 @@ usethis::use_data(student_survey_SY1819, overwrite = TRUE)
 
 
 educator_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
-                                             sheet = 2) %>%
+  sheet = 2
+) %>%
   janitor::clean_names("snake") %>%
   rename(
     school_number = school,
@@ -247,8 +254,9 @@ educator_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
   naniar::replace_with_na(list(average_score = "*", respondent_count = "*")) %>%
   mutate(
     school_number = if_else(school_number == "A",
-                            as.integer(0),
-                            as.integer(school_number)),
+      as.integer(0),
+      as.integer(school_number)
+    ),
     respondent_count = as.integer(respondent_count),
     average_score = as.numeric(average_score)
   ) %>%
@@ -263,7 +271,8 @@ usethis::use_data(educator_survey_SY1819, overwrite = TRUE)
 kra_school_results_path <- "https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-20-KRA-School-Level-Results.xlsx"
 
 kra_results_SY1920 <- openxlsx::read.xlsx(kra_school_results_path,
-                                          sheet = 1) %>%
+  sheet = 1
+) %>%
   janitor::clean_names("snake") %>%
   naniar::replace_with_na_all(condition = ~ .x == "*") %>%
   mutate(
@@ -297,5 +306,3 @@ kra_results_SY1920 <- openxlsx::read.xlsx(kra_school_results_path,
 # kra_results_SY1920_details <- openxlsx::read.xlsx(kra_school_results_path, sheet = 2)
 
 usethis::use_data(kra_results_SY1920, overwrite = TRUE)
-
-

@@ -39,8 +39,8 @@ The data includes demographic characteristics including non-Hispanic racial cate
 The wide format (`enrollment_demographics_SY1920`) is most useful for comparing demographic characteristics to one another. For example, see this scatter plot showing positive association between the share of English language learners and share of Hispanic students. 
 
 ```{r}
-enrollment_demographics_SY1920 %>% 
-  filter(grade_range == "All Grades") %>% 
+enrollment_demographics_SY1920 %>%
+  filter(grade_range == "All Grades") %>%
   ggplot(aes(x = percent_hispanic, y = percent_el)) +
   geom_point() +
   geom_smooth() +
@@ -61,10 +61,12 @@ Both data sets include summary rows that aggregate data across all Baltimore Cit
 
 ```{r}
 enrollment_demographics_allschools <- enrollment_demographics_SY1920_long %>%
-  filter(grade_range == "All Grades",
-         school_name == "All Baltimore City Schools") 
+  filter(
+    grade_range == "All Grades",
+    school_name == "All Baltimore City Schools"
+  )
 
-enrollment_demographics_allschools %>% 
+enrollment_demographics_allschools %>%
   ggplot() +
   geom_point(aes(y = label, x = share), size = 3, color = "darkblue") +
   scale_x_continuous(labels = scales::percent)
@@ -84,21 +86,26 @@ unique(enrollment_demographics_SY1920$school_number)[1:5]
 To look at enrollment or demographic characteristics for a school by grade and not grade range, you can simply filter out all missing values in the `grade` column. For example, see this bar chart showing enrollment by grade at James McHenry Elementary/Middle School in southwest Baltimore.
 
 ```{r}
-enrollment_demographics_SY1920_long %>% 
-  filter(school_name == "James McHenry Elementary/Middle School",
-         !is.na(grade)) %>% 
+enrollment_demographics_SY1920_long %>%
+  filter(
+    school_name == "James McHenry Elementary/Middle School",
+    !is.na(grade)
+  ) %>%
   ggplot() +
   geom_col(aes(x = grade, y = total_enrollment),
-           fill = "darkred")
+    fill = "darkred"
+  )
 ```
 
 You can also use the summary data we looked at earlier to compare an individual school to city schools as a whole. This example reuses the `enrollment_demographics_allschools` object created in the prior section. 
 
 ```{r}
-enrollment_demographics_SY1920_long %>% 
-  filter(school_name == "James McHenry Elementary/Middle School",
-         grade_range == "All Grades") %>% 
-  bind_rows(enrollment_demographics_allschools) %>% 
+enrollment_demographics_SY1920_long %>%
+  filter(
+    school_name == "James McHenry Elementary/Middle School",
+    grade_range == "All Grades"
+  ) %>%
+  bind_rows(enrollment_demographics_allschools) %>%
   ggplot(aes(y = label, x = share, color = school_name), size = 3, alpha = 0.8) +
   geom_point() +
   scale_x_continuous(labels = scales::percent) +
@@ -111,18 +118,19 @@ enrollment_demographics_SY1920_long %>%
 If you are interested in connecting the enrollment and demographic data to the spatial data included with this package, you should be aware that the spatial data refers to schools and school numbers as programs and program numbers. Here is an example of how to join the school or program locations (`bcps_programs_SY2021`) to the enrollment data using the dplyr `left_join` function and then mapping schools by total enrollment. This example uses the Baltimore City boundary data from my [mapbaltimore package](https://elipousson.github.io/mapbaltimore/) so you must have that package installed in order to reproduce this map.
 
 ```{r}
-enrollment_demographics_SY1920_allgrades <- enrollment_demographics_SY1920 %>% 
+enrollment_demographics_SY1920_allgrades <- enrollment_demographics_SY1920 %>%
   # Filter to rows with data on all grades
   filter(grade_range == "All Grades") %>%
   # Select school_number and total_enrollment variables
   select(school_number, total_enrollment)
 
-bcps_programs_SY2021 %>% 
+bcps_programs_SY2021 %>%
   # Filter to elementary, elementary/middle, middle, and high schools
-  filter(category %in% c("E", "EM", "M", "H")) %>% 
+  filter(category %in% c("E", "EM", "M", "H")) %>%
   # Join enrollment data to program location data
   left_join(enrollment_demographics_SY1920_allgrades,
-            by = c("program_number" = "school_number")) %>% 
+    by = c("program_number" = "school_number")
+  ) %>%
   ggplot() +
   geom_sf(aes(size = total_enrollment, color = category), alpha = 0.6) +
   # Add outline of city boundaries using mapbaltimore package
@@ -135,30 +143,35 @@ bcps_programs_SY2021 %>%
 This package also includes enrollment data by year from the Maryland State Department of Education (MSDE) covering the period from 2009 to 2019. Enrollment data for each year is created in the fall of the school year so data from 2009 is relevant for the 2009-2010 school year. To access data on all schools filter the `school_number` to 0 and filter to grade ranges by using `is.na(grade)` as this example illustrates:
 
 ```{r all_grades}
-enrollment_msde_SY0919 %>% 
-  filter(school_number == 0, is.na(grade)) %>% 
-  ggplot(aes(x = school_year,
-             y = enrolled_count,
-             color = grade_range)) +
+enrollment_msde_SY0919 %>%
+  filter(school_number == 0, is.na(grade)) %>%
+  ggplot(aes(
+    x = school_year,
+    y = enrolled_count,
+    color = grade_range
+  )) +
   geom_point() +
   geom_line(aes(group = grade_range)) +
   scale_y_log10()
-
 ```
 
 Plotting enrollment data for a single school is similar to the approach outlined in the previous section but users should note that the school names used by MSDE do differ slightly from the school names used by BCPSS.
 
 ```{r enrollment_by_year}
-enrollment_msde_SY0919 %>% 
-  filter(school_name == "Cecil Elementary",
-         !is.na(grade),
-         !is.na(enrolled_count)) %>%
-    ggplot(aes(x = school_year,
-             y = enrolled_count,
-             color = grade)) +
+enrollment_msde_SY0919 %>%
+  filter(
+    school_name == "Cecil Elementary",
+    !is.na(grade),
+    !is.na(enrolled_count)
+  ) %>%
+  ggplot(aes(
+    x = school_year,
+    y = enrolled_count,
+    color = grade
+  )) +
   geom_point() +
   geom_line(aes(group = grade)) +
-  facet_wrap(~ grade)
+  facet_wrap(~grade)
 ```
 
 
