@@ -83,3 +83,47 @@ bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) %>%
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY2021, overwrite = TRUE)
+
+bcps_programs_SY1920_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY1920_Building_Status_Publish/FeatureServer/0"
+
+bcps_programs_SY1920 <-
+  getdata::get_esri_data(
+  url = bcps_programs_SY1920_path,
+  crs = selected_crs
+) %>%
+  dplyr::select(
+    program_number = prog_no,
+    program_name = prog_name_long,
+    program_name_short = prog_name_short,
+    grade_band = msde,
+    management_type = management,
+   # category = categorization,
+    swing = in_swing_space,
+    swing_building_number = swing_bldg_no,
+    colocated,
+    # two_buildings = two_bldgs,
+    # home_building = home_bldg,
+   legislative_district,
+    council_district = city_council_district,
+    # congressional_district = congress,
+    # planning_area = plan_area,
+    # quadrant = quad,
+    # zone_number = ezone,
+    # zone_name
+  ) %>%
+  sfext::rename_sf_col()
+
+bcps_programs_SY1920 <- bcps_programs_SY1920 %>%
+  dplyr::mutate(
+    grade_band = str_replace(grade_band, "'", ""),
+    swing = if_else(swing == "n", FALSE, TRUE),
+    colocated = if_else(colocated == "n", FALSE, TRUE),
+    council_district = as.integer(council_district),
+    legislative_district = if_else(legislative_district == "44", "44A", as.character(legislative_district))
+  ) %>%
+  dplyr::arrange(program_number)
+
+usethis::use_data(bcps_programs_SY1920, overwrite = TRUE)
+
+
+
