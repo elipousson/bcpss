@@ -266,6 +266,26 @@
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2021/FeatureServer/0>
 "bcps_es_zones_SY2021"
 
+#' Baltimore City Public School Program Locations (SY 2021-2022)
+#'
+#' Locations for Baltimore City Public School buildings and programs for the 2021-2022
+#' school year. The `program_number` variable is equivalent to the `school_number`
+#' variable used in the demographic and survey datasets.
+#'
+#' @format A data frame with 165 rows and 18 variables:
+#' \describe{
+#'   \item{`program_number`}{Program number (school number)}
+#'   \item{`program_name_short`}{Program name (short)}
+#'   \item{`grade_band`}{Grade band for program}
+#'   \item{`management_type`}{School management type}
+#'   \item{`category`}{Grade category}
+#'   \item{`swing`}{Logical indicator for program at swing site}
+#'   \item{`swing_building_number`}{Building number for swing site}
+#'   \item{`geometry`}{Point geometry for program/school locations}
+#' }
+#' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2122_Ezones_and_Programs/FeatureServer/11>
+"bcps_programs_SY2122"
+
 #' Baltimore City Public School Program Locations (SY 2020-2021)
 #'
 #' Locations for Baltimore City Public School buildings and programs for the 2020-2021

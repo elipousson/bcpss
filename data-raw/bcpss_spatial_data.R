@@ -124,3 +124,34 @@ bcps_programs_SY1920 <- bcps_programs_SY1920 %>%
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY1920, overwrite = TRUE)
+
+
+bcps_programs_SY2122_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2122_Ezones_and_Programs/FeatureServer/11"
+
+bcps_programs_SY2122 <-
+  getdata::get_esri_data(
+    url = bcps_programs_SY2122_path,
+    crs = selected_crs
+  ) %>%
+  dplyr::select(
+    program_number = prog_no,
+    program_name_short = prog_short,
+    grade_band = msde,
+    management_type = mgmnt_type,
+    category = categorization,
+    swing,
+    swing_building_number = swing_bldg_no
+  ) %>%
+  sfext::rename_sf_col()
+
+
+bcps_programs_SY2122 <-
+  bcps_programs_SY2122 %>%
+dplyr::mutate(
+  grade_band = stringr::str_replace(grade_band, "'", ""),
+  swing = dplyr::if_else(swing == "n", FALSE, TRUE)
+) %>%
+  dplyr::arrange(program_number)
+
+
+usethis::use_data(bcps_programs_SY2122, overwrite = TRUE)
