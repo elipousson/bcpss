@@ -24,8 +24,10 @@ A data frame with 2,243 rows and 19 variables:
 \item{\code{percent_non_hispanic_white}}{Percent Non-Hispanic White}
 \item{\code{percent_hispanic}}{Percent Hispanic}
 \item{\code{percent_non_hispanic_asian}}{Percent Non-Hispanic Asian}
-\item{\code{percent_non_hispanic_american_indian}}{Percent Non-Hispanic American Indian}
-\item{\code{percent_non_hispanic_pacific_islander}}{Percent Non-Hispanic Pacific Islander}
+\item{\code{percent_non_hispanic_american_indian}}{Percent Non-Hispanic American
+Indian}
+\item{\code{percent_non_hispanic_pacific_islander}}{Percent Non-Hispanic Pacific
+Islander}
 \item{\code{percent_non_hispanic_multiracial}}{Percent Non-Hispanic Multiracial}
 }
 }

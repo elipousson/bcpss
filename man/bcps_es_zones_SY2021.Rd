@@ -21,8 +21,9 @@ A data frame with 96 rows and 5 variables:
 bcps_es_zones_SY2021
 }
 \description{
-Boundaries for Baltimore City Public School elementary school attendance zones for
-the 2020-2021 school year. The \code{program_number} variable is equivalent to the \code{school_number}
-variable used in the demographic and survey datasets.
+Boundaries for Baltimore City Public School elementary school attendance
+zones for the 2020-2021 school year. The \code{program_number} variable is
+equivalent to the \code{school_number} variable used in the demographic and survey
+datasets.
 }
 \keyword{datasets}

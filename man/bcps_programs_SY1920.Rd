@@ -14,7 +14,8 @@ A data frame with 174 rows and 11 variables:
 \item{\code{management_type}}{School management type}
 \item{\code{swing}}{Logical indicator for program at swing site}
 \item{\code{swing_building_number}}{Building number for swing site}
-\item{\code{colocated}}{Logical indicator for programs colocated with another program}
+\item{\code{colocated}}{Logical indicator for programs colocated with another
+program}
 \item{\code{council_district}}{Baltimore City Council District Number}
 \item{\code{legislative_district}}{Maryland Legislative District}
 \item{\code{geometry}}{Point geometry for program/school locations}

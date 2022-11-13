@@ -24,8 +24,8 @@ A data frame with 165 rows and 18 variables:
 bcps_programs_SY2122
 }
 \description{
-Locations for Baltimore City Public School buildings and programs for the 2021-2022
-school year. The \code{program_number} variable is equivalent to the \code{school_number}
-variable used in the demographic and survey datasets.
+Locations for Baltimore City Public School buildings and programs for the
+2021-2022 school year. The \code{program_number} variable is equivalent to the
+\code{school_number} variable used in the demographic and survey datasets.
 }
 \keyword{datasets}

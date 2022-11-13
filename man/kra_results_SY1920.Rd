@@ -11,15 +11,28 @@ A data frame with 1604 rows and 13 variables:
 \item{\code{school_name}}{School name}
 \item{\code{student_group}}{Student group (includes "All Students")}
 \item{\code{group_type}}{Student group type}
-\item{\code{num_tested_scored_overall}}{Number of test takers with overall scores}
+\item{\code{num_tested_scored_overall}}{Number of test takers with overall
+scores}
 \item{\code{avg_scale_score}}{Average KRA scale score}
-\item{\code{perc_emerging_readiness}}{Percent of test takers in Emerging Readiness category. Emerging readiness: Student demonstrates limited foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
-\item{\code{perc_approaching_readiness}}{Percent of test takers in Approaching Readiness category. Approaching readiness: Student demonstrates some foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
-\item{\code{perc_demonstrating_readiness}}{Percent of test takers in Demonstrating Readiness category. Demonstrating readiness: Student demonstrates foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
+\item{\code{perc_emerging_readiness}}{Percent of test takers in Emerging
+Readiness category. Emerging readiness: Student demonstrates limited
+foundational skills and behaviors that prepare him or her for curriculum
+based on Maryland College and Career-Ready kindergarten standards.}
+\item{\code{perc_approaching_readiness}}{Percent of test takers in Approaching
+Readiness category. Approaching readiness: Student demonstrates some
+foundational skills and behaviors that prepare him or her for curriculum
+based on Maryland College and Career-Ready kindergarten standards.}
+\item{\code{perc_demonstrating_readiness}}{Percent of test takers in
+Demonstrating Readiness category. Demonstrating readiness: Student
+demonstrates foundational skills and behaviors that prepare him or her for
+curriculum based on Maryland College and Career-Ready kindergarten
+standards.}
 \item{\code{avg_language_and_literacy_score}}{Average score in Literacy domain}
 \item{\code{avg_math_score}}{Average score in KRA Math domain}
-\item{\code{avg_physical_development_score}}{Average score in Physical Development domain}
-\item{\code{avg_social_foundations_score}}{Average score in Social Foundations domain}
+\item{\code{avg_physical_development_score}}{Average score in Physical
+Development domain}
+\item{\code{avg_social_foundations_score}}{Average score in Social Foundations
+domain}
 }
 }
 \source{

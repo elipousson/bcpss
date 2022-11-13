@@ -15,52 +15,99 @@ A data frame with 169 rows and 54 variables:
 \item{\code{est_num_parents}}{Estimated number of eligible parents}
 \item{\code{est_response_rate}}{Estimate parent response rate}
 \item{\code{administration_dimension_score}}{Administration Dimension Score}
-\item{\code{creativity_the_arts_dimension_score}}{Creativity & the Arts Dimension Score}
-\item{\code{physical_environment_dimension_score}}{Physical Environment Dimension Score}
+\item{\code{creativity_the_arts_dimension_score}}{Creativity & the Arts
+Dimension Score}
+\item{\code{physical_environment_dimension_score}}{Physical Environment
+Dimension Score}
 \item{\code{learning_climate_dimension_score}}{Learning Climate Dimension Score}
-\item{\code{family_involvement_dimension_score}}{Family Involvement Dimension Score}
+\item{\code{family_involvement_dimension_score}}{Family Involvement Dimension
+Score}
 \item{\code{school_resources_dimension_score}}{School Resources Dimension Score}
 \item{\code{safety_dimension_score}}{Safety Dimension Score}
-\item{\code{satisfaction_with_school_dimension_score}}{Satisfaction with School Dimension Score}
+\item{\code{satisfaction_with_school_dimension_score}}{Satisfaction with School
+Dimension Score}
 \item{\code{grit_dimension_score}}{Grit Dimension Score}
 \item{\code{overall}}{Overall Score}
 \item{\code{district_office_dimension_score}}{District Office Dimension Score}
-\item{\code{admin_1_the_school_administration_promptly_responds_to_my_concerns}}{The school administration promptly responds to my concerns}
-\item{\code{admin_9_parents_have_the_opportunity_to_give_input_into_the_school_s_decisions}}{Parents have the opportunity to give input into the school's decisions}
-\item{\code{creative_1_student_work_in_the_arts_is_displayed_or_presented_in_my_child_s_school}}{Student work in the arts is displayed or presented in my child's school}
-\item{\code{environ_1_the_school_building_is_clean_and_well_maintained}}{The school building is clean and well maintained}
-\item{\code{learn_13_teachers_care_about_their_students}}{Teachers care about their students}
-\item{\code{learn_14_i_feel_my_child_feels_like_i_belong_at_this_school}}{I feel (My child feels) like I belong at this school}
-\item{\code{learn_18_this_school_prepares_students_for_college_or_to_have_a_career}}{This school prepares students for college or to have a career}
-\item{\code{learn_19_if_students_break_rules_there_are_fair_consequences}}{If students break rules, there are fair consequences}
-\item{\code{parent_1_parents_or_guardians_are_welcome_at_this_school}}{Parents or guardians are welcome at this school}
-\item{\code{parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session}}{Parents can use resources at my child's school when school is not in session}
-\item{\code{parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal}}{I know how to access information about how my child is performing in school (e.g., Parent Portal)}
-\item{\code{parent_18_the_school_sends_me_information_in_my_native_language}}{The school sends me information in my native language}
-\item{\code{parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued}}{I feel that my input into my child's education is valued}
-\item{\code{parent_20_my_child_s_school_can_connect_me_to_resources_in_the_community}}{My child's school can connect me to resources in the community}
-\item{\code{parent_21_the_school_notifies_me_when_my_child_misses_school}}{The school notifies me when my child misses school}
-\item{\code{parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn}}{My child's school regularly communicates with parents about how they can help their children learn}
-\item{\code{parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed}}{When a student does something good at school, the parents are informed}
-\item{\code{parent_4_when_a_student_does_something_bad_at_school_the_parents_are_informed}}{When a student does something bad at school, the parents are informed}
-\item{\code{parent_5_school_staff_work_closely_with_parents_to_meet_students_needs}}{School staff work closely with parents to meet students' needs}
-\item{\code{resource_17_students_have_the_opportunity_to_take_books_home_from_this_school}}{Students have the opportunity to take books home from this school}
-\item{\code{resource_7_teachers_provide_extra_academic_help_to_students_who_need_it}}{Teachers provide extra academic help to students who need it}
-\item{\code{resource_9_this_school_has_programs_to_support_students_emotional_and_social_development}}{This school has programs to support students' emotional and social development}
-\item{\code{safe_12_students_feel_safe_at_this_school}}{Students feel safe at this school}
-\item{\code{safe_13_students_feel_safe_going_to_and_from_school}}{Students feel safe going to and from school}
-\item{\code{satisfy_11_overall_i_am_satisfied_with_my_child_s_school}}{Overall, I am satisfied with my child's school}
-\item{\code{satisfy_12_i_would_recommend_this_school_to_others}}{I would recommend this school to others}
-\item{\code{grit_6_i_encourage_my_child_to_keep_working_at_difficult_tasks_until_he_she_figures_them_out}}{I encourage my child to keep working at difficult tasks until he/she figures them out}
-\item{\code{value_1_regular_on_time_attendance_is_important_to_my_child_s_success_in_school}}{Regular, on-time attendance is important to my child's success in school}
-\item{\code{parent_read_2_i_read_with_my_child_at_least_once_a_month}}{I read with my child at least once a month}
-\item{\code{parent_talk_2_i_ask_my_child_what_he_she_did_at_school_at_least_once_a_month}}{I ask my child what he/she did at school at least once a month}
-\item{\code{district_office_1_if_you_called_the_district_office_within_the_last_year_how_satisfied_were_you_overall_with_the_support_you_received}}{If you called the District Office within the last year, how satisfied were you overall with the support you received?}
-\item{\code{district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested}}{If you visited District Headquarters within the last year, how satisfied were you overall with the service(s) you requested?}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_walk}}{Transportation - How does your child usually get to school? Walk}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_school_bus}}{Transportation - How does your child usually get to school? School Bus}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_mta_bus}}{Transportation - How does your child usually get to school? MTA Bus}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_car}}{Transportation - How does your child usually get to school? Car}
+\item{\code{admin_1_the_school_administration_promptly_responds_to_my_concerns}}{The
+school administration promptly responds to my concerns}
+\item{\code{admin_9_parents_have_the_opportunity_to_give_input_into_the_school_s_decisions}}{Parents
+have the opportunity to give input into the school's decisions}
+\item{\code{creative_1_student_work_in_the_arts_is_displayed_or_presented_in_my_child_s_school}}{Student
+work in the arts is displayed or presented in my child's school}
+\item{\code{environ_1_the_school_building_is_clean_and_well_maintained}}{The
+school building is clean and well maintained}
+\item{\code{learn_13_teachers_care_about_their_students}}{Teachers care about
+their students}
+\item{\code{learn_14_i_feel_my_child_feels_like_i_belong_at_this_school}}{I feel
+(My child feels) like I belong at this school}
+\item{\code{learn_18_this_school_prepares_students_for_college_or_to_have_a_career}}{This
+school prepares students for college or to have a career}
+\item{\code{learn_19_if_students_break_rules_there_are_fair_consequences}}{If
+students break rules, there are fair consequences}
+\item{\code{parent_1_parents_or_guardians_are_welcome_at_this_school}}{Parents
+or guardians are welcome at this school}
+\item{\code{parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session}}{Parents
+can use resources at my child's school when school is not in session}
+\item{\code{parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal}}{I
+know how to access information about how my child is performing in school
+(e.g., Parent Portal)}
+\item{\code{parent_18_the_school_sends_me_information_in_my_native_language}}{The
+school sends me information in my native language}
+\item{\code{parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued}}{I
+feel that my input into my child's education is valued}
+\item{\code{parent_20_my_child_s_school_can_connect_me_to_resources_in_the_community}}{My
+child's school can connect me to resources in the community}
+\item{\code{parent_21_the_school_notifies_me_when_my_child_misses_school}}{The
+school notifies me when my child misses school}
+\item{\code{parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn}}{My
+child's school regularly communicates with parents about how they can help
+their children learn}
+\item{\code{parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed}}{When
+a student does something good at school, the parents are informed}
+\item{\code{parent_4_when_a_student_does_something_bad_at_school_the_parents_are_informed}}{When
+a student does something bad at school, the parents are informed}
+\item{\code{parent_5_school_staff_work_closely_with_parents_to_meet_students_needs}}{School
+staff work closely with parents to meet students' needs}
+\item{\code{resource_17_students_have_the_opportunity_to_take_books_home_from_this_school}}{Students
+have the opportunity to take books home from this school}
+\item{\code{resource_7_teachers_provide_extra_academic_help_to_students_who_need_it}}{Teachers
+provide extra academic help to students who need it}
+\item{\code{resource_9_this_school_has_programs_to_support_students_emotional_and_social_development}}{This
+school has programs to support students' emotional and social development}
+\item{\code{safe_12_students_feel_safe_at_this_school}}{Students feel safe at
+this school}
+\item{\code{safe_13_students_feel_safe_going_to_and_from_school}}{Students feel
+safe going to and from school}
+\item{\code{satisfy_11_overall_i_am_satisfied_with_my_child_s_school}}{Overall,
+I am satisfied with my child's school}
+\item{\code{satisfy_12_i_would_recommend_this_school_to_others}}{I would
+recommend this school to others}
+\item{\code{grit_6_i_encourage_my_child_to_keep_working_at_difficult_tasks_until_he_she_figures_them_out}}{I
+encourage my child to keep working at difficult tasks until he/she figures
+them out}
+\item{\code{value_1_regular_on_time_attendance_is_important_to_my_child_s_success_in_school}}{Regular,
+on-time attendance is important to my child's success in school}
+\item{\code{parent_read_2_i_read_with_my_child_at_least_once_a_month}}{I read
+with my child at least once a month}
+\item{\code{parent_talk_2_i_ask_my_child_what_he_she_did_at_school_at_least_once_a_month}}{I
+ask my child what he/she did at school at least once a month}
+\item{\code{district_office_1_if_you_called_the_district_office_within_the_last_year_how_satisfied_were_you_overall_with_the_support_you_received}}{If
+you called the District Office within the last year, how satisfied were you
+overall with the support you received?}
+\item{\code{district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested}}{If
+you visited District Headquarters within the last year, how satisfied were
+you overall with the service(s) you requested?}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_walk}}{Transportation
+\itemize{
+\item How does your child usually get to school? Walk}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_school_bus}}{Transportation
+\item How does your child usually get to school? School Bus}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_mta_bus}}{Transportation
+\item How does your child usually get to school? MTA Bus}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_car}}{Transportation
+\item How does your child usually get to school? Car}
+}
 }
 }
 \source{

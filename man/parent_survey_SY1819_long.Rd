@@ -16,7 +16,8 @@ A data frame with 7,943 rows and 10 variables:
 \item{\code{est_num_parents}}{Estimated number of eligible parents}
 \item{\code{est_response_rate}}{Estimated parent response rate}
 \item{\code{variable}}{Unique slug for composite score or question}
-\item{\code{value}}{Value of composite score or share of parents responding affirmatively to question}
+\item{\code{value}}{Value of composite score or share of parents responding
+affirmatively to question}
 \item{\code{label}}{Variable label for composite score or question}
 }
 }

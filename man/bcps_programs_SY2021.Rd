@@ -14,13 +14,16 @@ A data frame with 165 rows and 18 variables:
 \item{\code{category}}{Grade category}
 \item{\code{swing}}{Logical indicator for program at swing site}
 \item{\code{swing_building_number}}{Building number for swing site}
-\item{\code{colocated}}{Logical indicator for programs colocated with another program}
-\item{\code{two_buildings}}{Logical indicator for programs with two buildings at one site}
+\item{\code{colocated}}{Logical indicator for programs colocated with another
+program}
+\item{\code{two_buildings}}{Logical indicator for programs with two buildings at
+one site}
 \item{\code{home_building}}{...}
 \item{\code{council_district}}{Baltimore City Council District Number}
 \item{\code{legislative_district}}{Maryland Legislative District}
 \item{\code{congressional_district}}{U.S. Congressional District}
-\item{\code{planning_area}}{Planning area, Baltimore City Department of Planning}
+\item{\code{planning_area}}{Planning area, Baltimore City Department of
+Planning}
 \item{\code{quadrant}}{Quadrant}
 \item{\code{zone_number}}{Program zone number}
 \item{\code{zone_name}}{Program zone name}
@@ -34,8 +37,8 @@ A data frame with 165 rows and 18 variables:
 bcps_programs_SY2021
 }
 \description{
-Locations for Baltimore City Public School buildings and programs for the 2020-2021
-school year. The \code{program_number} variable is equivalent to the \code{school_number}
-variable used in the demographic and survey datasets.
+Locations for Baltimore City Public School buildings and programs for the
+2020-2021 school year. The \code{program_number} variable is equivalent to the
+\code{school_number} variable used in the demographic and survey datasets.
 }
 \keyword{datasets}

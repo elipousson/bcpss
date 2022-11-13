@@ -3,7 +3,8 @@
 \docType{data}
 \name{bcps_es_zones_SY2122}
 \alias{bcps_es_zones_SY2122}
-\title{Baltimore City Public School Elementary School Attendance Zones (SY 2021-2022)}
+\title{Baltimore City Public School Elementary School Attendance Zones (SY
+2021-2022)}
 \format{
 A data frame with 92 features and 5 variables:
 \describe{
@@ -21,8 +22,9 @@ A data frame with 92 features and 5 variables:
 bcps_es_zones_SY2122
 }
 \description{
-Boundaries for Baltimore City Public School elementary school attendance zones for
-the 2021-2022 school year. The \code{program_number} variable is equivalent to the \code{school_number}
-variable used in the demographic and survey datasets.
+Boundaries for Baltimore City Public School elementary school attendance
+zones for the 2021-2022 school year. The \code{program_number} variable is
+equivalent to the \code{school_number} variable used in the demographic and survey
+datasets.
 }
 \keyword{datasets}

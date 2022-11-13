@@ -11,10 +11,14 @@ A data frame with 160 rows and 8 variables:
 \item{\code{school_number}}{School number}
 \item{\code{school_name}}{School name}
 \item{\code{star_rating}}{Star rating}
-\item{\code{total_points_earned_percentage}}{Total points earned (as a percentage)}
-\item{\code{percentile_rank_elementary}}{Statewide percentile rank for elementary school grade band}
-\item{\code{percentile_rank_middle}}{Statewide percentile rank for middle school grade band}
-\item{\code{percentile_rank_high}}{Statewide percentile rank for high school grade band}
+\item{\code{total_points_earned_percentage}}{Total points earned (as a
+percentage)}
+\item{\code{percentile_rank_elementary}}{Statewide percentile rank for
+elementary school grade band}
+\item{\code{percentile_rank_middle}}{Statewide percentile rank for middle school
+grade band}
+\item{\code{percentile_rank_high}}{Statewide percentile rank for high school
+grade band}
 }
 }
 \source{

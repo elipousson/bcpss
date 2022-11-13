@@ -23,8 +23,10 @@
 #'   \item{`percent_non_hispanic_white`}{Percent Non-Hispanic White}
 #'   \item{`percent_hispanic`}{Percent Hispanic}
 #'   \item{`percent_non_hispanic_asian`}{Percent Non-Hispanic Asian}
-#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American Indian}
-#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Pacific Islander}
+#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American
+#'   Indian}
+#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Pacific
+#'   Islander}
 #'   \item{`percent_non_hispanic_multiracial`}{Percent Non-Hispanic Multiracial}
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
@@ -71,52 +73,97 @@
 #'   \item{`est_num_parents`}{Estimated number of eligible parents}
 #'   \item{`est_response_rate`}{Estimate parent response rate}
 #'   \item{`administration_dimension_score`}{Administration Dimension Score}
-#'   \item{`creativity_the_arts_dimension_score`}{Creativity & the Arts Dimension Score}
-#'   \item{`physical_environment_dimension_score`}{Physical Environment Dimension Score}
+#'   \item{`creativity_the_arts_dimension_score`}{Creativity & the Arts
+#'   Dimension Score}
+#'   \item{`physical_environment_dimension_score`}{Physical Environment
+#'   Dimension Score}
 #'   \item{`learning_climate_dimension_score`}{Learning Climate Dimension Score}
-#'   \item{`family_involvement_dimension_score`}{Family Involvement Dimension Score}
+#'   \item{`family_involvement_dimension_score`}{Family Involvement Dimension
+#'   Score}
 #'   \item{`school_resources_dimension_score`}{School Resources Dimension Score}
 #'   \item{`safety_dimension_score`}{Safety Dimension Score}
-#'   \item{`satisfaction_with_school_dimension_score`}{Satisfaction with School Dimension Score}
+#'   \item{`satisfaction_with_school_dimension_score`}{Satisfaction with School
+#'   Dimension Score}
 #'   \item{`grit_dimension_score`}{Grit Dimension Score}
 #'   \item{`overall`}{Overall Score}
 #'   \item{`district_office_dimension_score`}{District Office Dimension Score}
-#'   \item{`admin_1_the_school_administration_promptly_responds_to_my_concerns`}{The school administration promptly responds to my concerns}
-#'   \item{`admin_9_parents_have_the_opportunity_to_give_input_into_the_school_s_decisions`}{Parents have the opportunity to give input into the school's decisions}
-#'   \item{`creative_1_student_work_in_the_arts_is_displayed_or_presented_in_my_child_s_school`}{Student work in the arts is displayed or presented in my child's school}
-#'   \item{`environ_1_the_school_building_is_clean_and_well_maintained`}{The school building is clean and well maintained}
-#'   \item{`learn_13_teachers_care_about_their_students`}{Teachers care about their students}
-#'   \item{`learn_14_i_feel_my_child_feels_like_i_belong_at_this_school`}{I feel (My child feels) like I belong at this school}
-#'   \item{`learn_18_this_school_prepares_students_for_college_or_to_have_a_career`}{This school prepares students for college or to have a career}
-#'   \item{`learn_19_if_students_break_rules_there_are_fair_consequences`}{If students break rules, there are fair consequences}
-#'   \item{`parent_1_parents_or_guardians_are_welcome_at_this_school`}{Parents or guardians are welcome at this school}
-#'   \item{`parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session`}{Parents can use resources at my child's school when school is not in session}
-#'   \item{`parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal`}{I know how to access information about how my child is performing in school (e.g., Parent Portal)}
-#'   \item{`parent_18_the_school_sends_me_information_in_my_native_language`}{The school sends me information in my native language}
-#'   \item{`parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued`}{I feel that my input into my child's education is valued}
-#'   \item{`parent_20_my_child_s_school_can_connect_me_to_resources_in_the_community`}{My child's school can connect me to resources in the community}
-#'   \item{`parent_21_the_school_notifies_me_when_my_child_misses_school`}{The school notifies me when my child misses school}
-#'   \item{`parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn`}{My child's school regularly communicates with parents about how they can help their children learn}
-#'   \item{`parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed`}{When a student does something good at school, the parents are informed}
-#'   \item{`parent_4_when_a_student_does_something_bad_at_school_the_parents_are_informed`}{When a student does something bad at school, the parents are informed}
-#'   \item{`parent_5_school_staff_work_closely_with_parents_to_meet_students_needs`}{School staff work closely with parents to meet students' needs}
-#'   \item{`resource_17_students_have_the_opportunity_to_take_books_home_from_this_school`}{Students have the opportunity to take books home from this school}
-#'   \item{`resource_7_teachers_provide_extra_academic_help_to_students_who_need_it`}{Teachers provide extra academic help to students who need it}
-#'   \item{`resource_9_this_school_has_programs_to_support_students_emotional_and_social_development`}{This school has programs to support students' emotional and social development}
-#'   \item{`safe_12_students_feel_safe_at_this_school`}{Students feel safe at this school}
-#'   \item{`safe_13_students_feel_safe_going_to_and_from_school`}{Students feel safe going to and from school}
-#'   \item{`satisfy_11_overall_i_am_satisfied_with_my_child_s_school`}{Overall, I am satisfied with my child's school}
-#'   \item{`satisfy_12_i_would_recommend_this_school_to_others`}{I would recommend this school to others}
-#'   \item{`grit_6_i_encourage_my_child_to_keep_working_at_difficult_tasks_until_he_she_figures_them_out`}{I encourage my child to keep working at difficult tasks until he/she figures them out}
-#'   \item{`value_1_regular_on_time_attendance_is_important_to_my_child_s_success_in_school`}{Regular, on-time attendance is important to my child's success in school}
-#'   \item{`parent_read_2_i_read_with_my_child_at_least_once_a_month`}{I read with my child at least once a month}
-#'   \item{`parent_talk_2_i_ask_my_child_what_he_she_did_at_school_at_least_once_a_month`}{I ask my child what he/she did at school at least once a month}
-#'   \item{`district_office_1_if_you_called_the_district_office_within_the_last_year_how_satisfied_were_you_overall_with_the_support_you_received`}{If you called the District Office within the last year, how satisfied were you overall with the support you received?}
-#'   \item{`district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested`}{If you visited District Headquarters within the last year, how satisfied were you overall with the service(s) you requested?}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_walk`}{Transportation - How does your child usually get to school? Walk}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_school_bus`}{Transportation - How does your child usually get to school? School Bus}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_mta_bus`}{Transportation - How does your child usually get to school? MTA Bus}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_car`}{Transportation - How does your child usually get to school? Car}
+#'   \item{`admin_1_the_school_administration_promptly_responds_to_my_concerns`}{The
+#'   school administration promptly responds to my concerns}
+#'   \item{`admin_9_parents_have_the_opportunity_to_give_input_into_the_school_s_decisions`}{Parents
+#'   have the opportunity to give input into the school's decisions}
+#'   \item{`creative_1_student_work_in_the_arts_is_displayed_or_presented_in_my_child_s_school`}{Student
+#'   work in the arts is displayed or presented in my child's school}
+#'   \item{`environ_1_the_school_building_is_clean_and_well_maintained`}{The
+#'   school building is clean and well maintained}
+#'   \item{`learn_13_teachers_care_about_their_students`}{Teachers care about
+#'   their students}
+#'   \item{`learn_14_i_feel_my_child_feels_like_i_belong_at_this_school`}{I feel
+#'   (My child feels) like I belong at this school}
+#'   \item{`learn_18_this_school_prepares_students_for_college_or_to_have_a_career`}{This
+#'   school prepares students for college or to have a career}
+#'   \item{`learn_19_if_students_break_rules_there_are_fair_consequences`}{If
+#'   students break rules, there are fair consequences}
+#'   \item{`parent_1_parents_or_guardians_are_welcome_at_this_school`}{Parents
+#'   or guardians are welcome at this school}
+#'   \item{`parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session`}{Parents
+#'   can use resources at my child's school when school is not in session}
+#'   \item{`parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal`}{I
+#'   know how to access information about how my child is performing in school
+#'   (e.g., Parent Portal)}
+#'   \item{`parent_18_the_school_sends_me_information_in_my_native_language`}{The
+#'   school sends me information in my native language}
+#'   \item{`parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued`}{I
+#'   feel that my input into my child's education is valued}
+#'   \item{`parent_20_my_child_s_school_can_connect_me_to_resources_in_the_community`}{My
+#'   child's school can connect me to resources in the community}
+#'   \item{`parent_21_the_school_notifies_me_when_my_child_misses_school`}{The
+#'   school notifies me when my child misses school}
+#'   \item{`parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn`}{My
+#'   child's school regularly communicates with parents about how they can help
+#'   their children learn}
+#'   \item{`parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed`}{When
+#'   a student does something good at school, the parents are informed}
+#'   \item{`parent_4_when_a_student_does_something_bad_at_school_the_parents_are_informed`}{When
+#'   a student does something bad at school, the parents are informed}
+#'   \item{`parent_5_school_staff_work_closely_with_parents_to_meet_students_needs`}{School
+#'   staff work closely with parents to meet students' needs}
+#'   \item{`resource_17_students_have_the_opportunity_to_take_books_home_from_this_school`}{Students
+#'   have the opportunity to take books home from this school}
+#'   \item{`resource_7_teachers_provide_extra_academic_help_to_students_who_need_it`}{Teachers
+#'   provide extra academic help to students who need it}
+#'   \item{`resource_9_this_school_has_programs_to_support_students_emotional_and_social_development`}{This
+#'   school has programs to support students' emotional and social development}
+#'   \item{`safe_12_students_feel_safe_at_this_school`}{Students feel safe at
+#'   this school}
+#'   \item{`safe_13_students_feel_safe_going_to_and_from_school`}{Students feel
+#'   safe going to and from school}
+#'   \item{`satisfy_11_overall_i_am_satisfied_with_my_child_s_school`}{Overall,
+#'   I am satisfied with my child's school}
+#'   \item{`satisfy_12_i_would_recommend_this_school_to_others`}{I would
+#'   recommend this school to others}
+#'   \item{`grit_6_i_encourage_my_child_to_keep_working_at_difficult_tasks_until_he_she_figures_them_out`}{I
+#'   encourage my child to keep working at difficult tasks until he/she figures
+#'   them out}
+#'   \item{`value_1_regular_on_time_attendance_is_important_to_my_child_s_success_in_school`}{Regular,
+#'   on-time attendance is important to my child's success in school}
+#'   \item{`parent_read_2_i_read_with_my_child_at_least_once_a_month`}{I read
+#'   with my child at least once a month}
+#'   \item{`parent_talk_2_i_ask_my_child_what_he_she_did_at_school_at_least_once_a_month`}{I
+#'   ask my child what he/she did at school at least once a month}
+#'   \item{`district_office_1_if_you_called_the_district_office_within_the_last_year_how_satisfied_were_you_overall_with_the_support_you_received`}{If
+#'   you called the District Office within the last year, how satisfied were you
+#'   overall with the support you received?}
+#'   \item{`district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested`}{If
+#'   you visited District Headquarters within the last year, how satisfied were
+#'   you overall with the service(s) you requested?}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_walk`}{Transportation
+#'   - How does your child usually get to school? Walk}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_school_bus`}{Transportation
+#'   - How does your child usually get to school? School Bus}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_mta_bus`}{Transportation
+#'   - How does your child usually get to school? MTA Bus}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_car`}{Transportation
+#'   - How does your child usually get to school? Car}
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
 "parent_survey_SY1819"
@@ -141,7 +188,8 @@
 #'   \item{`est_num_parents`}{Estimated number of eligible parents}
 #'   \item{`est_response_rate`}{Estimated parent response rate}
 #'   \item{`variable`}{Unique slug for composite score or question}
-#'   \item{`value`}{Value of composite score or share of parents responding affirmatively to question}
+#'   \item{`value`}{Value of composite score or share of parents responding
+#'   affirmatively to question}
 #'   \item{`label`}{Variable label for composite score or question}
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
@@ -154,8 +202,8 @@
 #' to students and educators. It is online only, in English and Spanish for
 #' students. Student participants were from Elementary (Grade 5), Middle (grades
 #' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
-#' student participation rate was 69.9 percent overall, and the educator participation
-#' rate was 76.9 percent.
+#' student participation rate was 69.9 percent overall, and the educator
+#' participation rate was 76.9 percent.
 #'
 #' There were four domains and ten topics for students, and five domains and
 #' eleven topics for educators. Survey results ranged from 1-10, with 10 being
@@ -203,8 +251,8 @@
 #' to students and educators. It is online only, in English and Spanish for
 #' students. Student participants were from Elementary (Grade 5), Middle (grades
 #' 6-8), and High (grades 9-11), and all instructional staff were eligible. The
-#' student participation rate was 69.9 percent overall, and the educator participation
-#' rate was 76.9 percent.
+#' student participation rate was 69.9 percent overall, and the educator
+#' participation rate was 76.9 percent.
 #'
 #' There were four domains and ten topics for students, and five domains and
 #' eleven topics for educators. Survey results ranged from 1-10, with 10 being
@@ -231,11 +279,13 @@
 "educator_survey_SY1819"
 
 
-#' Baltimore City Public School Elementary School Attendance Zones (SY 2021-2022)
+#' Baltimore City Public School Elementary School Attendance Zones (SY
+#' 2021-2022)
 #'
-#' Boundaries for Baltimore City Public School elementary school attendance zones for
-#' the 2021-2022 school year. The `program_number` variable is equivalent to the `school_number`
-#' variable used in the demographic and survey datasets.
+#' Boundaries for Baltimore City Public School elementary school attendance
+#' zones for the 2021-2022 school year. The `program_number` variable is
+#' equivalent to the `school_number` variable used in the demographic and survey
+#' datasets.
 #'
 #' @format A data frame with 92 features and 5 variables:
 #' \describe{
@@ -251,9 +301,10 @@
 
 #' Baltimore City Public School Elementary School Attendance Zones (SY 2020-2021)
 #'
-#' Boundaries for Baltimore City Public School elementary school attendance zones for
-#' the 2020-2021 school year. The `program_number` variable is equivalent to the `school_number`
-#' variable used in the demographic and survey datasets.
+#' Boundaries for Baltimore City Public School elementary school attendance
+#' zones for the 2020-2021 school year. The `program_number` variable is
+#' equivalent to the `school_number` variable used in the demographic and survey
+#' datasets.
 #'
 #' @format A data frame with 96 rows and 5 variables:
 #' \describe{
@@ -268,9 +319,9 @@
 
 #' Baltimore City Public School Program Locations (SY 2021-2022)
 #'
-#' Locations for Baltimore City Public School buildings and programs for the 2021-2022
-#' school year. The `program_number` variable is equivalent to the `school_number`
-#' variable used in the demographic and survey datasets.
+#' Locations for Baltimore City Public School buildings and programs for the
+#' 2021-2022 school year. The `program_number` variable is equivalent to the
+#' `school_number` variable used in the demographic and survey datasets.
 #'
 #' @format A data frame with 165 rows and 18 variables:
 #' \describe{
@@ -288,9 +339,9 @@
 
 #' Baltimore City Public School Program Locations (SY 2020-2021)
 #'
-#' Locations for Baltimore City Public School buildings and programs for the 2020-2021
-#' school year. The `program_number` variable is equivalent to the `school_number`
-#' variable used in the demographic and survey datasets.
+#' Locations for Baltimore City Public School buildings and programs for the
+#' 2020-2021 school year. The `program_number` variable is equivalent to the
+#' `school_number` variable used in the demographic and survey datasets.
 #'
 #' @format A data frame with 165 rows and 18 variables:
 #' \describe{
@@ -301,13 +352,16 @@
 #'   \item{`category`}{Grade category}
 #'   \item{`swing`}{Logical indicator for program at swing site}
 #'   \item{`swing_building_number`}{Building number for swing site}
-#'   \item{`colocated`}{Logical indicator for programs colocated with another program}
-#'   \item{`two_buildings`}{Logical indicator for programs with two buildings at one site}
+#'   \item{`colocated`}{Logical indicator for programs colocated with another
+#'   program}
+#'   \item{`two_buildings`}{Logical indicator for programs with two buildings at
+#'   one site}
 #'   \item{`home_building`}{...}
 #'   \item{`council_district`}{Baltimore City Council District Number}
 #'   \item{`legislative_district`}{Maryland Legislative District}
 #'   \item{`congressional_district`}{U.S. Congressional District}
-#'   \item{`planning_area`}{Planning area, Baltimore City Department of Planning}
+#'   \item{`planning_area`}{Planning area, Baltimore City Department of
+#'   Planning}
 #'   \item{`quadrant`}{Quadrant}
 #'   \item{`zone_number`}{Program zone number}
 #'   \item{`zone_name`}{Program zone name}
@@ -331,7 +385,8 @@
 #'   \item{`management_type`}{School management type}
 #'   \item{`swing`}{Logical indicator for program at swing site}
 #'   \item{`swing_building_number`}{Building number for swing site}
-#'   \item{`colocated`}{Logical indicator for programs colocated with another program}
+#'   \item{`colocated`}{Logical indicator for programs colocated with another
+#'   program}
 #'   \item{`council_district`}{Baltimore City Council District Number}
 #'   \item{`legislative_district`}{Maryland Legislative District}
 #'   \item{`geometry`}{Point geometry for program/school locations}
@@ -355,7 +410,8 @@
 #'    2019 data is from the start of the 2019-2020 school year.}
 #'  \item{`school_number`}{School number (0 indicates all schools)}
 #'  \item{`school_name`}{School name}
-#'  \item{`enrolled_count`}{Number of students registered to attend the school as of September 30 in the grade or grade range}
+#'  \item{`enrolled_count`}{Number of students registered to attend the school
+#'  as of September 30 in the grade or grade range}
 #'  \item{`grade`}{Grades from Prekindergarden (PK) to Grade 12}
 #'  \item{`grade_range`}{Elementary school, middle school, high school, or
 #'    all grades (total enrollment)}
@@ -380,21 +436,40 @@
 #'
 #' @format A data frame with 3,197 rows and 15 variables:
 #' \describe{
-#'   \item{`school_year`}{School year or academic year, e.g. 2019 for 2019-2020 school year}
+#'   \item{`school_year`}{School year or academic year, e.g. 2019 for 2019-2020
+#'   school year}
 #'   \item{`school_number`}{School number (0 indicates all schools)}
 #'   \item{`school_name`}{School name}
 #'   \item{`grade_band`}{Grade band (school type)}
-#'   \item{`attend_rate_pct`}{Attendance rate as defined as the average daily attendance rate of students in the school and grade band, including special education students}
-#'   \item{`days_attended_cnt`}{Total number of students in attendance from the first day of school through April 13th}
-#'   \item{`days_member_cnt`}{Total number of students registered to attend from the first day of school through April 13th}
-#'   \item{`fewer_5_pct`}{Percent of students absentee rate is the percentage of students absent from school for five or fewer days between the first day of the school year and the last day of the school year}
-#'   \item{`fewer_5_cnt`}{Count of students absentee rate is the percentage of students absent from school for five or fewer days between the first day of the school year and the last day of the school year}
-#'   \item{`more_20_pct`}{Percent of students absentee rate is the percentage of students absent from school for twenty or more days between the first day of the school year and the last day of the school year}
-#'   \item{`more_20_cnt`}{Number of students absentee rate is the percentage of students absent from school for twenty or more days between the first day of the school year and the last day of the school year}
-#'   \item{`more_90_member_cnt`}{Number of students with an attendance rate of 90 percent or more (?)}
-#'   \item{`chronic_absentee_cnt`}{Number of students expected to attend school for at least 10 days who were absent 10 percent or more of the school days while enrolled at that school}
-#'   \item{`chronic_absentee_denom`}{Number of students who are expected to attend school for at least 10 days in the school year}
-#'   \item{`chronic_absentee_pct`}{Chronic absenteeism rate as defined as the percent of students expected to attend school for at least 10 days who were absent 10 percent or more of the school days while enrolled at that school}
+#'   \item{`attend_rate_pct`}{Attendance rate as defined as the average daily
+#'   attendance rate of students in the school and grade band, including special
+#'   education students}
+#'   \item{`days_attended_cnt`}{Total number of students in attendance from the
+#'   first day of school through April 13th}
+#'   \item{`days_member_cnt`}{Total number of students registered to attend from
+#'   the first day of school through April 13th}
+#'   \item{`fewer_5_pct`}{Percent of students absentee rate is the percentage of
+#'   students absent from school for five or fewer days between the first day of
+#'   the school year and the last day of the school year}
+#'   \item{`fewer_5_cnt`}{Count of students absentee rate is the percentage of
+#'   students absent from school for five or fewer days between the first day of
+#'   the school year and the last day of the school year}
+#'   \item{`more_20_pct`}{Percent of students absentee rate is the percentage of
+#'   students absent from school for twenty or more days between the first day
+#'   of the school year and the last day of the school year}
+#'   \item{`more_20_cnt`}{Number of students absentee rate is the percentage of
+#'   students absent from school for twenty or more days between the first day
+#'   of the school year and the last day of the school year}
+#'   \item{`more_90_member_cnt`}{Number of students with an attendance rate of
+#'   90 percent or more (?)}
+#'   \item{`chronic_absentee_cnt`}{Number of students expected to attend school
+#'   for at least 10 days who were absent 10 percent or more of the school days
+#'   while enrolled at that school}
+#'   \item{`chronic_absentee_denom`}{Number of students who are expected to
+#'   attend school for at least 10 days in the school year}
+#'   \item{`chronic_absentee_pct`}{Chronic absenteeism rate as defined as the
+#'   percent of students expected to attend school for at least 10 days who were
+#'   absent 10 percent or more of the school days while enrolled at that school}
 #'  }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "attendance_msde_SY0919"
@@ -432,15 +507,28 @@
 #'   \item{`school_name`}{School name}
 #'   \item{`student_group`}{Student group (includes "All Students")}
 #'   \item{`group_type`}{Student group type}
-#'   \item{`num_tested_scored_overall`}{Number of test takers with overall scores}
+#'   \item{`num_tested_scored_overall`}{Number of test takers with overall
+#'   scores}
 #'   \item{`avg_scale_score`}{Average KRA scale score}
-#'   \item{`perc_emerging_readiness`}{Percent of test takers in Emerging Readiness category. Emerging readiness: Student demonstrates limited foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
-#'   \item{`perc_approaching_readiness`}{Percent of test takers in Approaching Readiness category. Approaching readiness: Student demonstrates some foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
-#'   \item{`perc_demonstrating_readiness`}{Percent of test takers in Demonstrating Readiness category. Demonstrating readiness: Student demonstrates foundational skills and behaviors that prepare him or her for curriculum based on Maryland College and Career-Ready kindergarten standards.}
+#'   \item{`perc_emerging_readiness`}{Percent of test takers in Emerging
+#'   Readiness category. Emerging readiness: Student demonstrates limited
+#'   foundational skills and behaviors that prepare him or her for curriculum
+#'   based on Maryland College and Career-Ready kindergarten standards.}
+#'   \item{`perc_approaching_readiness`}{Percent of test takers in Approaching
+#'   Readiness category. Approaching readiness: Student demonstrates some
+#'   foundational skills and behaviors that prepare him or her for curriculum
+#'   based on Maryland College and Career-Ready kindergarten standards.}
+#'   \item{`perc_demonstrating_readiness`}{Percent of test takers in
+#'   Demonstrating Readiness category. Demonstrating readiness: Student
+#'   demonstrates foundational skills and behaviors that prepare him or her for
+#'   curriculum based on Maryland College and Career-Ready kindergarten
+#'   standards.}
 #'   \item{`avg_language_and_literacy_score`}{Average score in Literacy domain}
 #'   \item{`avg_math_score`}{Average score in KRA Math domain}
-#'   \item{`avg_physical_development_score`}{Average score in Physical Development domain}
-#'   \item{`avg_social_foundations_score`}{Average score in Social Foundations domain}
+#'   \item{`avg_physical_development_score`}{Average score in Physical
+#'   Development domain}
+#'   \item{`avg_social_foundations_score`}{Average score in Social Foundations
+#'   domain}
 #' }
 #' @source [BCPSS Public 2019-20 KRA School Level Results](https://www.baltimorecityschools.org/sites/default/files/inline-files/PUBLIC-2019-20-KRA-School-Level-Results.xlsx)
 "kra_results_SY1920"
@@ -468,10 +556,14 @@
 #'   \item{`school_number`}{School number}
 #'   \item{`school_name`}{School name}
 #'   \item{`star_rating`}{Star rating}
-#'   \item{`total_points_earned_percentage`}{Total points earned (as a percentage)}
-#'   \item{`percentile_rank_elementary`}{Statewide percentile rank for elementary school grade band}
-#'   \item{`percentile_rank_middle`}{Statewide percentile rank for middle school grade band}
-#'   \item{`percentile_rank_high`}{Statewide percentile rank for high school grade band}
+#'   \item{`total_points_earned_percentage`}{Total points earned (as a
+#'   percentage)}
+#'   \item{`percentile_rank_elementary`}{Statewide percentile rank for
+#'   elementary school grade band}
+#'   \item{`percentile_rank_middle`}{Statewide percentile rank for middle school
+#'   grade band}
+#'   \item{`percentile_rank_high`}{Statewide percentile rank for high school
+#'   grade band}
 #' }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "accountability_SY19"
@@ -496,3 +588,30 @@
 #' }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "nces_school_directory_SY19"
+
+#' Baltimore City Public Schools Surplus School Buildings
+#'
+#'
+#' @format A data frame with 40 rows and 15 variables:
+#' \describe{
+#'   \item{`pos`}{Position/sort order}
+#'   \item{`id`}{Identifier}
+#'   \item{`building_name`}{Building name}
+#'   \item{`primary_building_year`}{Primary building year of construction}
+#'   \item{`address`}{Building street address}
+#'   \item{`school_name`}{School name}
+#'   \item{`school_number`}{School number}
+#'   \item{`school_closure_year`}{Year school closed}
+#'   \item{`surplus_year`}{Year surplussed}
+#'   \item{`status_sy20`}{Status (Fall 2020)}
+#'   \item{`status_sy22`}{Status (Fall 2022)}
+#'   \item{`building_sq_ft`}{Building interior area (square feet)}
+#'   \item{`property_acres`}{Property area (acres)}
+#'   \item{`flag_property_acres`}{Flag for properties with shared campus and
+#'   inaccurate acreage}
+#'   \item{`url`}{URL for Baltimore City Surplus Schools website or related
+#'   ArcGIS Feature Layer}
+#'   \item{`geometry`}{POINT geometry with building location}
+#'}
+#' @source [Baltimore City Department of Planning - FeatureLayer](https://services1.arcgis.com/43Lm3JYE3nM91DAF/ArcGIS/rest/services/Surplus_Schools/FeatureServer/0)
+"bcps_surplus_schools"

@@ -11,7 +11,8 @@ A data frame with 16,763 rows and 6 variables:
 2019 data is from the start of the 2019-2020 school year.}
 \item{\code{school_number}}{School number (0 indicates all schools)}
 \item{\code{school_name}}{School name}
-\item{\code{enrolled_count}}{Number of students registered to attend the school as of September 30 in the grade or grade range}
+\item{\code{enrolled_count}}{Number of students registered to attend the school
+as of September 30 in the grade or grade range}
 \item{\code{grade}}{Grades from Prekindergarden (PK) to Grade 12}
 \item{\code{grade_range}}{Elementary school, middle school, high school, or
 all grades (total enrollment)}
