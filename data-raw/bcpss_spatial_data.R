@@ -155,3 +155,42 @@ dplyr::mutate(
 
 
 usethis::use_data(bcps_programs_SY2122, overwrite = TRUE)
+
+url <- "https://services1.arcgis.com/43Lm3JYE3nM91DAF/ArcGIS/rest/services/Surplus_Schools/FeatureServer/0"
+
+bcps_surplus_schools <-
+  getdata::get_esri_data(
+    url = url,
+    crs = 2804
+  ) %>%
+  mutate(
+    interior_sq_ft = sq_ft,
+    property_acres = campus_acre,
+    url = link1
+  ) %>%
+  select(-c(starts_with("link"), objectid)) %>%
+  naniar::replace_with_na(
+    list(
+      year = "n/a",
+      status = "n/a"
+    )
+  ) %>%
+  dplyr::rename(
+    status_sy20 = status
+  ) %>%
+  dplyr::arrange(bldg_name) %>%
+  sfext::rename_sf_col()
+
+# NOTE: The data from the prior processing pipeline was manually edited and
+# updated in fall 2022 in a Google Sheet using a variety of news sources and
+# public administrative records
+url <- "https://docs.google.com/spreadsheets/d/156WkhGtAZ0y5CVNxfQSEsjiTHD0W3sslSzTGy0K3QEs/edit?usp=sharing"
+
+bcps_surplus_schools <-
+  getdata::get_gsheet_data(
+    url = url
+    )
+
+bcps_surplus_schools <- sfext:::wkt_df_to_sf(data, crs = 2804)
+
+use_data(bcps_surplus_schools, overwrite = TRUE)
