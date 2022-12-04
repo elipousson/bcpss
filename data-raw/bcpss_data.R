@@ -1,94 +1,3 @@
-# Enrollment and demographic data by school ----
-# enrollment_demographics_SY1920_path <- "https://www.baltimorecityschools.org/sites/default/files/inline-files/SY19-20-Enrollment-11.10.2020.xlsx"
-# Download file
-# download.file(enrollment_demographics_path,
-#              destfile = "SY19-20-Enrollment-11.10.2020.xlsx")
-
-# Set local path
-enrollment_demographics_SY1920_path <- "inst/extdata/SY19-20-Enrollment-11.10.2020.xlsx"
-
-# https://www.baltimorecityschools.org/sites/default/files/inline-files/SY21-22%20Enrollment%20with%20unofficial%20SWD%20Child%20Count%20PUBLIC.xlsx
-
-# List column types
-enrollment_demographics_SY1920_col_types <- c(
-  "text", "text", "text", "text", "text",
-  "numeric", "numeric", "numeric", "numeric", "numeric",
-  "numeric", "numeric", "numeric", "numeric", "numeric",
-  "numeric", "numeric", "numeric"
-)
-
-# Import enrollment and demographic data
-enrollment_demographics_SY1920 <- readxl::read_excel(
-  path = enrollment_demographics_SY1920_path,
-  col_types = enrollment_demographics_SY1920_col_types
-) %>%
-  janitor::clean_names("snake") %>%
-  rename(
-    management_type = school_type
-  ) %>%
-  dplyr::mutate(
-    # Make school number an integer so it can be sorted
-    school_number = dplyr::if_else(school_number == "(all)", as.integer("0"), as.integer(school_number)),
-    # Move grade range values into a new grade range column
-    grade_range = dplyr::if_else(
-      grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades"), grade, "0"
-    ),
-    # Replace 91 w/ K, 92 w/ PK, 93 w/ Other (93), and remove grade ranges from grade column
-    grade = dplyr::case_when(
-      grade == "91" ~ "K",
-      grade == "92" ~ "PK",
-      grade == "93" ~ "Other (93)",
-      grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades") ~ "0",
-      TRUE ~ grade
-    )
-  ) %>%
-  # Replace NA values with actual NAs
-  naniar::replace_with_na(list(management_type = "NA", grade_band = "NA", grade_range = "0", grade = "0")) %>%
-  # Rename variables to match survey variable names
-  dplyr::rename(grade_band = gradeband) %>%
-  # Reorder variables
-  dplyr::relocate(management_type, .after = school_name) %>%
-  dplyr::relocate(grade_range, .after = grade)
-
-# Convert selected variables to factors
-enrollment_demographics_SY1920$grade_range <- factor(enrollment_demographics_SY1920$grade_range, c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades"))
-enrollment_demographics_SY1920$grade_band <- factor(enrollment_demographics_SY1920$grade_band, c("E", "EM", "EMH", "M", "MH", "H", "Other"))
-enrollment_demographics_SY1920$grade <- factor(enrollment_demographics_SY1920$grade, c("PK", "K", as.character(c(1:12)), "Other (93)"))
-
-enrollment_demographics_SY1920 <- dplyr::arrange(enrollment_demographics_SY1920, school_number, grade, grade_range)
-
-usethis::use_data(enrollment_demographics_SY1920, overwrite = TRUE)
-
-# Make a dataframe with labels for each variable
-enrollment_demographics_SY1920_names <- readxl::read_excel(path = enrollment_demographics_SY1920_path) %>%
-  names() %>%
-  tibble::enframe() %>%
-  dplyr::mutate(
-    value = dplyr::if_else(stringr::str_detect(value, "^%"), stringr::str_replace(value, "%", "Percent"), value),
-    variable = snakecase::to_any_case(value, "snake"),
-    variable = dplyr::case_when(
-      variable == "gradeband" ~ "grade_band",
-      TRUE ~ variable
-    ),
-    value = dplyr::if_else(stringr::str_detect(value, "^Percent"), stringr::str_replace(value, "Percent", "%"), value)
-  ) %>%
-  dplyr::select(variable, label = value)
-
-
-# Switch to long format and add label column
-enrollment_demographics_SY1920_long <- enrollment_demographics_SY1920 %>%
-  tidyr::pivot_longer(
-    cols = c(8:19),
-    names_to = "variable",
-    values_to = "share"
-  ) %>%
-  dplyr::left_join(enrollment_demographics_SY1920_names, by = "variable") %>%
-  dplyr::arrange(school_number, grade, grade_range)
-
-usethis::use_data(enrollment_demographics_SY1920_long, overwrite = TRUE)
-
-# Label variables
-# labelled::var_label(enrollment_demographics) <- deframe(enrollment_demographics_names)
 
 # Parent survey results ----
 
@@ -235,7 +144,6 @@ student_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
 student_survey_SY1819$grade_band <- factor(student_survey_SY1819$grade_band, c("E", "EM", "EMH", "M", "MH", "H"))
 
 usethis::use_data(student_survey_SY1819, overwrite = TRUE)
-
 
 educator_survey_SY1819 <- openxlsx::read.xlsx(student_educator_survey_path,
   sheet = 2

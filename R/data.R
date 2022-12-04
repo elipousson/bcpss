@@ -1,18 +1,20 @@
-#' Enrollment and demographic data by Baltimore City Public School (SY
-#' 2019-2020)
+#' Baltimore City Public Schools Enrollment and Demographic data (SY 2019-2020)
 #'
 #' Total enrollment and demographic characteristics for Baltimore City public
 #' school students including data aggregated by grade, grade band, school, and
 #' citywide for the 2019-2020 school year.
+#'
+#' For variables with percentages, a value of 0.05 may represent <=5% rather
+#' than 5% and a value of 0.95 may represent >=95% rather than 95%.
 #'
 #' @format A data frame with 2,243 rows and 19 variables:
 #' \describe{
 #'   \item{`school_number`}{School number}
 #'   \item{`school_name`}{School name}
 #'   \item{`management_type`}{School management type}
-#'   \item{`grade_band`}{Grade band}
-#'   \item{`grade`}{Grade}
-#'   \item{`grade_range`}{Grade range}
+#'   \item{`grade_band`}{Grade band (factor)}
+#'   \item{`grade`}{Grade (factor)}
+#'   \item{`grade_range`}{Grade range (factor)}
 #'   \item{`total_enrollment`}{Total Enrollment}
 #'   \item{`percent_males`}{Percent Males}
 #'   \item{`percent_females`}{Percent Females}
@@ -32,14 +34,14 @@
 #' @source <https://www.baltimorecityschools.org/data>
 "enrollment_demographics_SY1920"
 
-#' Enrollment and demographic data by Baltimore City Public School (SY
-#' 2019-2020) - long format
+#' Baltimore City Public Schools Enrollment and Demographic data (SY 2019-2020)
+#' - long format
 #'
 #' Total enrollment and demographic characteristics for Baltimore City public
 #' school students including data aggregated by grade, grade band, school, and
 #' citywide for the 2019-2020 school year. Long format version is based on the
-#' `enrollment_demographics_SY1920` data with an additional `label`
-#' column based on the original Excel sheet column names.
+#' `enrollment_demographics_SY1920` data with an additional `label` column based
+#' on the original Excel sheet column names.
 #'
 #' @format A data frame with 26,916 rows and 10 variables:
 #' \describe{
@@ -56,6 +58,85 @@
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
 "enrollment_demographics_SY1920_long"
+
+
+#' Baltimore City Public Schools Enrollment and Demographic data (SY 2020-2021)
+#'
+#' Total enrollment and demographic characteristics for Baltimore City public
+#' school students including data aggregated by grade, grade band, school, and
+#' citywide for the 2020-2021 school year.
+#'
+#' For variables with percentages, a value of 0.05 may represent <=5% rather
+#' than 5% and a value of 0.95 may represent >=95% rather than 95%.
+#'
+#' @format A data frame with 2,192 rows and 19 variables:
+#' \describe{
+#'   \item{`school_number`}{School number}
+#'   \item{`school_name`}{School name}
+#'   \item{`management_type`}{School management type}
+#'   \item{`grade_band`}{Grade band (factor)}
+#'   \item{`grade`}{Grade (factor)}
+#'   \item{`grade_range`}{Grade range (factor)}
+#'   \item{`total_enrollment`}{Total Enrollment}
+#'   \item{`percent_male`}{Percent Male}
+#'   \item{`percent_female`}{Percent Female}
+#'   \item{`percent_direct_certification`}{Percent Direct Certification}
+#'   \item{`percent_swd`}{Percent Students with Disabilities (SWD)}
+#'   \item{`percent_el`}{Percent English Learner (EL)}
+#'   \item{`percent_non_hispanic_black`}{Percent Non-Hispanic Black}
+#'   \item{`percent_non_hispanic_white`}{Percent Non-Hispanic White}
+#'   \item{`percent_hispanic`}{Percent Hispanic}
+#'   \item{`percent_non_hispanic_asian`}{Percent Non-Hispanic Asian}
+#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American
+#'   Indian}
+#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Native Hawaiian or Other Pacific
+#'   Islander}
+#'   \item{`percent_non_hispanic_multiracial`}{Percent Non-Hispanic Multiracial}
+#' }
+#' @source <https://www.baltimorecityschools.org/data>
+"enrollment_demographics_SY2021"
+
+#' Baltimore City Public Schools Enrollment and Demographic data (SY 2021-2022)
+#'
+#' Total enrollment and demographic characteristics for Baltimore City public
+#' school students including data aggregated by grade, grade band, school, and
+#' citywide for the 2021-2022 school year.
+#'
+#' The column `percent_non_hispanic_pacific_islander` is named Percent
+#' non-Hispanic Hawaiian and Other Pacific Islander in the source but is renamed
+#' to match the prior two years of data. This data also includes a
+#' `percent_nonbinary column that is not present in prior years.
+#'
+#' For variables with percentages, a value of 0.05 may represent <=5% rather
+#' than 5% and a value of 0.95 may represent >=95% rather than 95%.
+#'
+#' @format A data frame with 2,153 rows and 20 variables:
+#' \describe{
+#'   \item{`school_number`}{School number}
+#'   \item{`school_name`}{School name}
+#'   \item{`management_type`}{School management type}
+#'   \item{`grade_band`}{Grade band (factor)}
+#'   \item{`grade`}{Grade (factor)}
+#'   \item{`grade_range`}{Grade range (factor)}
+#'   \item{`total_enrollment`}{Total Enrollment}
+#'   \item{`percent_male`}{Percent Male}
+#'   \item{`percent_female`}{Percent Female}
+#'   \item{`percent_nonbinary`}{Percent Nonbinary}
+#'   \item{`percent_direct_certification`}{Percent Direct Certification}
+#'   \item{`percent_swd`}{Percent Students with Disabilities (SWD)}
+#'   \item{`percent_el`}{Percent English Learner (EL)}
+#'   \item{`percent_non_hispanic_black`}{Percent Non-Hispanic Black}
+#'   \item{`percent_non_hispanic_white`}{Percent Non-Hispanic White}
+#'   \item{`percent_hispanic`}{Percent Hispanic}
+#'   \item{`percent_non_hispanic_asian`}{Percent Non-Hispanic Asian}
+#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American
+#'   Indian}
+#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Native Hawaiian or Other Pacific
+#'   Islander}
+#'   \item{`percent_non_hispanic_multiracial`}{Percent Non-Hispanic Multiracial}
+#' }
+#' @source <https://www.baltimorecityschools.org/data>
+"enrollment_demographics_SY2122"
 
 #' Baltimore City Public School Parent Survey Results (SY 2018-2019)
 #'
@@ -394,7 +475,6 @@
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY1920_Building_Status_Publish/FeatureServer/0>
 "bcps_programs_SY1920"
 
-
 #' Enrolled students by school and grade (SY 2009-2019)
 #'
 #' Enrollment data from the Maryland State Department of Education (MSDE). Raw
@@ -418,7 +498,6 @@
 #'  }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "enrollment_msde_SY0919"
-
 
 #' Attendance data by school (SY 2009-2019)
 #'
@@ -612,6 +691,6 @@
 #'   \item{`url`}{URL for Baltimore City Surplus Schools website or related
 #'   ArcGIS Feature Layer}
 #'   \item{`geometry`}{POINT geometry with building location}
-#'}
+#' }
 #' @source [Baltimore City Department of Planning - FeatureLayer](https://services1.arcgis.com/43Lm3JYE3nM91DAF/ArcGIS/rest/services/Surplus_Schools/FeatureServer/0)
 "bcps_surplus_schools"

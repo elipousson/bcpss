@@ -147,10 +147,10 @@ bcps_programs_SY2122 <-
 
 bcps_programs_SY2122 <-
   bcps_programs_SY2122 %>%
-dplyr::mutate(
-  grade_band = stringr::str_replace(grade_band, "'", ""),
-  swing = dplyr::if_else(swing == "n", FALSE, TRUE)
-) %>%
+  dplyr::mutate(
+    grade_band = stringr::str_replace(grade_band, "'", ""),
+    swing = dplyr::if_else(swing == "n", FALSE, TRUE)
+  ) %>%
   dplyr::arrange(program_number)
 
 
@@ -189,7 +189,7 @@ url <- "https://docs.google.com/spreadsheets/d/156WkhGtAZ0y5CVNxfQSEsjiTHD0W3ssl
 bcps_surplus_schools <-
   getdata::get_gsheet_data(
     url = url
-    )
+  )
 
 bcps_surplus_schools <- sfext:::wkt_df_to_sf(data, crs = 2804)
 
