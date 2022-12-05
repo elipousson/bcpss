@@ -694,3 +694,35 @@
 #' }
 #' @source [Baltimore City Department of Planning - FeatureLayer](https://services1.arcgis.com/43Lm3JYE3nM91DAF/ArcGIS/rest/services/Surplus_Schools/FeatureServer/0)
 "bcps_surplus_schools"
+
+#' Baltimore City Public School Enrollment (SY 2003-2022)
+#'
+#' This data is a subset of [mapmaryland::msde_enrollment] where `lss_name` is
+#' "Baltimore City". This data does not include the SEED School of Maryland
+#' which is located within Baltimore City. Use of this data is preferred over
+#' [enrollment_msde_SY0919] as the name of this object will remain the same when
+#' current enrollment data is appended on an annual basis.
+#'
+#' @format A data frame with 32098 rows and 9 variables:
+#' \describe{
+#'  \item{`year`}{School or academic year for enrollment count, e.g.
+#'    2019 data is from the start of the 2019-2020 school year.}
+#'  \item{`school_number`}{School number as integer (0 indicates all
+#'  schools)}
+#'  \item{`school_name`}{School name}
+#'  \item{`enrolled_count`}{Number of students registered to attend the
+#'  school at the start of the year in the grade or grade range. Typically
+#'  enrollment count is as of September 30.}
+#'  \item{`grade`}{Grades from Prekindergarden (PK) to Grade 12}
+#'  \item{`grade_range`}{all elementary school Grades, all middle school
+#'  grades, all high school grades, or all grades (total enrollment). May also
+#'  be used as a label for grade.}
+#'   \item{`race`}{Race/ethnicity. Enrollment by race/ethnicity is only
+#'   available for years since 2020.}
+#'   \item{`lss_number`}{Local school system number (previously known as a
+#'   LEA Number).}
+#'   \item{`lss_name`}{Local school system name (previously known as a LEA
+#'   Name).}
+#'}
+#' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
+"baltimore_enrollment"

@@ -1,5 +1,10 @@
 library(tidyverse)
 
+baltimore_enrollment <-
+  filter(mapmaryland::msde_enrollment, lss_name == "Baltimore City")
+
+usethis::use_data(baltimore_enrollment, overwrite = TRUE)
+
 # Enrollment data (exported 2021 Feb. 22) ----
 
 enrollment_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
