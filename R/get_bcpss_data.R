@@ -2,7 +2,7 @@
 #'
 #' Get a data frame or simple feature data by type and school year.
 #'
-#' @param type Data type, Default: 'programs'
+#' @param type Data type, Default: 'bcps_programs'
 #' @param location PARAM_DESCRIPTION, Default: NULL
 #' @param year PARAM_DESCRIPTION, Default: getOption("bcpss.year", default = 2021)
 #' @param format PARAM_DESCRIPTION, Default: NULL
@@ -17,9 +17,9 @@
 #' }
 #' @rdname get_bcpss_data
 #' @noRd
-get_bcpss_data <- function(type = "programs",
-                           location = NULL,
+get_bcpss_data <- function(type = "bcps_programs",
                            year = getOption("bcpss.year", default = 2021),
+                           location = NULL,
                            format = NULL,
                            ...) {
   data <-
@@ -29,21 +29,19 @@ get_bcpss_data <- function(type = "programs",
       format = format
     )
 
-  data <- use_eval_parse(data)
-
   if (is.null(location)) {
     return(data)
+  } else if (!is_installed("getdata")) {
+    stop(
+      "Install `getdata` from `elipousson/getdata` to use location."
+    )
   }
 
-  if (is_sf(location)) {
-    location <-
-      get_location_data(
-        data = bcps_es_zones_SY2122,
-        location = location
-      )
-
-    location <- location$school_name
-  }
+  getdata::get_location_data(
+    location = location,
+    data = data,
+    ...
+  )
 }
 
 #' Get package data type
@@ -51,30 +49,46 @@ get_bcpss_data <- function(type = "programs",
 get_data_type <- function(type = NULL,
                           year = getOption("bcpss.year", default = 2021),
                           format = NULL) {
+  if (type == "enrollment") {
+    type <- "baltimore_enrollment"
+  } else if (type %in% c("programs", "es_zones")) {
+    type <- paste0("bcps_", type)
+  }
+
   type <-
     match.arg(
       type,
       c(
         "bcps_programs", "bcps_es_zones", "enrollment_demographics",
-        "enrollment_msde",
+        "enrollment_msde", "baltimore_enrollment",
         "nces_school_directory", "accountability", "kra_results",
         "parent_survey", "student_survey", "educator_survey"
       )
     )
 
-  year <-
-    as_school_year(year)
-
-  data <- glue::glue("{type}_{year}")
-
-  if (is.null(format)) {
-    return(data)
+  if (type != "baltimore_enrollment") {
+    year <- as_school_year(year)
+    data <- paste0(type, "_", year)
+  } else {
+    data <- type
   }
 
-  format <-
-    match.arg(format, c("long"))
+  if (!is.null(format)) {
+    format <- match.arg(format, c("long"))
+    data <- paste0(data, "_", format)
+  }
 
-  glue::glue("{data}_{format}")
+  data <- eval(parse(text = paste0("bcpss::", data)))
+
+  if (type == "baltimore_enrollment") {
+    if (nchar(year) == 2) {
+      year <- paste0("20", year)
+    }
+
+    data <- data[data$year == year, ]
+  }
+
+  data
 }
 
 #' Convert year or year range to school year abbreviation
@@ -106,7 +120,7 @@ as_school_year <- function(year, abb = TRUE) {
   end_year <-
     str_sub_pad(max(year))
 
-  glue::glue("SY{start_year}{end_year}")
+  paste0("SY", start_year, end_year)
 }
 
 #' Subset end of string and pad string
