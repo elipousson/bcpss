@@ -1,3 +1,5 @@
+library(dplyr)
+
 selected_crs <- 2804
 
 # Import Baltimore City Public School 2021-2022 attendance zones from ArcGIS Feature Server layer
@@ -150,6 +152,11 @@ bcps_programs_SY2122 <-
   dplyr::mutate(
     grade_band = stringr::str_replace(grade_band, "'", ""),
     swing = dplyr::if_else(swing == "n", FALSE, TRUE)
+  ) %>%
+  naniar::replace_with_na(
+    list(
+      category = "na"
+    )
   ) %>%
   dplyr::arrange(program_number)
 
