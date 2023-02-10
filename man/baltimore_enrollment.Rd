@@ -5,7 +5,7 @@
 \alias{baltimore_enrollment}
 \title{Baltimore City Public School Enrollment (SY 2003-2022)}
 \format{
-A data frame with 32098 rows and 9 variables:
+A data frame with 31,618 rows and 10 variables:
 \describe{
 \item{\code{year}}{School or academic year for enrollment count, e.g.
 2019 data is from the start of the 2019-2020 school year.}
@@ -13,18 +13,20 @@ A data frame with 32098 rows and 9 variables:
 schools)}
 \item{\code{school_name}}{School name}
 \item{\code{enrolled_count}}{Number of students registered to attend the
-school at the start of the year in the grade or grade range. Typically
-enrollment count is as of September 30.}
+school at the start of the year in the grade or grade range as integer.
+Typically enrollment count is as of September 30.}
 \item{\code{grade}}{Grades from Prekindergarden (PK) to Grade 12}
 \item{\code{grade_range}}{all elementary school Grades, all middle school
 grades, all high school grades, or all grades (total enrollment). May also
 be used as a label for grade.}
 \item{\code{race}}{Race/ethnicity. Enrollment by race/ethnicity is only
-available for years since 2020.}
+available across all grades for years since 2020. "All" is used for data
+prior to 2020.}
+\item{\code{county}}{County name}
 \item{\code{lss_number}}{Local school system number (previously known as a
-LEA Number).}
+LEA Number) as an integer. \code{NA} values are used for statewide data.}
 \item{\code{lss_name}}{Local school system name (previously known as a LEA
-Name).}
+Name). A value of "State" is used for statewide data.}
 }
 }
 \source{
@@ -36,8 +38,8 @@ baltimore_enrollment
 \description{
 This data is a subset of \link[mapmaryland:msde_enrollment]{mapmaryland::msde_enrollment} where \code{lss_name} is
 "Baltimore City". This data does not include the SEED School of Maryland
-which is located within Baltimore City. Use of this data is preferred over
-\link{enrollment_msde_SY0919} as the name of this object will remain the same when
-current enrollment data is appended on an annual basis.
+which is located within Baltimore City. It is recommended you use this data
+instead of \link{enrollment_msde_SY0919} as the name of this object will remain
+the same when current enrollment data is appended on an annual basis.
 }
 \keyword{datasets}
