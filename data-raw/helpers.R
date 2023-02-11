@@ -8,8 +8,6 @@ read_bcpss_enrollment_demographics <- function(path,
       .name_repair = janitor::make_clean_names
     )
 
-  # return(data)
-
   data %>%
     dplyr::rename(
       management_type = school_type,
@@ -24,15 +22,16 @@ read_bcpss_enrollment_demographics <- function(path,
         0L,
         as.integer(school_number)
       ),
+      # For more information on coding of grade values see:
+      # https://marylandpublicschools.org/about/Documents/OCP/Publications/StudentRecordsSystemManual2020.pdf
       # Move grade range values into a new grade range column
       grade_range = dplyr::if_else(
         grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades"), grade, "0"
       ),
-      # Replace 91 w/ K, 92 w/ PK, 93 w/ Other (93), and remove grade ranges from grade column
+      # Replace 91 w/ K, 92 w/ PK, 93 w/ PK, and remove grade ranges from grade column
       grade = dplyr::case_when(
         grade == "91" ~ "K",
-        grade %in% c("92", "93") ~ "PK",
-        # grade == "93" ~ "Other (93)",
+        suppressWarnings(as.integer(grade)) > 91 ~ "PK",
         grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades") ~ "0",
         TRUE ~ grade
       )

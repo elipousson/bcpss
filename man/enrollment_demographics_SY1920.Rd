@@ -14,8 +14,8 @@ A data frame with 2,243 rows and 19 variables:
 \item{\code{grade}}{Grade (factor)}
 \item{\code{grade_range}}{Grade range (factor)}
 \item{\code{total_enrollment}}{Total Enrollment}
-\item{\code{percent_males}}{Percent Males}
-\item{\code{percent_females}}{Percent Females}
+\item{\code{percent_male}}{Percent Males}
+\item{\code{percent_female}}{Percent Females}
 \item{\code{percent_direct_certification}}{Percent Direct Certification}
 \item{\code{percent_swd}}{Percent Students with Disabilities (SWD)}
 \item{\code{percent_el}}{Percent English Learner (EL)}

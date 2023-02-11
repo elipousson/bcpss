@@ -16,8 +16,8 @@
 #'   \item{`grade`}{Grade (factor)}
 #'   \item{`grade_range`}{Grade range (factor)}
 #'   \item{`total_enrollment`}{Total Enrollment}
-#'   \item{`percent_males`}{Percent Males}
-#'   \item{`percent_females`}{Percent Females}
+#'   \item{`percent_male`}{Percent Males}
+#'   \item{`percent_female`}{Percent Females}
 #'   \item{`percent_direct_certification`}{Percent Direct Certification}
 #'   \item{`percent_swd`}{Percent Students with Disabilities (SWD)}
 #'   \item{`percent_el`}{Percent English Learner (EL)}
