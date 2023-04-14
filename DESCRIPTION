@@ -15,11 +15,13 @@ BugReports: https://github.com/elipousson/bcpss/issues
 Depends: 
     R (>= 2.10)
 Suggests: 
+    dplyr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    tidyr
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3

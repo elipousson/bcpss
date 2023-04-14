@@ -3,29 +3,34 @@
 # Imported from pkg:stringstatic
 # ======================================================================
 
-#' Duplicate and concatenate strings within a character vector
-#'
-#' Dependency-free drop-in alternative for `stringr::str_pad()`.
-#'
-#' @author Eli Pousson \email{eli.pousson@gmail.com}
-#'   ([ORCID](https://orcid.org/0000-0001-8280-1706))
-#'
-#'   Alexander Rossell Hayes \email{alexander@rossellhayes.com}
-#'   ([ORCID](https://orcid.org/0000-0001-9412-0457))
-#'
-#' @source Adapted from the [stringr](https://stringr.tidyverse.org/) package.
-#'
-#' @param string Input vector.
-#'   Either a character vector, or something coercible to one.
-#' @param width Minimum width of padded strings.
-#' @param side Side on which padding character is added (left, right or both).
-#' @param pad Single padding character (default is a space).
-#' @param use_width If `FALSE`,
-#'   use the length of the string instead of the width;
-#'   see [str_width()] or [str_length()] for the difference.
-#'
-#' @return A character vector.
-#' @noRd
+str_extract <- function(string, pattern) {
+  if (length(string) == 0 || length(pattern) == 0) {
+    return(character(0))
+  }
+
+  is_fixed <- inherits(pattern, "stringr_fixed")
+
+  result <- Map(
+    function(string, pattern) {
+      if (is.na(string) || is.na(pattern)) {
+        return(NA_character_)
+      }
+
+      regmatches(
+        x = string,
+        m = regexpr(
+          pattern = pattern, text = string, perl = !is_fixed, fixed = is_fixed
+        )
+      )
+    },
+    string, pattern,
+    USE.NAMES = FALSE
+  )
+
+  result[lengths(result) == 0] <- NA_character_
+  unlist(result)
+}
+
 str_pad <- function(string, width, side = c("left", "right", "both"), pad = " ", use_width = TRUE) {
   if (!is.numeric(width)) {
     return(string[NA])

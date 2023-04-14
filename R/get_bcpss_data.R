@@ -2,56 +2,34 @@
 #'
 #' Get a data frame or simple feature data by type and school year.
 #'
-#' @param type Data type, Default: 'bcps_programs'
-#' @param location PARAM_DESCRIPTION, Default: NULL
-#' @param year PARAM_DESCRIPTION, Default: getOption("bcpss.year", default = 2021)
-#' @param format PARAM_DESCRIPTION, Default: NULL
-#' @param ... PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @param type Data type, Default: 'bcps_programs'. Supported options in details.
+#' @param year School year, Default: getOption("bcpss.year", default = 2021)
+#' @param long If `TRUE`, use [tidyr::pivot_longer()] to return a long format
+#'   data. Only supported if type is "enrollment_demographics", "parent_survey",
+#'   "student_survey", Default: `FALSE`.
+#' @return A data.frame or sf object (depending on type).
+#' @details Supported data types
+#'
+#' Supported options for type include: "bcps_programs" (or "programs"),
+#' "bcps_es_zones" (or "es_zones"), "enrollment_demographics",
+#' "enrollment_msde", "baltimore_enrollment" (or "enrollment"),
+#' "nces_school_directory", "accountability", "kra_results", "parent_survey",
+#' "student_survey", "educator_survey".
+#'
 #' @examples
-#' \dontrun{
-#' if (interactive()) {
-#'   # EXAMPLE1
-#' }
-#' }
+#'
+#' get_bcpss_data(type = "bcps_programs", year = 2021)
+#'
+#' get_bcpss_data(type = "enrollment_demographics", year = 2019, long = TRUE)
+#'
 #' @rdname get_bcpss_data
 #' @noRd
 get_bcpss_data <- function(type = "bcps_programs",
                            year = getOption("bcpss.year", default = 2021),
-                           location = NULL,
-                           format = NULL,
-                           ...) {
-  data <-
-    get_data_type(
-      type,
-      year = year,
-      format = format
-    )
-
-  if (is.null(location)) {
-    return(data)
-  } else if (!is_installed("getdata")) {
-    stop(
-      "Install `getdata` from `elipousson/getdata` to use location."
-    )
-  }
-
-  getdata::get_location_data(
-    location = location,
-    data = data,
-    ...
-  )
-}
-
-#' Get package data type
-#' @noRd
-get_data_type <- function(type = NULL,
-                          year = getOption("bcpss.year", default = 2021),
-                          format = NULL) {
+                           long = FALSE) {
   if (type == "enrollment") {
     type <- "baltimore_enrollment"
-  } else if (type %in% c("programs", "es_zones")) {
+  } else if (type %in% c("programs", "es_zones", "surplus_schools")) {
     type <- paste0("bcps_", type)
   }
 
@@ -66,61 +44,91 @@ get_data_type <- function(type = NULL,
       )
     )
 
-  if (type != "baltimore_enrollment") {
-    year <- as_school_year(year)
-    data <- paste0(type, "_", year)
-  } else {
-    data <- type
+  data <- type
+
+  if (!(type %in% c("baltimore_enrollment", "bcps_surplus_schools"))) {
+    data <- paste0(data, "_", as_school_year(year))
   }
 
-  if (!is.null(format)) {
-    format <- match.arg(format, c("long"))
-    data <- paste0(data, "_", format)
-  }
-
-  data <- eval(parse(text = paste0("bcpss::", data)))
+  data <- eval(parse(data))
 
   if (type == "baltimore_enrollment") {
     if (nchar(year) == 2) {
       year <- paste0("20", year)
     }
 
-    data <- data[data$year == year, ]
+    return(data[data[["year"]] %in% as.integer(year), ])
   }
 
-  data
+  long <-
+    (type %in% c(
+      "enrollment_demographics",
+      "parent_survey", "student_survey",
+      "educator_survey"
+    )) & long
+
+  if (!isTRUE(long)) {
+    return(data)
+  }
+
+  if (type == "enrollment_demographics") {
+    return(pivot_enrollment_demographics_longer(data))
+  }
+
+
+  pivot_survey_longer(data)
 }
 
-#' Convert year or year range to school year abbreviation
-#' @param year Length 1 or 2 character or numeric vector for start year (end year as one year more) or start and end year.
-#' @param abb If `TRUE`, return abbreviation for school year range (e.g.
-#'   "SY2021" for 2020-2021 school year). If `FALSE`, return numeric vector.
 #' @noRd
-as_school_year <- function(year, abb = TRUE) {
+pivot_enrollment_demographics_longer <- function(data) {
+  rlang::check_installed("tidyr")
+  rlang::check_installed("dplyr")
+
+  data <-
+    tidyr::pivot_longer(
+      data,
+      cols = dplyr::starts_with("percent"),
+      names_to = "variable"
+    )
+
+  dplyr::left_join(
+    data,
+    enrollment_demographics_label_xwalk
+  )
+}
+
+
+#' @noRd
+pivot_survey_longer <- function(data) {
+  rlang::check_installed("tidyr")
+
+  data <-
+    tidyr::pivot_longer(
+      data,
+      # FIXME: This is hard-coded to work w/ parent_survey_SY1819 only
+      cols = -c(1:7),
+      names_to = "variable"
+    )
+}
+
+
+#' Convert year or year range to school year abbreviation
+#' @param year Integer vector (or any vector coercible to integer values).
+#' @noRd
+as_school_year <- function(year,
+                           prefix = "SY",
+                           width = 2) {
+  year <- as.integer(year)
+
   stopifnot(
-    "Year must be a length 1 or 2 vector." = (length(year) == 2) | (length(year) == 1),
-    "Year must be an integer or an object that can be converted to an integer." = is.integer(as.integer(year))
+    "Year must be an integer or an object that can be converted to an integer." = !is.na(year)
   )
 
-  if (length(year) == 1) {
-    year <-
-      c(
-        as.integer(year),
-        as.integer(year) + 1
-      )
-  }
-
-  if (!abb) {
-    return(year)
-  }
-
-  start_year <-
-    str_sub_pad(min(year))
-
-  end_year <-
-    str_sub_pad(max(year))
-
-  paste0("SY", start_year, end_year)
+  paste0(
+    prefix,
+         str_sub_pad(year, width = width),
+         str_sub_pad(year + 1, width = width)
+         )
 }
 
 #' Subset end of string and pad string
@@ -130,12 +138,12 @@ str_sub_pad <- function(string,
                         pad = "0",
                         width = 2) {
   string <-
-    stringr::str_sub(
+    str_extract(
       string,
-      start = width * -1
+      paste0(".{", width, "}$")
     )
 
-  stringr::str_pad(
+  str_pad(
     string,
     pad = pad,
     width = width
