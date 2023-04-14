@@ -14,8 +14,8 @@ reference:
     - '`baltimore_enrollment`'
     - '`enrollment_msde_SY0919`'
     - '`attendance_msde_SY0919`'
-    - '`accountability_SY19`'
-    - '`nces_school_directory_SY19`'
+    - '`accountability_SY1920`'
+    - '`nces_school_directory_SY1920`'
 - title: Kindergarten Readiness Assessment (KRA)
   contents:
     - '`kra_results_SY1920`'
