@@ -3,10 +3,7 @@
 \docType{data}
 \name{enrollment_demographics_SY1920_long}
 \alias{enrollment_demographics_SY1920_long}
-\title{Baltimore City Public Schools Enrollment and Demographic data (SY 2019-2020)
-\itemize{
-\item long format
-}}
+\title{Baltimore City Public Schools Enrollment and Demographic data long (SY 2019-2020)}
 \format{
 A data frame with 26,916 rows and 10 variables:
 \describe{

@@ -34,8 +34,7 @@
 #' @source <https://www.baltimorecityschools.org/data>
 "enrollment_demographics_SY1920"
 
-#' Baltimore City Public Schools Enrollment and Demographic data (SY 2019-2020)
-#' - long format
+#' Baltimore City Public Schools Enrollment and Demographic data long (SY 2019-2020)
 #'
 #' Total enrollment and demographic characteristics for Baltimore City public
 #' school students including data aggregated by grade, grade band, school, and
@@ -129,10 +128,8 @@
 #'   \item{`percent_non_hispanic_white`}{Percent Non-Hispanic White}
 #'   \item{`percent_hispanic`}{Percent Hispanic}
 #'   \item{`percent_non_hispanic_asian`}{Percent Non-Hispanic Asian}
-#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American
-#'   Indian}
-#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Native Hawaiian or Other Pacific
-#'   Islander}
+#'   \item{`percent_non_hispanic_american_indian`}{Percent Non-Hispanic American Indian}
+#'   \item{`percent_non_hispanic_pacific_islander`}{Percent Non-Hispanic Native Hawaiian or Other Pacific Islander}
 #'   \item{`percent_non_hispanic_multiracial`}{Percent Non-Hispanic Multiracial}
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
@@ -154,13 +151,10 @@
 #'   \item{`est_num_parents`}{Estimated number of eligible parents}
 #'   \item{`est_response_rate`}{Estimate parent response rate}
 #'   \item{`administration_dimension_score`}{Administration Dimension Score}
-#'   \item{`creativity_the_arts_dimension_score`}{Creativity & the Arts
-#'   Dimension Score}
-#'   \item{`physical_environment_dimension_score`}{Physical Environment
-#'   Dimension Score}
+#'   \item{`creativity_the_arts_dimension_score`}{Creativity & the Arts Dimension Score}
+#'   \item{`physical_environment_dimension_score`}{Physical Environment Dimension Score}
 #'   \item{`learning_climate_dimension_score`}{Learning Climate Dimension Score}
-#'   \item{`family_involvement_dimension_score`}{Family Involvement Dimension
-#'   Score}
+#'   \item{`family_involvement_dimension_score`}{Family Involvement Dimension Score}
 #'   \item{`school_resources_dimension_score`}{School Resources Dimension Score}
 #'   \item{`safety_dimension_score`}{Safety Dimension Score}
 #'   \item{`satisfaction_with_school_dimension_score`}{Satisfaction with School
@@ -189,8 +183,7 @@
 #'   \item{`parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session`}{Parents
 #'   can use resources at my child's school when school is not in session}
 #'   \item{`parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal`}{I
-#'   know how to access information about how my child is performing in school
-#'   (e.g., Parent Portal)}
+#'   know how to access information about how my child is performing in school e.g., Parent Portal}
 #'   \item{`parent_18_the_school_sends_me_information_in_my_native_language`}{The
 #'   school sends me information in my native language}
 #'   \item{`parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued`}{I
@@ -199,8 +192,7 @@
 #'   child's school can connect me to resources in the community}
 #'   \item{`parent_21_the_school_notifies_me_when_my_child_misses_school`}{The
 #'   school notifies me when my child misses school}
-#'   \item{`parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn`}{My
-#'   child's school regularly communicates with parents about how they can help
+#'   \item{`parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn`}{My child's school regularly communicates with parents about how they can help
 #'   their children learn}
 #'   \item{`parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed`}{When
 #'   a student does something good at school, the parents are informed}
@@ -236,15 +228,15 @@
 #'   overall with the support you received?}
 #'   \item{`district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested`}{If
 #'   you visited District Headquarters within the last year, how satisfied were
-#'   you overall with the service(s) you requested?}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_walk`}{Transportation
-#'   - How does your child usually get to school? Walk}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_school_bus`}{Transportation
-#'   - How does your child usually get to school? School Bus}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_mta_bus`}{Transportation
-#'   - How does your child usually get to school? MTA Bus}
-#'   \item{`transportation_how_does_your_child_usually_get_to_school_car`}{Transportation
-#'   - How does your child usually get to school? Car}
+#'   you overall with the services you requested?}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_walk`}{Transportation:
+#'   How does your child usually get to school? Walk}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_school_bus`}{Transportation:
+#'   How does your child usually get to school? School Bus}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_mta_bus`}{Transportation:
+#'   How does your child usually get to school? MTA Bus}
+#'   \item{`transportation_how_does_your_child_usually_get_to_school_car`}{Transportation:
+#'   How does your child usually get to school? Car}
 #' }
 #' @source <https://www.baltimorecityschools.org/data>
 "parent_survey_SY1819"
@@ -736,24 +728,24 @@
 #'
 #' @format A data frame with 5585 rows and 18 variables:
 #' \describe{
-#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{school_type}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{attend_rate_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{days_attended_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{days_member_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{fewer_5_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{fewer_5_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{more_20_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{more_20_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{more_90_member_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{chronic_absentee_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{chronic_absentee_denom}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{chronic_absentee_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{`year`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
+#'   \item{`school_type`}{character COLUMN_DESCRIPTION}
+#'   \item{`attend_rate_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`days_attended_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`days_member_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`fewer_5_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`fewer_5_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`more_20_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`more_20_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`more_90_member_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`chronic_absentee_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`chronic_absentee_denom`}{double COLUMN_DESCRIPTION}
+#'   \item{`chronic_absentee_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
+#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
+#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
 #'}
 #' @details DETAILS
 "bcpss_attendance"
@@ -765,16 +757,16 @@
 #'
 #' @format A data frame with 31618 rows and 10 variables:
 #' \describe{
-#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{enrolled_count}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{grade}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{grade_range}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{race}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
+#'   \item{`year`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
+#'   \item{`enrolled_count`}{integer COLUMN_DESCRIPTION}
+#'   \item{`grade`}{character COLUMN_DESCRIPTION}
+#'   \item{`grade_range`}{character COLUMN_DESCRIPTION}
+#'   \item{`race`}{character COLUMN_DESCRIPTION}
+#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
+#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
+#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
 #'}
 #' @details DETAILS
 "bcpss_enrollment"
@@ -785,20 +777,20 @@
 #'
 #' @format A data frame with 5586 rows and 14 variables:
 #' \describe{
-#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{school_type}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{mobile_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{entry_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{exit_pct}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{mobile_count}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{entry_count}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{exit_count}}{integer COLUMN_DESCRIPTION}
-#'   \item{\code{avg_enrolled_count}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{`year`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
+#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
+#'   \item{`school_type`}{character COLUMN_DESCRIPTION}
+#'   \item{`mobile_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`entry_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`exit_pct`}{double COLUMN_DESCRIPTION}
+#'   \item{`mobile_count`}{integer COLUMN_DESCRIPTION}
+#'   \item{`entry_count`}{integer COLUMN_DESCRIPTION}
+#'   \item{`exit_count`}{integer COLUMN_DESCRIPTION}
+#'   \item{`avg_enrolled_count`}{double COLUMN_DESCRIPTION}
+#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
+#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
+#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
 #'}
 #' @details DETAILS
 "bcpss_student_mobility"

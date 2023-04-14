@@ -15,13 +15,10 @@ A data frame with 169 rows and 54 variables:
 \item{\code{est_num_parents}}{Estimated number of eligible parents}
 \item{\code{est_response_rate}}{Estimate parent response rate}
 \item{\code{administration_dimension_score}}{Administration Dimension Score}
-\item{\code{creativity_the_arts_dimension_score}}{Creativity & the Arts
-Dimension Score}
-\item{\code{physical_environment_dimension_score}}{Physical Environment
-Dimension Score}
+\item{\code{creativity_the_arts_dimension_score}}{Creativity & the Arts Dimension Score}
+\item{\code{physical_environment_dimension_score}}{Physical Environment Dimension Score}
 \item{\code{learning_climate_dimension_score}}{Learning Climate Dimension Score}
-\item{\code{family_involvement_dimension_score}}{Family Involvement Dimension
-Score}
+\item{\code{family_involvement_dimension_score}}{Family Involvement Dimension Score}
 \item{\code{school_resources_dimension_score}}{School Resources Dimension Score}
 \item{\code{safety_dimension_score}}{Safety Dimension Score}
 \item{\code{satisfaction_with_school_dimension_score}}{Satisfaction with School
@@ -50,8 +47,7 @@ or guardians are welcome at this school}
 \item{\code{parent_11_parents_can_use_resources_at_my_child_s_school_when_school_is_not_in_session}}{Parents
 can use resources at my child's school when school is not in session}
 \item{\code{parent_12_i_know_how_to_access_information_about_how_my_child_is_performing_in_school_e_g_parent_portal}}{I
-know how to access information about how my child is performing in school
-(e.g., Parent Portal)}
+know how to access information about how my child is performing in school e.g., Parent Portal}
 \item{\code{parent_18_the_school_sends_me_information_in_my_native_language}}{The
 school sends me information in my native language}
 \item{\code{parent_19_i_feel_that_my_input_into_my_child_s_education_is_valued}}{I
@@ -60,8 +56,7 @@ feel that my input into my child's education is valued}
 child's school can connect me to resources in the community}
 \item{\code{parent_21_the_school_notifies_me_when_my_child_misses_school}}{The
 school notifies me when my child misses school}
-\item{\code{parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn}}{My
-child's school regularly communicates with parents about how they can help
+\item{\code{parent_23_my_child_s_school_regularly_communicates_with_parents_about_how_they_can_help_their_children_learn}}{My child's school regularly communicates with parents about how they can help
 their children learn}
 \item{\code{parent_3_when_a_student_does_something_good_at_school_the_parents_are_informed}}{When
 a student does something good at school, the parents are informed}
@@ -97,17 +92,15 @@ you called the District Office within the last year, how satisfied were you
 overall with the support you received?}
 \item{\code{district_office_2_if_you_visited_district_headquarters_within_the_last_year_how_satisfied_were_you_overall_with_the_service_s_you_requested}}{If
 you visited District Headquarters within the last year, how satisfied were
-you overall with the service(s) you requested?}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_walk}}{Transportation
-\itemize{
-\item How does your child usually get to school? Walk}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_school_bus}}{Transportation
-\item How does your child usually get to school? School Bus}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_mta_bus}}{Transportation
-\item How does your child usually get to school? MTA Bus}
-\item{\code{transportation_how_does_your_child_usually_get_to_school_car}}{Transportation
-\item How does your child usually get to school? Car}
-}
+you overall with the services you requested?}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_walk}}{Transportation:
+How does your child usually get to school? Walk}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_school_bus}}{Transportation:
+How does your child usually get to school? School Bus}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_mta_bus}}{Transportation:
+How does your child usually get to school? MTA Bus}
+\item{\code{transportation_how_does_your_child_usually_get_to_school_car}}{Transportation:
+How does your child usually get to school? Car}
 }
 }
 \source{
