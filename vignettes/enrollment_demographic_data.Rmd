@@ -117,7 +117,7 @@ enrollment_demographics_SY1920_long %>%
 
 If you are interested in connecting the enrollment and demographic data to the spatial data included with this package, you should be aware that the spatial data refers to schools and school numbers as programs and program numbers. Here is an example of how to join the school or program locations (`bcps_programs_SY2021`) to the enrollment data using the dplyr `left_join` function and then mapping schools by total enrollment. This example uses the Baltimore City boundary data from my [mapbaltimore package](https://elipousson.github.io/mapbaltimore/) so you must have that package installed in order to reproduce this map.
 
-```{r}
+```{r, eval=FALSE}
 enrollment_demographics_SY1920_allgrades <- enrollment_demographics_SY1920 %>%
   # Filter to rows with data on all grades
   filter(grade_range == "All Grades") %>%
