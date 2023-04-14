@@ -729,3 +729,77 @@
 #' }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "baltimore_enrollment"
+
+#' BCPSS Attendance Data
+#'
+#' This documentation is a place-holder.
+#'
+#' @format A data frame with 5585 rows and 18 variables:
+#' \describe{
+#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{school_type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{attend_rate_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{days_attended_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{days_member_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{fewer_5_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{fewer_5_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{more_20_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{more_20_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{more_90_member_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{chronic_absentee_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{chronic_absentee_denom}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{chronic_absentee_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+#'}
+#' @details DETAILS
+"bcpss_attendance"
+
+
+#' BCPSS Enrollment Data
+#'
+#' This documentation is a place-holder.
+#'
+#' @format A data frame with 31618 rows and 10 variables:
+#' \describe{
+#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{enrolled_count}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{grade}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{grade_range}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{race}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
+#'}
+#' @details DETAILS
+"bcpss_enrollment"
+
+#' BCPSS Student Mobility Data
+#'
+#' This documentation is a place-holder.
+#'
+#' @format A data frame with 5586 rows and 14 variables:
+#' \describe{
+#'   \item{\code{year}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_number}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{school_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{school_type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{mobile_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{entry_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{exit_pct}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{mobile_count}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{entry_count}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{exit_count}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{avg_enrolled_count}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{lss_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{date_created}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+#'}
+#' @details DETAILS
+"bcpss_student_mobility"
+

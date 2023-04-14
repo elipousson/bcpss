@@ -23,3 +23,6 @@ reference:
   - starts_with("bcps_programs")
   - starts_with("bcps_es_zones")
   - '`bcps_surplus_schools`'
+- title: Data access functions
+  contents:
+  - '`get_bcpss_data`'
