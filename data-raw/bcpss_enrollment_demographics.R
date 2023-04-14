@@ -1,5 +1,6 @@
 # Enrollment and demographic data by school ----
 
+library(dplyr)
 source(here::here("data-raw/helpers.R"))
 
 # enrollment_demographics_SY1920_path <- "https://www.baltimorecityschools.org/sites/default/files/inline-files/SY19-20-Enrollment-11.10.2020.xlsx"
@@ -23,6 +24,8 @@ usethis::use_data(enrollment_demographics_SY1920, overwrite = TRUE)
 
 # Label variables
 # labelled::var_label(enrollment_demographics) <- deframe(enrollment_demographics_names)
+
+# https://web.archive.org/web/20220120220842/https://cityschools2013-my.sharepoint.com/:x:/g/personal/mjkennedy_bcps_k12_md_us/EbeBwUlSscpAkz7b8YyJQeYBq8v0uRgXytdeBKwMQwVMXg?e=dp7G5c
 
 enrollment_demographics_SY2021_path <- "inst/extdata/SY20-21 Enrollment Official SWD Child Count PUBLIC 092421.xlsx"
 

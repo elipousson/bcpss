@@ -1,9 +1,9 @@
 library(tidyverse)
 
-baltimore_enrollment <-
-  filter(mapmaryland::msde_enrollment, lss_name == "Baltimore City")
+bcpss_enrollment <-
+  filter(marylandedu::msde_enrollment, lss_name == "Baltimore City")
 
-usethis::use_data(baltimore_enrollment, overwrite = TRUE)
+usethis::use_data(bcpss_enrollment, overwrite = TRUE)
 
 # Enrollment data (exported 2021 Feb. 22) ----
 
@@ -50,6 +50,10 @@ usethis::use_data(enrollment_msde_SY0919, overwrite = TRUE)
 
 # Student mobility data (not exported) ----
 
+bcpss_student_mobility <-
+  filter(marylandedu::msde_student_mobility, lss_name == "Baltimore City")
+
+usethis::use_data(bcpss_student_mobility, overwrite = TRUE)
 
 student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) %>%
   tibble(path = .) %>%
@@ -105,6 +109,12 @@ student_mobility_msde_SY1520_long <- student_mobility_msde_SY1520 %>%
 
 # Attendance data (exported 2021 Feb. 22) ----
 
+bcpss_attendance <-
+  filter(marylandedu::msde_attendance, lss_name == "Baltimore City")
+
+usethis::use_data(bcpss_attendance, overwrite = TRUE)
+
+
 attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
   tibble(path = .) %>%
   filter(str_detect(path, "Attendance_")) %>%
@@ -156,7 +166,7 @@ attendance_msde_SY1520_long <- attendance_msde_SY1520 %>%
 
 # Accountability data (exported 2021 July 13) ----
 
-accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) %>%
+accountability_SY1920 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) %>%
   janitor::clean_names("snake") %>%
   rename(
     school_year = year,
@@ -177,9 +187,9 @@ accountability_SY19 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", 
   ) %>%
   select(-c(lea_number, lea_name))
 
-usethis::use_data(accountability_SY19, overwrite = TRUE)
+usethis::use_data(accountability_SY1920, overwrite = TRUE)
 
-nces_school_directory_SY19 <- readxl::read_excel("inst/extdata/School_Directory_2019.xlsx") %>%
+nces_school_directory_SY1920 <- readxl::read_excel("inst/extdata/School_Directory_2019.xlsx") %>%
   janitor::clean_names("snake") %>%
   rename(
     school_year = academic_year,
@@ -193,4 +203,4 @@ nces_school_directory_SY19 <- readxl::read_excel("inst/extdata/School_Directory_
   ) %>%
   select(-c(lss_number, lss_name, create_date))
 
-usethis::use_data(nces_school_directory_SY19, overwrite = TRUE)
+usethis::use_data(nces_school_directory_SY1920, overwrite = TRUE)

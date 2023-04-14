@@ -1,17 +1,16 @@
 template:
-  package: preferably
   bootstrap: 5
 reference:
 - title: Survey, enrollment, and demographic data from Baltimore City Public Schools
   contents:
-    - '`enrollment_demographics_SY1920`'
-    - '`enrollment_demographics_SY1920_long`'
-    - '`educator_survey_SY1819`'
-    - '`student_survey_SY1819`'
-    - '`parent_survey_SY1819`'
-    - '`parent_survey_SY1819_long`'
+  - starts_with("enrollment_demographics")
+  - starts_with("parent")
+  - starts_with("educator")
+  - starts_with("student")
 - title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE)
   contents:
+  - starts_with("bcpss")
+    - '`baltimore_enrollment`'
     - '`enrollment_msde_SY0919`'
     - '`attendance_msde_SY0919`'
     - '`accountability_SY19`'
@@ -21,9 +20,6 @@ reference:
     - '`kra_results_SY1920`'
 - title: Spatial data
   contents:
-    - '`bcps_programs_SY1920`'
-    - '`bcps_programs_SY2021`'
-    - '`bcps_programs_SY2122`'
-    - '`bcps_es_zones_SY2021`'
-    - '`bcps_es_zones_SY2122`'
-    - '`bcps_surplus_schools`'
+  - starts_with("bcps_programs")
+  - starts_with("bcps_es_zones")
+  - '`bcps_surplus_schools`'

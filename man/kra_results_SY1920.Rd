@@ -3,7 +3,8 @@
 \docType{data}
 \name{kra_results_SY1920}
 \alias{kra_results_SY1920}
-\title{MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City Public Schools (SY 2019-2020)}
+\title{MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City
+Public Schools (SY 2019-2020)}
 \format{
 A data frame with 1604 rows and 13 variables:
 \describe{

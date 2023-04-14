@@ -554,7 +554,8 @@
 "attendance_msde_SY0919"
 
 
-#' MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City Public Schools (SY 2019-2020)
+#' MSDE Kindergarten Readiness Assessment (KRA) results for Baltimore City
+#' Public Schools (SY 2019-2020)
 #'
 #' @description As of 2018-19, students who are not scored (NS) in all items
 #'   still receive a composite score and readiness level. NS is applied when an
@@ -613,7 +614,7 @@
 "kra_results_SY1920"
 
 
-#' Accountability data (SY 2019)
+#' Accountability data (SY 2019-2020)
 #'
 #' @description The Maryland State Department of Education is required to report
 #'   "accountability data" under the 2015 federal Every Student Succeeds Act
@@ -645,9 +646,9 @@
 #'   grade band}
 #' }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
-"accountability_SY19"
+"accountability_SY1920"
 
-#' National Center for Education Statistics (NCES) School Directory (SY 2019)
+#' National Center for Education Statistics (NCES) School Directory (SY 2019-2020)
 #'
 #' NCES Directory listing for Baltimore City Schools including school addresses,
 #' phone numbers, and NCES numbers.
@@ -666,7 +667,7 @@
 #'   \item{`nces_number`}{NCES number}
 #' }
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
-"nces_school_directory_SY19"
+"nces_school_directory_SY1920"
 
 #' Baltimore City Public Schools Surplus School Buildings
 #'
