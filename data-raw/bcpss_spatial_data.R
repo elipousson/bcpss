@@ -201,3 +201,16 @@ bcps_surplus_schools <-
 bcps_surplus_schools <- sfext:::wkt_df_to_sf(data, crs = 2804)
 
 use_data(bcps_surplus_schools, overwrite = TRUE)
+
+url <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/Building_Status_SY1920_v2/FeatureServer/0"
+
+bcps_buildings_SY1920 <-
+  getdata::get_esri_data(
+    url = url,
+    crs = 2804
+  )
+
+getdata::make_variable_dictionary(
+  bcps_buildings_SY1920
+) |>
+  View()
