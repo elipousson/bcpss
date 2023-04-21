@@ -12,6 +12,7 @@ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.or
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 <!-- badges: end -->
 
 The goal of bcpss is to make data from the Baltimore City Public School
@@ -119,18 +120,31 @@ top_5_es_map
 
 ## Related projects
 
--   [mapbaltimore](https://elipousson.github.io/mapbaltimore/)
--   [baltimoredata](https://elipousson.github.io/baltimoredata/)
--   [EdSurvey](https://www.air.org/project/nces-data-r-project-edsurvey):
-    “EdSurvey is an R statistical package designed for the analysis of
-    national and international education data from the National Center
-    for Education Statistics (NCES).”
--   [edbuildr](https://github.com/EdBuild/edbuildr): “The goal of
-    edbuildr is to import EdBuild’s master dataset of school district
-    finance, student demographics, and community economic indicators for
-    every school district in the United States.”
--   [Elementary School Operating Status + NCES 2019-2020 School District
-    Boundaries](https://github.com/hrbrmstr/2021-esos-nces)
--   [CPSenrollpack](https://github.com/cymack/CPSenrollpack): “R package
-    of enrollment data for Chicago Public High Schools, 2006-07 to
-    2018-19”
+### U.S. Education data
+
+- [educationdata](https://github.com/UrbanInstitute/education-data-package-r):
+  Retrieve data from the Urban Institute's [Education Data
+  API](https://educationdata.urban.org/) as a `data.frame` for easy
+  analysis.
+- [EdSurvey](https://www.air.org/project/nces-data-r-project-edsurvey):
+  EdSurvey is an R statistical package designed for the analysis of
+  national and international education data from the National Center for
+  Education Statistics (NCES).
+- [edbuildr](https://github.com/EdBuild/edbuildr): Import EdBuild’s
+  master dataset of school district finance, student demographics, and
+  community economic indicators for every school district in the United
+  States.
+- [Elementary School Operating Status + NCES 2019-2020 School District
+  Boundaries](https://github.com/hrbrmstr/2021-esos-nces)
+
+### Baltimore City data
+
+- [mapbaltimore](https://elipousson.github.io/mapbaltimore/)
+- [baltimoredata](https://elipousson.github.io/baltimoredata/)
+- [mapmaryland](https://elipousson.github.io/mapmaryland/)
+
+### Other local area education data
+
+- [CPSenrollpack](https://github.com/cymack/CPSenrollpack): “R package
+  of enrollment data for Chicago Public High Schools, 2006-07 to
+  2018-19”
