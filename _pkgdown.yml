@@ -8,7 +8,7 @@ reference:
     - starts_with("parent")
     - starts_with("educator")
     - starts_with("student")
-- title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE)
+- title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE) and BCPSS
   contents:
     - starts_with("bcpss")
     - '`baltimore_enrollment`'

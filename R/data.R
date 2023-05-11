@@ -795,3 +795,33 @@
 #' @details DETAILS
 "bcpss_student_mobility"
 
+
+#' BCPSS Buildings (SY 2021-2022) from CEFMP
+#'
+#' Buildings and programs within BCPSS. Note that each row is a program (not a
+#' building).
+#'
+#' @format A data frame with 173 rows and 18 variables:
+#' \describe{
+#'   \item{`psc_number`}{PSC Number}
+#'   \item{`bldg_number`}{Building number}
+#'   \item{`bldg_name`}{Building name}
+#'   \item{`program_number`}{Program number}
+#'   \item{`program_name`}{Program name}
+#'   \item{`management_type`}{Management type}
+#'   \item{`address`}{Address}
+#'   \item{`src`}{SRC (State Rated Capacity)}
+#'   \item{`bldg_enrollment`}{Total building enrollment}
+#'   \item{`program_enrollment`}{Program enrollment}
+#'   \item{`utilization_pct`}{Utilitization (% of SRC)}
+#'   \item{`acres`}{Acres}
+#'   \item{`bldg_sqft`}{Building sq. feet}
+#'   \item{`fci_score`}{FCI Score (physical condition)}
+#'   \item{`notes`}{Building notes}
+#'   \item{`swing_space`}{Swing space indicator}
+#'   \item{`bcpss_owned`}{BCPSS owned building indicator}
+#'   \item{`year_built`}{Year built}
+#'}
+"bcpss_buildings_SY2122"
+
+
