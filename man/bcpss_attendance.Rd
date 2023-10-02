@@ -3,37 +3,60 @@
 \docType{data}
 \name{bcpss_attendance}
 \alias{bcpss_attendance}
-\title{BCPSS Attendance Data}
+\title{BCPSS Attendance Data (SY 2003-2022)}
 \format{
-A data frame with 5585 rows and 18 variables:
+A data frame with 5,585 rows and 18 variables:
 \describe{
-\item{\code{year}}{integer COLUMN_DESCRIPTION}
-\item{\code{school_number}}{integer COLUMN_DESCRIPTION}
-\item{\code{school_name}}{character COLUMN_DESCRIPTION}
-\item{\code{school_type}}{character COLUMN_DESCRIPTION}
-\item{\code{attend_rate_pct}}{double COLUMN_DESCRIPTION}
-\item{\code{days_attended_count}}{double COLUMN_DESCRIPTION}
-\item{\code{days_member_count}}{double COLUMN_DESCRIPTION}
-\item{\code{fewer_5_pct}}{double COLUMN_DESCRIPTION}
-\item{\code{fewer_5_count}}{double COLUMN_DESCRIPTION}
-\item{\code{more_20_pct}}{double COLUMN_DESCRIPTION}
-\item{\code{more_20_count}}{double COLUMN_DESCRIPTION}
-\item{\code{more_90_member_count}}{double COLUMN_DESCRIPTION}
-\item{\code{chronic_absentee_count}}{double COLUMN_DESCRIPTION}
-\item{\code{chronic_absentee_denom}}{double COLUMN_DESCRIPTION}
-\item{\code{chronic_absentee_pct}}{double COLUMN_DESCRIPTION}
-\item{\code{date_created}}{double COLUMN_DESCRIPTION}
-\item{\code{lss_name}}{character COLUMN_DESCRIPTION}
-\item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
+\item{\code{year}}{School year or academic year, e.g. 2019 for 2019-2020
+school year}
+\item{\code{school_number}}{School number (0 indicates all schools)}
+\item{\code{school_name}}{School name}
+\item{\code{grade_range}}{Grade range used for attendance details.}
+\item{\code{attend_rate_pct}}{Attendance rate as defined as the average daily
+attendance rate of students in the school and grade band, including special
+education students}
+\item{\code{days_attended_count}}{Total number of students in attendance from the
+first day of school through April 13th}
+\item{\code{days_member_count}}{Total number of students registered to attend from
+the first day of school through April 13th}
+\item{\code{fewer_5_pct}}{Percent of students absentee rate is the percentage of
+students absent from school for five or fewer days between the first day of
+the school year and the last day of the school year}
+\item{\code{fewer_5_count}}{Count of students absentee rate is the percentage of
+students absent from school for five or fewer days between the first day of
+the school year and the last day of the school year}
+\item{\code{more_20_pct}}{Percent of students absentee rate is the percentage of
+students absent from school for twenty or more days between the first day
+of the school year and the last day of the school year}
+\item{\code{more_20_count}}{Number of students absentee rate is the percentage of
+students absent from school for twenty or more days between the first day
+of the school year and the last day of the school year}
+\item{\code{more_90_member_count}}{Number of students with an attendance rate of
+90 percent or more}
+\item{\code{chronic_absentee_count}}{Number of students expected to attend school
+for at least 10 days who were absent 10 percent or more of the school days
+while enrolled at that school}
+\item{\code{chronic_absentee_denom}}{Number of students who are expected to
+attend school for at least 10 days in the school year}
+\item{\code{chronic_absentee_pct}}{Chronic absenteeism rate as defined as the
+percent of students expected to attend school for at least 10 days who were
+absent 10 percent or more of the school days while enrolled at that school}
+\item{\code{date_created}}{Date record created.}
+\item{\code{lss_number}}{Local school system (LSS) number as integer. NA is used
+in place of a LSS number for statewide data. Older LEA numbers are combined
+with LSS numbers in this dataset.}
+\item{\code{lss_name}}{Local school system (LSS) names (typically same as county
+name). "State" is used in place of a LSS name for statewide data. Older LEA
+names are combined with LSS names in this dataset.}
 }
+}
+\source{
+\href{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload}{MSDE Data Downloads}
 }
 \usage{
 bcpss_attendance
 }
 \description{
-This documentation is a place-holder.
-}
-\details{
-DETAILS
+This data is a subset of the \link[marylandedu:msde_attendance]{marylandedu::msde_attendance} dataset.
 }
 \keyword{datasets}

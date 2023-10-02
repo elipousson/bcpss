@@ -3,29 +3,41 @@
 \docType{data}
 \name{bcpss_enrollment}
 \alias{bcpss_enrollment}
-\title{BCPSS Enrollment Data}
+\title{BCPSS Enrollment Data (SY 2003-2023)}
 \format{
-A data frame with 31618 rows and 10 variables:
+A data frame with 33,800 rows and 10 variables:
 \describe{
-\item{\code{year}}{integer COLUMN_DESCRIPTION}
-\item{\code{school_number}}{integer COLUMN_DESCRIPTION}
-\item{\code{school_name}}{character COLUMN_DESCRIPTION}
-\item{\code{enrolled_count}}{integer COLUMN_DESCRIPTION}
-\item{\code{grade}}{character COLUMN_DESCRIPTION}
-\item{\code{grade_range}}{character COLUMN_DESCRIPTION}
-\item{\code{race}}{character COLUMN_DESCRIPTION}
-\item{\code{date_created}}{double COLUMN_DESCRIPTION}
-\item{\code{lss_number}}{integer COLUMN_DESCRIPTION}
-\item{\code{lss_name}}{character COLUMN_DESCRIPTION}
+\item{\code{year}}{School or academic year for enrollment count, e.g.
+2019 data is from the start of the 2019-2020 school year.}
+\item{\code{school_number}}{School number as integer (0 indicates all
+schools)}
+\item{\code{school_name}}{School name}
+\item{\code{enrolled_count}}{Number of students registered to attend the
+school at the start of the year in the grade or grade range as integer.
+Typically enrollment count is as of September 30.}
+\item{\code{grade}}{Grades from Prekindergarden (PK) to Grade 12}
+\item{\code{grade_range}}{all elementary school Grades, all middle school
+grades, all high school grades, or all grades (total enrollment). May also
+be used as a label for grade.}
+\item{\code{race}}{Race/ethnicity. Enrollment by race/ethnicity is only
+available across all grades for years since 2020. "All" is used for data
+prior to 2020.}
+\item{\code{date_created}}{Date record created.}
+\item{\code{lss_number}}{Local school system (LSS) number as integer. NA is used
+in place of a LSS number for statewide data. Older LEA numbers are combined
+with LSS numbers in this dataset.}
+\item{\code{lss_name}}{Local school system (LSS) names (typically same as county
+name). "State" is used in place of a LSS name for statewide data. Older LEA
+names are combined with LSS names in this dataset.}
 }
+}
+\source{
+\href{https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload}{MSDE Data Downloads}
 }
 \usage{
 bcpss_enrollment
 }
 \description{
-This documentation is a place-holder.
-}
-\details{
-DETAILS
+This data is a subset of the \link[marylandedu:msde_enrollment]{marylandedu::msde_enrollment} dataset.
 }
 \keyword{datasets}

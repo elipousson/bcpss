@@ -762,77 +762,119 @@
 #' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "baltimore_enrollment"
 
-#' BCPSS Attendance Data
+#' BCPSS Attendance Data (SY 2003-2022)
 #'
-#' This documentation is a place-holder.
+#' This data is a subset of the [marylandedu::msde_attendance] dataset.
 #'
-#' @format A data frame with 5585 rows and 18 variables:
+#' @format A data frame with 5,585 rows and 18 variables:
 #' \describe{
-#'   \item{`year`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
-#'   \item{`school_type`}{character COLUMN_DESCRIPTION}
-#'   \item{`attend_rate_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`days_attended_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`days_member_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`fewer_5_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`fewer_5_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`more_20_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`more_20_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`more_90_member_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`chronic_absentee_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`chronic_absentee_denom`}{double COLUMN_DESCRIPTION}
-#'   \item{`chronic_absentee_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
-#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
-#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
-#'}
-#' @details DETAILS
+#'   \item{`year`}{School year or academic year, e.g. 2019 for 2019-2020
+#'   school year}
+#'   \item{`school_number`}{School number (0 indicates all schools)}
+#'   \item{`school_name`}{School name}
+#'   \item{`grade_range`}{Grade range used for attendance details.}
+#'   \item{`attend_rate_pct`}{Attendance rate as defined as the average daily
+#'   attendance rate of students in the school and grade band, including special
+#'   education students}
+#'   \item{`days_attended_count`}{Total number of students in attendance from the
+#'   first day of school through April 13th}
+#'   \item{`days_member_count`}{Total number of students registered to attend from
+#'   the first day of school through April 13th}
+#'   \item{`fewer_5_pct`}{Percent of students absentee rate is the percentage of
+#'   students absent from school for five or fewer days between the first day of
+#'   the school year and the last day of the school year}
+#'   \item{`fewer_5_count`}{Count of students absentee rate is the percentage of
+#'   students absent from school for five or fewer days between the first day of
+#'   the school year and the last day of the school year}
+#'   \item{`more_20_pct`}{Percent of students absentee rate is the percentage of
+#'   students absent from school for twenty or more days between the first day
+#'   of the school year and the last day of the school year}
+#'   \item{`more_20_count`}{Number of students absentee rate is the percentage of
+#'   students absent from school for twenty or more days between the first day
+#'   of the school year and the last day of the school year}
+#'   \item{`more_90_member_count`}{Number of students with an attendance rate of
+#'   90 percent or more}
+#'   \item{`chronic_absentee_count`}{Number of students expected to attend school
+#'   for at least 10 days who were absent 10 percent or more of the school days
+#'   while enrolled at that school}
+#'   \item{`chronic_absentee_denom`}{Number of students who are expected to
+#'   attend school for at least 10 days in the school year}
+#'   \item{`chronic_absentee_pct`}{Chronic absenteeism rate as defined as the
+#'   percent of students expected to attend school for at least 10 days who were
+#'   absent 10 percent or more of the school days while enrolled at that school}
+#'   \item{`date_created`}{Date record created.}
+#'   \item{`lss_number`}{Local school system (LSS) number as integer. NA is used
+#'   in place of a LSS number for statewide data. Older LEA numbers are combined
+#'   with LSS numbers in this dataset.}
+#'   \item{`lss_name`}{Local school system (LSS) names (typically same as county
+#'   name). "State" is used in place of a LSS name for statewide data. Older LEA
+#'   names are combined with LSS names in this dataset.}
+#'  }
+#' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "bcpss_attendance"
 
 
-#' BCPSS Enrollment Data
+#' BCPSS Enrollment Data (SY 2003-2023)
 #'
-#' This documentation is a place-holder.
+#' This data is a subset of the [marylandedu::msde_enrollment] dataset.
 #'
-#' @format A data frame with 31618 rows and 10 variables:
+#' @format A data frame with 33,800 rows and 10 variables:
 #' \describe{
-#'   \item{`year`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
-#'   \item{`enrolled_count`}{integer COLUMN_DESCRIPTION}
-#'   \item{`grade`}{character COLUMN_DESCRIPTION}
-#'   \item{`grade_range`}{character COLUMN_DESCRIPTION}
-#'   \item{`race`}{character COLUMN_DESCRIPTION}
-#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
-#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
-#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
-#'}
-#' @details DETAILS
+#'  \item{`year`}{School or academic year for enrollment count, e.g.
+#'    2019 data is from the start of the 2019-2020 school year.}
+#'  \item{`school_number`}{School number as integer (0 indicates all
+#'  schools)}
+#'  \item{`school_name`}{School name}
+#'  \item{`enrolled_count`}{Number of students registered to attend the
+#'  school at the start of the year in the grade or grade range as integer.
+#'  Typically enrollment count is as of September 30.}
+#'  \item{`grade`}{Grades from Prekindergarden (PK) to Grade 12}
+#'  \item{`grade_range`}{all elementary school Grades, all middle school
+#'  grades, all high school grades, or all grades (total enrollment). May also
+#'  be used as a label for grade.}
+#'   \item{`race`}{Race/ethnicity. Enrollment by race/ethnicity is only
+#'   available across all grades for years since 2020. "All" is used for data
+#'   prior to 2020.}
+#'   \item{`date_created`}{Date record created.}
+#'   \item{`lss_number`}{Local school system (LSS) number as integer. NA is used
+#'   in place of a LSS number for statewide data. Older LEA numbers are combined
+#'   with LSS numbers in this dataset.}
+#'   \item{`lss_name`}{Local school system (LSS) names (typically same as county
+#'   name). "State" is used in place of a LSS name for statewide data. Older LEA
+#'   names are combined with LSS names in this dataset.}
+#'  }
+#' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "bcpss_enrollment"
 
-#' BCPSS Student Mobility Data
+#' BCPSS Student Mobility (SY 2003-2022)
 #'
-#' This documentation is a place-holder.
+#' Student mobility data from the Maryland State Department of Education (MSDE).
+#' A subset of the [marylandedu::msde_student_mobility] dataset.
 #'
 #' @format A data frame with 5586 rows and 14 variables:
 #' \describe{
-#'   \item{`year`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_number`}{integer COLUMN_DESCRIPTION}
-#'   \item{`school_name`}{character COLUMN_DESCRIPTION}
-#'   \item{`school_type`}{character COLUMN_DESCRIPTION}
-#'   \item{`mobile_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`entry_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`exit_pct`}{double COLUMN_DESCRIPTION}
-#'   \item{`mobile_count`}{integer COLUMN_DESCRIPTION}
-#'   \item{`entry_count`}{integer COLUMN_DESCRIPTION}
-#'   \item{`exit_count`}{integer COLUMN_DESCRIPTION}
-#'   \item{`avg_enrolled_count`}{double COLUMN_DESCRIPTION}
-#'   \item{`lss_name`}{character COLUMN_DESCRIPTION}
-#'   \item{`date_created`}{double COLUMN_DESCRIPTION}
-#'   \item{`lss_number`}{integer COLUMN_DESCRIPTION}
-#'}
-#' @details DETAILS
+#'  \item{`year`}{School or academic year for enrollment count, e.g.
+#'    2019 data is from the start of the 2019-2020 school year.}
+#'  \item{`school_number`}{School number as integer (0 indicates all
+#'  schools)}
+#'  \item{`school_name`}{School name}
+#'   \item{`school_type`}{School type (e.g. Elementary, Middle, High)}
+#'   \item{`mobile_pct`}{Student total mobility rate}
+#'   \item{`entry_pct`}{Student entry mobility rate}
+#'   \item{`exit_pct`}{Student exit mobility rate}
+#'   \item{`mobile_count`}{Sudent entry and exit count}
+#'   \item{`entry_count`}{Student entry count}
+#'   \item{`exit_count`}{Student exit count}
+#'   \item{`avg_enrolled_count`}{Average daily student enrollment.}
+#'   \item{`date_created`}{Date record created.}
+#'   \item{`lss_number`}{Local school system (LSS) number as integer. NA is used
+#'   in place of a LSS number for statewide data. Older LEA numbers are combined
+#'   with LSS numbers in this dataset.}
+#'   \item{`lss_name`}{Local school system (LSS) names (typically same as county
+#'   name). "State" is used in place of a LSS name for statewide data. Older LEA
+#'   names are combined with LSS names in this dataset.}
+#' }
+#' @source [MSDE Data Downloads](https://reportcard.msde.maryland.gov/Graphs/#/DataDownloads/datadownload)
 "bcpss_student_mobility"
 
 

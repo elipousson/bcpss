@@ -50,8 +50,7 @@ usethis::use_data(enrollment_msde_SY0919, overwrite = TRUE)
 
 # Student mobility data (not exported) ----
 
-bcpss_student_mobility <-
-  filter(marylandedu::msde_student_mobility, lss_name == "Baltimore City")
+bcpss_student_mobility <- filter(marylandedu::msde_student_mobility, lss_name == "Baltimore City")
 
 usethis::use_data(bcpss_student_mobility, overwrite = TRUE)
 
