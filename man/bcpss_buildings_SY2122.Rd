@@ -34,7 +34,4 @@ bcpss_buildings_SY2122
 Buildings and programs within BCPSS. Note that each row is a program (not a
 building).
 }
-\details{
-DETAILS
-}
 \keyword{datasets}
