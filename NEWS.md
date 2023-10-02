@@ -1,4 +1,4 @@
-# bcpss (development version)
+# bcpss 0.2.0
 
 Versioning for this package has been and may continue to be somewhat uneven. Here are the key changes since the last version:
 
