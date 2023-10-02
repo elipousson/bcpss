@@ -2,6 +2,36 @@ library(dplyr)
 
 selected_crs <- 2804
 
+bcps_es_zones_SY2223_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Elementary_Zones/FeatureServer/21"
+
+bcps_es_zones_SY2223 <- esri2sf::esri2sf(bcps_es_zones_SY2223_path) %>%
+  janitor::clean_names("snake") %>%
+  sf::st_transform(selected_crs) %>%
+  dplyr::mutate(
+    ms_feeder = has_m_feeder == "Yes",
+    program_number = zone_no,
+    program_name_short = stringr::str_remove(zone_name, "[:space:]zone$")
+  ) |>
+  dplyr::select(
+    zone_number = zone_no,
+    zone_name,
+    program_number,
+    program_name_short,
+    ms_feeder,
+    lower_grades,
+    upper_grades,
+    quadrant = quad
+  ) %>%
+  sfext::rename_sf_col() |>
+  dplyr::mutate(
+    zone_number = as.integer(zone_number),
+    program_number = as.integer(program_number)
+  ) %>%
+  dplyr::arrange(zone_number)
+
+usethis::use_data(bcps_es_zones_SY2223, overwrite = TRUE)
+
+
 # Import Baltimore City Public School 2021-2022 attendance zones from ArcGIS Feature Server layer
 bcps_es_zones_SY2122_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2122/FeatureServer/0"
 
@@ -44,6 +74,30 @@ bcps_es_zones_SY2021 <- esri2sf::esri2sf(bcps_es_zones_SY2021_path) %>%
   dplyr::arrange(zone_number)
 
 usethis::use_data(bcps_es_zones_SY2021, overwrite = TRUE)
+
+bcps_programs_SY2223_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Programs/FeatureServer/0"
+
+bcps_programs_SY2223 <- esri2sf::esri2sf(bcps_programs_SY2223_path) %>%
+  janitor::clean_names("snake") %>%
+  sf::st_transform(selected_crs) |>
+  dplyr::select(
+    program_number = prog_no,
+    program_name_short = prog_short,
+    grade_band = msde,
+    management_type = mgmnt_type,
+    category = categorization,
+    swing,
+    swing_building_number = swing_bldg_no,
+    geometry = geoms
+  ) %>%
+  naniar::replace_with_na(list(category = "na")) %>%
+  mutate(
+    grade_band = stringr::str_replace(grade_band, "'", ""),
+    swing = dplyr::if_else(swing == "n", FALSE, TRUE)
+  ) %>%
+  dplyr::arrange(program_number)
+
+usethis::use_data(bcps_programs_SY2223, overwrite = TRUE)
 
 # 2020-2021 program sites
 bcps_programs_SY2021_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2021_Programs/FeatureServer/0"
