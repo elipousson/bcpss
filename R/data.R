@@ -317,7 +317,6 @@
 #' @source <https://www.baltimorecityschools.org/data>
 "student_survey_SY1819"
 
-
 #' Baltimore City Public School Educator Survey (SY 2018-2019)
 #'
 #' The Maryland School Survey was administered for the first time in spring 2019
@@ -351,6 +350,28 @@
 #' @source <https://www.baltimorecityschools.org/data>
 "educator_survey_SY1819"
 
+#' Baltimore City Public School Elementary School Attendance Zones (SY
+#' 2022-2023)
+#'
+#' Boundaries for Baltimore City Public School elementary school attendance
+#' zones for the 2022-2023 school year. The `program_number` variable is
+#' equivalent to the `school_number` variable used in the demographic and survey
+#' datasets.
+#'
+#' @format A data frame with 92 rows and 9 variables:
+#' \describe{
+#'   \item{`zone_number`}{Program zone number}
+#'   \item{`zone_name`}{Program zone name}
+#'   \item{`program_number`}{Program number (school number)}
+#'   \item{`program_name_short`}{Program name (short)}
+#'   \item{`ms_feeder`}{Flag for elementary school programs that feed into a middle school}
+#'   \item{`lower_grades`}{Description for lower grades}
+#'   \item{`upper_grades`}{Description for higher grades (identifying middle school that the elementary feeds into if appropriate)}
+#'   \item{`quadrant`}{Quadrant of Baltimore City}
+#'   \item{`geometry`}{Multipolygon geometry for zone boundaries}
+#'}
+#' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Elementary_Zones/FeatureServer/21>
+"bcps_es_zones_SY2223"
 
 #' Baltimore City Public School Elementary School Attendance Zones (SY
 #' 2021-2022)
@@ -371,7 +392,6 @@
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2122/FeatureServer/0>
 "bcps_es_zones_SY2122"
 
-
 #' Baltimore City Public School Elementary School Attendance Zones (SY 2020-2021)
 #'
 #' Boundaries for Baltimore City Public School elementary school attendance
@@ -389,6 +409,26 @@
 #' }
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2021/FeatureServer/0>
 "bcps_es_zones_SY2021"
+
+#' Baltimore City Public School Program Locations (SY 2022-2023)
+#'
+#' Locations for Baltimore City Public School buildings and programs for the
+#' 2022-2023 school year. The `program_number` variable is equivalent to the
+#' `school_number` variable used in the demographic and survey datasets.
+#'
+#' @format A data frame with 159 rows and 8 variables:
+#' \describe{
+#'   \item{`program_number`}{Program number (school number)}
+#'   \item{`program_name_short`}{Program name (short)}
+#'   \item{`grade_band`}{Grade band for program}
+#'   \item{`management_type`}{School management type}
+#'   \item{`category`}{Grade category}
+#'   \item{`swing`}{Logical indicator for program at swing site}
+#'   \item{`swing_building_number`}{Building number for swing site}
+#'   \item{`geometry`}{Point geometry for program/school locations}
+#'}
+#' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Programs/FeatureServer/0>
+"bcps_programs_SY2223"
 
 #' Baltimore City Public School Program Locations (SY 2021-2022)
 #'
