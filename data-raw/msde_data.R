@@ -7,21 +7,21 @@ usethis::use_data(bcpss_enrollment, overwrite = TRUE)
 
 # Enrollment data (exported 2021 Feb. 22) ----
 
-enrollment_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
-  tibble(path = .) %>%
-  filter(str_detect(path, "Enrollment_")) %>%
+enrollment_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) |>
+  tibble(path = .) |>
+  filter(str_detect(path, "Enrollment_")) |>
   mutate(data = map(
     path,
     ~ read_csv(.x, col_types = cols(.default = "c"))
-  )) %>%
-  unnest(data) %>%
-  janitor::clean_names("snake") %>%
+  )) |>
+  unnest(data) |>
+  janitor::clean_names("snake") |>
   mutate(
     lea_number = coalesce(lea_number, lss_number),
     lea_name = coalesce(lea_name, lss_name),
     grade = coalesce(grade, grade_title)
-  ) %>%
-  filter(lea_name == "Baltimore City") %>%
+  ) |>
+  filter(lea_name == "Baltimore City") |>
   mutate(
     school_number = if_else(school_number == "A", "0", school_number),
     school_number = as.integer(school_number),
@@ -37,10 +37,10 @@ enrollment_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
       grade == "Kindergarten" ~ "K",
       TRUE ~ "*"
     )
-  ) %>%
-  naniar::replace_with_na_all(condition = ~ .x == "*") %>%
-  mutate(enrolled_count = as.numeric(enrolled_count)) %>%
-  rename(school_year = academic_year) %>%
+  ) |>
+  naniar::replace_with_na_all(condition = ~ .x == "*") |>
+  mutate(enrolled_count = as.numeric(enrolled_count)) |>
+  rename(school_year = academic_year) |>
   select(-c(path, lea_number, lea_name, lss_number, lss_name, grade_title, create_date))
 
 enrollment_msde_SY0919$grade <- factor(enrollment_msde_SY0919$grade, c("PK", "K", as.character(c(1:12))))
@@ -54,15 +54,15 @@ bcpss_student_mobility <- filter(marylandedu::msde_student_mobility, lss_name ==
 
 usethis::use_data(bcpss_student_mobility, overwrite = TRUE)
 
-student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) %>%
-  tibble(path = .) %>%
-  filter(str_detect(path, "Student_")) %>%
+student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) |>
+  tibble(path = .) |>
+  filter(str_detect(path, "Student_")) |>
   mutate(data = map(
     path,
     ~ read_csv(.x, col_types = cols(.default = "c"))
-  )) %>%
-  unnest(data) %>%
-  janitor::clean_names("snake") %>%
+  )) |>
+  unnest(data) |>
+  janitor::clean_names("snake") |>
   mutate(
     lea_number = coalesce(lea_number, lss_number),
     lea_name = coalesce(lea_name, lss_name),
@@ -73,9 +73,9 @@ student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) %>
     withdrawals_pct = coalesce(withdrawals_pct, withdrawals_rate),
     withdrawals_cnt = coalesce(withdrawals_cnt, withdrawals_count),
     avg_daily_member_cnt = coalesce(avg_daily_member_cnt, avg_daily_member_count)
-  ) %>%
-  relocate(create_date, .after = academic_year) %>%
-  select(-c(path, lss_number, lss_name, mobility_rate:avg_daily_member_count)) %>%
+  ) |>
+  relocate(create_date, .after = academic_year) |>
+  select(-c(path, lss_number, lss_name, mobility_rate:avg_daily_member_count)) |>
   mutate(
     across(
       where(is.character),
@@ -85,21 +85,21 @@ student_mobility_msde_SY1520 <- list.files("inst/extdata", full.names = TRUE) %>
         TRUE ~ .x
       )
     )
-  ) %>%
+  ) |>
   naniar::replace_with_na_all(condition = ~ .x == "*")
 
-student_mobility_msde_SY1520 <- student_mobility_msde_SY1520 %>%
+student_mobility_msde_SY1520 <- student_mobility_msde_SY1520 |>
   mutate(
     across(
       all_of(c(8:14)),
       as.numeric
     )
-  ) %>%
-  filter(lea_name == "Baltimore City") %>%
-  rename(school_year = academic_year) %>%
+  ) |>
+  filter(lea_name == "Baltimore City") |>
+  rename(school_year = academic_year) |>
   select(-c(lea_number, lea_name))
 
-student_mobility_msde_SY1520_long <- student_mobility_msde_SY1520 %>%
+student_mobility_msde_SY1520_long <- student_mobility_msde_SY1520 |>
   tidyr::pivot_longer(
     cols = c(8:14),
     names_to = "variable",
@@ -114,25 +114,25 @@ bcpss_attendance <-
 usethis::use_data(bcpss_attendance, overwrite = TRUE)
 
 
-attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
-  tibble(path = .) %>%
-  filter(str_detect(path, "Attendance_")) %>%
+attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) |>
+  tibble(path = .) |>
+  filter(str_detect(path, "Attendance_")) |>
   mutate(data = map(
     path,
     ~ read_csv(.x, col_types = cols(.default = "c"))
-  )) %>%
-  unnest(data) %>%
-  janitor::clean_names("snake") %>%
+  )) |>
+  unnest(data) |>
+  janitor::clean_names("snake") |>
   mutate(
     lea_number = coalesce(lea_number, lss_number),
     lea_name = coalesce(lea_name, lss_name)
-  ) %>%
-  filter(lea_name == "Baltimore City") %>%
-  select(-c(path, lea_number, lea_name, lss_number, lss_name, create_date)) %>%
+  ) |>
+  filter(lea_name == "Baltimore City") |>
+  select(-c(path, lea_number, lea_name, lss_number, lss_name, create_date)) |>
   rename(
     school_year = academic_year,
     grade_band = school_type
-  ) %>%
+  ) |>
   mutate(
     school_number = if_else(school_number == "A", "0", school_number),
     school_number = as.integer(school_number),
@@ -144,8 +144,8 @@ attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
         TRUE ~ .x
       )
     )
-  ) %>%
-  naniar::replace_with_na_all(condition = ~ .x == "*") %>%
+  ) |>
+  naniar::replace_with_na_all(condition = ~ .x == "*") |>
   mutate(
     across(
       all_of(c(5:15)),
@@ -156,7 +156,7 @@ attendance_msde_SY0919 <- list.files("inst/extdata", full.names = TRUE) %>%
 usethis::use_data(attendance_msde_SY0919, overwrite = TRUE)
 
 # Not exported
-attendance_msde_SY1520_long <- attendance_msde_SY1520 %>%
+attendance_msde_SY1520_long <- attendance_msde_SY1520 |>
   tidyr::pivot_longer(
     cols = c(8:18),
     names_to = "variable",
@@ -165,15 +165,15 @@ attendance_msde_SY1520_long <- attendance_msde_SY1520 %>%
 
 # Accountability data (exported 2021 July 13) ----
 
-accountability_SY1920 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) %>%
-  janitor::clean_names("snake") %>%
+accountability_SY1920 <- read_csv("inst/extdata/2019_Accountability_Schools.csv", col_types = cols(.default = "c")) |>
+  janitor::clean_names("snake") |>
   rename(
     school_year = year,
     lea_number = lss_number,
     lea_name = lss_name
-  ) %>%
-  filter(lea_name == "Baltimore City") %>%
-  naniar::replace_with_na_all(condition = ~ .x == "na") %>%
+  ) |>
+  filter(lea_name == "Baltimore City") |>
+  naniar::replace_with_na_all(condition = ~ .x == "na") |>
   mutate(
     across(
       all_of(c(7:10)),
@@ -183,23 +183,23 @@ accountability_SY1920 <- read_csv("inst/extdata/2019_Accountability_Schools.csv"
       all_of(c(4, 6)),
       as.integer
     )
-  ) %>%
+  ) |>
   select(-c(lea_number, lea_name))
 
 usethis::use_data(accountability_SY1920, overwrite = TRUE)
 
-nces_school_directory_SY1920 <- readxl::read_excel("inst/extdata/School_Directory_2019.xlsx") %>%
-  janitor::clean_names("snake") %>%
+nces_school_directory_SY1920 <- readxl::read_excel("inst/extdata/School_Directory_2019.xlsx") |>
+  janitor::clean_names("snake") |>
   rename(
     school_year = academic_year,
     grade_band = school_type
-  ) %>%
+  ) |>
   filter(
     lss_name == "Baltimore City"
-  ) %>%
+  ) |>
   mutate(
     school_number = as.integer(school_number)
-  ) %>%
+  ) |>
   select(-c(lss_number, lss_name, create_date))
 
 usethis::use_data(nces_school_directory_SY1920, overwrite = TRUE)

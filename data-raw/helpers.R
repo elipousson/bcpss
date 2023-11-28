@@ -8,13 +8,13 @@ read_bcpss_enrollment_demographics <- function(path,
       .name_repair = janitor::make_clean_names
     )
 
-  data %>%
+  data |>
     dplyr::rename(
       management_type = school_type,
       grade_band = gradeband,
       # NOTE: percent_females is renamed outside this function for SY1920
       percent_male = percent_males
-    ) %>%
+    ) |>
     dplyr::mutate(
       # Make school number an integer so it can be sorted
       school_number = dplyr::if_else(
@@ -35,7 +35,7 @@ read_bcpss_enrollment_demographics <- function(path,
         grade %in% c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades") ~ "0",
         TRUE ~ grade
       )
-    ) %>%
+    ) |>
     # Replace NA values with actual NAs
     naniar::replace_with_na(
       list(
@@ -44,7 +44,7 @@ read_bcpss_enrollment_demographics <- function(path,
         grade_range = "0",
         grade = "0"
       )
-    ) %>%
+    ) |>
     mutate(
       across(
         starts_with("percent"),
@@ -59,18 +59,18 @@ read_bcpss_enrollment_demographics <- function(path,
         starts_with("percent"),
         ~ as.numeric(.x)
       )
-    ) %>%
+    ) |>
     # Rename variables to match survey variable names
     # Reorder variables
-    dplyr::relocate(management_type, .after = school_name) %>%
-    dplyr::relocate(grade_range, .after = grade) %>%
+    dplyr::relocate(management_type, .after = school_name) |>
+    dplyr::relocate(grade_range, .after = grade) |>
     # Convert selected variables to factors
     dplyr::mutate(
       total_enrollment = as.integer(total_enrollment),
       grade_range = factor(grade_range, c("PK to K", "PK to 2", "PK to 5", "K to 5", "1 to 5", "3 to 5", "6 to 8", "9 to 12", "All Grades")),
       grade_band = factor(grade_band, c("E", "EM", "EMH", "M", "MH", "H", "Other")),
       grade = factor(grade, c("PK", "K", as.character(c(1:12)), "Other (93)"))
-    ) %>%
+    ) |>
     dplyr::arrange(
       school_number, grade, grade_range
     )

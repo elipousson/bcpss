@@ -4,9 +4,9 @@ selected_crs <- 2804
 
 bcps_es_zones_SY2223_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Elementary_Zones/FeatureServer/21"
 
-bcps_es_zones_SY2223 <- esri2sf::esri2sf(bcps_es_zones_SY2223_path) %>%
-  janitor::clean_names("snake") %>%
-  sf::st_transform(selected_crs) %>%
+bcps_es_zones_SY2223 <- esri2sf::esri2sf(bcps_es_zones_SY2223_path) |>
+  janitor::clean_names("snake") |>
+  sf::st_transform(selected_crs) |>
   dplyr::mutate(
     ms_feeder = has_m_feeder == "Yes",
     program_number = zone_no,
@@ -21,12 +21,12 @@ bcps_es_zones_SY2223 <- esri2sf::esri2sf(bcps_es_zones_SY2223_path) %>%
     lower_grades,
     upper_grades,
     quadrant = quad
-  ) %>%
+  ) |>
   sfext::rename_sf_col() |>
   dplyr::mutate(
     zone_number = as.integer(zone_number),
     program_number = as.integer(program_number)
-  ) %>%
+  ) |>
   dplyr::arrange(zone_number)
 
 usethis::use_data(bcps_es_zones_SY2223, overwrite = TRUE)
@@ -35,20 +35,20 @@ usethis::use_data(bcps_es_zones_SY2223, overwrite = TRUE)
 # Import Baltimore City Public School 2021-2022 attendance zones from ArcGIS Feature Server layer
 bcps_es_zones_SY2122_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2122/FeatureServer/0"
 
-bcps_es_zones_SY2122 <- esri2sf::esri2sf(bcps_es_zones_SY2122_path) %>%
-  janitor::clean_names("snake") %>%
-  sf::st_transform(selected_crs) %>%
+bcps_es_zones_SY2122 <- esri2sf::esri2sf(bcps_es_zones_SY2122_path) |>
+  janitor::clean_names("snake") |>
+  sf::st_transform(selected_crs) |>
   dplyr::select(
     zone_number = zone_numbe,
     zone_name,
     program_number = prog_no,
     program_name_short = prog_name,
     geometry = geoms
-  ) %>%
+  ) |>
   mutate(
     zone_number = as.integer(zone_number),
     program_number = as.integer(program_number)
-  ) %>%
+  ) |>
   dplyr::arrange(zone_number)
 
 usethis::use_data(bcps_es_zones_SY2122, overwrite = TRUE)
@@ -57,28 +57,28 @@ usethis::use_data(bcps_es_zones_SY2122, overwrite = TRUE)
 # Import Baltimore City Public School 2020-2021 attendance zones from ArcGIS Feature Server layer
 bcps_es_zones_SY2021_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/BCPSZones_2021/FeatureServer/0"
 
-bcps_es_zones_SY2021 <- esri2sf::esri2sf(bcps_es_zones_SY2021_path) %>%
-  janitor::clean_names("snake") %>%
-  sf::st_transform(selected_crs) %>%
+bcps_es_zones_SY2021 <- esri2sf::esri2sf(bcps_es_zones_SY2021_path) |>
+  janitor::clean_names("snake") |>
+  sf::st_transform(selected_crs) |>
   dplyr::select(
     zone_number = zone_numbe,
     zone_name,
     program_number = prog_no,
     program_name_short = prog_name,
     geometry = geoms
-  ) %>%
+  ) |>
   mutate(
     zone_number = as.integer(zone_number),
     program_number = as.integer(program_number)
-  ) %>%
+  ) |>
   dplyr::arrange(zone_number)
 
 usethis::use_data(bcps_es_zones_SY2021, overwrite = TRUE)
 
 bcps_programs_SY2223_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Programs/FeatureServer/0"
 
-bcps_programs_SY2223 <- esri2sf::esri2sf(bcps_programs_SY2223_path) %>%
-  janitor::clean_names("snake") %>%
+bcps_programs_SY2223 <- esri2sf::esri2sf(bcps_programs_SY2223_path) |>
+  janitor::clean_names("snake") |>
   sf::st_transform(selected_crs) |>
   dplyr::select(
     program_number = prog_no,
@@ -89,12 +89,12 @@ bcps_programs_SY2223 <- esri2sf::esri2sf(bcps_programs_SY2223_path) %>%
     swing,
     swing_building_number = swing_bldg_no,
     geometry = geoms
-  ) %>%
-  naniar::replace_with_na(list(category = "na")) %>%
+  ) |>
+  naniar::replace_with_na(list(category = "na")) |>
   mutate(
     grade_band = stringr::str_replace(grade_band, "'", ""),
     swing = dplyr::if_else(swing == "n", FALSE, TRUE)
-  ) %>%
+  ) |>
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY2223, overwrite = TRUE)
@@ -102,9 +102,9 @@ usethis::use_data(bcps_programs_SY2223, overwrite = TRUE)
 # 2020-2021 program sites
 bcps_programs_SY2021_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2021_Programs/FeatureServer/0"
 
-bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) %>%
-  janitor::clean_names("snake") %>%
-  sf::st_transform(selected_crs) %>%
+bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) |>
+  janitor::clean_names("snake") |>
+  sf::st_transform(selected_crs) |>
   dplyr::select(
     program_number = prog_no,
     program_name_short = prog_short,
@@ -124,8 +124,8 @@ bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) %>%
     zone_number = ezone,
     zone_name,
     geometry = geoms
-  ) %>%
-  naniar::replace_with_na(list(category = "na")) %>%
+  ) |>
+  naniar::replace_with_na(list(category = "na")) |>
   mutate(
     grade_band = str_replace(grade_band, "'", ""),
     swing = if_else(swing == "n", FALSE, TRUE),
@@ -135,7 +135,7 @@ bcps_programs_SY2021 <- esri2sf::esri2sf(bcps_programs_SY2021_path) %>%
     council_district = as.integer(council_district),
     legislative_district = if_else(legislative_district == "44", "44A", as.character(legislative_district)),
     congressional_district = paste0(str_to_lower(congressional_district), " District")
-  ) %>%
+  ) |>
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY2021, overwrite = TRUE)
@@ -146,7 +146,7 @@ bcps_programs_SY1920 <-
   getdata::get_esri_data(
     url = bcps_programs_SY1920_path,
     crs = selected_crs
-  ) %>%
+  ) |>
   dplyr::select(
     program_number = prog_no,
     program_name = prog_name_long,
@@ -166,17 +166,17 @@ bcps_programs_SY1920 <-
     # quadrant = quad,
     # zone_number = ezone,
     # zone_name
-  ) %>%
+  ) |>
   sfext::rename_sf_col()
 
-bcps_programs_SY1920 <- bcps_programs_SY1920 %>%
+bcps_programs_SY1920 <- bcps_programs_SY1920 |>
   dplyr::mutate(
     grade_band = str_replace(grade_band, "'", ""),
     swing = if_else(swing == "n", FALSE, TRUE),
     colocated = if_else(colocated == "n", FALSE, TRUE),
     council_district = as.integer(council_district),
     legislative_district = if_else(legislative_district == "44", "44A", as.character(legislative_district))
-  ) %>%
+  ) |>
   dplyr::arrange(program_number)
 
 usethis::use_data(bcps_programs_SY1920, overwrite = TRUE)
@@ -188,7 +188,7 @@ bcps_programs_SY2122 <-
   getdata::get_esri_data(
     url = bcps_programs_SY2122_path,
     crs = selected_crs
-  ) %>%
+  ) |>
   dplyr::select(
     program_number = prog_no,
     program_name_short = prog_short,
@@ -197,21 +197,21 @@ bcps_programs_SY2122 <-
     category = categorization,
     swing,
     swing_building_number = swing_bldg_no
-  ) %>%
+  ) |>
   sfext::rename_sf_col()
 
 
 bcps_programs_SY2122 <-
-  bcps_programs_SY2122 %>%
+  bcps_programs_SY2122 |>
   dplyr::mutate(
     grade_band = stringr::str_replace(grade_band, "'", ""),
     swing = dplyr::if_else(swing == "n", FALSE, TRUE)
-  ) %>%
+  ) |>
   naniar::replace_with_na(
     list(
       category = "na"
     )
-  ) %>%
+  ) |>
   dplyr::arrange(program_number)
 
 
@@ -223,23 +223,23 @@ bcps_surplus_schools <-
   getdata::get_esri_data(
     url = url,
     crs = 2804
-  ) %>%
+  ) |>
   mutate(
     interior_sq_ft = sq_ft,
     property_acres = campus_acre,
     url = link1
-  ) %>%
-  select(-c(starts_with("link"), objectid)) %>%
+  ) |>
+  select(-c(starts_with("link"), objectid)) |>
   naniar::replace_with_na(
     list(
       year = "n/a",
       status = "n/a"
     )
-  ) %>%
+  ) |>
   dplyr::rename(
     status_sy20 = status
-  ) %>%
-  dplyr::arrange(bldg_name) %>%
+  ) |>
+  dplyr::arrange(bldg_name) |>
   sfext::rename_sf_col()
 
 # NOTE: The data from the prior processing pipeline was manually edited and
