@@ -369,7 +369,7 @@
 #'   \item{`upper_grades`}{Description for higher grades (identifying middle school that the elementary feeds into if appropriate)}
 #'   \item{`quadrant`}{Quadrant of Baltimore City}
 #'   \item{`geometry`}{Multipolygon geometry for zone boundaries}
-#'}
+#' }
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Elementary_Zones/FeatureServer/21>
 "bcps_es_zones_SY2223"
 
@@ -426,7 +426,7 @@
 #'   \item{`swing`}{Logical indicator for program at swing site}
 #'   \item{`swing_building_number`}{Building number for swing site}
 #'   \item{`geometry`}{Point geometry for program/school locations}
-#'}
+#' }
 #' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Programs/FeatureServer/0>
 "bcps_programs_SY2223"
 
@@ -903,7 +903,5 @@
 #'   \item{`swing_space`}{Swing space indicator}
 #'   \item{`bcpss_owned`}{BCPSS owned building indicator}
 #'   \item{`year_built`}{Year built}
-#'}
+#' }
 "bcpss_buildings_SY2122"
-
-

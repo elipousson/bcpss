@@ -2,9 +2,9 @@ path <- "inst/extdata/G Appendix SY2122 CEFMP.xlsx"
 
 data <-
   readxl::read_excel(
-  here::here(path),
-  col_types = "text"
-) |>
+    here::here(path),
+    col_types = "text"
+  ) |>
   janitor::clean_names("snake")
 
 data_clean <-
@@ -23,7 +23,7 @@ data_clean <-
       "" ~ NA_character_,
       .default = psc_number
     ),
-   # psc_no_key = glue::glue("{psc_no_text} {bldg_no}"),
+    # psc_no_key = glue::glue("{psc_no_text} {bldg_no}"),
     building_data = stringr::str_remove_all(building_data, "\\(|\\)|[:space:]"),
     .after = dplyr::all_of("bldg_no")
   ) |>

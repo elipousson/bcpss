@@ -34,7 +34,7 @@ bcpss_buildings_SY2122 <- dplyr::filter(
     ),
     year = readr::parse_integer(
       stringr::str_remove_all(building_data, "[:alpha:]|[:punct:]|[:blank:]")
-      ),
+    ),
     util = round(as.numeric(util), 2),
     acre_age = round(as.numeric(acre_age), 2),
     swing_space = stringr::str_detect(building_name, "(SWING)$"),
@@ -60,7 +60,8 @@ bcpss_buildings_SY2122 <- dplyr::filter(
   ) |>
   tidyr::fill(
     psc_number, management_type, bldg_number, bldg_enrollment, program_name,
-    bldg_name, bcpss_owned, program_number, program_enrollment, src, utilization_pct,  address) |>
+    bldg_name, bcpss_owned, program_number, program_enrollment, src, utilization_pct, address
+  ) |>
   dplyr::select(-c(config, building_data, psc_no_text)) |>
   naniar::replace_with_na(
     replace = list(

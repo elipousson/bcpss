@@ -126,9 +126,9 @@ as_school_year <- function(year,
 
   paste0(
     prefix,
-         str_sub_pad(year, width = width),
-         str_sub_pad(year + 1, width = width)
-         )
+    str_sub_pad(year, width = width),
+    str_sub_pad(year + 1, width = width)
+  )
 }
 
 #' Subset end of string and pad string
