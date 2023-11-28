@@ -61,7 +61,12 @@ bcpss_buildings_SY2122 <- dplyr::filter(
   tidyr::fill(
     psc_number, management_type, bldg_number, bldg_enrollment, program_name,
     bldg_name, bcpss_owned, program_number, program_enrollment, src, utilization_pct,  address) |>
-  dplyr::select(-c(config, building_data, psc_no_text))
+  dplyr::select(-c(config, building_data, psc_no_text)) |>
+  naniar::replace_with_na(
+    replace = list(
+      psc_number = "N/A"
+    )
+  )
 
 bcpss_buildings_SY2122_year_built <- bcpss_buildings_SY2122 |>
   filter(bldg_change %in% c("Built", "Replacement")) |>
