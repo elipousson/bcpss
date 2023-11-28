@@ -34,7 +34,7 @@ glimpse(attendance_msde_SY0919)
 Unlike the BCPS data, the MSDE data has only been provided in a wide format but switching into a long format is straightforward as illustrated in the example below.
 
 ```{r msde_pivot_longer}
-attendance_msde_SY0919_long <- attendance_msde_SY0919 %>%
+attendance_msde_SY0919_long <- attendance_msde_SY0919 |>
   tidyr::pivot_longer(
     cols = c(5:15),
     names_to = "variable",
@@ -45,7 +45,7 @@ attendance_msde_SY0919_long <- attendance_msde_SY0919 %>%
 Since the variables include both count and percent variables it may be helpful to add an indicator variable for the type of variable in the value column and remove rows the value is unavailable for that year or school.
 
 ```{r msde_variable_type}
-attendance_msde_SY0919_long <- attendance_msde_SY0919_long %>%
+attendance_msde_SY0919_long <- attendance_msde_SY0919_long |>
   mutate(
     variable_type = case_when(
       stringr::str_detect(variable, "_pct") ~ "percent",
@@ -53,19 +53,19 @@ attendance_msde_SY0919_long <- attendance_msde_SY0919_long %>%
       stringr::str_detect(variable, "_denom") ~ "denominator"
     ),
     .before = value
-  ) %>%
+  ) |>
   filter(!is.na(value))
 ```
 
 This is helpful when you want to compare percent values to one another and exclude the count variables. The following examples shows how to do this in comparing the overall attendance rate to the chronic absentee rate.
 
 ```{r plot_percent}
-attendance_msde_SY0919_long %>%
+attendance_msde_SY0919_long |>
   filter(
     variable_type == "percent",
     stringr::str_detect(variable, "attend_rate|chronic_absentee"),
     school_year >= 2018
-  ) %>%
+  ) |>
   ggplot(aes(x = variable, y = value, color = grade_band)) +
   geom_jitter(alpha = 0.6) +
   scale_y_continuous(labels = scales::label_percent(scale = 1))
