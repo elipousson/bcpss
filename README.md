@@ -97,7 +97,7 @@ bcps_es_zones_SY2021 |>
   labs(title = "BCPSS Elementary School Attendance Zones")
 ```
 
-<img src="man/figures/README-bcps_es_zones-1.png" width="60%" />
+<img src="man/figures/README-bcps_es_zones-1.png" width="90%" />
 
 These two sources can be used in combinations by joining the
 `program_number` in the spatial data with the equivalent `school_number`
@@ -118,7 +118,7 @@ top_5_es_map <- bcps_programs_SY2021 |>
 top_5_es_map
 ```
 
-<img src="man/figures/README-top_5_es_map-1.png" width="60%" />
+<img src="man/figures/README-top_5_es_map-1.png" width="90%" />
 
 The `bcpss_enrollment` data is a subset of the statewide data available
 through the `{marylandedu}` package (a tidied version of data downloads
@@ -184,7 +184,7 @@ bcpss_enrollment_summary |>
   )
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="60%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="90%" />
 
 Note that this summary is incomplete without the accompanying total
 enrollment count showing the shift from elementary to elementary middle
@@ -199,7 +199,7 @@ bcpss_enrollment_summary |>
   )
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="60%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="90%" />
 
 ## Related projects
 
