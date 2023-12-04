@@ -2,25 +2,24 @@ url: https://elipousson.github.io/bcpss/
 template:
   bootstrap: 5
 reference:
+- title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE) and BCPSS
+  contents:
+    - starts_with("bcpss_")
+    - '`enrollment_msde_SY0919`'
+    - '`attendance_msde_SY0919`'
+    - '`accountability_SY1920`'
+    - '`nces_school_directory_SY1920`'
+- title: Spatial data
+  contents:
+    - starts_with("bcps_programs")
+    - starts_with("bcps_es_zones")
+    - '`bcps_surplus_schools`'
 - title: Survey, enrollment, and demographic data from Baltimore City Public Schools
   contents:
     - starts_with("enrollment_demographics")
     - starts_with("parent")
     - starts_with("educator")
     - starts_with("student")
-- title: Enrollment, attendance, and other data from Maryland State Department of Education (MSDE) and BCPSS
-  contents:
-    - starts_with("bcpss")
-    - '`baltimore_enrollment`'
-    - '`enrollment_msde_SY0919`'
-    - '`attendance_msde_SY0919`'
-    - '`accountability_SY1920`'
-    - '`nces_school_directory_SY1920`'
 - title: Kindergarten Readiness Assessment (KRA)
   contents:
       - '`kra_results_SY1920`'
-- title: Spatial data
-  contents:
-    - starts_with("bcps_programs")
-    - starts_with("bcps_es_zones")
-    - '`bcps_surplus_schools`'

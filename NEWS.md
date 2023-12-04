@@ -1,6 +1,7 @@
 # bcpss (development version)
 
 - Expand README with new example referencing `{marylandedu}` package (2023-11-28)
+- Remove duplicative `baltimore_enrollment` dataset (2023-11-28)
 
 # bcpss 0.2.0
 
@@ -27,6 +28,6 @@ Versioning for this package has been and may continue to be somewhat uneven. Her
 - Switch school_type variable name to management_type
 - Add current spatial data for BCPS elementary school zones
 - Add current spatial data for BCPS programs
-- Rename parent_school_survey_SY1819 to parent_survey_SY1819
+- Rename `parent_school_survey_SY1819` to `parent_survey_SY1819`
 
 
