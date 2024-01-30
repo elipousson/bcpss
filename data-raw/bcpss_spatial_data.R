@@ -2,6 +2,29 @@ library(dplyr)
 
 selected_crs <- 2804
 
+bcps_es_zones_SY2324_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/arcgis/rest/services/School_Profiles_WFL1/FeatureServer/14"
+
+bcps_es_zones_SY2324 <- esri2sf::esri2sf(bcps_es_zones_SY2324_path, crs = selected_crs) |>
+  janitor::clean_names("snake") |>
+  select(
+    zone_number = zone_no,
+    zone_name,
+    program_number = lower_grades,
+    program_name = prog_name,
+    lower_grades,
+    upper_grades,
+    geometry = geoms
+  ) |>
+  dplyr::mutate(
+    zone_number = as.integer(zone_number),
+    program_number = as.integer(program_number),
+    program_name_short = stringr::str_remove(zone_name, " zone$"),
+    upper_grades = as.character(upper_grades)
+  ) |>
+  dplyr::arrange(zone_number)
+
+usethis::use_data(bcps_es_zones_SY2324, overwrite = TRUE)
+
 bcps_es_zones_SY2223_path <- "https://services3.arcgis.com/mbYrzb5fKcXcAMNi/ArcGIS/rest/services/SY2223_Elementary_Zones/FeatureServer/21"
 
 bcps_es_zones_SY2223 <- esri2sf::esri2sf(bcps_es_zones_SY2223_path) |>
