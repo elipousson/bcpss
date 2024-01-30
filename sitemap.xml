@@ -31,9 +31,6 @@
     <loc>https://elipousson.github.io/bcpss/reference/attendance_msde_SY0919.html</loc>
   </url>
   <url>
-    <loc>https://elipousson.github.io/bcpss/reference/baltimore_enrollment.html</loc>
-  </url>
-  <url>
     <loc>https://elipousson.github.io/bcpss/reference/bcps_es_zones_SY2021.html</loc>
   </url>
   <url>
@@ -59,9 +56,6 @@
   </url>
   <url>
     <loc>https://elipousson.github.io/bcpss/reference/bcpss-package.html</loc>
-  </url>
-  <url>
-    <loc>https://elipousson.github.io/bcpss/reference/bcpss.html</loc>
   </url>
   <url>
     <loc>https://elipousson.github.io/bcpss/reference/bcpss_attendance.html</loc>
@@ -92,6 +86,9 @@
   </url>
   <url>
     <loc>https://elipousson.github.io/bcpss/reference/enrollment_msde_SY0919.html</loc>
+  </url>
+  <url>
+    <loc>https://elipousson.github.io/bcpss/reference/fmt_school_name_short.html</loc>
   </url>
   <url>
     <loc>https://elipousson.github.io/bcpss/reference/index.html</loc>
