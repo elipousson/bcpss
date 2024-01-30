@@ -38,6 +38,11 @@ names are combined with LSS names in this dataset.}
 bcpss_enrollment
 }
 \description{
-This data is a subset of the \link[marylandedu:msde_enrollment]{marylandedu::msde_enrollment} dataset.
+This data is a subset of the \link[marylandedu:msde_enrollment]{marylandedu::msde_enrollment} dataset include
+all data where the \code{lss_name} is "Baltimore City". This data does not include
+the SEED School of Maryland which is located within Baltimore City. It is
+recommended you use this data instead of \link{enrollment_msde_SY0919} as the name
+of this object will remain the same when current enrollment data is appended
+on an annual basis.
 }
 \keyword{datasets}
