@@ -875,3 +875,25 @@
 #'   \item{`year_built`}{Year built}
 #' }
 "bcpss_buildings_SY2122"
+
+
+#' Baltimore City Public School Elementary School Attendance Zones (SY
+#' 2023-2024)
+#'
+#' Boundaries for Baltimore City Public School elementary school attendance
+#' zones for the 2023-2024 school year. The `program_number` variable is
+#' equivalent to the `school_number` variable used in the demographic and survey
+#' datasets.
+#'
+#' @format A data frame with 90 rows and 6 variables:
+#' \describe{
+#'   \item{`zone_number`}{Program zone number}
+#'   \item{`zone_name`}{Program zone name}
+#'   \item{`program_number`}{Program number (school number)}
+#'   \item{`program_name`}{Program name}
+#'   \item{`program_name_short`}{Program name (short)}
+#'   \item{`upper_grades`}{Description for higher grades (identifying middle school that the elementary feeds into if appropriate)}
+#'   \item{`geometry`}{Multipolygon geometry for zone boundaries}
+#' }
+#' @source <https://services3.arcgis.com/mbYrzb5fKcXcAMNi/arcgis/rest/services/School_Profiles_WFL1/FeatureServer/14>
+"bcps_es_zones_SY2324"
