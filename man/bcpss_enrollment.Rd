@@ -5,7 +5,7 @@
 \alias{bcpss_enrollment}
 \title{BCPSS Enrollment Data (SY 2003-2023)}
 \format{
-A data frame with 33,800 rows and 10 variables:
+A data frame with 38,059 rows and 10 variables:
 \describe{
 \item{\code{year}}{School or academic year for enrollment count, e.g.
 2019 data is from the start of the 2019-2020 school year.}
@@ -43,6 +43,6 @@ all data where the \code{lss_name} is "Baltimore City". This data does not inclu
 the SEED School of Maryland which is located within Baltimore City. It is
 recommended you use this data instead of \link{enrollment_msde_SY0919} as the name
 of this object will remain the same when current enrollment data is appended
-on an annual basis.
+on an annual basis. Updated 2025-07-03.
 }
 \keyword{datasets}

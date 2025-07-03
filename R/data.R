@@ -58,7 +58,6 @@
 #' @source <https://www.baltimorecityschools.org/data>
 "enrollment_demographics_SY1920_long"
 
-
 #' Baltimore City Public Schools Enrollment and Demographic data (SY 2020-2021)
 #'
 #' Total enrollment and demographic characteristics for Baltimore City public
@@ -787,9 +786,9 @@
 #' the SEED School of Maryland which is located within Baltimore City. It is
 #' recommended you use this data instead of [enrollment_msde_SY0919] as the name
 #' of this object will remain the same when current enrollment data is appended
-#' on an annual basis.
+#' on an annual basis. Updated 2025-07-03.
 #'
-#' @format A data frame with 33,800 rows and 10 variables:
+#' @format A data frame with 38,059 rows and 10 variables:
 #' \describe{
 #'  \item{`year`}{School or academic year for enrollment count, e.g.
 #'    2019 data is from the start of the 2019-2020 school year.}
